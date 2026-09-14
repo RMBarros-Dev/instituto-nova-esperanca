@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Tableau de Bord Pluriannuel d'Impact Social",
+    "subtitle": "Indicateurs audités et dynamique de développement de l'Instituto Nova Esperança (2023–2026)."
+  },
+  "fiscal_year_prefix": "Exercice Fiscal et Social",
+  "status_target": "Objectif Annuel",
+  "status_audited": "Audité",
+  "timeline_aria": "Sélectionnez l'année à analyser",
+  "indicators": {
+    "beneficiaries": "Personnes Directement Accompagnées",
+    "meals": "Repas Sains Distribués",
+    "pedagogical_kits": "Kits Pédagogiques Fournis",
+    "trained_women": "Femmes Formées Professionnellement",
+    "workshops": "Ateliers Socio-Éducatifs Organisés",
+    "families_assisted": "Familles Suivies Régulièrement",
+    "school_attendance": "Assiduité Scolaire des Jeunes",
+    "project_approval": "Taux de Réussite et Rétention",
+    "funds_in_projects": "Ressources Affectées aux Projets Directs"
+  },
+  "growth_badge_positive_prefix": "+",
+  "growth_vs_previous": "par rapport à l'année précédente",
+  "chart": {
+    "title": "Évolution du Rayonnement Social (2023–2026)",
+    "subtitle": "Progression continue du nombre de bénéficiaires et des investissements engagés.",
+    "aria_label": "Graphique d'évolution annuelle des bénéficiaires de 2023 à 2026",
+    "legend_beneficiaries": "Personnes Accompagnées",
+    "legend_investment": "Investissement Réalisé"
+  },
+  "table": {
+    "title": "Tableau Récapitulatif d'Impact (2023–2026)",
+    "caption": "Données consolidées de l'action sociale de l'Instituto Nova Esperança certifiées WCAG AAA",
+    "col_metric": "Indicateur Clé",
+    "col_2023": "2023 (Constaté)",
+    "col_2024": "2024 (Constaté)",
+    "col_2025": "2025 (Consolidé)",
+    "col_2026": "2026 (Projection / Cible)"
+  }
+}

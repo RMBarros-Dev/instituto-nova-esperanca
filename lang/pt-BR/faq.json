@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Perguntas Frequentes (FAQ)",
+    "subtitle": "Esclareça dúvidas comuns sobre doações, voluntariado, prestação de contas e projetos sociais."
+  },
+  "categories": {
+    "all": "Todas as Perguntas",
+    "donations": "Doações & Recursos",
+    "volunteer": "Voluntariado",
+    "projects": "Projetos & Atendimento",
+    "governance": "Governança & Parcerias"
+  },
+  "items": [
+    {
+      "q": "Como o Instituto Nova Esperança garante que a minha doação chega a quem precisa?",
+      "a": "Mantemos uma taxa de eficiência social superior a 90%, o que significa que mais de 90 centavos de cada real arrecadado financiam diretamente a atividade-fim. Todas as despesas e receitas são auditadas independentemente e publicadas no Portal da Transparência."
+    },
+    {
+      "q": "Posso deduzir minha doação do Imposto de Renda?",
+      "a": "Sim. Pessoas físicas e jurídicas tributadas pelo lucro real podem destinar percentuais de seus tributos via fundos dos direitos da criança e adolescente (FMDCA) e leis federais de incentivo."
+    },
+    {
+      "q": "Como funciona o processo de seleção para voluntários?",
+      "a": "Nosso assistente online em 7 etapas mapeia suas habilidades e disponibilidade. Em seguida, agendamos uma conversa de alinhamento ético e realizamos uma capacitação introdutória sobre proteção e salvaguarda."
+    },
+    {
+      "q": "Empresas podem criar cotas personalizadas de investimento social (ESG)?",
+      "a": "Sim. Oferecemos cotas institucionais e personalizadas a partir de R$ 1.000 até mais de R$ 100.000 para fundos patrimoniais, com relatórios trimestrais no padrão internacional GRI."
+    },
+    {
+      "q": "Onde ocorrem as atividades com as crianças e jovens?",
+      "a": "Nossos projetos são sediados em polos territoriais próprios e comunitários situados em Valparaíso de Goiás e Cidade Ocidental, com acompanhamento diário de nossa equipe multiprofissional."
+    },
+    {
+      "q": "Qualquer pessoa pode visitar a sede do Instituto?",
+      "a": "Sim! Acreditamos na transparência aberta. As visitas institucionais podem ser agendadas previamente através de nossa página de contato para garantir a salvaguarda e a rotina pedagógica dos atendidos."
+    }
+  ]
+}

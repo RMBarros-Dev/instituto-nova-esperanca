@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Multi-Year Social Impact Dashboard",
+    "subtitle": "Audited performance metrics and continuous regional growth of Instituto Nova Esperança (2023–2026)."
+  },
+  "fiscal_year_prefix": "Fiscal & Social Year",
+  "status_target": "Annual Target",
+  "status_audited": "Audited",
+  "timeline_aria": "Select year for analysis",
+  "indicators": {
+    "beneficiaries": "Direct Beneficiaries Supported",
+    "meals": "Nutritious Meals Distributed",
+    "pedagogical_kits": "Educational Kits Delivered",
+    "trained_women": "Women Completing Job Training",
+    "workshops": "Socio-Educational Workshops Held",
+    "families_assisted": "Families in Continuous Support",
+    "school_attendance": "Student School Attendance Rate",
+    "project_approval": "Retention & Academic Pass Rate",
+    "funds_in_projects": "Resources Deployed in Direct Programs"
+  },
+  "growth_badge_positive_prefix": "+",
+  "growth_vs_previous": "compared to previous year",
+  "chart": {
+    "title": "Evolution of Social Outreach (2023–2026)",
+    "subtitle": "Continuous growth in total individuals served and programmatic funding deployed.",
+    "aria_label": "Line chart showing annual outreach progression from 2023 to 2026",
+    "legend_beneficiaries": "People Supported",
+    "legend_investment": "Direct Investment"
+  },
+  "table": {
+    "title": "Consolidated Social Impact Table (2023–2026)",
+    "caption": "Consolidated programmatic metrics for Instituto Nova Esperança under WCAG AAA accessibility",
+    "col_metric": "Indicator / Metric",
+    "col_2023": "2023 (Audited)",
+    "col_2024": "2024 (Audited)",
+    "col_2025": "2025 (Consolidated)",
+    "col_2026": "2026 (Target Projection)"
+  }
+}

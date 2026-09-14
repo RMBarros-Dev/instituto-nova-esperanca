@@ -1,1 +1,87 @@
-{}
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "projects": "Projekte",
+    "impact": "Wirkung",
+    "companies": "Unternehmen ESG",
+    "volunteer": "Ehrenamt",
+    "transparency": "Transparenz",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "donate": "Jetzt Spenden",
+    "faq": "FAQ"
+  },
+  "search": {
+    "placeholder": "Im Institut suchen (Ctrl+K)...",
+    "modal_title": "Suche im Instituto Nova Esperança",
+    "input_aria": "Globales Suchfeld",
+    "no_results": "Keine Ergebnisse gefunden für",
+    "hint": "Versuchen Sie allgemeinere Begriffe wie \"Bildung\", \"Ernährung\" oder \"Spende\".",
+    "nav_hint": "Navigation: ↑ ↓ zum Bewegen • Eingabe zum Auswählen",
+    "esc_close": "Esc zum Schließen",
+    "categories": {
+      "projects": "Projekte",
+      "blog": "Nachrichten & Artikel",
+      "transparency": "Transparenz & Finanzen",
+      "donations": "Spenden & Förderung",
+      "faq": "Häufige Fragen"
+    }
+  },
+  "a11y": {
+    "tools": "Barrierefreiheits-Tools",
+    "font_decrease": "Schriftgröße verkleinern (A-)",
+    "font_default": "Standardschriftgröße (A)",
+    "font_increase": "Schriftgröße vergrößern (A+)",
+    "high_contrast": "Hoher Kontrast",
+    "dark_mode": "Dunkelmodus",
+    "dyslexia_font": "Schrift für Legasthenie",
+    "underline_links": "Links unterstreichen",
+    "reset": "Zurücksetzen",
+    "shortcuts_hint": "Kürzel: Alt+1 Inhalt | Alt+2 Menü | Alt+C Kontrast | Ctrl+K Suche"
+  },
+  "skip": {
+    "content": "Zum Hauptinhalt springen",
+    "nav": "Zur Hauptnavigation springen",
+    "footer": "Zur Fußzeile springen"
+  },
+  "footer": {
+    "mission_summary": "Kontinuierliche soziale Transformation durch ganzheitliche Bildung, Ernährungssicherheit und berufliche Qualifizierung in Brasilien.",
+    "col_institutional": "Über Uns",
+    "col_programs": "Programme",
+    "col_support": "Unterstützen",
+    "col_contact": "Kontakt",
+    "rights": "© 2026 Instituto Nova Esperança. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies",
+    "accessibility": "Barrierefreiheit",
+    "governance": "Satzung & Leitung",
+    "address_short": "Valparaíso de Goiás — GO | Region Brasília"
+  },
+  "states": {
+    "loading": "Informationen werden geladen...",
+    "error_title": "Daten konnten nicht geladen werden",
+    "error_desc": "Ein vorübergehender Fehler ist aufgetreten. Bitte prüfen Sie Ihre Verbindung oder versuchen Sie es erneut.",
+    "empty_title": "Keine Einträge gefunden",
+    "empty_desc": "Setzen Sie Ihre Filter zurück oder nutzen Sie allgemeinere Suchbegriffe.",
+    "offline_title": "Offline-Modus",
+    "offline_desc": "Sie sind offline. Gespeicherte lokale Daten werden sicher dargestellt.",
+    "btn_retry": "Erneut versuchen",
+    "btn_clear_filters": "Filter zurücksetzen"
+  },
+  "toast": {
+    "link_copied": "Link erfolgreich in die Zwischenablage kopiert!",
+    "form_success": "Ihre Nachricht wurde erfolgreich versendet! Wir antworten schnellstmöglich.",
+    "form_error": "Bitte korrigieren Sie die markierten Pflichtfelder vor dem Absenden.",
+    "offline_notice": "Verbindung unterbrochen. Die Plattform läuft im Offline-Modus weiter.",
+    "online_restored": "Verbindung wiederhergestellt. Daten erfolgreich synchronisiert."
+  },
+  "cookie": {
+    "title": "Datenschutz & Cookie-Einstellungen",
+    "message": "Wir verwenden ausschließlich technisch notwendige Cookies für barrierefreie Navigation und anonymisierte Reichweitenmessung.",
+    "accept": "Alle Akzeptieren",
+    "decline": "Nur Notwendige",
+    "preferences": "Einstellungen"
+  },
+  "lang_name": "Deutsch"
+}

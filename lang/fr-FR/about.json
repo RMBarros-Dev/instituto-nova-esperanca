@@ -1,1 +1,53 @@
-{}
+{
+  "header": {
+    "title": "Histoire, Valeurs et Gouvernance",
+    "subtitle": "Découvrez les engagements éthiques, la trajectoire d'impact et l'équipe qui anime l'Instituto Nova Esperança."
+  },
+  "manifesto": {
+    "title": "Notre Manifeste Institutionnel",
+    "p1": "Nous croyons fermement que la dignité humaine est un droit inaliénable. Notre action est née d'un engagement déterminé face aux inégalités sociales frappant les périphéries urbaines.",
+    "p2": "Nous agissons aux côtés des familles. Notre mission est d'offrir les compétences éducatives et les perspectives économiques indispensables pour que chacun construise son avenir en toute autonomie."
+  },
+  "history": {
+    "title": "Grandes Étapes de Notre Action",
+    "t2020": "Création à Valparaíso de Goiás en réponse urgente aux pénuries alimentaires durant la crise mondiale.",
+    "t2022": "Inauguration du pôle socio-éducatif et aménagement des premiers potagers communautaires écologiques.",
+    "t2024": "Lancement des formations techniques qualifiantes (boulangerie artisanale, couture et numérique).",
+    "t2026": "Plus de 12 480 bénéficiaires directs, audit externe certifiant 91,2% d'affectation aux projets de terrain."
+  },
+  "mission_vision": {
+    "mission_title": "Notre Mission",
+    "mission_text": "Libérer le potentiel humain des populations vulnérables grâce à une éducation émancipatrice, la sécurité nutritionnelle et l'accès à des emplois décents.",
+    "vision_title": "Notre Vision",
+    "vision_text": "Devenir un modèle d'excellence et d'éthique pour l'éradication durable de l'extrême pauvreté en milieu périurbain.",
+    "values_title": "Nos Valeurs",
+    "v1_title": "Transparence Totale",
+    "v1_desc": "Comptabilité ouverte, intégrité absolue et traçabilité de chaque euro investi.",
+    "v2_title": "Équité et Inclusion",
+    "v2_desc": "Respect inconditionnel et égalité d'accès sans distinction de genre, d'origine ou de croyance.",
+    "v3_title": "Souveraineté Locale",
+    "v3_desc": "Prise de décision participative valorisant la voix et l'expérience des habitants.",
+    "v4_title": "Exigence Méthodologique",
+    "v4_desc": "Évaluation scientifique et continue des résultats pédagogiques et sociaux."
+  },
+  "governance": {
+    "title": "Direction et Conseil d'Administration",
+    "subtitle": "Une équipe pluridisciplinaire au service de la gestion éthique, de l'éducation et de la rigueur financière.",
+    "d1_role": "Directrice Générale",
+    "d1_name": "Jardy Silva",
+    "d1_bio": "Spécialiste en politiques publiques et développement territorial fort de 15 ans d'engagement associatif.",
+    "d2_role": "Directrice Pédagogique",
+    "d2_name": "Dre Helena Ribeiro",
+    "d2_bio": "Docteure en sciences de l'éducation (UnB), spécialiste de l'alphabétisation en milieu populaire.",
+    "d3_role": "Directeur Financier & Déontologie",
+    "d3_name": "Marcelo Pires",
+    "d3_bio": "Expert-comptable diplômé en gouvernance des organisations de l'économie sociale et solidaire."
+  },
+  "compliance": {
+    "title": "Conformité Légale et Engagements Publics",
+    "text": "Fonctionnement rigoureux conforme aux réglementations nationales des ONG et aux normes internationales anti-fraude.",
+    "cert_statute": "Statuts Déposés au Registre Civil des Personnes Morales",
+    "cert_audit": "Audit Financier Indépendant Annuel Certifié",
+    "cert_tax": "Situation Fiscale Régulière au Niveau Fédéral et Local"
+  }
+}

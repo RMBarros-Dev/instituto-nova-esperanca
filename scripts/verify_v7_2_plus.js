@@ -103,9 +103,29 @@ expectedImages.forEach(img => {
   }
 });
 
+console.log('\n=== TESTE 5: Validação Zero Tolerance de Internacionalização (i18n) ===');
+try {
+  const I18nValidator = require('../assets/js/i18n-validator.js');
+  const validator = new I18nValidator({
+    baseLang: 'pt-BR',
+    targetLangs: ['en-US', 'es-ES', 'fr-FR', 'de-DE', 'ja-JP'],
+    langDir: path.resolve(__dirname, '../lang')
+  });
+
+  const results = validator.validate();
+  const report = validator.formatReport(results);
+  console.log(report);
+  if (!results.success) {
+    hasError = true;
+  }
+} catch (e) {
+  console.error('✗ [ERRO] Falha ao executar I18nValidator:', e.message);
+  hasError = true;
+}
+
 if (hasError) {
   console.error('\n❌ Houve erros durante a validação!');
   process.exit(1);
 } else {
-  console.log('\n🎉 TODOS OS TESTES PASSARAM COM 100% DE SUCESSO!');
+  console.log('\n🎉 TODOS OS TESTES PASSARAM COM 100% DE SUCESSO (ZERO TOLERANCE CUMPRIDO)!');
 }

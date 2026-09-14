@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefon / WhatsApp",
+    "cpf": "Steuernummer (CPF)",
+    "cnpj": "Handelsregisternummer (CNPJ)",
+    "company": "Firma / Organisation",
+    "interest_area": "Interessensbereich",
+    "availability": "Verfügbarkeit",
+    "message": "Nachricht oder Projektvorschlag",
+    "partnership_type": "Art der Partnerschaft"
+  },
+  "placeholders": {
+    "name": "Vor- und Nachname eingeben",
+    "email": "name@domain.de",
+    "phone": "+55 (61) 98765-4321",
+    "cpf": "000.000.000-00",
+    "cnpj": "00.000.000/0001-00",
+    "company": "Name Ihres Unternehmens",
+    "message": "Beschreiben Sie kurz Ihr Anliegen..."
+  },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich.",
+    "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "invalid_phone": "Bitte geben Sie eine gültige Telefonnummer an.",
+    "invalid_cpf": "Ungültige Steuernummer.",
+    "invalid_cnpj": "Ungültige Registernummer."
+  },
+  "buttons": {
+    "submit": "Formular Absenden",
+    "submitting": "Daten werden übermittelt...",
+    "success_title": "Erfolgreich Übermittelt!",
+    "success_desc": "Vielen Dank für Ihre Nachricht. Wir melden uns innerhalb von 48 Arbeitsstunden.",
+    "error_title": "Fehler beim Absenden",
+    "error_desc": "Die Datenübertragung ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+  }
+}

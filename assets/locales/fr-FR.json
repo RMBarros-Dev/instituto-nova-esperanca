@@ -1,100 +1,831 @@
 {
-  "lang_code": "fr-FR",
-  "lang_name": "Français",
-  "territory_badge": "Champ Territorial : Valparaíso de Goiás + Région Périurbaine du DF",
-  "mvp_disclaimer": "Données de démonstration utilisées exclusivement pour l'évaluation du MVP de l'Institut Nova Esperança.",
-  "skip_content": "Passer au contenu principal",
-  "skip_nav": "Passer à la navigation",
-  "search_btn_label": "Rechercher",
-  "search_placeholder": "Rechercher dans l'Institut (Ctrl + K)...",
-  "navigation": {
-    "home": "Accueil",
-    "about": "Qui Sommes-Nous",
-    "projects": "Projets",
-    "impact": "Notre Impact",
-    "donate": "Faire un Don",
-    "volunteer": "Bénévolat",
-    "companies": "Entreprises",
-    "major_donors": "Grands Donateurs",
-    "blog": "Articles & Actualités",
-    "transparency": "Transparence",
-    "contact": "Contact",
-    "faq": "Aide & FAQ"
+  "common": {
+    "nav": {
+      "home": "Accueil",
+      "about": "Qui Sommes-Nous",
+      "projects": "Programmes",
+      "impact": "Notre Impact",
+      "companies": "Entreprises ESG",
+      "volunteer": "Bénévolat",
+      "transparency": "Transparence",
+      "blog": "Blog",
+      "contact": "Contact",
+      "donate": "Faire un Don",
+      "faq": "Foire Aux Questions"
+    },
+    "search": {
+      "placeholder": "Rechercher sur le site (Ctrl+K)...",
+      "modal_title": "Recherche sur l'Instituto Nova Esperança",
+      "input_aria": "Champ de recherche global",
+      "no_results": "Aucun résultat trouvé pour",
+      "hint": "Essayez des termes plus larges tels que \"éducation\", \"nutrition\" ou \"don\".",
+      "nav_hint": "Navigation : ↑ ↓ pour naviguer • Entrée pour sélectionner",
+      "esc_close": "Échap pour fermer",
+      "categories": {
+        "projects": "Programmes",
+        "blog": "Actualités & Blog",
+        "transparency": "Transparence & Comptes",
+        "donations": "Dons & Soutien",
+        "faq": "Questions Fréquentes"
+      }
+    },
+    "a11y": {
+      "tools": "Outils d'Accessibilité",
+      "font_decrease": "Diminuer la police (A-)",
+      "font_default": "Police par défaut (A)",
+      "font_increase": "Agrandir la police (A+)",
+      "high_contrast": "Contraste Élevé",
+      "dark_mode": "Mode Sombre",
+      "dyslexia_font": "Police pour Dyslexie",
+      "underline_links": "Souligner les Liens",
+      "reset": "Réinitialiser",
+      "shortcuts_hint": "Raccourcis : Alt+1 Contenu | Alt+2 Menu | Alt+C Contraste | Ctrl+K Recherche"
+    },
+    "skip": {
+      "content": "Passer au contenu principal",
+      "nav": "Passer à la navigation principale",
+      "footer": "Passer au pied de page"
+    },
+    "footer": {
+      "mission_summary": "Transformation sociale durable par l'éducation intégrale, la sécurité alimentaire et l'émancipation économique en périphérie de Brasília.",
+      "col_institutional": "Institutionnel",
+      "col_programs": "Programmes",
+      "col_support": "Comment Aider",
+      "col_contact": "Contact",
+      "rights": "© 2026 Instituto Nova Esperança. Tous droits réservés.",
+      "privacy": "Confidentialité",
+      "cookies": "Cookies",
+      "accessibility": "Accessibilité",
+      "governance": "Gouvernance & Statuts",
+      "address_short": "Valparaíso de Goiás — GO | Périphérie du DF"
+    },
+    "states": {
+      "loading": "Chargement des informations...",
+      "error_title": "Impossible de charger les données",
+      "error_desc": "Une erreur temporaire est survenue. Veuillez vérifier votre connexion ou réessayer.",
+      "empty_title": "Aucun élément trouvé",
+      "empty_desc": "Essayez de réinitialiser vos filtres ou d'élargir vos termes de recherche.",
+      "offline_title": "Mode Hors Ligne",
+      "offline_desc": "Vous êtes actuellement déconnecté. Données locales sécurisées en cache.",
+      "btn_retry": "Réessayer",
+      "btn_clear_filters": "Effacer les filtres"
+    },
+    "toast": {
+      "link_copied": "Lien copié dans le presse-papiers avec succès !",
+      "form_success": "Votre message a bien été envoyé ! Nous vous répondrons rapidement.",
+      "form_error": "Veuillez corriger les champs obligatoires avant de soumettre.",
+      "offline_notice": "Connexion perdue. La plateforme continue de fonctionner hors ligne.",
+      "online_restored": "Connexion rétablie. Données synchronisées avec succès."
+    },
+    "cookie": {
+      "title": "Gestion de la Confidentialité et des Cookies",
+      "message": "Nous utilisons des cookies essentiels pour garantir une navigation fluide, l'accessibilité et des mesures anonymes conformément au RGPD.",
+      "accept": "Tout Accepter",
+      "decline": "Essentiels Uniquement",
+      "preferences": "Préférences"
+    },
+    "lang_name": "Français"
   },
-  "hero": {
-    "title": "Là où existe l'opportunité, la transformation commence.",
-    "subtitle": "Éducation, sécurité alimentaire, travail et mobilisation communautaire pour ouvrir de nouvelles perspectives d'avenir.",
-    "cta_donate": "Soutenir une transformation",
-    "cta_impact": "Découvrir notre impact"
+  "home": {
+    "hero": {
+      "badge": "Impact Territorial • Périphérie de Brasília",
+      "title": "Construire la Dignité, l'Éducation et l'Avenir Durable",
+      "subtitle": "Agir à la racine de la précarité par l'éducation globale, la sécurité nutritionnelle et l'émancipation productive des familles vulnérables.",
+      "cta_donate": "Faire un Don",
+      "cta_projects": "Découvrir les Programmes",
+      "stat_people": "12 480+",
+      "stat_people_label": "Personnes Accompagnées",
+      "stat_meals": "145 000+",
+      "stat_meals_label": "Repas Distribués",
+      "stat_efficiency": "91,2%",
+      "stat_efficiency_label": "Affectation Directe aux Projets",
+      "stat_hours": "18 400h",
+      "stat_hours_label": "Heures de Bénévolat"
+    },
+    "pillars": {
+      "title": "Nos Quatre Piliers d'Action",
+      "subtitle": "Une approche systémique conçue pour rompre durablement la transmission de la pauvreté.",
+      "p1_title": "Éducation Intégrale",
+      "p1_desc": "Soutien scolaire continu, culture numérique et suivi bienveillant de la jeunesse.",
+      "p2_title": "Sécurité Nutritionnelle",
+      "p2_desc": "Repas équilibrés, jardins partagés agroécologiques et souveraineté alimentaire.",
+      "p3_title": "Revenu & Insertion",
+      "p3_desc": "Formations certifiantes, microfinance éthique et autonomie financière des mères.",
+      "p4_title": "Cohésion Citoyenne",
+      "p4_desc": "Gouvernance participative, chantiers solidaires et dynamisation de quartier."
+    },
+    "impact_preview": {
+      "title": "Impact Mesurable et Audité",
+      "subtitle": "Chaque ressource mobilisée fait l'objet d'un suivi comptable rigoureux et d'indicateurs publics.",
+      "cta": "Consulter le Tableau de Bord"
+    },
+    "transparency_preview": {
+      "title": "Transparence Exemplaire",
+      "subtitle": "Publication exhaustive des bilans financiers certifiés par des auditeurs indépendants.",
+      "cta": "Accéder aux Rapports Publics"
+    },
+    "volunteer_cta": {
+      "title": "Rejoignez Notre Équipe Solidaire",
+      "subtitle": "Mettez votre expertise et votre générosité au service du développement communautaire.",
+      "cta": "Devenir Bénévole"
+    }
   },
-  "dashboard": {
-    "title": "Tableau de Bord de l'Impact Social",
-    "subtitle": "Indicateurs vérifiables de transformation territoriale (2023–2026).",
-    "beneficiaries": "Bénéficiaires Directs",
-    "families": "Familles Soutenues",
-    "meals": "Repas Distribués",
-    "kits": "Kits Pédagogiques",
-    "volunteers": "Bénévoles Actifs",
-    "projects": "Projets Majeurs",
-    "municipalities": "Communes Atteintes",
-    "hours": "Heures de Bénévolat",
-    "funds": "Fonds Alloués aux Projets",
-    "annual_growth": "Croissance Annuelle",
-    "evolution_title": "Évolution de la Portée Sociale (2023–2026)"
+  "about": {
+    "header": {
+      "title": "Histoire, Valeurs et Gouvernance",
+      "subtitle": "Découvrez les engagements éthiques, la trajectoire d'impact et l'équipe qui anime l'Instituto Nova Esperança."
+    },
+    "manifesto": {
+      "title": "Notre Manifeste Institutionnel",
+      "p1": "Nous croyons fermement que la dignité humaine est un droit inaliénable. Notre action est née d'un engagement déterminé face aux inégalités sociales frappant les périphéries urbaines.",
+      "p2": "Nous agissons aux côtés des familles. Notre mission est d'offrir les compétences éducatives et les perspectives économiques indispensables pour que chacun construise son avenir en toute autonomie."
+    },
+    "history": {
+      "title": "Grandes Étapes de Notre Action",
+      "t2020": "Création à Valparaíso de Goiás en réponse urgente aux pénuries alimentaires durant la crise mondiale.",
+      "t2022": "Inauguration du pôle socio-éducatif et aménagement des premiers potagers communautaires écologiques.",
+      "t2024": "Lancement des formations techniques qualifiantes (boulangerie artisanale, couture et numérique).",
+      "t2026": "Plus de 12 480 bénéficiaires directs, audit externe certifiant 91,2% d'affectation aux projets de terrain."
+    },
+    "mission_vision": {
+      "mission_title": "Notre Mission",
+      "mission_text": "Libérer le potentiel humain des populations vulnérables grâce à une éducation émancipatrice, la sécurité nutritionnelle et l'accès à des emplois décents.",
+      "vision_title": "Notre Vision",
+      "vision_text": "Devenir un modèle d'excellence et d'éthique pour l'éradication durable de l'extrême pauvreté en milieu périurbain.",
+      "values_title": "Nos Valeurs",
+      "v1_title": "Transparence Totale",
+      "v1_desc": "Comptabilité ouverte, intégrité absolue et traçabilité de chaque euro investi.",
+      "v2_title": "Équité et Inclusion",
+      "v2_desc": "Respect inconditionnel et égalité d'accès sans distinction de genre, d'origine ou de croyance.",
+      "v3_title": "Souveraineté Locale",
+      "v3_desc": "Prise de décision participative valorisant la voix et l'expérience des habitants.",
+      "v4_title": "Exigence Méthodologique",
+      "v4_desc": "Évaluation scientifique et continue des résultats pédagogiques et sociaux."
+    },
+    "governance": {
+      "title": "Direction et Conseil d'Administration",
+      "subtitle": "Une équipe pluridisciplinaire au service de la gestion éthique, de l'éducation et de la rigueur financière.",
+      "d1_role": "Directrice Générale",
+      "d1_name": "Jardy Silva",
+      "d1_bio": "Spécialiste en politiques publiques et développement territorial fort de 15 ans d'engagement associatif.",
+      "d2_role": "Directrice Pédagogique",
+      "d2_name": "Dre Helena Ribeiro",
+      "d2_bio": "Docteure en sciences de l'éducation (UnB), spécialiste de l'alphabétisation en milieu populaire.",
+      "d3_role": "Directeur Financier & Déontologie",
+      "d3_name": "Marcelo Pires",
+      "d3_bio": "Expert-comptable diplômé en gouvernance des organisations de l'économie sociale et solidaire."
+    },
+    "compliance": {
+      "title": "Conformité Légale et Engagements Publics",
+      "text": "Fonctionnement rigoureux conforme aux réglementations nationales des ONG et aux normes internationales anti-fraude.",
+      "cert_statute": "Statuts Déposés au Registre Civil des Personnes Morales",
+      "cert_audit": "Audit Financier Indépendant Annuel Certifié",
+      "cert_tax": "Situation Fiscale Régulière au Niveau Fédéral et Local"
+    }
   },
-  "dash_beneficiaries": "Bénéficiaires Directs",
-  "dash_families": "Familles Soutenues",
-  "dash_meals": "Repas Distribués",
-  "dash_kits": "Kits Pédagogiques",
-  "dash_volunteers": "Bénévoles Actifs",
-  "dash_projects": "Projets Majeurs",
-  "dash_municipalities": "Communes Atteintes",
-  "dash_hours": "Heures de Bénévolat",
-  "dash_funds": "Fonds Alloués aux Projets",
-  "state_loading": "Chargement des indicateurs d'impact...",
-  "state_error_title": "Impossible de charger les données",
-  "state_error_desc": "Une erreur est survenue lors de la récupération des indicateurs. Veuillez réessayer.",
-  "state_offline_title": "Vous êtes hors ligne",
-  "state_offline_desc": "Veuillez vérifier votre connexion Internet pour voir les mises à jour en direct.",
-  "btn_retry": "Réessayer",
-  "donation": {
-    "title": "Faites votre contribution et transformez des vies",
-    "subtitle": "Chaque don est audité et directement affecté aux familles vulnérables.",
-    "frequency_once": "Don Unique",
-    "frequency_monthly": "Don Mensuel",
-    "frequency_annual": "Don Annuel",
-    "custom_amount_placeholder": "Autre montant",
-    "method_pix": "PIX Instantané (BR)",
-    "method_card": "Carte Bancaire",
-    "method_boleto": "Billet Bancaire",
-    "btn_submit": "Confirmer le Don",
-    "pix_copied": "Clé PIX copiée avec succès !",
-    "pix_instructions": "Ouvrez l'application de votre banque et collez la clé ou scannez le QR Code."
+  "projects": {
+    "header": {
+      "title": "Programmes Structurants d'Impact Social",
+      "subtitle": "Des actions de terrain continues pour l'émancipation humaine, la citoyenneté active et la sortie durable de la grande précarité."
+    },
+    "filters": {
+      "all": "Tous les Programmes",
+      "education": "Éducation Intégrale",
+      "nutrition": "Sécurité Alimentaire",
+      "income": "Insertion Productive",
+      "infrastructure": "Infrastructures Locales"
+    },
+    "programs": [
+      {
+        "id": "novos-caminhos",
+        "slug": "novos-caminhos",
+        "name": "Novos Caminhos — Éducation & Citoyenneté",
+        "category": "Éducation Intégrale",
+        "area": "Éducation, Alphabétisation et Jeunesse",
+        "summary": "Soutien scolaire intensif en lecture et calcul, ateliers d'informatique, robotique libre et suivi psychologique pour les élèves défavorisés.",
+        "territory": "Valparaíso de Goiás (Quartiers Céu Azul, Anhanguera et Ipanema)",
+        "description": "Dispositif périscolaire reposant sur une pédagogie bienveillante, un suivi individuel et une étroite coopération avec les parents.",
+        "objectives": "Combler le retard scolaire accumulé, prévenir le décrochage et développer l'esprit critique des enfants des écoles publiques.",
+        "targets": "Accompagner 4 500 élèves par an, maintenir le taux d'abandon scolaire sous 2% et encourager les vocations scientifiques.",
+        "indicators": [
+          {
+            "label": "Décrochage Scolaire Inférieur à",
+            "value": "< 1.8%"
+          },
+          {
+            "label": "Élèves Primés aux Concours",
+            "value": "18"
+          },
+          {
+            "label": "Heures de Soutien / An",
+            "value": "1 840h"
+          }
+        ],
+        "status": "Actif / En Développement",
+        "cta_donate": "Soutenir ce Projet",
+        "cta_volunteer": "Devenir Tuteur Bénévole"
+      },
+      {
+        "id": "prato-transforma",
+        "slug": "prato-transforma",
+        "name": "Prato que Transforma — Nutrition & Jardins Partagés",
+        "category": "Sécurité Alimentaire",
+        "area": "Souveraineté Alimentaire, Agroécologie et Santé",
+        "summary": "Lutte contre la malnutrition chronique grâce à des cantines solidaires, des jardins potagers urbains et des ateliers d'alimentation saine.",
+        "territory": "Valparaíso de Goiás et Cidade Ocidental",
+        "description": "Circuit court solidaire combinant approvisionnement direct auprès de petits maraîchers locaux et distribution de déjeuners nutritifs.",
+        "objectives": "Garantir un apport nutritionnel sain aux enfants et personnes âgées isolées, tout en favorisant l'autonomie vivrière des quartiers.",
+        "targets": "Servir plus de 150 000 repas équilibrés par an, créer 5 potagers scolaires et former 300 foyers au maraîchage biologique.",
+        "indicators": [
+          {
+            "label": "Repas Équilibrés Servis / An",
+            "value": "145 000"
+          },
+          {
+            "label": "Potagers Partagés Actifs",
+            "value": "240"
+          },
+          {
+            "label": "Tonnes de Légumes Récoltées",
+            "value": "68 ton"
+          }
+        ],
+        "status": "Actif / Continu",
+        "cta_donate": "Offrir des Repas",
+        "cta_volunteer": "Aider aux Jardins"
+      },
+      {
+        "id": "renda-futuro",
+        "slug": "renda-futuro",
+        "name": "Renda e Futuro — Insertion & Économie Sociale",
+        "category": "Insertion Productive",
+        "area": "Formation Professionnelle, Emploi et Micro-entrepreneuriat",
+        "summary": "Formations techniques en confection textile, boulangerie artisanale et bureautique, complétées par un accompagnement au microcrédit.",
+        "territory": "Agglomération de la Périphérie de Brasília",
+        "description": "Parcours certifiants courts adaptés aux besoins immédiats des entreprises de la zone logistique, destinés en priorité aux mères isolées.",
+        "objectives": "Assurer l'indépendance financière durable des ménages par l'accès à des emplois stables ou la création de micro-entreprises.",
+        "targets": "Former 2 000 stagiaires par an, dépasser 60% d'immatriculation d'activités indépendantes et incuber 50 ateliers coopératifs.",
+        "indicators": [
+          {
+            "label": "Diplômés Immatriculés Déclarés",
+            "value": "64%"
+          },
+          {
+            "label": "Activités Artisanales Incubées",
+            "value": "42"
+          },
+          {
+            "label": "Hausse Moyenne du Revenu Foyer",
+            "value": "+74%"
+          }
+        ],
+        "status": "Actif / Inscriptions Ouvertes",
+        "cta_donate": "Financer des Bourses",
+        "cta_volunteer": "Devenir Mentor Pro"
+      },
+      {
+        "id": "comunidade-viva",
+        "slug": "comunidade-viva",
+        "name": "Comunidade Viva — Aménagement & Solidarité",
+        "category": "Infrastructures Locales",
+        "area": "Développement Territorial et Mobilisation Citoyenne",
+        "summary": "Chantiers collectifs de réhabilitation d'espaces verts, sécurisation de l'éclairage public et réunions de quartier participatives.",
+        "territory": "Valparaíso de Goiás (Secteurs Céu Azul et Anhanguera)",
+        "description": "Urbanisme participatif où les résidents identifient eux-mêmes les urgences de leur cadre de vie et mènent des travaux de réaménagement.",
+        "objectives": "Retisser le lien social de proximité, prévenir les tensions urbaines par l'appropriation positive des places publiques.",
+        "targets": "Réhabiliter 8 espaces publics par an, réunir 500 bénévoles sur les chantiers et pérenniser des conseils de quartier représentatifs.",
+        "indicators": [
+          {
+            "label": "Espaces Publics Rénovés",
+            "value": "12"
+          },
+          {
+            "label": "Habitants Mobilisés sur Chantiers",
+            "value": "620"
+          },
+          {
+            "label": "Baisse des Incidents de Quartier",
+            "value": "-38%"
+          }
+        ],
+        "status": "Actif / Participatif",
+        "cta_donate": "Financer les Travaux",
+        "cta_volunteer": "Participer aux Chantiers"
+      }
+    ]
+  },
+  "impact": {
+    "header": {
+      "title": "Tableau de Bord Pluriannuel d'Impact Social",
+      "subtitle": "Indicateurs audités et dynamique de développement de l'Instituto Nova Esperança (2023–2026)."
+    },
+    "fiscal_year_prefix": "Exercice Fiscal et Social",
+    "status_target": "Objectif Annuel",
+    "status_audited": "Audité",
+    "timeline_aria": "Sélectionnez l'année à analyser",
+    "indicators": {
+      "beneficiaries": "Personnes Directement Accompagnées",
+      "meals": "Repas Sains Distribués",
+      "pedagogical_kits": "Kits Pédagogiques Fournis",
+      "trained_women": "Femmes Formées Professionnellement",
+      "workshops": "Ateliers Socio-Éducatifs Organisés",
+      "families_assisted": "Familles Suivies Régulièrement",
+      "school_attendance": "Assiduité Scolaire des Jeunes",
+      "project_approval": "Taux de Réussite et Rétention",
+      "funds_in_projects": "Ressources Affectées aux Projets Directs"
+    },
+    "growth_badge_positive_prefix": "+",
+    "growth_vs_previous": "par rapport à l'année précédente",
+    "chart": {
+      "title": "Évolution du Rayonnement Social (2023–2026)",
+      "subtitle": "Progression continue du nombre de bénéficiaires et des investissements engagés.",
+      "aria_label": "Graphique d'évolution annuelle des bénéficiaires de 2023 à 2026",
+      "legend_beneficiaries": "Personnes Accompagnées",
+      "legend_investment": "Investissement Réalisé"
+    },
+    "table": {
+      "title": "Tableau Récapitulatif d'Impact (2023–2026)",
+      "caption": "Données consolidées de l'action sociale de l'Instituto Nova Esperança certifiées WCAG AAA",
+      "col_metric": "Indicateur Clé",
+      "col_2023": "2023 (Constaté)",
+      "col_2024": "2024 (Constaté)",
+      "col_2025": "2025 (Consolidé)",
+      "col_2026": "2026 (Projection / Cible)"
+    }
+  },
+  "donations": {
+    "header": {
+      "title": "Dons et Mécénat Solidaire",
+      "subtitle": "Votre soutien transforme durablement des vies avec une traçabilité comptable certifiée."
+    },
+    "frequency": {
+      "once": "Don Ponctuel",
+      "monthly": "Don Mensuel",
+      "annual": "Engagement Annuel"
+    },
+    "step1_title": "1. Choisissez la Périodicité",
+    "step2_title": "2. Choisissez le Montant & Simulez l'Impact",
+    "step2_desc": "Sélectionnez un palier suggéré ou saisissez un montant personnalisé :",
+    "step3_title": "3. Choisissez Votre Mode de Règlement",
+    "tiers": {
+      "t30": "Finance 1 kit scolaire complet avec cahiers, fournitures et manuels d'apprentissage de la lecture.",
+      "t60": "Garantit des déjeuners sains et équilibrés pour un enfant pendant un mois scolaire entier.",
+      "t150": "Prend en charge le soutien scolaire et l'apprentissage numérique de deux collégiens défavorisés.",
+      "t500": "Finance l'équipement et la formation professionnelle qualifiante en boulangerie pour un foyer entier.",
+      "t1000": "Contribution stratégique pérenne finançant le matériel informatique d'un espace numérique partagé."
+    },
+    "custom_placeholder": "Autre montant (R$ / EUR)",
+    "disclaimer": "Information : Les équivalences d'impact mentionnées constituent des estimations moyennes basées sur les coûts réels de nos actions de terrain.",
+    "pix": {
+      "title": "Paiement Instantané PIX (Brésil)",
+      "copy_code": "Copier le Code PIX",
+      "copied": "Code PIX copié dans le presse-papiers !",
+      "expires": "Chaîne numérique active pour un règlement immédiat",
+      "instructions": "Ouvrez votre application bancaire, sélectionnez 'PIX Copia e Cola', collez le code et validez."
+    },
+    "card": {
+      "title": "Carte Bancaire Sécurisée",
+      "name_placeholder": "Nom du titulaire",
+      "number_placeholder": "0000 0000 0000 0000",
+      "expiry_placeholder": "MM/AA",
+      "cvv_placeholder": "CVC",
+      "btn_pay": "Valider le Don Sécurisé"
+    }
+  },
+  "blog": {
+    "header": {
+      "title": "Blog & Actualités de l'Institut",
+      "subtitle": "Analyses de fond, rapports de mission sur le terrain, éthique associative et impact social durable."
+    },
+    "search_placeholder": "Rechercher par titre, thème ou auteur...",
+    "filters": {
+      "all": "Tous les Articles",
+      "education": "Éducation",
+      "nutrition": "Sécurité Alimentaire",
+      "youth": "Jeunesse",
+      "income": "Insertion",
+      "volunteer": "Bénévolat",
+      "partnerships": "Partenariats",
+      "transparency": "Transparence",
+      "innovation": "Innovation",
+      "gender": "Égalité & Citoyenneté"
+    },
+    "reader": {
+      "progress_bar_aria": "Progression de lecture de l'article",
+      "listen_button": "Écouter l'Article",
+      "playing": "Lecture audio en cours...",
+      "paused": "Audio en pause",
+      "btn_pause": "Pause",
+      "btn_resume": "Reprendre",
+      "btn_stop": "Arrêter",
+      "btn_back": "← Retour aux Actualités",
+      "share_title": "Partager cet article :",
+      "share_whatsapp": "WhatsApp",
+      "share_linkedin": "LinkedIn",
+      "share_twitter": "Twitter / X",
+      "share_copy": "Copier le Lien",
+      "related_title": "Articles Similaires",
+      "reading_time_prefix": "Temps de lecture :",
+      "by_author": "Par"
+    },
+    "articles": [
+      {
+        "id": 1,
+        "slug": "educacao-como-transformacao-social",
+        "title": "L'éducation comme levier de transformation : rompre les cycles de précarité",
+        "subtitle": "Pourquoi l'accompagnement pédagogique bienveillant est le moteur essentiel de l'émancipation sociale.",
+        "category": "Éducation",
+        "author": "Dre Helena Ribeiro, Directrice Pédagogique",
+        "date": "2026-08-15",
+        "readingTime": "6 min",
+        "coverImage": "assets/img/blog/artigo-1.svg",
+        "tags": [
+          "Éducation",
+          "Inclusion",
+          "Jeunesse",
+          "Valparaíso"
+        ],
+        "lead": "Dans les banlieues populaires, la scolarisation seule ne suffit pas. Sans soutien méthodologique et psychologique, trop de jeunes décrochent prématurément.",
+        "content": "<h3>L'Impératif de l'Apprentissage Global</h3><p>Le programme <em>Novos Caminhos</em> propose du soutien périscolaire intensif en mathématiques, lecture et informatique libre.</p>"
+      },
+      {
+        "id": 2,
+        "slug": "seguranca-alimentar-nutricional",
+        "title": "Sécurité et souveraineté alimentaire : dépasser la simple aide d'urgence",
+        "subtitle": "Création de circuits courts solidaires, jardins partagés et éducation nutritionnelle durable.",
+        "category": "Sécurité Alimentaire",
+        "author": "Carlos Alberto Mendes, Nutritionniste Social",
+        "date": "2026-08-02",
+        "readingTime": "5 min",
+        "coverImage": "assets/img/blog/artigo-2.svg",
+        "tags": [
+          "Alimentation",
+          "Nutrition",
+          "Jardins Partagés",
+          "Santé"
+        ],
+        "lead": "La faim n'est pas une fatalité. La surmonter dignement exige de bâtir une autonomie nutritionnelle pérenne.",
+        "content": "<h3>De l'Urgence à la Souveraineté</h3><p>Le projet <em>Prato que Transforma</em> associe achats directs aux producteurs locaux et potagers écologiques urbains.</p>"
+      },
+      {
+        "id": 3,
+        "slug": "juventude-e-horizontes-de-futuro",
+        "title": "Jeunesse et perspectives d'avenir : ouvrir des trajectoires d'insertion réussies",
+        "subtitle": "Identification des talents, parrainage professionnel et culture numérique pour la nouvelle génération.",
+        "category": "Jeunesse",
+        "author": "Mariana Duarte, Spécialiste Jeunesse",
+        "date": "2026-07-20",
+        "readingTime": "7 min",
+        "coverImage": "assets/img/blog/artigo-3.svg",
+        "tags": [
+          "Jeunesse",
+          "Mentorat",
+          "Carrière",
+          "Avenir"
+        ],
+        "lead": "Les jeunes de banlieue manquent souvent de modèles professionnels identifiables. Le mentorat brise cet isolement.",
+        "content": "<h3>L'Accompagnement Vers le Premier Emploi</h3><p>Nos parrainages de six mois mettent en relation directe des lycéens avec des cadres et ingénieurs pour préparer leur entrée dans la vie active.</p>"
+      },
+      {
+        "id": 4,
+        "slug": "trabalho-renda-e-autonomia-produtiva",
+        "title": "Emploi et indépendance économique : des formations qualifiantes au micro-entrepreneuriat",
+        "subtitle": "Comment les cycles courts d'apprentissage technique redonnent dignité et revenus aux familles.",
+        "category": "Insertion",
+        "author": "Rodrigo Silveira, Conseiller en Économie Sociale",
+        "date": "2026-07-05",
+        "readingTime": "6 min",
+        "coverImage": "assets/img/blog/artigo-4.svg",
+        "tags": [
+          "Revenu",
+          "Emploi",
+          "Entrepreneuriat",
+          "Autonomie"
+        ],
+        "lead": "L'émancipation véritable advient lorsque le foyer dispose de sources de revenus stables et pérennes.",
+        "content": "<h3>Formations en Adéquation avec le Marché</h3><p>Nos cours certifiants en boulangerie, couture et électricité répondent aux besoins précis des entreprises de la zone logistique.</p>"
+      },
+      {
+        "id": 5,
+        "slug": "voluntariado-com-proposito-e-metodo",
+        "title": "Bénévolat engagé et structuré : maximiser l'impact sur le terrain",
+        "subtitle": "Passer de la bonne volonté spontanée à une organisation rigoureuse au service de la communauté.",
+        "category": "Bénévolat",
+        "author": "Camila Fernandes, Responsable Partenariats Citoyens",
+        "date": "2026-06-18",
+        "readingTime": "5 min",
+        "coverImage": "assets/img/blog/artigo-5.svg",
+        "tags": [
+          "Bénévolat",
+          "Gouvernance",
+          "Engagement",
+          "Impact"
+        ],
+        "lead": "L'enthousiasme est l'étincelle première, mais c'est la rigueur méthodique qui ancre le changement dans la durée.",
+        "content": "<h3>L'Expertise au Cœur de l'Action</h3><p>Médecins, juristes et informaticiens mettent bénévolement leurs compétences pointues au service des familles accompagnées.</p>"
+      },
+      {
+        "id": 6,
+        "slug": "empresas-e-impacto-social",
+        "title": "Entreprises et engagement sociétal : la force de l'investissement RSE stratégique",
+        "subtitle": "Pourquoi une démarche RSE sincère exige un ancrage territorial fort et des partenariats durables.",
+        "category": "Partenariats",
+        "author": "Eduardo Fontes, Expert RSE",
+        "date": "2026-06-01",
+        "readingTime": "6 min",
+        "coverImage": "assets/img/blog/artigo-6.svg",
+        "tags": [
+          "RSE",
+          "Entreprises",
+          "Investissement Social",
+          "Partenariats"
+        ],
+        "lead": "Le public ne tolère plus les simples opérations de communication. La RSE authentique se mesure par l'impact direct sur les populations locales.",
+        "content": "<h3>Allier Performance Économique et Utilité Sociale</h3><p>Nos conventions de mécénat permettent aux entreprises de financer des bourses et des réfectoires solidaires avec reporting audité GRI.</p>"
+      },
+      {
+        "id": 7,
+        "slug": "investimento-social-privado-no-brasil",
+        "title": "Philanthropie stratégique : gouvernance et indicateurs pour donateurs institutionnels",
+        "subtitle": "Optimiser l'efficacité et la pérennité des grands dons grâce à des normes d'audit rigoureuses.",
+        "category": "Transparence",
+        "author": "Patrícia Albuquerque, Consultante Philanthropie",
+        "date": "2026-05-14",
+        "readingTime": "7 min",
+        "coverImage": "assets/img/blog/artigo-7.svg",
+        "tags": [
+          "Grands Donateurs",
+          "Gouvernance",
+          "Philanthropie",
+          "Transparence"
+        ],
+        "lead": "La philanthropie moderne applique les exigences de conformité et d'évaluation des investissements responsables les plus stricts.",
+        "content": "<h3>Comptes Dédiés et Traçabilité Intégrale</h3><p>Chaque grand don fait l'objet d'un suivi comptable individualisé et d'une mesure périodique du retour social sur investissement (SROI).</p>"
+      },
+      {
+        "id": 8,
+        "slug": "transparencia-ativa-e-governanca-etica",
+        "title": "Transparence active et déontologie : le socle de la confiance citoyenne",
+        "subtitle": "Pourquoi la publication exhaustive des comptes et des audits confère aux ONG une légitimité durable.",
+        "category": "Transparence",
+        "author": "Marcelo Pires, Expert-Comptable Auditeur",
+        "date": "2026-04-29",
+        "readingTime": "5 min",
+        "coverImage": "assets/img/blog/artigo-8.svg",
+        "tags": [
+          "Transparence",
+          "Audit",
+          "Conformité",
+          "Comptes"
+        ],
+        "lead": "Dans une société d'exigence, la transparence doit être continue, accessible et vérifiée par des tiers indépendants.",
+        "content": "<h3>L'Exigence de l'Open Data Associatif</h3><p>Avec plus de 90% des fonds affectés aux actions de terrain, chaque euro versé finance concrètement les activités périscolaires et nutritionnelles.</p>"
+      },
+      {
+        "id": 9,
+        "slug": "desenvolvimento-comunitario-de-base",
+        "title": "Développement communautaire participatif : la voix des résidents au centre de l'action",
+        "subtitle": "Pourquoi les projets pensés 'pour' les habitants échouent, tandis que ceux conçus 'avec' eux réussissent.",
+        "category": "Bénévolat",
+        "author": "Lucas Nogueira, Éducateur Spécialisé",
+        "date": "2026-04-10",
+        "readingTime": "6 min",
+        "coverImage": "assets/img/blog/artigo-9.svg",
+        "tags": [
+          "Communauté",
+          "Citoyenneté",
+          "Valparaíso",
+          "Participation"
+        ],
+        "lead": "Aucune décision prise à distance ne remplace le diagnostic éclairé des résidents confrontés aux réalités de leur quartier.",
+        "content": "<h3>Démocratie Participative de Proximité</h3><p>Le programme <em>Comunidade Viva</em> réunit chaque mois les représentants de quartier pour prioriser et mener à bien les rénovations urbaines collectives.</p>"
+      },
+      {
+        "id": 10,
+        "slug": "tecnologia-para-impacto",
+        "title": "La technologie au service de l'humain : données ouvertes et inclusion numérique",
+        "subtitle": "Géolocalisation des besoins d'urgence et apprentissage du code contre l'exclusion sociale.",
+        "category": "Innovation",
+        "author": "Beatriz Vasconcelos, Ingénieure Sociale",
+        "date": "2026-03-22",
+        "readingTime": "5 min",
+        "coverImage": "assets/img/blog/artigo-10.svg",
+        "tags": [
+          "Technologie",
+          "Innovation",
+          "Données",
+          "Inclusion Numérique"
+        ],
+        "lead": "Les outils numériques permettent aux acteurs associatifs de déployer une logistique humanitaire ultra-précise.",
+        "content": "<h3>Cartographie Territoriale Prédictive</h3><p>Grâce à des relevés de terrain précis, nous ciblons les poches d'extrême urgence tout en formant la jeunesse aux métiers du web.</p>"
+      },
+      {
+        "id": 11,
+        "slug": "mulheres-maternidade-e-oportunidades",
+        "title": "Femmes, maternité et émancipation : briser les plafonds de verre en périphérie",
+        "subtitle": "Entre charge mentale parentale, précarité et conquête de l'indépendance financière des mères.",
+        "category": "Égalité & Citoyenneté",
+        "author": "Aline Santos, Psychologue Clinicienne",
+        "date": "2026-03-08",
+        "readingTime": "6 min",
+        "coverImage": "assets/img/blog/artigo-11.svg",
+        "tags": [
+          "Femmes",
+          "Maternité",
+          "Autonomie",
+          "Droits Humains"
+        ],
+        "lead": "Plus de 65 % des familles précaires sont portées par des mères isolées. Soutenir les mères, c'est protéger tout l'avenir des enfants.",
+        "content": "<h3>Espaces de Garde Solidaires</h3><p>Nous concilions formations professionnelles et accueil sécurisé des enfants afin que les mères puissent acquérir un métier sereinement.</p>"
+      },
+      {
+        "id": 12,
+        "slug": "o-futuro-das-organizacoes-sociais",
+        "title": "L'avenir des organisations de solidarité : financements hybrides et durabilité",
+        "subtitle": "Mécénat croisé, dotations pérennes (endowments) et coopération multisectorielle.",
+        "category": "Innovation",
+        "author": "Dr Fernando Arantes, Directeur Général",
+        "date": "2026-02-15",
+        "readingTime": "7 min",
+        "coverImage": "assets/img/blog/artigo-12.svg",
+        "tags": [
+          "Gestion",
+          "Pérennité",
+          "Dotation",
+          "Avenir"
+        ],
+        "lead": "Les ONG du XXIe siècle doivent conjuguer professionnalisme technique et diversification de leurs ressources.",
+        "content": "<h3>Modèle Économique Hybride</h3><p>Notre structure associe dons réguliers de particuliers, mécénat d'entreprises et constitution d'un fonds de dotation initial protecteur.</p>"
+      }
+    ]
   },
   "transparency": {
-    "title": "Portail de Transparence Active",
-    "subtitle": "Rapports financiers audités, gouvernance rigoureuse et affectation transparente des ressources.",
-    "revenue": "Recettes Totales",
-    "expenses": "Dépenses Allouées",
-    "efficiency_rate": "Taux d'Affectation Sociale (91%)",
-    "download_report": "Télécharger le Rapport Financier (PDF)"
+    "header": {
+      "title": "Portail de Transparence Financière",
+      "subtitle": "Comptes audités, sources de financement et traçabilité des dépenses conformes aux normes CFC / ITG 2002."
+    },
+    "stat_revenue": "Total Collecté",
+    "stat_applied": "Ressources Engagées",
+    "stat_efficiency": "Affectation aux Projets Sociaux",
+    "stat_beneficiaries": "Bénéficiaires Accompagnés",
+    "revenue_section": {
+      "title": "Origine des Recettes",
+      "subtitle": "Modèle de Financement Durable",
+      "categories": {
+        "individual_donations": "Dons de Particuliers",
+        "institutional_partnerships": "Partenariats Institutionnels",
+        "public_grants": "Subventions et Fondations",
+        "corporate_esg": "Investissement Social d'Entreprise (RSE)",
+        "investments_other": "Produits Financiers et Autres Recettes"
+      }
+    },
+    "expense_section": {
+      "title": "Répartition des Dépenses",
+      "subtitle": "Méthodologie Comptable CFC / ITG 2002",
+      "categories": {
+        "projects": "Actions Socio-Éducatives (Cœur de Mission)",
+        "administrative": "Gouvernance et Administration",
+        "fundraising": "Collecte de Fonds et Développement",
+        "communication": "Communication et Rapports Publics",
+        "operations": "Fonctionnement et Entretien des Locaux"
+      }
+    },
+    "table": {
+      "title": "Bilan Comptable Récapitulatif",
+      "caption": "Comptabilité annuelle certifiée de l'Instituto Nova Esperança",
+      "col_category": "Poste Budgétaire",
+      "col_value": "Montant Affecté",
+      "col_percentage": "Part (%)"
+    },
+    "reports_section": {
+      "title": "Rapports d'Activité et Documents d'Audit",
+      "subtitle": "Documents officiels certifiés disponibles en téléchargement libre.",
+      "btn_download": "Télécharger PDF"
+    }
   },
-  "a11y": {
-    "toolbar_label": "Barre d'Accessibilité et Langues",
-    "contrast": "Contraste Élevé",
-    "dark_mode": "Mode Sombre",
-    "dyslexia": "Police Accessible",
-    "font_inc": "Agrandir Police",
-    "font_dec": "Réduire Police",
-    "font_reset": "Taille Normale",
-    "underline": "Souligner Liens",
-    "reset": "Réinitialiser"
+  "contact": {
+    "header": {
+      "title": "Coordonnées et Siège Social",
+      "subtitle": "Nous sommes à l'écoute des donateurs, bénévoles, entreprises partenaires et de la communauté."
+    },
+    "info": {
+      "address_title": "Siège Opérationnel",
+      "address_val": "Quadra 12, Lote 04 — Céu Azul, Valparaíso de Goiás — GO, Code Postal 72871-012, Brésil",
+      "hours_title": "Heures d'Ouverture",
+      "hours_val": "Du lundi au vendredi : 08h00 – 18h00 | Samedi : 08h00 – 12h00 (Ateliers)",
+      "phone_title": "Téléphone & WhatsApp",
+      "phone_val": "+55 (61) 98765-4321",
+      "email_title": "Courriel Général",
+      "email_val": "contact@instituonovaresperanca.org.br",
+      "ombudsman_title": "Médiation et Comité d'Éthique",
+      "ombudsman_val": "ethique@instituonovaresperanca.org.br",
+      "press_title": "Relations Presse",
+      "press_val": "presse@instituonovaresperanca.org.br"
+    },
+    "territory": {
+      "title": "Implantation en Périphérie de Brasília",
+      "desc": "Nos actions ciblent les quartiers prioritaires nécessitant un soutien éducatif continu et une aide alimentaire d'urgence."
+    }
   },
-  "footer": {
-    "mission": "Organisation de la société civile dédiée au développement humain intégral, à la souveraineté alimentaire et à l'inclusion productive.",
-    "quick_links": "Accès Rapide",
-    "institutional": "Institutionnel",
-    "rights": "Institut Nova Esperança. Tous droits réservés.",
-    "disclaimer_text": "Toutes les métriques opérationnelles et financières présentées sur ce portail sont démonstratives pour l'évaluation du MVP."
+  "faq": {
+    "header": {
+      "title": "Foire Aux Questions (FAQ)",
+      "subtitle": "Toutes les réponses à vos questions sur les dons, le bénévolat, nos actions de terrain et la gouvernance."
+    },
+    "categories": {
+      "all": "Toutes les Questions",
+      "donations": "Dons & Financement",
+      "volunteer": "Bénévolat",
+      "projects": "Programmes Sociaux",
+      "governance": "Gouvernance & RSE"
+    },
+    "items": [
+      {
+        "q": "Comment s'assurer que mon don bénéficie directement aux familles accompagnées ?",
+        "a": "Notre taux d'efficacité sociale dépasse 90 %, ce qui signifie que plus de 90 centimes par euro collecté financent directement nos actions pédagogiques et de sécurité alimentaire."
+      },
+      {
+        "q": "Les dons sont-ils éligibles à des réductions fiscales ?",
+        "a": "Oui. Les entreprises et les particuliers peuvent bénéficier des dispositifs légaux de déduction fiscale applicables aux organismes sans but lucratif reconnus."
+      },
+      {
+        "q": "Comment se déroule l'intégration des bénévoles ?",
+        "a": "Un formulaire d'inscription en 7 étapes permet d'évaluer vos compétences. Nous organisons ensuite un entretien d'accueil et une formation obligatoire sur la protection des mineurs."
+      },
+      {
+        "q": "Les entreprises peuvent-elles cofinancer des programmes spécifiques (RSE) ?",
+        "a": "Absolument. Nous proposons des conventions partenariales adaptées aux enjeux RSE, avec des indicateurs d'impact audités conformes aux standards internationaux GRI."
+      },
+      {
+        "q": "Où se déroulent les ateliers périscolaires et les repas partagés ?",
+        "a": "Dans nos locaux communautaires sécurisés à Valparaíso de Goiás, encadrés en permanence par des éducateurs diplômés et des travailleurs sociaux."
+      },
+      {
+        "q": "Est-il possible de visiter les centres du projet sur place ?",
+        "a": "Oui ! Nous prônons une politique de portes ouvertes responsable. Les visites sont organisées sur rendez-vous préalable pour préserver le rythme d'apprentissage des enfants."
+      }
+    ]
+  },
+  "accessibility": {
+    "header": {
+      "title": "Déclaration d'Accessibilité Numérique",
+      "subtitle": "Engagement ferme en faveur de l'inclusion universelle et conformité stricte WCAG 2.2 AAA."
+    },
+    "statement": {
+      "title": "Accès Équitable Pour Tous",
+      "text": "L'Instituto Nova Esperança a conçu ce portail afin d'offrir une navigation intuitive et accessible à chacun, quelles que soient ses capacités physiques, sensorielles ou cognitives."
+    },
+    "shortcuts": {
+      "title": "Raccourcis Clavier Utiles",
+      "s1": "Alt + 1 : Accéder directement au contenu principal",
+      "s2": "Alt + 2 : Accéder au menu de navigation",
+      "s3": "Ctrl + K ou / : Ouvrir la recherche globale",
+      "s4": "Alt + C : Basculer en mode contraste élevé",
+      "s5": "Alt + D : Activer la police adaptée à la dyslexie",
+      "s6": "Échap : Fermer les fenêtres modales et panneaux"
+    },
+    "feedback": {
+      "title": "Signalement d'Obstacles Numériques",
+      "desc": "Si vous rencontrez une difficulté d'accessibilité sur notre site, veuillez en faire part à notre équipe technique.",
+      "btn": "Signaler un Défaut d'Accessibilité"
+    }
+  },
+  "forms": {
+    "fields": {
+      "name": "Nom Complet",
+      "email": "Adresse Courriel",
+      "phone": "Téléphone / WhatsApp",
+      "cpf": "Numéro d'Identité Fiscale (CPF)",
+      "cnpj": "Identifiant Entreprise (CNPJ)",
+      "company": "Raison Sociale / Entreprise",
+      "interest_area": "Domaine d'Intérêt",
+      "availability": "Disponibilités",
+      "message": "Message ou Proposition",
+      "partnership_type": "Type de Partenariat"
+    },
+    "placeholders": {
+      "name": "Entrez votre nom et prénom",
+      "email": "contact@domaine.fr",
+      "phone": "+55 (61) 98765-4321",
+      "cpf": "000.000.000-00",
+      "cnpj": "00.000.000/0001-00",
+      "company": "Nom de votre organisation",
+      "message": "Détaillez votre demande ou votre projet..."
+    },
+    "validation": {
+      "required": "Ce champ est obligatoire.",
+      "invalid_email": "Veuillez saisir une adresse courriel valide.",
+      "invalid_phone": "Veuillez saisir un numéro de téléphone valide.",
+      "invalid_cpf": "Identifiant fiscal non valide.",
+      "invalid_cnpj": "Numéro d'entreprise non valide."
+    },
+    "buttons": {
+      "submit": "Envoyer ma Demande",
+      "submitting": "Transmission en cours...",
+      "success_title": "Demande Transmise avec Succès !",
+      "success_desc": "Merci pour votre message. Nos équipes reviendront vers vous sous 48h ouvrées.",
+      "error_title": "Échec de l'Envoi",
+      "error_desc": "Une erreur est survenue lors de l'envoi. Merci de renouveler votre tentative."
+    }
   }
 }

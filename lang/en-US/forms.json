@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone / WhatsApp",
+    "cpf": "Taxpayer ID (CPF)",
+    "cnpj": "Corporate ID (CNPJ)",
+    "company": "Organization / Company Name",
+    "interest_area": "Area of Interest",
+    "availability": "Time Availability",
+    "message": "Message or Partnership Proposal",
+    "partnership_type": "Partnership Model"
+  },
+  "placeholders": {
+    "name": "Enter your full name",
+    "email": "name@domain.com",
+    "phone": "+55 (61) 98765-4321",
+    "cpf": "000.000.000-00",
+    "cnpj": "00.000.000/0001-00",
+    "company": "Your corporate or non-profit name",
+    "message": "Share details about your objectives or ideas..."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "invalid_email": "Please enter a valid email address.",
+    "invalid_phone": "Please enter a valid telephone number.",
+    "invalid_cpf": "Invalid Tax ID. Please verify digits.",
+    "invalid_cnpj": "Invalid Corporate ID. Please verify digits."
+  },
+  "buttons": {
+    "submit": "Submit Information",
+    "submitting": "Processing submission...",
+    "success_title": "Successfully Submitted!",
+    "success_desc": "Thank you for reaching out. Our team will get back to you within 48 business hours.",
+    "error_title": "Submission Failed",
+    "error_desc": "An error occurred while sending your request. Please try again."
+  }
+}

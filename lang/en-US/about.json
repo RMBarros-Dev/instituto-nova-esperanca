@@ -1,1 +1,53 @@
-{}
+{
+  "header": {
+    "title": "History, Ethics, and Governance",
+    "subtitle": "Learn about our foundational principles, impact trajectory, and leadership team driving Instituto Nova Esperança."
+  },
+  "manifesto": {
+    "title": "Our Institutional Manifesto",
+    "p1": "We believe human dignity is not a concession, but an inalienable human right. We were born out of active indignation towards structural inequality that marginalizes communities in the Federal District Suburbs.",
+    "p2": "We work alongside families, not merely for them. Our commitment is to provide methodologies, educational scaffolding, and economic avenues so every individual becomes the builder of their own future."
+  },
+  "history": {
+    "title": "Milestones of Impact",
+    "t2020": "Established in Valparaíso de Goiás as a grassroots response to nutritional insecurity during the global crisis.",
+    "t2022": "Inauguration of the tutoring educational hub and rollout of our first community agroecological gardens.",
+    "t2024": "Implementation of certified technical training programs in industrial baking, textiles, and computer science.",
+    "t2026": "Over 12,480 people supported, independent external audit confirming 91.2% social efficiency, and regional expansion."
+  },
+  "mission_vision": {
+    "mission_title": "Our Mission",
+    "mission_text": "To cultivate human potential in marginalized communities through emancipatory education, nutritional security, and dignified livelihoods.",
+    "vision_title": "Our Vision",
+    "vision_text": "To stand as an international benchmark for ethical governance, financial transparency, and scalable strategies to eradicate extreme urban poverty.",
+    "values_title": "Our Core Values",
+    "v1_title": "Radical Transparency",
+    "v1_desc": "Public accounts, open data, and uncompromising zero tolerance for misconduct.",
+    "v2_title": "Equity & Inclusion",
+    "v2_desc": "Universal dignity free from any bias based on gender, race, faith, or origin.",
+    "v3_title": "Community Sovereignty",
+    "v3_desc": "Deep active listening and frontline community leadership in every programmatic choice.",
+    "v4_title": "Evidence-Based Excellence",
+    "v4_desc": "Rigorous socio-pedagogical methodologies measured through empirical data."
+  },
+  "governance": {
+    "title": "Executive Leadership & Board",
+    "subtitle": "Experienced professionals dedicated to social justice, legal compliance, pedagogy, and financial stewardship.",
+    "d1_role": "Executive Director & Founder",
+    "d1_name": "Jardy Silva",
+    "d1_bio": "Public Policy and Regional Development Specialist with over 15 years leading non-profit initiatives.",
+    "d2_role": "Head of Educational Programs",
+    "d2_name": "Dr. Helena Ribeiro",
+    "d2_bio": "Ph.D. in Education from the University of Brasília (UnB), researcher in community literacy, and curriculum developer.",
+    "d3_role": "Chief Financial & Compliance Officer",
+    "d3_name": "Marcelo Pires",
+    "d3_bio": "Certified public accountant specializing in non-profit corporate governance and ethical compliance."
+  },
+  "compliance": {
+    "title": "Ethical Compliance & Official Registry",
+    "text": "Operating in strict adherence to Brazilian non-profit statutory law and international anti-corruption best practices, maintaining active tax clearance certifications.",
+    "cert_statute": "Official Bylaws Certified in Public Civil Registry",
+    "cert_audit": "Independent External Audit aligned with International Accounting Standards",
+    "cert_tax": "Comprehensive Federal, State, and Municipal Tax Clearance"
+  }
+}

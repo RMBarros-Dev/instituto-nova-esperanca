@@ -1,1 +1,24 @@
-{}
+{
+  "header": {
+    "title": "Kontakt und Standort",
+    "subtitle": "Wir stehen Förderern, Freiwilligen, Kooperationspartnern und der Gemeinschaft jederzeit zur Verfügung."
+  },
+  "info": {
+    "address_title": "Projektstandort & Geschäftsstelle",
+    "address_val": "Quadra 12, Lote 04 — Céu Azul, Valparaíso de Goiás — GO, PLZ 72871-012, Brasilien",
+    "hours_title": "Öffnungszeiten",
+    "hours_val": "Montag bis Freitag: 08:00 – 18:00 Uhr | Samstag: 08:00 – 12:00 Uhr (Workshops)",
+    "phone_title": "Telefon & WhatsApp",
+    "phone_val": "+55 (61) 98765-4321",
+    "email_title": "Allgemeine E-Mail",
+    "email_val": "kontakt@instituonovaresperanca.org.br",
+    "ombudsman_title": "Ombudsstelle & Ethikbeirat",
+    "ombudsman_val": "ombudsstelle@instituonovaresperanca.org.br",
+    "press_title": "Pressekontakt",
+    "press_val": "presse@instituonovaresperanca.org.br"
+  },
+  "territory": {
+    "title": "Regionale Präsenz im Großraum Brasília",
+    "desc": "Unsere Maßnahmen konzentrieren sich auf dicht besiedelte Vorstädte mit hohem Förderbedarf in Bildung und Versorgung."
+  }
+}

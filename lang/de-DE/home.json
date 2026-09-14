@@ -1,1 +1,44 @@
-{}
+{
+  "hero": {
+    "badge": "Sozialer Wandel • Region Brasília",
+    "title": "Würde, Bildung und Zukunftschancen Nachhaltig Fördern",
+    "subtitle": "Gezielte Bekämpfung sozialer Ungleichheit durch ganzheitliche Bildung, Ernährungssicherheit und wirtschaftliche Unabhängigkeit.",
+    "cta_donate": "Jetzt Spenden",
+    "cta_projects": "Projekte Entdecken",
+    "stat_people": "12.480+",
+    "stat_people_label": "Geförderte Menschen",
+    "stat_meals": "145.000+",
+    "stat_meals_label": "Ausgegebene Mahlzeiten",
+    "stat_efficiency": "91,2%",
+    "stat_efficiency_label": "Quote in Projekten",
+    "stat_hours": "18.400h",
+    "stat_hours_label": "Ehrenamtsstunden"
+  },
+  "pillars": {
+    "title": "Unsere Vier Strategischen Säulen",
+    "subtitle": "Ein praxiserprobtes Konzept, um den Kreislauf von Armut generationenübergreifend zu durchbrechen.",
+    "p1_title": "Ganzheitliche Bildung",
+    "p1_desc": "Individuelle schulische Förderung, digitale Bildung und sozialpädagogische Betreuung.",
+    "p2_title": "Ernährungssouveränität",
+    "p2_desc": "Gesunde Mahlzeiten, ökologische Gemeinschaftsgärten und gezielte Ernährungshilfe.",
+    "p3_title": "Einkommen & Arbeit",
+    "p3_desc": "Fachliche Ausbildung, Mikrokredite und Stärkung der wirtschaftlichen Selbstständigkeit.",
+    "p4_title": "Gemeinschaftsstärkung",
+    "p4_desc": "Lokale Partizipation, Bürgerinitiativen und Verbesserung der Infrastruktur vor Ort."
+  },
+  "impact_preview": {
+    "title": "Auditierbare und Messbare Wirkung",
+    "subtitle": "Transparente Nachverfolgung jedes Förderbeitrags mit externer Wirtschaftsprüfung.",
+    "cta": "Wirkungs-Dashboard Öffnen"
+  },
+  "transparency_preview": {
+    "title": "Aktive Transparenz",
+    "subtitle": "Offenlegung sämtlicher Jahresabschlüsse nach strengen Gemeinnützigkeitsstandards.",
+    "cta": "Finanzberichte Einsehen"
+  },
+  "volunteer_cta": {
+    "title": "Werden Sie Teil der Veränderung",
+    "subtitle": "Bringen Sie Ihre Fähigkeiten und Ihre Zeit für eine gerechtere Zukunft ein.",
+    "cta": "Jetzt Mitmachen"
+  }
+}

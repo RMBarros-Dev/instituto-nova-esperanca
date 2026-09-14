@@ -1,0 +1,24 @@
+{
+  "header": {
+    "title": "Declaración de Accesibilidad Web",
+    "subtitle": "Compromiso absoluto con la inclusión digital conforme a las pautas W3C / WCAG 2.2 AAA."
+  },
+  "statement": {
+    "title": "Compromiso con el Acceso Sin Barreras",
+    "text": "El Instituto Nova Esperança diseñó este portal para ofrecer una navegación accesible a cualquier usuario, sin importar sus capacidades sensoriales, motoras o cognitivas."
+  },
+  "shortcuts": {
+    "title": "Atajos de Teclado",
+    "s1": "Alt + 1: Saltar directamente al Contenido Principal",
+    "s2": "Alt + 2: Saltar al Menú de Navegación",
+    "s3": "Ctrl + K o /: Abrir Búsqueda Global",
+    "s4": "Alt + C: Activar Alto Contraste",
+    "s5": "Alt + D: Activar Tipografía para Dislexia",
+    "s6": "Esc: Cerrar ventanas modales y paneles"
+  },
+  "feedback": {
+    "title": "Canal de Soporte en Accesibilidad",
+    "desc": "Si detecta alguna dificultad o barrera en el sitio, comuníquelo a nuestro equipo técnico para su inmediata corrección.",
+    "btn": "Notificar Problema de Accesibilidad"
+  }
+}

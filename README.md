@@ -90,23 +90,62 @@ A plataforma cumpre rigorosamente as diretrizes da W3C / WCAG 2.2:
 
 ---
 
-### 🌍 Internacionalização (6 Idiomas Nativos)
+### 🌐 Internacionalização — Regra Obrigatória "Zero Tolerance"
 
-O sistema opera sem duplicação de páginas, empregando motor i18n modular em `assets/locales/`:
+A plataforma adota a diretriz obrigatória **`🌐 INTERNATIONALIZATION — ZERO TOLERANCE`**: cada pasta de idioma contém uma cópia integral do conteúdo traduzível do sistema naquele idioma. É estritamente vedada qualquer página parcial ou texto em idioma misto.
 
-* 🇧🇷 **Português (pt-BR)**
-* 🇺🇸 **Inglês (en-US)**
-* 🇪🇸 **Espanhol (es-ES)**
-* 🇫🇷 **Francês (fr-FR)**
-* 🇩🇪 **Alemão (de-DE)**
-* 🇯🇵 **Japonês (ja-JP)**
+#### 6 Idiomas Nativos Suportados
 
-Recursos de i18n incluem:
+* 🇧🇷 **Português do Brasil (`pt-BR`)** — Idioma Base
+* 🇺🇸 **English (`en-US`)**
+* 🇪🇸 **Español (`es-ES`)**
+* 🇫🇷 **Français (`fr-FR`)**
+* 🇩🇪 **Deutsch (`de-DE`)**
+* 🇯🇵 **日本語 (`ja-JP`)**
 
-* Tradução dinâmica de navegação, botões, formulários, alertas, dashboards e metadados;
-* Atualização automática do atributo `<html lang="">`;
-* Formatadores nativos de moeda (`formatCurrency`) e data (`formatDate`) via API `Intl`;
-* Persistência de preferência via `localStorage` e suporte a parâmetro de URL `?lang=code`.
+#### Estrutura Modular (/lang/) — 12 Módulos por Idioma (72 Arquivos)
+
+Cada idioma possui exatamente os mesmos 12 arquivos modulares em `/lang/<idioma>/`:
+
+* `common.json` — Navegação, cabeçalhos, rodapé, barra assistiva, skip links, toasts e estados de UI;
+* `home.json` — Conteúdo e chamadas estratégicas da página inicial;
+* `about.json` — História institucional, missão, visão, valores, Teoria da Mudança e governança;
+* `projects.json` — Detalhamento técnico dos 4 programas estruturantes;
+* `impact.json` — Indicadores do Dashboard de Impacto Territorial (2023–2026), gráficos e tabelas;
+* `donations.json` — Patamares visuais (R$ 30 a R$ 1.000+), simulador de impacto e checkout PIX/Cartão;
+* `blog.json` — Base integral com os 12 artigos de opinião/análise (título, subtítulo, lead e corpo HTML);
+* `transparency.json` — Rubricas orçamentárias CFC/ITG 2002, demonstrativos de receitas e despesas;
+* `contact.json` — Canais de ouvidoria, voluntariado, imprensa e dados territoriais de atendimento;
+* `faq.json` — Perguntas frequentes catalogadas por eixos temáticos;
+* `accessibility.json` — Declaração formal de acessibilidade WCAG 2.2 AAA e atalhos de teclado;
+* `forms.json` — Labels, placeholders, mensagens de validação acessíveis e feedbacks de envio.
+
+#### Validador Automatizado de Integridade (`i18n-validator.js`)
+
+A integridade estrutural é auditada por algoritmo estrito que percorre todas as chaves e valores:
+
+```bash
+# Executar validação estrita de Zero Tolerance:
+npm run test:i18n
+# ou: node scripts/verify_i18n.js
+```
+
+Critérios de aprovação obrigatórios:
+* **Missing keys: 0** (Nenhuma chave do idioma base pode faltar nos 5 idiomas);
+* **Extra keys: 0** (Nenhuma chave sobressalente ou órfã);
+* **Invalid values: 0** (Nenhum valor nulo, indefinido ou string vazia).
+
+Qualquer violação interrompe imediatamente a pipeline com código de erro.
+
+#### Compilador de Pacotes de Produção
+
+Para máxima performance web, os 12 arquivos de cada idioma são compilados em pacotes únicos de produção em `assets/locales/<idioma>.json`:
+
+```bash
+# Compilar dicionários de /lang/ para assets/locales/:
+npm run build:locales
+# ou: node scripts/compile_locales.js
+```
 
 ---
 
@@ -130,6 +169,15 @@ Recursos de i18n incluem:
 ├── cookies.html             # Política de Cookies e gestão de preferências
 ├── 404.html                 # Página de erro 404 institucional com busca
 │
+├── lang/                    # Fonte da Verdade Modular i18n (Zero Tolerance)
+│   ├── manifest.json        # Manifesto com definição de idiomas e módulos
+│   ├── pt-BR/               # 12 módulos JSON em Português do Brasil (Base)
+│   ├── en-US/               # 12 módulos JSON em Inglês (100% traduzido)
+│   ├── es-ES/               # 12 módulos JSON em Espanhol (100% traduzido)
+│   ├── fr-FR/               # 12 módulos JSON em Francês (100% traduzido)
+│   ├── de-DE/               # 12 módulos JSON em Alemão (100% traduzido)
+│   └── ja-JP/               # 12 módulos JSON em Japonês (100% traduzido)
+│
 ├── assets/
 │   ├── css/
 │   │   ├── tokens.css       # Tokens do Design System, variáveis de cor, tipografia fluida
@@ -140,29 +188,30 @@ Recursos de i18n incluem:
 │   │   └── pages.css        # Estilos dedicados a páginas específicas
 │   │
 │   ├── js/
-│   │   ├── main.js          # Error Boundary (safeRun), Busca Global (Ctrl+K), PWA e rede
-│   │   ├── i18n.js          # Motor multilíngue para os 6 idiomas com suporte a dashboards
+│   │   ├── main.js          # Error Boundary (safeRun), Busca Global Multilíngue (Ctrl+K), PWA
+│   │   ├── i18n.js          # Motor I18nManager: getModule, alternância reativa sem reload
+│   │   ├── i18n-validator.js# Ferramenta de auditoria estrita Zero Tolerance (Missing: 0)
 │   │   ├── a11y.js          # Gerenciador da barra assistiva, alto contraste e atalhos
 │   │   ├── media.js         # Sistema de mídia à prova de quebra (CLS = 0 e fallback SVG)
 │   │   ├── forms.js         # Gerenciador de formulários, máscaras e validação acessível
-│   │   ├── donations.js     # Simulador de patamares de impacto e checkout PIX dinâmico
-│   │   ├── dashboard.js     # Painel de Impacto Social 2023-2026 e tabela sincronizada
-│   │   ├── transparency.js  # Dashboard de Transparência (Receitas x Despesas)
-│   │   └── blog.js          # Blog Premium com áudio TTS, progresso e busca em tempo real
+│   │   ├── donations.js     # Simulador de patamares reativo com textos multilíngues
+│   │   ├── dashboard.js     # Painel de Impacto 2023-2026 conectado ao módulo impact.json
+│   │   ├── transparency.js  # Dashboard de Transparência conectado a transparency.json
+│   │   └── blog.js          # Blog com artigos em 6 idiomas, áudio TTS e leitor dinâmico
 │   │
 │   ├── data/
 │   │   ├── dashboard.json   # Fonte Única: Indicadores sociais e evolução 2023-2026
 │   │   ├── transparency.json# Fonte Única: Receitas, despesas e auditoria 2023-2026
 │   │   ├── projects.json    # Dados dos 4 programas para busca global e cards
-│   │   └── blog.json        # Base completa com os 12 artigos institucionais
+│   │   └── blog.json        # Base institucional canônica dos 12 artigos
 │   │
-│   ├── locales/
-│   │   ├── pt-BR.json       # Dicionário Português com suporte completo a dashboards
-│   │   ├── en-US.json       # Dicionário Inglês
-│   │   ├── es-ES.json       # Dicionário Espanhol
-│   │   ├── fr-FR.json       # Dicionário Francês
-│   │   ├── de-DE.json       # Dicionário Alemão
-│   │   └── ja-JP.json       # Dicionário Japonês
+│   ├── locales/             # Pacotes Consolidados de Produção
+│   │   ├── pt-BR.json       # Bundle consolidado (12 módulos compilados)
+│   │   ├── en-US.json       # Bundle consolidado Inglês
+│   │   ├── es-ES.json       # Bundle consolidado Espanhol
+│   │   ├── fr-FR.json       # Bundle consolidado Francês
+│   │   ├── de-DE.json       # Bundle consolidado Alemão
+│   │   └── ja-JP.json       # Bundle consolidado Japonês
 │   │
 │   └── img/
 │       ├── projects/        # Imagens vetoriais SVG dos programas estruturantes
@@ -172,9 +221,12 @@ Recursos de i18n incluem:
 │       └── institutions/    # Placeholder resiliente e ícones PWA
 │
 ├── scripts/
-│   ├── verify_v7_2_plus.js  # Script de teste automatizado de integridade e consistência
+│   ├── verify_v7_2_plus.js  # Master Test Suite (5 suítes automatizadas de QA)
+│   ├── verify_i18n.js       # Script dedicado de validação Zero Tolerance
+│   ├── compile_locales.js   # Compilador de módulos /lang/ para assets/locales/
 │   └── dev_server.js        # Servidor estático local para desenvolvimento e testes
 │
+├── package.json             # Scripts de automação: test, test:i18n, build:locales, start
 ├── manifest.webmanifest     # Manifesto PWA com tema #075E54
 ├── service-worker.js        # Service Worker V7.2+ com stale-while-revalidate e offline
 ├── robots.txt               # Diretrizes para indexadores e buscadores
@@ -186,18 +238,21 @@ Recursos de i18n incluem:
 
 ### 🧪 Testes Automatizados de Qualidade (QA)
 
-A plataforma inclui um script de verificação automatizada para garantir integridade contínua:
+A plataforma inclui uma suíte master de testes automatizados para garantir integridade contínua:
 
 ```bash
-node scripts/verify_v7_2_plus.js
+# Executar a suíte completa de testes:
+npm test
+# ou: node scripts/verify_v7_2_plus.js
 ```
 
-O script valida sistematicamente:
+O script valida sistematicamente 5 suítes:
 
-1. **Integridade de JSONs:** Sintaxe e estrutura de todos os 4 bancos de dados e 6 dicionários de idiomas;
+1. **Integridade de Arquivos JSON:** Validação de sintaxe e parse de todos os bancos de dados e dicionários consolidados;
 2. **Consistência Matemática:** Verificação cruzada entre `dashboard.json` e `transparency.json` para garantir 100% de equivalência em beneficiários e recursos alocados para todos os anos (2023–2026);
 3. **Sintaxe JavaScript:** Análise estática de código de todos os arquivos em `assets/js/` e do `service-worker.js`;
-4. **Presença de Assets:** Verificação de existência em disco de todas as imagens vetoriais dos projetos e capas dos 12 artigos do blog.
+4. **Presença de Assets:** Verificação de existência em disco de todas as imagens vetoriais dos projetos e capas dos 12 artigos do blog;
+5. **Validação Zero Tolerance (i18n):** Auditoria estrita em tempo real de conformidade em 100% das chaves nos 6 idiomas (Missing keys = 0, Extra keys = 0, Invalid values = 0).
 
 ---
 

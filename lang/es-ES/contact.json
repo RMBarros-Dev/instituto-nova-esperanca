@@ -1,1 +1,24 @@
-{}
+{
+  "header": {
+    "title": "Canales de Contacto y Ubicación",
+    "subtitle": "Estamos a disposición de donantes, voluntarios, empresas aliadas y miembros de la comunidad."
+  },
+  "info": {
+    "address_title": "Sede Territorial",
+    "address_val": "Quadra 12, Lote 04 — Céu Azul, Valparaíso de Goiás — GO, CP 72871-012, Brasil",
+    "hours_title": "Horario de Atención",
+    "hours_val": "Lunes a Viernes: 08:00 a 18:00 | Sábado: 08:00 a 12:00 (Talleres Comunitarios)",
+    "phone_title": "Teléfono y WhatsApp",
+    "phone_val": "+55 (61) 98765-4321",
+    "email_title": "Correo Electrónico General",
+    "email_val": "contacto@instituonovaresperanca.org.br",
+    "ombudsman_title": "Defensoría y Canal Ético",
+    "ombudsman_val": "defensoria@instituonovaresperanca.org.br",
+    "press_title": "Prensa y Comunicaciones",
+    "press_val": "prensa@instituonovaresperanca.org.br"
+  },
+  "territory": {
+    "title": "Presencia en el Entorno del Distrito Federal",
+    "desc": "Nuestra labor cubre barrios periféricos con alta necesidad de refuerzo escolar y seguridad nutricional comunitaria."
+  }
+}

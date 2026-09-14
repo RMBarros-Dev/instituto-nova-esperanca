@@ -1,0 +1,24 @@
+{
+  "header": {
+    "title": "Erklärung zur Barrierefreiheit",
+    "subtitle": "Konsequente Umsetzung barrierefreier digitaler Teilhabe nach den W3C / WCAG 2.2 AAA-Richtlinien."
+  },
+  "statement": {
+    "title": "Unser Einsatz für uneingeschränkten Zugang",
+    "text": "Das Instituto Nova Esperança stellt sicher, dass dieses Portal von allen Menschen unabhängig von motorischen, visuellen oder kognitiven Fähigkeiten optimal genutzt werden kann."
+  },
+  "shortcuts": {
+    "title": "Tastaturkürzel",
+    "s1": "Alt + 1: Direkt zum Hauptinhalt springen",
+    "s2": "Alt + 2: Direkt zur Hauptnavigation springen",
+    "s3": "Ctrl + K oder /: Globale Sofortsuche öffnen",
+    "s4": "Alt + C: Kontrastmodus umschalten",
+    "s5": "Alt + D: Legasthenie-Schriftart aktivieren",
+    "s6": "Esc: Modale Dialoge und Menüs schließen"
+  },
+  "feedback": {
+    "title": "Feedback zur Barrierefreiheit",
+    "desc": "Sollten Sie auf technische Hürden stoßen, informieren Sie bitte unser Entwicklungsteam zur zeitnahen Behebung.",
+    "btn": "Barriere Melden"
+  }
+}

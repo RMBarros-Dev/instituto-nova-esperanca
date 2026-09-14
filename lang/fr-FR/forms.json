@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Nom Complet",
+    "email": "Adresse Courriel",
+    "phone": "Téléphone / WhatsApp",
+    "cpf": "Numéro d'Identité Fiscale (CPF)",
+    "cnpj": "Identifiant Entreprise (CNPJ)",
+    "company": "Raison Sociale / Entreprise",
+    "interest_area": "Domaine d'Intérêt",
+    "availability": "Disponibilités",
+    "message": "Message ou Proposition",
+    "partnership_type": "Type de Partenariat"
+  },
+  "placeholders": {
+    "name": "Entrez votre nom et prénom",
+    "email": "contact@domaine.fr",
+    "phone": "+55 (61) 98765-4321",
+    "cpf": "000.000.000-00",
+    "cnpj": "00.000.000/0001-00",
+    "company": "Nom de votre organisation",
+    "message": "Détaillez votre demande ou votre projet..."
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire.",
+    "invalid_email": "Veuillez saisir une adresse courriel valide.",
+    "invalid_phone": "Veuillez saisir un numéro de téléphone valide.",
+    "invalid_cpf": "Identifiant fiscal non valide.",
+    "invalid_cnpj": "Numéro d'entreprise non valide."
+  },
+  "buttons": {
+    "submit": "Envoyer ma Demande",
+    "submitting": "Transmission en cours...",
+    "success_title": "Demande Transmise avec Succès !",
+    "success_desc": "Merci pour votre message. Nos équipes reviendront vers vous sous 48h ouvrées.",
+    "error_title": "Échec de l'Envoi",
+    "error_desc": "Une erreur est survenue lors de l'envoi. Merci de renouveler votre tentative."
+  }
+}

@@ -1,1 +1,267 @@
-{}
+{
+  "header": {
+    "title": "Blog & Berichte des Instituts",
+    "subtitle": "Fachbeiträge, Feldforschungsberichte, transparente Haushaltsführung und Best Practices."
+  },
+  "search_placeholder": "Artikel nach Titel, Thema oder Autor suchen...",
+  "filters": {
+    "all": "Alle Beiträge",
+    "education": "Bildung",
+    "nutrition": "Ernährung",
+    "youth": "Jugend",
+    "income": "Arbeit & Einkommen",
+    "volunteer": "Ehrenamt",
+    "partnerships": "Kooperationen",
+    "transparency": "Transparenz",
+    "innovation": "Innovation",
+    "gender": "Chancengleichheit"
+  },
+  "reader": {
+    "progress_bar_aria": "Lesefortschritt des Artikels",
+    "listen_button": "Artikel Vorlesen",
+    "playing": "Audio wird wiedergegeben...",
+    "paused": "Audio pausiert",
+    "btn_pause": "Pause",
+    "btn_resume": "Fortsetzen",
+    "btn_stop": "Stopp",
+    "btn_back": "← Zurück zu den Beiträgen",
+    "share_title": "Diesen Beitrag teilen:",
+    "share_whatsapp": "WhatsApp",
+    "share_linkedin": "LinkedIn",
+    "share_twitter": "Twitter / X",
+    "share_copy": "Link Kopieren",
+    "related_title": "Ähnliche Beiträge",
+    "reading_time_prefix": "Lesezeit:",
+    "by_author": "Von"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "slug": "educacao-como-transformacao-social",
+      "title": "Bildung als gesellschaftlicher Wandel: Armutskreisläufe nachhaltig durchbrechen",
+      "subtitle": "Warum kontinuierliche sozialpädagogische Förderung der stärkste Hebel für Chancengerechtigkeit ist.",
+      "category": "Bildung",
+      "author": "Dr. Helena Ribeiro, Pädagogische Leitung",
+      "date": "2026-08-15",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-1.svg",
+      "tags": [
+        "Bildung",
+        "Inklusion",
+        "Jugend",
+        "Valparaíso"
+      ],
+      "lead": "In benachteiligten Vorstädten ist der bloße Schulbesuch erst der Anfang. Ohne Begleitung brechen viele Jugendliche die Schule vorzeitig ab.",
+      "content": "<h3>Die Herausforderung Ganzheitlicher Bildung</h3><p>Das Projekt <em>Novos Caminhos</em> bietet gezielte Nachhilfe in Deutsch und Mathematik sowie Workshops in Open-Source-Robotik.</p>"
+    },
+    {
+      "id": 2,
+      "slug": "seguranca-alimentar-nutricional",
+      "title": "Ernährungssouveränität: Mehr als kurzfristige Nothilfe gegen den Hunger",
+      "subtitle": "Lokale Versorgungsnetzwerke, ökologische Stadtgärten und gesunde Schulspeisung.",
+      "category": "Ernährung",
+      "author": "Carlos Alberto Mendes, Ernährungsberater",
+      "date": "2026-08-02",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-2.svg",
+      "tags": [
+        "Ernährung",
+        "Gesundheit",
+        "Stadtgärten",
+        "Vollwert"
+      ],
+      "lead": "Hunger ist kein unabwendbares Schicksal. Eine würdevolle Überwindung erfordert den Aufbau eigenständiger Ernährungskompetenz.",
+      "content": "<h3>Vom Nothilfekonzept zur Eigenständigkeit</h3><p>Das Projekt <em>Prato que Transforma</em> bezieht frische Erzeugnisse von regionalen Kleinbauern und bewirtschaftet Gemeinschaftsflächen.</p>"
+    },
+    {
+      "id": 3,
+      "slug": "juventude-e-horizontes-de-futuro",
+      "title": "Jugend und Zukunftsperspektiven: Karrierechancen in benachteiligten Regionen",
+      "subtitle": "Talentförderung, persönliche Mentorenprogramme und digitale Qualifizierung.",
+      "category": "Jugend",
+      "author": "Mariana Duarte, Jugendsoziologin",
+      "date": "2026-07-20",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-3.svg",
+      "tags": [
+        "Jugend",
+        "Mentoring",
+        "Beruf",
+        "Zukunft"
+      ],
+      "lead": "Vorstadtjugendlichen fehlen oft greifbare berufliche Vorbilder. Strukturiertes Mentoring schlägt die Brücke in die Arbeitswelt.",
+      "content": "<h3>Begleitung beim Berufseinstieg</h3><p>Über sechs Monate begleiten Führungskräfte Jugendliche bei Bewerbungen, Vorstellungsgesprächen und dem Aufbau digitaler Portfolios.</p>"
+    },
+    {
+      "id": 4,
+      "slug": "trabalho-renda-e-autonomia-produtiva",
+      "title": "Arbeit, Einkommen und Selbstständigkeit: Berufsausbildung als Weg aus der Armut",
+      "subtitle": "Wie fundierte handwerkliche Kurzqualifizierungen Familien wirtschaftliche Unabhängigkeit sichern.",
+      "category": "Arbeit & Einkommen",
+      "author": "Rodrigo Silveira, Unternehmensberater",
+      "date": "2026-07-05",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-4.svg",
+      "tags": [
+        "Einkommen",
+        "Arbeit",
+        "Gründung",
+        "Autonomie"
+      ],
+      "lead": "Dauerhafte Fürsorge schafft Abhängigkeit. Wahre Emanzipation gelingt durch die Erschließung eigener stabiler Einnahmequellen.",
+      "content": "<h3>Marktorientierte Praxisausbildung</h3><p>Lehrgänge im Backhandwerk, in der Schneiderei und Elektrotechnik orientieren sich am konkreten Arbeitskräftebedarf der regionalen Logistikbranche.</p>"
+    },
+    {
+      "id": 5,
+      "slug": "voluntariado-com-proposito-e-metodo",
+      "title": "Ehrenamt mit Wirkung und Methode: Soziale Verantwortung wirksam organisieren",
+      "subtitle": "Vom spontanen Engagement zu verlässlicher Projektbegleitung und kontinuierlicher Weiterbildung.",
+      "category": "Ehrenamt",
+      "author": "Camila Fernandes, Bürgerkoordinatorin",
+      "date": "2026-06-18",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-5.svg",
+      "tags": [
+        "Ehrenamt",
+        "Leitung",
+        "Engagement",
+        "Wirkung"
+      ],
+      "lead": "Guter Wille ist der Funke, doch Struktur und Ausdauer tragen die gesellschaftliche Veränderung über Jahre hinweg.",
+      "content": "<h3>Kompetenzorientiertes Ehrenamt</h3><p>Fachleute aus Medizin, Jura und IT bringen ihr berufliches Know-how gezielt für das Gemeinwohl ein.</p>"
+    },
+    {
+      "id": 6,
+      "slug": "empresas-e-impacto-social",
+      "title": "Unternehmen und gesellschaftlicher Nutzen: Strategische ESG-Investitionen",
+      "subtitle": "Warum authentisches Engagement langfristige Allianzen mit Initiativen vor Ort voraussetzt.",
+      "category": "Kooperationen",
+      "author": "Eduardo Fontes, Nachhaltigkeitsexperte",
+      "date": "2026-06-01",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-6.svg",
+      "tags": [
+        "ESG",
+        "Unternehmen",
+        "CSR",
+        "Partnerschaft"
+      ],
+      "lead": "Öffentlichkeit und Investoren fordern echte Resultate. Glaubwürdige ESG-Wirkung entsteht direkt an der Basis.",
+      "content": "<h3>Synergie aus Unternehmensziel und Gemeinwohl</h3><p>Unternehmen investieren steuerbegünstigte Fördermittel in Ausbildungsplätze und Gemeinschaftskantinen nach geprüften GRI-Standards.</p>"
+    },
+    {
+      "id": 7,
+      "slug": "investimento-social-privado-no-brasil",
+      "title": "Strategische Philanthropie in Brasilien: Leitlinien für Family Offices",
+      "subtitle": "Wie Großspender und Stiftungen die Nachhaltigkeit ihrer Zuwendungen optimieren.",
+      "category": "Transparenz",
+      "author": "Patrícia Albuquerque, Stiftungsberaterin",
+      "date": "2026-05-14",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-7.svg",
+      "tags": [
+        "Großspender",
+        "Governance",
+        "Stiftungen",
+        "Transparenz"
+      ],
+      "lead": "Moderne Philanthropie verbindet soziales Verantwortungsgefühl mit anspruchsvollen Kontroll- und Wirkungsmaßstäben.",
+      "content": "<h3>Transparenz bei Großspenden</h3><p>Segregierte Treuhandkonten und jährliche Wirtschaftsprüfungen sichern die zweckgenaue Verwendung größerer Förderbeträge ab.</p>"
+    },
+    {
+      "id": 8,
+      "slug": "transparencia-ativa-e-governanca-etica",
+      "title": "Aktive Transparenz und ethische Leitung: Das Fundament öffentlichen Vertrauens",
+      "subtitle": "Wie die lückenlose Offenlegung von Haushalten und Prüfberichten Glaubwürdigkeit schafft.",
+      "category": "Transparenz",
+      "author": "Marcelo Pires, Wirtschaftsprüfer",
+      "date": "2026-04-29",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-8.svg",
+      "tags": [
+        "Transparenz",
+        "Prüfung",
+        "Compliance",
+        "Rechenschaft"
+      ],
+      "lead": "Transparenz darf keine Alibifunktion erfüllen, sondern muss proaktiv und für jeden nachvollziehbar sein.",
+      "content": "<h3>Open-Data-Standards im Non-Profit-Bereich</h3><p>Mit über 90 % Mittelverwendung in der Projektarbeit fließt fast jeder Spenden-Euro direkt in Bildung und Speisung.</p>"
+    },
+    {
+      "id": 9,
+      "slug": "desenvolvimento-comunitario-de-base",
+      "title": "Stadtteilentwicklung von unten: Bürgerbeteiligung als treibende Kraft",
+      "subtitle": "Warum soziale Vorhaben 'für' Betroffene scheitern, Projekte 'mit' den Menschen jedoch gedeihen.",
+      "category": "Ehrenamt",
+      "author": "Lucas Nogueira, Sozialarbeiter",
+      "date": "2026-04-10",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-9.svg",
+      "tags": [
+        "Gemeinde",
+        "Beteiligung",
+        "Valparaíso",
+        "Bürger"
+      ],
+      "lead": "Kein Schreibtischentwurf ersetzt das Erfahrungswissen der Menschen, die täglich im Quartier leben.",
+      "content": "<h3>Partizipative Stadtteilforen</h3><p>Die Initiative <em>Comunidade Viva</em> bindet Bewohner demokratisch in die Verschönerung und Sicherung ihres Lebensumfeldes ein.</p>"
+    },
+    {
+      "id": 10,
+      "slug": "tecnologia-para-impacto",
+      "title": "Technologie für das Gemeinwohl: Digitale Inklusion im humanitären Einsatz",
+      "subtitle": "Geodatenbasierte Hilfeplanung und IT-Schulungen gegen gesellschaftliche Ausgrenzung.",
+      "category": "Innovation",
+      "author": "Beatriz Vasconcelos, IT-Projektleiterin",
+      "date": "2026-03-22",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-10.svg",
+      "tags": [
+        "Technologie",
+        "Innovation",
+        "Daten",
+        "Digitale Bildung"
+      ],
+      "lead": "Digitalisierung ist unerlässlich, damit Hilfsorganisationen zielgenau und mit hoher logistischer Effizienz agieren können.",
+      "content": "<h3>Evidenzbasierte Bedarfsanalyse</h3><p>Georeferenzierte Erhebungen decken Versorgungslücken auf, während Programmierkurse Jugendlichen neue Berufswege eröffnen.</p>"
+    },
+    {
+      "id": 11,
+      "slug": "mulheres-maternidade-e-oportunidades",
+      "title": "Frauen, Mutterschaft und berufliche Chancen: Barrieren im Vorfeld überwinden",
+      "subtitle": "Wie Kinderbetreuung und Fachqualifikation alleinerziehenden Müttern Selbstständigkeit ermöglichen.",
+      "category": "Chancengleichheit",
+      "author": "Aline Santos, Diplom-Psychologin",
+      "date": "2026-03-08",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-11.svg",
+      "tags": [
+        "Frauen",
+        "Familie",
+        "Selbstbestimmung",
+        "Rechte"
+      ],
+      "lead": "Über 65 % der bedürftigen Haushalte werden von Müttern allein getragen. Die Stärkung der Mutter schützt die gesamte Familie.",
+      "content": "<h3>Integrierte Betreuungsangebote</h3><p>Wir koppeln Fachlehrgänge an verlässliche Kinderbetreuung, damit Mütter ohne Sorge neue Qualifikationen erwerben können.</p>"
+    },
+    {
+      "id": 12,
+      "slug": "o-futuro-das-organizacoes-sociais",
+      "title": "Die Zukunft gemeinnütziger Organisationen: Finanzielle Stabilität und Innovation",
+      "subtitle": "Mischfinanzierung, institutionelle Stiftungsfonds (Endowments) und sektorübergreifende Kooperationen.",
+      "category": "Innovation",
+      "author": "Dr. Fernando Arantes, Geschäftsführender Vorstand",
+      "date": "2026-02-15",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-12.svg",
+      "tags": [
+        "Management",
+        "Zukunft",
+        "Stiftungskapital",
+        "Strategie"
+      ],
+      "lead": "Moderne NGOs müssen fachlich exzellent und finanziell breit aufgestellt sein, um in Krisenzeiten handlungsfähig zu bleiben.",
+      "content": "<h3>Zukunftssichere Finanzierungsmodelle</h3><p>Regelmäßige Kleinspenden, verlässliche Unternehmenspartnerschaften und ein Grundstockvermögen sichern unsere Arbeit dauerhaft ab.</p>"
+    }
+  ]
+}

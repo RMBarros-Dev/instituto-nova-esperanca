@@ -1,1 +1,267 @@
-{}
+{
+  "header": {
+    "title": "Blog & Notícias do Instituto",
+    "subtitle": "Artigos de opinião, relatórios de impacto territorial, prestação de contas e boas práticas do terceiro setor."
+  },
+  "search_placeholder": "Buscar notícias por título, tema ou autor...",
+  "filters": {
+    "all": "Todos os Artigos",
+    "education": "Educação",
+    "nutrition": "Segurança Alimentar",
+    "youth": "Juventude",
+    "income": "Inclusão Produtiva",
+    "volunteer": "Voluntariado",
+    "partnerships": "Parcerias",
+    "transparency": "Transparência",
+    "innovation": "Inovação",
+    "gender": "Gênero e Cidadania"
+  },
+  "reader": {
+    "progress_bar_aria": "Progresso de leitura do artigo",
+    "listen_button": "Ouvir Artigo",
+    "playing": "Reproduzindo áudio...",
+    "paused": "Áudio pausado",
+    "btn_pause": "Pausar",
+    "btn_resume": "Continuar",
+    "btn_stop": "Parar",
+    "btn_back": "← Voltar para Notícias",
+    "share_title": "Compartilhar este artigo:",
+    "share_whatsapp": "WhatsApp",
+    "share_linkedin": "LinkedIn",
+    "share_twitter": "Twitter / X",
+    "share_copy": "Copiar Link",
+    "related_title": "Artigos Relacionados",
+    "reading_time_prefix": "Tempo de leitura:",
+    "by_author": "Por"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "slug": "educacao-como-transformacao-social",
+      "title": "Educação como transformação social: rompendo ciclos de vulnerabilidade no Entorno do DF",
+      "subtitle": "Por que o acompanhamento pedagógico contínuo e o letramento crítico são as ferramentas mais potentes de mobilidade social.",
+      "category": "Educação",
+      "author": "Dra. Helena Ribeiro, Coordenadora Pedagógica",
+      "date": "2026-08-15",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-1.svg",
+      "tags": [
+        "Educação",
+        "Inclusão",
+        "Juventude",
+        "Valparaíso"
+      ],
+      "lead": "Nas periferias urbanas brasileiras, o acesso à escola é apenas o primeiro passo. Sem suporte pedagógico estruturado, acolhimento psicossocial e incentivo ao pensamento autônomo, milhares de jovens abandonam os estudos antes de concluir o ensino médio.",
+      "content": "<h3>O desafio do letramento integral</h3><p>A realidade educacional de regiões metropolitanas e do Entorno do Distrito Federal impõe desafios singulares. Dados do Censo Escolar apontam que a defasagem idade-série e o analfabetismo funcional ainda atingem proporções alarmantes quando comparados aos grandes centros urbanos centrais.</p><p>No Instituto Nova Esperança, o programa <em>Novos Caminhos</em> parte da premissa de que a educação não pode ser um processo passivo de transmissão de conteúdo. O foco prioritário recai sobre o reforço escolar em matemática e língua portuguesa, articulado com oficinas de pensamento crítico, robótica comunitária e incentivo à leitura.</p><blockquote>\"Quando oferecemos a uma criança a certeza de que sua voz tem valor e que seus sonhos têm viabilidade, todo o ecossistema familiar se transforma.\" — Helena Ribeiro</blockquote><h3>Resultados mensuráveis e método participativo</h3><p>A metodologia desenvolvida em Valparaíso de Goiás envolve avaliações diagnósticas trimestrais, planos individuais de aprendizagem e, fundamentalmente, a presença ativa das famílias no ambiente institucional. Nos últimos 18 meses, 88% dos alunos atendidos registraram melhora significativa de desempenho escolar e taxa de evasão escolar reduzida a menos de 2%.</p><p>Investir em educação básica comunitária não é assistencialismo; é a estratégia econômica e humana mais inteligente para garantir cidadania plena e soberania territorial.</p>"
+    },
+    {
+      "id": 2,
+      "slug": "seguranca-alimentar-nutricional",
+      "title": "Segurança alimentar e soberania nutricional: muito além de combater a fome imediata",
+      "subtitle": "A construção de redes locais de alimentação saudável, hortas urbanas e capacitação nutricional para famílias em vulnerabilidade.",
+      "category": "Segurança Alimentar",
+      "author": "Carlos Alberto Mendes, Nutricionista Social",
+      "date": "2026-08-02",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-2.svg",
+      "tags": [
+        "Alimentação",
+        "Nutrição",
+        "Hortas Urbanas",
+        "Saúde"
+      ],
+      "lead": "A fome não é uma fatalidade climática ou demográfica; é uma falha distributiva e política. Enfrentá-la com dignidade exige transcender a entrega pontual de cestas para estruturar autonomia alimentar sustentável.",
+      "content": "<h3>Da emergência à soberania</h3><p>A distribuição emergencial de alimentos é indispensável no auge da crise. No entanto, o programa <em>Prato que Transforma</em> compreende que a cesta básica tradicional muitas vezes é composta por ultraprocessados e alimentos com baixo teor nutritivo. Nosso modelo integra a compra direta de agricultores familiares regionais com hortas comunitárias implantadas em terrenos urbanos ociosos.</p><p>O prato que alimenta uma criança em idade escolar define o seu desenvolvimento neurológico, sua capacidade de cognição e sua saúde imunológica ao longo de toda a vida adulta.</p><blockquote>\"Soberania alimentar significa que a comunidade decide o que planta, como cozinha e de que maneira cuida da nutrição de suas futuras gerações.\" — Carlos Mendes</blockquote><h3>Hortas agroecológicas no cerrado</h3><p>Adaptadas ao bioma do Planalto Central, as oficinas de compostagem e cultivo agroecológico implementadas pelo Instituto em Valparaíso de Goiás mobilizam semanalmente mais de 70 famílias voluntárias, gerando legumes e verduras frescas com custo zero para a cozinha comunitária.</p>"
+    },
+    {
+      "id": 3,
+      "slug": "juventude-e-horizontes-de-futuro",
+      "title": "Juventude e horizontes de futuro: construindo trajetórias no Entorno do Distrito Federal",
+      "subtitle": "Mapeamento de vocações, mentoria com profissionais de destaque e inclusão digital para a nova geração.",
+      "category": "Juventude",
+      "author": "Mariana Duarte, Especialista em Políticas Públicas de Juventude",
+      "date": "2026-07-20",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-3.svg",
+      "tags": [
+        "Juventude",
+        "Mentoria",
+        "Carreira",
+        "Futuro"
+      ],
+      "lead": "A juventude periférica frequentemente convive com a escassez de referências profissionais tangíveis. A mentoria estratégica rompe essa barreira ao conectar jovens talentos a oportunidades reais no ecossistema econômico contemporâneo.",
+      "content": "<h3>O peso do primeiro emprego e da identidade profissional</h3><p>Segundo dados do IBGE, o desemprego entre jovens de 18 a 24 anos é mais que o dobro da média nacional. Quando cruzamos esses dados com barreiras geográficas — como as distâncias de deslocamento entre o Entorno e o Plano Piloto em Brasília —, a busca por colocação torna-se ainda mais exaustiva.</p><p>O Instituto Nova Esperança desenvolveu um programa pioneiro de mentorias individuais com duração de seis meses, onde líderes empresariais, pesquisadores e programadores orientam jovens do ensino médio na elaboração de portfólios, simulações de entrevistas e noções de etiqueta corporativa.</p><blockquote>\"Não basta abrir uma vaga; é preciso acolher o jovem em suas inseguranças e legitimar sua bagagem cultural como um diferencial criativo.\" — Mariana Duarte</blockquote><p>O resultado é a inserção de mais de 140 jovens no mercado formal em funções com perspectivas de progressão de carreira nos últimos dois anos.</p>"
+    },
+    {
+      "id": 4,
+      "slug": "trabalho-renda-e-autonomia-produtiva",
+      "title": "Trabalho, renda e autonomia produtiva: da formação técnica ao microempreendedorismo",
+      "subtitle": "Como capacitações intensivas de curta duração aliadas a microcrédito orientado resgatam a dignidade de chefes de família.",
+      "category": "Inclusão Produtiva",
+      "author": "Rodrigo Silveira, Consultor de Negócios Sociais",
+      "date": "2026-07-05",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-4.svg",
+      "tags": [
+        "Renda",
+        "Trabalho",
+        "Empreendedorismo",
+        "Autonomia"
+      ],
+      "lead": "O assistencialismo permanente perpetua dependência. A verdadeira emancipação social ocorre quando a família conquista fontes próprias e estáveis de subsistência econômica.",
+      "content": "<h3>Formação alinhada à demanda real de mercado</h3><p>Muitas ONGs cometem o equívoco de oferecer cursos profissionalizantes sem antes pesquisar o mercado local. O programa <em>Renda e Futuro</em> realiza estudos trimestrais de demanda em Valparaíso, Luziânia e Cidade Ocidental para identificar carências reais de mão de obra.</p><p>Cursos de instalação elétrica predial, confeitaria artesanal de alto padrão, manutenção de celulares e corte & modelagem têxtil são ministrados com foco não apenas em prestar serviços para terceiros, mas em gerir o próprio microempreendimento.</p><p>Ao término de cada ciclo, os estudantes recebem um kit inicial de ferramentas profissionais doado por nossos parceiros corporativos, permitindo o início imediato das atividades produtivas.</p>"
+    },
+    {
+      "id": 5,
+      "slug": "voluntariado-com-proposito-e-metodo",
+      "title": "Voluntariado com propósito e método: como estruturar ações de alto impacto social",
+      "subtitle": "A transição do voluntariado esporádico e desorganizado para um modelo de governança, metas e acolhimento contínuo.",
+      "category": "Voluntariado",
+      "author": "Camila Fernandes, Gestora de Engajamento Comunitário",
+      "date": "2026-06-18",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-5.svg",
+      "tags": [
+        "Voluntariado",
+        "Gestão",
+        "Engajamento",
+        "Impacto"
+      ],
+      "lead": "Boa vontade é a centelha inicial, mas método, escuta e constância são o combustível que sustenta transformações sociais a longo prazo.",
+      "content": "<h3>O papel do voluntário especialista</h3><p>Historicamente, o voluntariado em organizações sociais foi associado apenas à distribuição física de materiais em datas comemorativas. Embora meritório, esse formato não constrói capacidade institucional instalada.</p><p>O Instituto Nova Esperança estruturou células temáticas de voluntariado: médicos pediatras realizam triagens preventivas mensais, advogados voluntários esclarecem direitos do consumidor e previdenciários, e profissionais de TI auxiliam na automação de processos internos.</p><p>A Lei Federal nº 9.608/1998 rege nossas relações com termos transparentes de adesão, seguro para atividades de campo e emissão de certificados com validação de horas complementares universitárias.</p>"
+    },
+    {
+      "id": 6,
+      "slug": "empresas-e-impacto-social",
+      "title": "Empresas e impacto social: o poder do investimento corporativo estratégico",
+      "subtitle": "Por que critérios ESG autênticos exigem atuação territorial profunda e alianças de longo prazo com organizações de base.",
+      "category": "Parcerias",
+      "author": "Eduardo Fontes, Especialista em ESG e Sustentabilidade",
+      "date": "2026-06-01",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-6.svg",
+      "tags": [
+        "ESG",
+        "Empresas",
+        "Investimento Social",
+        "Parcerias"
+      ],
+      "lead": "O consumidor e os fundos internacionais não aceitam mais o 'greenwashing' ou ações isoladas de marketing de causa. O verdadeiro compromisso ESG é mensurado pelo legado deixado nas comunidades circunvizinhas às operações empresariais.",
+      "content": "<h3>Alinhamento entre propósito corporativo e vulnerabilidade territorial</h3><p>As empresas instaladas no polo logístico e industrial da BR-040 têm um papel catalisador decisivo no desenvolvimento do Entorno do DF. Através de parcerias com o Instituto Nova Esperança, corporações transformam despesas tributárias dedutíveis e verbas de responsabilidade social em bolsas integrais de estudo e modernização de refeitórios comunitários.</p><p>Trabalhamos com relatórios periódicos em padrão GRI (Global Reporting Initiative), com indicadores de retorno sobre o investimento social (SROI) plenamente auditáveis.</p>"
+    },
+    {
+      "id": 7,
+      "slug": "investimento-social-privado-no-brasil",
+      "title": "Investimento social privado no Brasil: desafios, métricas e governança para family offices",
+      "subtitle": "Como grandes doadores individuais e fundações familiares podem maximizar a eficiência e a perenidade de seus aportes filantrópicos.",
+      "category": "Transparência",
+      "author": "Patrícia Albuquerque, Consultora de Filantropia Estratégica",
+      "date": "2026-05-14",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-7.svg",
+      "tags": [
+        "Grandes Doadores",
+        "Governança",
+        "Filantropia",
+        "Transparência"
+      ],
+      "lead": "A filantropia moderna migrou do ato pontual de caridade para uma disciplina de investimento social fundamentada em governança, due diligence rigorosa e acompanhamento minucioso de indicadores de impacto.",
+      "content": "<h3>Transparência e segurança jurídica para grandes aportes</h3><p>Family offices e institutos familiares exigem o mesmo nível de compliance de uma transação corporativa: contas segregadas para cada projeto apoiado, comitê fiscal atuante, relatórios independentes e estrita observância à legislação tributária nacional e internacional.</p><p>No Instituto Nova Esperança, cada doação de grande porte (acima de R$ 50.000) conta com um plano de aplicação individualizado acordado bilateralmente, garantindo que o doador acompanhe trimestralmente o custo por beneficiário direto e indireto.</p>"
+    },
+    {
+      "id": 8,
+      "slug": "transparencia-ativa-e-governanca-etica",
+      "title": "Transparência ativa e governança ética: o alicerce irrenunciável da confiança pública",
+      "subtitle": "Como a publicação aberta de balanços, atas e cotações de preços constrói a respeitabilidade das ONGs de alta maturidade.",
+      "category": "Transparência",
+      "author": "Marcelo Pires, Auditor Contábil e Conselheiro Fiscal",
+      "date": "2026-04-29",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-8.svg",
+      "tags": [
+        "Transparência",
+        "Auditoria",
+        "Compliance",
+        "Prestação de Contas"
+      ],
+      "lead": "Num cenário de escrutínio permanente, a transparência não pode ser reativa. As organizações que lideram a transformação social mantêm seus dados abertos à sociedade de forma didática e acessível.",
+      "content": "<h3>O princípio dos dados abertos na sociedade civil</h3><p>A transparência institucional do Instituto Nova Esperança segue o padrão da Transparência Ativa: disponibilização online de estatuto social registrado, atas de eleição de diretoria, notas fiscais consolidadas e relatórios contábeis com parecer de auditoria independente.</p><p>Em nossa plataforma, mantemos a taxa de eficiência acima de 90%, significando que mais de 90 centavos de cada real arrecadado financiam diretamente as atividades-fim em sala de aula, cozinha e oficinas práticas.</p>"
+    },
+    {
+      "id": 9,
+      "slug": "desenvolvimento-comunitario-de-base",
+      "title": "Desenvolvimento comunitário de base: o protagonismo dos moradores na transformação territorial",
+      "subtitle": "Por que projetos sociais construídos 'para' a comunidade falham, enquanto projetos construídos 'com' a comunidade florescem.",
+      "category": "Voluntariado",
+      "author": "Lucas Nogueira, Assistente Social e Líder Comunitário",
+      "date": "2026-04-10",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-9.svg",
+      "tags": [
+        "Comunidade",
+        "Protagonismo",
+        "Valparaíso",
+        "Cidadania"
+      ],
+      "lead": "Nenhuma solução externa desenhada em gabinetes climatizados substitui a sabedoria acumulada pelos moradores que vivenciam diariamente os desafios do território.",
+      "content": "<h3>Metodologia de escuta ativa e conselhos de moradores</h3><p>O programa <em>Comunidade Viva</em> promove assembleias mensais com representantes de bairros como Céu Azul, Jardim Céu Azul e Anhanguera em Valparaíso de Goiás. As prioridades de intervenção física — como reforma de praças, iluminação de pontos de ônibus e mutirões de pintura — são votadas democraticamente pelos próprios beneficiários.</p><p>O pertencimento e o orgulho pelo espaço compartilhado são antídotos comprovados contra a violência urbana e o isolamento social.</p>"
+    },
+    {
+      "id": 10,
+      "slug": "tecnologia-para-impacto",
+      "title": "Tecnologia para impacto: como dados e inclusão digital ampliam o alcance humanitário",
+      "subtitle": "O uso de georreferenciamento de famílias, sistemas em nuvem e letramento digital no combate à exclusão social.",
+      "category": "Inovação",
+      "author": "Beatriz Vasconcelos, Coordenadora de Tecnologia Social",
+      "date": "2026-03-22",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-10.svg",
+      "tags": [
+        "Tecnologia",
+        "Inovação",
+        "Dados",
+        "Inclusão Digital"
+      ],
+      "lead": "A transformação digital não é privilégio do setor corporativo de ponta; ela é crucial para que organizações sociais operem com máxima eficiência logística e precisão na entrega de auxílio.",
+      "content": "<h3>Mapeamento territorial baseado em evidências</h3><p>O Instituto Nova Esperança implementou cadastros digitais georreferenciados para todas as famílias atendidas. Isso permite identificar bolsões de vulnerabilidade crítica onde falta água encanada, energia estável ou acesso facilitado a transporte escolar.</p><p>Paralelamente, nossos laboratórios de informática oferecem cursos de programação básica para a web, design gráfico e manutenção de sistemas para jovens da rede pública, abrindo portas para o mercado de trabalho remoto global.</p>"
+    },
+    {
+      "id": 11,
+      "slug": "mulheres-maternidade-e-oportunidades",
+      "title": "Mulheres, maternidade e oportunidades: rompendo barreiras de gênero no mercado periférico",
+      "subtitle": "A intersecção entre sobrecarga de cuidados não remunerados, violência doméstica e independência financeira feminina.",
+      "category": "Gênero e Cidadania",
+      "author": "Aline Santos, Psicóloga e Mediadora de Conflitos",
+      "date": "2026-03-08",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-11.svg",
+      "tags": [
+        "Mulheres",
+        "Maternidade",
+        "Autonomia",
+        "Direitos Humanos"
+      ],
+      "lead": "Mais de 65% dos lares em extrema vulnerabilidade no Entorno do Distrito Federal são chefiados exclusivamente por mulheres solos. Apoiar a mãe é garantir a segurança de toda a família.",
+      "content": "<h3>O papel das redes de apoio e creches comunitárias</h3><p>Uma mãe solo não consegue comparecer a uma entrevista de emprego ou frequentar um curso profissionalizante se não tiver um local seguro e estimulante para deixar seus filhos. Pensando nisso, o Instituto Nova Esperança integra horários de formação técnica com espaços lúdicos de acolhimento infantil supervisionado.</p><p>Além disso, são promovidos círculos de conversa quinzenais sobre direitos reprodutivos, prevenção à violência doméstica e suporte emocional em saúde mental.</p>"
+    },
+    {
+      "id": 12,
+      "slug": "o-futuro-das-organizacoes-sociais",
+      "title": "O futuro das organizações sociais: sustentabilidade financeira, redes de cooperação e inovação",
+      "subtitle": "Perspectivas para a próxima década: blended finance, fundos patrimoniais (endowments) e atuação intersetorial.",
+      "category": "Inovação",
+      "author": "Dr. Fernando Arantes, Diretor-Executivo",
+      "date": "2026-02-15",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-12.svg",
+      "tags": [
+        "Gestão",
+        "Sustentabilidade",
+        "Endowment",
+        "Futuro"
+      ],
+      "lead": "O terceiro setor do século XXI precisa ser ágil, tecnicamente rigoroso e financeiramente diversificado para garantir perenidade em tempos de incerteza global.",
+      "content": "<h3>Modelos híbridos de receita e perenidade institucional</h3><p>Depender exclusivamente de editais públicos ou de doações esporádicas fragiliza a continuidade dos serviços essenciais oferecidos às comunidades. O Instituto Nova Esperança projeta sua governança sobre três esteiras financeiras complementares: doações individuais recorrentes via PIX/cartão, alianças estratégicas ESG com o setor produtivo e estruturação de um fundo patrimonial (endowment) inicial.</p><p>A colaboração estreita entre poder público, iniciativa privada e sociedade civil organizada é o único caminho capaz de transformar o panorama socioeconômico brasileiro de forma definitiva.</p>"
+    }
+  ]
+}

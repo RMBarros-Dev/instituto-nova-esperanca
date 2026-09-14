@@ -80,44 +80,58 @@
     }
 
     async buildSearchIndex() {
+      this.searchIndex = [];
       try {
-        // Carrega projetos
-        const projRes = await fetch('assets/data/projects.json');
-        if (projRes.ok) {
-          const projs = await projRes.json();
-          projs.forEach(p => {
-            this.searchIndex.push({
-              group: 'Projetos',
-              title: p.name,
-              desc: p.summary,
-              url: `projetos.html#${p.slug}`
-            });
-          });
+        // Carrega projetos do módulo i18n ativo se disponível
+        let projs = [];
+        if (window.i18n && typeof window.i18n.getModule === 'function') {
+          const mod = window.i18n.getModule('projects');
+          if (mod && Array.isArray(mod.projects)) projs = mod.projects;
         }
-
-        // Carrega artigos
-        const blogRes = await fetch('assets/data/blog.json');
-        if (blogRes.ok) {
-          const arts = await blogRes.json();
-          arts.forEach(a => {
-            this.searchIndex.push({
-              group: 'Blog & Artigos',
-              title: a.title,
-              desc: a.lead,
-              url: `blog.html?id=${a.slug}`
-            });
-          });
+        if (projs.length === 0) {
+          const projRes = await fetch('assets/data/projects.json');
+          if (projRes.ok) projs = await projRes.json();
         }
+        const projGroup = (window.i18n && window.i18n.get('nav_projects')) || 'Projetos';
+        projs.forEach(p => {
+          this.searchIndex.push({
+            group: projGroup,
+            title: p.name || p.title,
+            desc: p.summary || p.lead,
+            url: `projetos.html#${p.slug}`
+          });
+        });
 
-        // Páginas institucionais fixas
+        // Carrega artigos do blog do módulo i18n ativo se disponível
+        let arts = [];
+        if (window.i18n && typeof window.i18n.getModule === 'function') {
+          const mod = window.i18n.getModule('blog');
+          if (mod && Array.isArray(mod.articles)) arts = mod.articles;
+        }
+        if (arts.length === 0) {
+          const blogRes = await fetch('assets/data/blog.json');
+          if (blogRes.ok) arts = await blogRes.json();
+        }
+        const blogGroup = (window.i18n && window.i18n.get('nav_blog')) || 'Blog';
+        arts.forEach(a => {
+          this.searchIndex.push({
+            group: blogGroup,
+            title: a.title,
+            desc: a.lead,
+            url: `blog.html?id=${a.slug}`
+          });
+        });
+
+        // Páginas institucionais fixas com títulos e descrições localizadas
+        const getT = (key, fallback) => (window.i18n ? window.i18n.get(key) || fallback : fallback);
         const staticPages = [
-          { group: 'Institucional', title: 'Quem Somos & Teoria da Mudança', desc: 'História, missão, visão e equipe de governança do Instituto.', url: 'sobre.html' },
-          { group: 'Transparência', title: 'Portal da Transparência Ativa', desc: 'Demonstrações contábeis auditadas, taxas de eficiência de 91% e balanços.', url: 'transparencia.html' },
-          { group: 'Impacto Social', title: 'Dashboard de Impacto Territorial', desc: 'Métricas de pessoas atendidas, refeições distribuídas e evolução anual.', url: 'impacto.html' },
-          { group: 'Doações', title: 'Como Doar via PIX ou Cartão', desc: 'Contribuições pontuais e recorrentes com simulador de impacto direto.', url: 'doacoes.html' },
-          { group: 'Empresas & ESG', title: 'Parcerias Corporativas e Grandes Doadores', desc: 'Alianças ESG, matching gifts, voluntariado corporativo e cotas de apoio.', url: 'empresas.html' },
-          { group: 'Voluntariado', title: 'Programa de Voluntariado', desc: 'Cadastro de voluntários especialistas e comunitários em 7 etapas.', url: 'voluntariado.html' },
-          { group: 'Central de Ajuda', title: 'Perguntas Frequentes (FAQ)', desc: 'Esclarecimentos sobre doações, projetos, visitas territoriais e prestação de contas.', url: 'faq.html' }
+          { group: getT('nav_about', 'Quem Somos'), title: getT('about.hero.title', 'Quem Somos & Teoria da Mudança'), desc: getT('about.hero.subtitle', 'História, missão, visão e equipe de governança do Instituto.'), url: 'sobre.html' },
+          { group: getT('nav_transparency', 'Transparência'), title: getT('transparency.header.title', 'Portal da Transparência Ativa'), desc: getT('transparency.header.subtitle', 'Demonstrações contábeis auditadas, taxas de eficiência de 91% e balanços.'), url: 'transparencia.html' },
+          { group: getT('nav_impact', 'Impacto Social'), title: getT('impact.header.title', 'Dashboard de Impacto Territorial'), desc: getT('impact.header.subtitle', 'Métricas de pessoas atendidas, refeições distribuídas e evolução anual.'), url: 'impacto.html' },
+          { group: getT('nav_donate', 'Doações'), title: getT('donations.header.title', 'Como Doar via PIX ou Cartão'), desc: getT('donations.header.subtitle', 'Contribuições pontuais e recorrentes com simulador de impacto direto.'), url: 'doacoes.html' },
+          { group: getT('nav_companies', 'Empresas & ESG'), title: 'Parcerias Corporativas e Grandes Doadores', desc: 'Alianças ESG, matching gifts, voluntariado corporativo e cotas de apoio.', url: 'empresas.html' },
+          { group: getT('nav_volunteer', 'Voluntariado'), title: 'Programa de Voluntariado', desc: 'Cadastro de voluntários especialistas e comunitários em 7 etapas.', url: 'voluntariado.html' },
+          { group: getT('nav_faq', 'Central de Ajuda'), title: getT('faq.header.title', 'Perguntas Frequentes (FAQ)'), desc: getT('faq.header.subtitle', 'Esclarecimentos sobre doações, projetos, visitas territoriais e prestação de contas.'), url: 'faq.html' }
         ];
 
         this.searchIndex.push(...staticPages);
@@ -140,6 +154,11 @@
         } else if (this.isOpen) {
           this.handleKeyNavigation(e);
         }
+      });
+
+      // Recarrega índice quando o idioma for alterado
+      window.addEventListener('languageChanged', () => {
+        this.buildSearchIndex();
       });
 
       // Botões de busca com classe .btn-search-trigger

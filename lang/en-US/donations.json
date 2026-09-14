@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Donations & Philanthropic Giving",
+    "subtitle": "Your generous gift transforms lives with verifiable accountability and audited community impact."
+  },
+  "frequency": {
+    "once": "One-Time Gift",
+    "monthly": "Monthly Support",
+    "annual": "Annual Pledge"
+  },
+  "step1_title": "1. Select Frequency",
+  "step2_title": "2. Choose Amount & Simulate Impact",
+  "step2_desc": "Select a suggested contribution tier or enter a custom donation amount:",
+  "step3_title": "3. Choose Payment Method",
+  "tiers": {
+    "t30": "Provides 1 comprehensive student kit with notebooks, stationery, and literacy learning materials.",
+    "t60": "Ensures nutritious, freshly prepared meals for a child throughout an entire school month.",
+    "t150": "Funds after-school academic tutoring and digital literacy classes for two vulnerable youth.",
+    "t500": "Covers equipment and vocational culinary or textile job training for an entire family.",
+    "t1000": "Strategic institutional contribution sustaining digital hardware and connectivity for a community lab."
+  },
+  "custom_placeholder": "Custom amount (R$ / USD)",
+  "disclaimer": "Notice: Stated social impacts are demonstrative estimates based on historical operational cost averages of the Institute's programs.",
+  "pix": {
+    "title": "Instant Digital Transfer (PIX Brazil)",
+    "copy_code": "Copy PIX Code",
+    "copied": "PIX code successfully copied to clipboard!",
+    "expires": "QR code and digital string valid for instant settlement",
+    "instructions": "Open your banking app, choose 'PIX Copia e Cola', paste the code, and confirm transfer."
+  },
+  "card": {
+    "title": "Credit or Debit Card",
+    "name_placeholder": "Cardholder name",
+    "number_placeholder": "0000 0000 0000 0000",
+    "expiry_placeholder": "MM/YY",
+    "cvv_placeholder": "CVC",
+    "btn_pay": "Complete Secure Donation"
+  }
+}

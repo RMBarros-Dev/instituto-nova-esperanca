@@ -20,15 +20,23 @@
     annual: 'Anual'
   };
 
-  const TIERS_CONFIG = [
-    { amount: 30, label: 'Kit Pedagógico', desc: 'Garante material didático e caderno de apoio para 1 criança em reforço escolar.' },
-    { amount: 60, label: 'Alimentação Familiar', desc: 'Fornece refeições nutritivas balanceadas e complementação alimentar por 15 dias.' },
-    { amount: 150, label: 'Apoio Educacional', desc: 'Financia acompanhamento pedagógico, reforço e oficinas de robótica para 2 jovens.' },
-    { amount: 500, label: 'Ação Comunitária', desc: 'Mantém uma oficina técnica ou mutirão de horta comunitária gerando alimentos orgânicos.' },
-    { amount: 1000, label: 'Impacto Ampliado', desc: 'Investimento estruturante em polos de tecnologia, conectividade e inclusão produtiva.' }
-  ];
+  function getDonationsModule() {
+    if (window.i18n && typeof window.i18n.getModule === 'function') {
+      return window.i18n.getModule('donations') || {};
+    }
+    return {};
+  }
 
   function getImpactEstimation(amount) {
+    const mod = getDonationsModule();
+    const tiers = mod.tiers || {};
+
+    if (amount <= 45 && tiers.t30) return tiers.t30;
+    if (amount <= 100 && tiers.t60) return tiers.t60;
+    if (amount <= 300 && tiers.t150) return tiers.t150;
+    if (amount <= 800 && tiers.t500) return tiers.t500;
+    if (amount > 800 && tiers.t1000) return tiers.t1000;
+
     if (amount < 45) {
       return 'Garante 1 Kit Pedagógico individual com caderno, lápis e materiais de acolhimento.';
     } else if (amount < 100) {
@@ -44,19 +52,23 @@
 
   function formatCurrency(val) {
     if (window.formatCurrency) return window.formatCurrency(val, 'BRL');
-    return val.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    return val.toLocaleString(window.currentLangFormat || 'pt-BR', { style: 'currency', currency: 'BRL' });
   }
 
   function updateSidebarAndImpact() {
+    const mod = getDonationsModule();
+    const freqLabels = mod.frequency || FREQ_LABELS;
+    const disclaimerText = mod.disclaimer || '*Estimativa demonstrativa de homologação do MVP.';
+
     // 1. Atualizar texto do simulador
     const impactText = document.getElementById('donation-impact-text');
     if (impactText) {
       const desc = getImpactEstimation(currentAmount);
-      const freqSuffix = currentFrequency === 'monthly' ? 'mensal' : (currentFrequency === 'annual' ? 'anual' : 'nesta contribuição');
+      const freqSuffix = currentFrequency === 'monthly' ? (freqLabels.monthly || 'Mensal') : (currentFrequency === 'annual' ? (freqLabels.annual || 'Anual') : (freqLabels.once || 'Única'));
       impactText.innerHTML = `
         <strong>Impacto Estimado (${freqSuffix}):</strong> ${desc}
         <small style="display: block; margin-top: 4px; font-size: 0.75rem; opacity: 0.85;">
-          *Estimativa demonstrativa de homologação do MVP.
+          ${disclaimerText}
         </small>
       `;
     }
@@ -67,7 +79,7 @@
     const summaryProject = document.getElementById('summary-project');
 
     if (summaryAmount) summaryAmount.textContent = formatCurrency(currentAmount);
-    if (summaryFreq) summaryFreq.textContent = FREQ_LABELS[currentFrequency] || 'Mensal';
+    if (summaryFreq) summaryFreq.textContent = freqLabels[currentFrequency] || FREQ_LABELS[currentFrequency] || 'Mensal';
     if (summaryProject) summaryProject.textContent = currentProject.split(' (')[0];
 
     // 3. Atualizar alerta de grande doador
@@ -188,9 +200,11 @@
     if (copyPixBtn) {
       copyPixBtn.addEventListener('click', () => {
         const codeText = document.getElementById('pix-code-text');
+        const mod = getDonationsModule();
+        const copiedMsg = (mod.pix && mod.pix.copied) || 'Código PIX copiado com sucesso!';
         if (codeText) {
           navigator.clipboard.writeText(codeText.textContent).then(() => {
-            if (window.showToast) window.showToast('Código PIX copiado com sucesso!', 'success');
+            if (window.showToast) window.showToast(copiedMsg, 'success');
           });
         }
       });
@@ -204,6 +218,10 @@
         if (pixModal) pixModal.classList.remove('is-open');
       });
     }
+
+    window.addEventListener('languageChanged', () => {
+      updateSidebarAndImpact();
+    });
 
     updateSidebarAndImpact();
   }

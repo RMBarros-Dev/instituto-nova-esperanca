@@ -1,1 +1,44 @@
-{}
+{
+  "hero": {
+    "badge": "Transformación Comunitaria • Periferia del DF",
+    "title": "Construyendo Dignidad, Educación y Futuro Sostenible",
+    "subtitle": "Abordamos la vulnerabilidad social en su raíz mediante educación integral, soberanía nutricional e inclusión laboral para miles de familias.",
+    "cta_donate": "Hacer una Donación",
+    "cta_projects": "Conocer Proyectos",
+    "stat_people": "12.480+",
+    "stat_people_label": "Personas Atendidas",
+    "stat_meals": "145.000+",
+    "stat_meals_label": "Comidas Servidas",
+    "stat_efficiency": "91.2%",
+    "stat_efficiency_label": "Tasa en Actividad Social",
+    "stat_hours": "18.400h",
+    "stat_hours_label": "Horas de Voluntariado"
+  },
+  "pillars": {
+    "title": "Nuestros Cuatro Ejes Estratégicos",
+    "subtitle": "Una metodología integral diseñada para quebrar los ciclos intergeneracionales de vulnerabilidad.",
+    "p1_title": "Educación Integral",
+    "p1_desc": "Tutoría escolar, alfabetización digital y acompañamiento socioemocional a jóvenes.",
+    "p2_title": "Seguridad Nutricional",
+    "p2_desc": "Alimentación saludable, huertos urbanos agroecológicos y dignidad alimentaria.",
+    "p3_title": "Ingreso y Empleo",
+    "p3_desc": "Capacitación técnica, microemprendimiento tutelado e independencia económica femenina.",
+    "p4_title": "Cohesión Comunitaria",
+    "p4_desc": "Empoderamiento vecinal, mejoras barriales y fortalecimiento de liderazgos de base."
+  },
+  "impact_preview": {
+    "title": "Impacto Verificable y Medible",
+    "subtitle": "Cada aporte se supervisa con estricto control contable y evolución abierta de indicadores.",
+    "cta": "Ver Panel de Impacto"
+  },
+  "transparency_preview": {
+    "title": "Transparencia Activa",
+    "subtitle": "Rendición de cuentas pública en conformidad con los estándares contables del sector social.",
+    "cta": "Consultar Balances y Cuentas"
+  },
+  "volunteer_cta": {
+    "title": "Súmate al Cambio Positivo",
+    "subtitle": "Comparte tus conocimientos, tiempo y compromiso para transformar nuestra comunidad.",
+    "cta": "Hacerse Voluntario"
+  }
+}

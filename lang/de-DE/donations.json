@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Spenden und Förderbeiträge",
+    "subtitle": "Ihre Hilfe stiftet nachhaltige Zukunftsperspektiven mit transparenter Mittelverwendung."
+  },
+  "frequency": {
+    "once": "Einmalige Spende",
+    "monthly": "Monatlicher Beitrag",
+    "annual": "Jährliche Zuwendung"
+  },
+  "step1_title": "1. Spendendauer Wählen",
+  "step2_title": "2. Förderbetrag Wählen & Wirkung Simulieren",
+  "step2_desc": "Wählen Sie einen Vorschlagswert oder tragen Sie einen Wunschbetrag ein:",
+  "step3_title": "3. Zahlungsart Festlegen",
+  "tiers": {
+    "t30": "Ermöglicht 1 komplettes Lernpaket mit Heften, Stiften und Schulmaterialien für Grundschulkinder.",
+    "t60": "Sichert die ausgewogene tägliche Schulspeisung eines Kindes für einen gesamten Unterrichtsmonat.",
+    "t150": "Finanziert schulische Nachhilfe und grundlegende IT-Kurse für zwei benachteiligte Jugendliche.",
+    "t500": "Deckt Werkzeuge und die vollständige handwerkliche Ausbildung einer ganzen Familie ab.",
+    "t1000": "Strategischer Investitionsbeitrag für Hardware und Internetverbindung in einem Stadtteillabor."
+  },
+  "custom_placeholder": "Individueller Betrag (R$ / EUR)",
+  "disclaimer": "Hinweis: Die dargestellten Auswirkungen sind statistische Modellrechnungen auf Basis durchschnittlicher Programmkosten des Instituts.",
+  "pix": {
+    "title": "Sofortüberweisung via PIX (Brasilien)",
+    "copy_code": "PIX-Code Kopieren",
+    "copied": "PIX-Code erfolgreich kopiert!",
+    "expires": "Code für sofortige Buchung generiert",
+    "instructions": "Öffnen Sie Ihre Bank-App, wählen Sie 'PIX Copia e Cola' und bestätigen Sie die Überweisung."
+  },
+  "card": {
+    "title": "Kreditkarte",
+    "name_placeholder": "Name auf der Karte",
+    "number_placeholder": "0000 0000 0000 0000",
+    "expiry_placeholder": "MM/JJ",
+    "cvv_placeholder": "Prüfziffer",
+    "btn_pay": "Sichere Spende Abschließen"
+  }
+}

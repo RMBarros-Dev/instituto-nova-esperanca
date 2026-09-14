@@ -1,1 +1,53 @@
-{}
+{
+  "header": {
+    "title": "História, Princípios e Governança",
+    "subtitle": "Conheça as bases éticas, a trajetória de impacto e as lideranças que conduzem o Instituto Nova Esperança."
+  },
+  "manifesto": {
+    "title": "Nosso Manifesto Institucional",
+    "p1": "Acreditamos que a dignidade humana não é concessão, mas direito inalienável. Nascemos da indignação ativa diante da desigualdade estrutural que marginaliza comunidades do Entorno do Distrito Federal.",
+    "p2": "Trabalhamos ao lado das famílias, não apenas por elas. Nossa missão é oferecer ferramentas metodológicas, apoio pedagógico e oportunidades econômicas para que cada pessoa seja arquiteta de seu próprio destino."
+  },
+  "history": {
+    "title": "Trajetória de Realizações",
+    "t2020": "Fundação em Valparaíso de Goiás em resposta direta ao colapso alimentar durante a crise sanitária.",
+    "t2022": "Inauguração do polo de reforço escolar e lançamento das primeiras hortas agroecológicas comunitárias.",
+    "t2024": "Estruturação dos cursos técnicos profissionalizantes de panificação, corte industrial e inclusão digital.",
+    "t2026": "Mais de 12.480 beneficiários assistidos, auditoria independente com 91,2% de eficiência social e expansão territorial."
+  },
+  "mission_vision": {
+    "mission_title": "Nossa Missão",
+    "mission_text": "Desenvolver o potencial humano de comunidades em vulnerabilidade por meio da educação emancipatória, soberania alimentar e geração de trabalho digno.",
+    "vision_title": "Nossa Visão",
+    "vision_text": "Ser referência nacional e internacional em governança ética, transparência contábil e métodos escaláveis de erradicação da extrema pobreza periférica.",
+    "values_title": "Nossos Valores",
+    "v1_title": "Transparência Radical",
+    "v1_desc": "Prestação de contas pública, dados abertos e tolerância zero a desvios.",
+    "v2_title": "Equidade & Inclusão",
+    "v2_desc": "Acesso universal sem distinção de gênero, raça, credo ou origem social.",
+    "v3_title": "Soberania Comunitária",
+    "v3_desc": "Escuta atenta e protagonismo das lideranças locais em cada decisão.",
+    "v4_title": "Excelência Técnica",
+    "v4_desc": "Metodologias pedagógicas e sociais avaliadas por evidências mensuráveis."
+  },
+  "governance": {
+    "title": "Conselho Diretor & Governança",
+    "subtitle": "Profissionais dedicados com atuação comprovada nas áreas social, jurídica, pedagógica e contábil.",
+    "d1_role": "Diretora-Presidente",
+    "d1_name": "Jardy Silva",
+    "d1_bio": "Especialista em Gestão de Políticas Públicas e Desenvolvimento Territorial com 15 anos de dedicação ao terceiro setor.",
+    "d2_role": "Coordenadora Pedagógica",
+    "d2_name": "Dra. Helena Ribeiro",
+    "d2_bio": "Doutora em Educação pela UnB, pesquisadora de letramento em periferias e autora de metodologias de ensino inclusivo.",
+    "d3_role": "Diretor Financeiro & Compliance",
+    "d3_name": "Marcelo Pires",
+    "d3_bio": "Auditor contábil com pós-graduação em Governança Corporativa e membro ativo do Conselho Fiscal."
+  },
+  "compliance": {
+    "title": "Conformidade Ética e Registros Públicos",
+    "text": "Operamos em conformidade irrestrita com as Leis 13.019/2014 (MROSC) e 9.608/1998 (Voluntariado), com certidões negativas de débito permanentemente atualizadas.",
+    "cert_statute": "Estatuto Social Registrado em Cartório de Registro Civil",
+    "cert_audit": "Auditoria Contábil Independente em Padrão CFC",
+    "cert_tax": "Regularidade Fiscal Plena perante Receita Federal e Município"
+  }
+}

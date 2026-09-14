@@ -1,1 +1,44 @@
-{}
+{
+  "header": {
+    "title": "Portal für Finanztransparenz",
+    "subtitle": "Geprüfte Jahresabschlüsse, Mittelherkunft und Nachweis der Mittelverwendung (CFC / ITG 2002)."
+  },
+  "stat_revenue": "Gesamteinnahmen",
+  "stat_applied": "Eingesetzte Mittel",
+  "stat_efficiency": "Förderquote in Projekten",
+  "stat_beneficiaries": "Unterstützte Personen",
+  "revenue_section": {
+    "title": "Herkunft der Mittel",
+    "subtitle": "Nachhaltige Finanzierungsstruktur",
+    "categories": {
+      "individual_donations": "Private Einzelspenden",
+      "institutional_partnerships": "Institutionelle Partnerschaften",
+      "public_grants": "Stiftungsgelder und Förderprogramme",
+      "corporate_esg": "Unternehmenskooperationen (ESG)",
+      "investments_other": "Erträge und Sonstige Einnahmen"
+    }
+  },
+  "expense_section": {
+    "title": "Aufteilung der Ausgaben",
+    "subtitle": "Rechnungslegungsmethode CFC / ITG 2002",
+    "categories": {
+      "projects": "Sozialpädagogische Projekte (Satzungszweck)",
+      "administrative": "Leitung und Verwaltung",
+      "fundraising": "Mittelbeschaffung (Fundraising)",
+      "communication": "Öffentlichkeitsarbeit und Berichte",
+      "operations": "Betriebs- und Gebäudekosten"
+    }
+  },
+  "table": {
+    "title": "Vollständige Jahresrechnung",
+    "caption": "Geprüfter Jahresabschluss des Instituto Nova Esperança",
+    "col_category": "Haushaltsposition",
+    "col_value": "Eingesetzter Betrag",
+    "col_percentage": "Anteil (%)"
+  },
+  "reports_section": {
+    "title": "Offizielle Dokumente & Prüfberichte",
+    "subtitle": "Offizielle Rechenschaftsberichte mit Bestätigungsvermerk unabhängiger Wirtschaftsprüfer.",
+    "btn_download": "PDF Herunterladen"
+  }
+}

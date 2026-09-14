@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Häufig Gestellte Fragen (FAQ)",
+    "subtitle": "Wichtige Antworten zu Spendenabwicklung, Ehrenamt, Bildungsförderung und Finanztransparenz."
+  },
+  "categories": {
+    "all": "Alle Fragen",
+    "donations": "Spenden & Finanzen",
+    "volunteer": "Ehrenamt",
+    "projects": "Projekte & Förderung",
+    "governance": "Governance & ESG"
+  },
+  "items": [
+    {
+      "q": "Wie wird garantiert, dass Spenden direkt bei den Betroffenen ankommen?",
+      "a": "Mit einer Programmförderquote von über 90 % fließen mehr als 90 Cent jedes gespendeten Betrags unmittelbar in Mahlzeiten, Schulmaterialien und Ausbildungsmodule vor Ort."
+    },
+    {
+      "q": "Sind Spenden steuerlich abzugsfähig?",
+      "a": "Ja. Spenden können im Rahmen der jeweils geltenden steuerlichen Bestimmungen für gemeinnützige Zuwendungen geltend gemacht werden."
+    },
+    {
+      "q": "Wie läuft die Bewerbung für ein Ehrenamt ab?",
+      "a": "Über unseren 7-stufigen Online-Fragebogen erfassen wir Ihre Fachgebiete. Anschließend erfolgt ein persönliches Kennenlernen und eine Sicherheitsschulung zum Kindeswohl."
+    },
+    {
+      "q": "Können Unternehmen gezielte ESG-Partnerschaften eingehen?",
+      "a": "Ja. Wir bieten maßgeschneiderte Kooperationspakete mit vierteljährlichen Wirkungsberichten nach dem internationalen GRI-Berichtsstandard."
+    },
+    {
+      "q": "Wo finden die Schulungen und Bildungsangebote statt?",
+      "a": "In unseren festen Gemeindezentren in Valparaíso de Goiás unter kontinuierlicher Anleitung durch qualifiziertes pädagogisches Fachpersonal."
+    },
+    {
+      "q": "Besteht die Möglichkeit, das Institut vor Ort zu besuchen?",
+      "a": "Selbstverständlich! Wir pflegen transparente Türen. Aus Rücksicht auf den ungestörten Unterrichtsbetrieb bitten wir um vorherige Terminabstimmung."
+    }
+  ]
+}

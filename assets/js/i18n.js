@@ -1,7 +1,7 @@
 /**
  * INSTITUTO NOVA ESPERANÇA — I18N MANAGER V7.2+
- * Motor de Internacionalização para 6 Idiomas (PT, EN, ES, FR, DE, JP)
- * Suporte a Dashboards, Busca Global, Estados de Interface e Formatação Internacional
+ * Motor de Internacionalização Integral para 6 Idiomas (PT, EN, ES, FR, DE, JA)
+ * Conformidade com a Diretriz "🌐 INTERNATIONALIZATION — ZERO TOLERANCE"
  */
 
 class I18nManager {
@@ -11,6 +11,8 @@ class I18nManager {
     this.currentLang = this.defaultLang;
     this.dictionary = {};
     this.fallbackDictionary = {};
+    this.rawBundle = {};
+    this.fallbackRawBundle = {};
     this.storageKey = 'ine_current_lang';
   }
 
@@ -39,16 +41,36 @@ class I18nManager {
   flattenObject(obj, prefix = '') {
     let result = {};
     for (const key in obj) {
-      if (typeof obj[key] === 'object' && obj[key] !== null && !Array.isArray(obj[key])) {
-        const nested = this.flattenObject(obj[key], `${prefix}${key}.`);
+      if (!Object.prototype.hasOwnProperty.call(obj, key)) continue;
+      const val = obj[key];
+      const fullKey = prefix ? `${prefix}.${key}` : key;
+
+      if (val !== null && typeof val === 'object' && !Array.isArray(val)) {
+        const nested = this.flattenObject(val, fullKey);
         Object.assign(result, nested);
       } else {
-        result[`${prefix}${key}`] = obj[key];
-        // Adiciona alias com underscore para compatibilidade (ex: nav_home -> navigation.home)
-        const parts = `${prefix}${key}`.split('.');
-        if (parts.length > 1) {
+        result[fullKey] = val;
+
+        // Cria atalhos convenientes para compatibilidade (ex: common.nav.home -> nav_home)
+        const parts = fullKey.split('.');
+        if (parts.length >= 3 && parts[1] === 'nav') {
+          const alias = `nav_${parts[2]}`;
+          if (!result[alias]) result[alias] = val;
+        } else if (parts.length >= 3 && parts[1] === 'skip') {
+          const alias = `skip_${parts[2]}`;
+          if (!result[alias]) result[alias] = val;
+        } else if (parts.length >= 3 && parts[1] === 'a11y') {
+          const alias = `a11y_${parts[2]}`;
+          if (!result[alias]) result[alias] = val;
+        } else if (parts.length >= 3 && parts[1] === 'footer') {
+          const alias = `footer_${parts[2]}`;
+          if (!result[alias]) result[alias] = val;
+        } else if (parts.length >= 3 && parts[1] === 'states') {
+          const alias = `state_${parts[2]}`;
+          if (!result[alias]) result[alias] = val;
+        } else if (parts.length >= 2) {
           const alias = `${parts[0]}_${parts[1]}`;
-          if (!result[alias]) result[alias] = obj[key];
+          if (!result[alias]) result[alias] = val;
         }
       }
     }
@@ -56,16 +78,38 @@ class I18nManager {
   }
 
   async loadDictionary(lang) {
+    // 1. Tenta carregar o pacote consolidado em assets/locales/
     try {
       const res = await fetch(`assets/locales/${lang}.json`);
       if (res.ok) {
         const json = await res.json();
-        return this.flattenObject(json);
+        return {
+          raw: json,
+          flat: this.flattenObject(json)
+        };
       }
     } catch (e) {
-      console.warn(`[i18n] Não foi possível carregar assets/locales/${lang}.json:`, e);
+      console.warn(`[i18n] Fallback para carregamento modular de lang/${lang}/`, e);
     }
-    return {};
+
+    // 2. Fallback para carregar diretamente de lang/<lang>/*.json
+    const modules = [
+      'common', 'home', 'about', 'projects', 'impact', 'donations',
+      'blog', 'transparency', 'contact', 'faq', 'accessibility', 'forms'
+    ];
+    const raw = {};
+    for (const mod of modules) {
+      try {
+        const res = await fetch(`lang/${lang}/${mod}.json`);
+        if (res.ok) {
+          raw[mod] = await res.json();
+        }
+      } catch (err) {}
+    }
+    return {
+      raw: raw,
+      flat: this.flattenObject(raw)
+    };
   }
 
   async setLanguage(lang) {
@@ -77,18 +121,33 @@ class I18nManager {
     } catch (e) {}
 
     // Carrega dicionário ativo
-    this.dictionary = await this.loadDictionary(lang);
+    const bundle = await this.loadDictionary(lang);
+    this.dictionary = bundle.flat;
+    this.rawBundle = bundle.raw;
 
     // Carrega fallback pt-BR se não for o padrão
     if (lang !== this.defaultLang) {
       if (Object.keys(this.fallbackDictionary).length === 0) {
-        this.fallbackDictionary = await this.loadDictionary(this.defaultLang);
+        const fallbackBundle = await this.loadDictionary(this.defaultLang);
+        this.fallbackDictionary = fallbackBundle.flat;
+        this.fallbackRawBundle = fallbackBundle.raw;
       }
     } else {
       this.fallbackDictionary = this.dictionary;
+      this.fallbackRawBundle = this.rawBundle;
     }
 
     this.translateDOM();
+  }
+
+  getModule(name) {
+    if (this.rawBundle && this.rawBundle[name]) {
+      return this.rawBundle[name];
+    }
+    if (this.fallbackRawBundle && this.fallbackRawBundle[name]) {
+      return this.fallbackRawBundle[name];
+    }
+    return {};
   }
 
   get(key) {
@@ -96,8 +155,10 @@ class I18nManager {
       return this.dictionary[key];
     }
     if (this.fallbackDictionary[key] !== undefined && this.fallbackDictionary[key] !== '') {
+      console.warn(`[i18n ZERO TOLERANCE] Chave "${key}" usando fallback no idioma "${this.currentLang}"`);
       return this.fallbackDictionary[key];
     }
+    console.error(`[i18n ZERO TOLERANCE] Chave ausente: "${key}" no idioma "${this.currentLang}"`);
     return '';
   }
 
@@ -143,8 +204,13 @@ class I18nManager {
 
     window.currentLangFormat = this.currentLang;
 
-    // Dispara evento para que gráficos, tabelas e filtros atualizem suas formatações
-    window.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang: this.currentLang } }));
+    // Dispara evento global para sincronização de componentes e dashboards
+    window.dispatchEvent(new CustomEvent('languageChanged', {
+      detail: {
+        lang: this.currentLang,
+        bundle: this.rawBundle
+      }
+    }));
   }
 
   async init() {
@@ -166,7 +232,7 @@ class I18nManager {
   }
 }
 
-// Formatadores Globais Nativos
+// Formatadores Globais Nativos com Sensibilidade Regional
 window.formatCurrency = function (amount, currency = 'BRL') {
   return new Intl.NumberFormat(window.currentLangFormat || 'pt-BR', {
     style: 'currency',

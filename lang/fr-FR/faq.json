@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Foire Aux Questions (FAQ)",
+    "subtitle": "Toutes les réponses à vos questions sur les dons, le bénévolat, nos actions de terrain et la gouvernance."
+  },
+  "categories": {
+    "all": "Toutes les Questions",
+    "donations": "Dons & Financement",
+    "volunteer": "Bénévolat",
+    "projects": "Programmes Sociaux",
+    "governance": "Gouvernance & RSE"
+  },
+  "items": [
+    {
+      "q": "Comment s'assurer que mon don bénéficie directement aux familles accompagnées ?",
+      "a": "Notre taux d'efficacité sociale dépasse 90 %, ce qui signifie que plus de 90 centimes par euro collecté financent directement nos actions pédagogiques et de sécurité alimentaire."
+    },
+    {
+      "q": "Les dons sont-ils éligibles à des réductions fiscales ?",
+      "a": "Oui. Les entreprises et les particuliers peuvent bénéficier des dispositifs légaux de déduction fiscale applicables aux organismes sans but lucratif reconnus."
+    },
+    {
+      "q": "Comment se déroule l'intégration des bénévoles ?",
+      "a": "Un formulaire d'inscription en 7 étapes permet d'évaluer vos compétences. Nous organisons ensuite un entretien d'accueil et une formation obligatoire sur la protection des mineurs."
+    },
+    {
+      "q": "Les entreprises peuvent-elles cofinancer des programmes spécifiques (RSE) ?",
+      "a": "Absolument. Nous proposons des conventions partenariales adaptées aux enjeux RSE, avec des indicateurs d'impact audités conformes aux standards internationaux GRI."
+    },
+    {
+      "q": "Où se déroulent les ateliers périscolaires et les repas partagés ?",
+      "a": "Dans nos locaux communautaires sécurisés à Valparaíso de Goiás, encadrés en permanence par des éducateurs diplômés et des travailleurs sociaux."
+    },
+    {
+      "q": "Est-il possible de visiter les centres du projet sur place ?",
+      "a": "Oui ! Nous prônons une politique de portes ouvertes responsable. Les visites sont organisées sur rendez-vous préalable pour préserver le rythme d'apprentissage des enfants."
+    }
+  ]
+}

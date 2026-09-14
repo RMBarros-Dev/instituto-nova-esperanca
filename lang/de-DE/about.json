@@ -1,1 +1,53 @@
-{}
+{
+  "header": {
+    "title": "Geschichte, Werte und Leitung",
+    "subtitle": "Erfahren Sie mehr über unsere ethischen Grundlagen, bisherige Erfolge und das Führungsteam des Instituto Nova Esperança."
+  },
+  "manifesto": {
+    "title": "Unser Institutionelles Manifest",
+    "p1": "Wir sind überzeugt: Menschliche Würde ist kein Privileg, sondern ein unveräußerliches Grundrecht. Unsere Arbeit entstand aus dem festen Willen, strukturelle Ungleichheiten in benachteiligten Vorstädten zu überwinden.",
+    "p2": "Wir arbeiten partnerschaftlich mit den Familien. Unser Ziel ist es, Wissen, Fertigkeiten und wirtschaftliche Chancen bereitzustellen, damit Menschen ihr Leben selbstbestimmt gestalten können."
+  },
+  "history": {
+    "title": "Meilensteine Unserer Arbeit",
+    "t2020": "Gründung in Valparaíso de Goiás zur direkten Linderung der akuten Ernährungsnot während der Pandemie.",
+    "t2022": "Eröffnung des Bildungsförderzentrums und Anlage der ersten ökologischen Gemeinschaftsgärten.",
+    "t2024": "Aufbau anerkannter Ausbildungslehrgänge in Handwerk, Textilproduktion und IT-Grundlagen.",
+    "t2026": "Über 12.480 unterstützte Menschen, externe Prüfung mit 91,2 % Projektaufwandsquote und nachhaltiges Wachstum."
+  },
+  "mission_vision": {
+    "mission_title": "Unsere Mission",
+    "mission_text": "Entfaltung der menschlichen Potenziale in marginalisierten Gemeinschaften durch emanzipatorische Bildung, Ernährungssicherheit und faire Arbeitsmöglichkeiten.",
+    "vision_title": "Unsere Vision",
+    "vision_text": "Ein international anerkanntes Vorbild für transparente Non-Profit-Governance und skalierbare Ansätze zur Armutsbekämpfung zu sein.",
+    "values_title": "Unsere Werte",
+    "v1_title": "Radikale Transparenz",
+    "v1_desc": "Vollständige Offenlegung der Mittelverwendung und konsequente Kontrollmechanismen.",
+    "v2_title": "Chancengleichheit",
+    "v2_desc": "Diskriminierungsfreier Zugang für alle Menschen unabhängig von Herkunft oder Geschlecht.",
+    "v3_title": "Lokale Selbstbestimmung",
+    "v3_desc": "Aktive Mitgestaltung der Projekte durch die Bewohnerinnen und Bewohner vor Ort.",
+    "v4_title": "Fachliche Qualität",
+    "v4_desc": "Wissenschaftlich fundierte pädagogische Methoden mit messbaren Erfolgen."
+  },
+  "governance": {
+    "title": "Vorstand und Geschäftsführung",
+    "subtitle": "Erfahrene Fachkräfte aus Sozialarbeit, Pädagogik, Recht und Wirtschaftsprüfung.",
+    "d1_role": "Geschäftsführende Vorsitzende",
+    "d1_name": "Jardy Silva",
+    "d1_bio": "Expertin für Sozialpolitik und Kommunalentwicklung mit 15 Jahren Führungserfahrung im Non-Profit-Sektor.",
+    "d2_role": "Pädagogische Leitung",
+    "d2_name": "Dr. Helena Ribeiro",
+    "d2_bio": "Promovierte Erziehungswissenschaftlerin (UnB), Autorin partizipativer Bildungskonzepte.",
+    "d3_role": "Leiter Finanzen & Compliance",
+    "d3_name": "Marcelo Pires",
+    "d3_bio": "Wirtschaftsprüfer mit Spezialisierung auf transparente Verbandssteuerung und Rechnungslegung."
+  },
+  "compliance": {
+    "title": "Rechtliche Anerkennung und Satzung",
+    "text": "Volle Gemeinnützigkeit nach brasilianischem Verbandsrecht mit lückenlos nachgewiesener steuerlicher Unbedenklichkeit.",
+    "cert_statute": "Amtlich Beglaubigte und Registrierte Vereinssatzung",
+    "cert_audit": "Unabhängiger Prüfbericht nach Internationalen Rechnungslegungsstandards",
+    "cert_tax": "Steuerliche Unbedenklichkeitsbescheinigungen Aller Ebenen"
+  }
+}

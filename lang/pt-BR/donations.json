@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Doações e Investimento Social",
+    "subtitle": "Sua contribuição transforma vidas com prestação de contas transparente e impacto auditado."
+  },
+  "frequency": {
+    "once": "Doação Única",
+    "monthly": "Mensal Recorrente",
+    "annual": "Aporte Anual"
+  },
+  "step1_title": "1. Escolha a Periodicidade",
+  "step2_title": "2. Selecione o Valor & Simule o Impacto",
+  "step2_desc": "Escolha um dos patamares de contribuição ou digite um valor personalizado:",
+  "step3_title": "3. Escolha o Método de Pagamento",
+  "tiers": {
+    "t30": "Garante 1 kit pedagógico individual com caderno, lápis e materiais didáticos para o letramento infantil.",
+    "t60": "Fornece alimentação saudável e balanceada para uma criança durante um mês letivo completo.",
+    "t150": "Financia oficinas de reforço escolar e letramento digital para dois jovens em situação de vulnerabilidade.",
+    "t500": "Mantém insumos e capacitação técnica de panificação ou costura para uma família inteira.",
+    "t1000": "Aporte institucional estratégico que viabiliza conectividade e equipamentos para um laboratório comunitário."
+  },
+  "custom_placeholder": "Outro valor (R$)",
+  "disclaimer": "Aviso: Os impactos exibidos são estimativas demonstrativas baseadas na média histórica de custos operacionais das ações do Instituto.",
+  "pix": {
+    "title": "Pagamento Instantâneo via PIX",
+    "copy_code": "Copiar Código PIX",
+    "copied": "Código PIX copiado para a área de transferência!",
+    "expires": "Chave gerada válida para liquidação instantânea",
+    "instructions": "Abra o aplicativo do seu banco, selecione a opção PIX Copia e Cola e confirme a operação."
+  },
+  "card": {
+    "title": "Cartão de Crédito Nacional ou Internacional",
+    "name_placeholder": "Nome impresso no cartão",
+    "number_placeholder": "0000 0000 0000 0000",
+    "expiry_placeholder": "MM/AA",
+    "cvv_placeholder": "CVV",
+    "btn_pay": "Concluir Doação Segura"
+  }
+}

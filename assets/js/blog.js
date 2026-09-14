@@ -15,6 +15,13 @@
   let speechUtterance = null;
   let isSpeaking = false;
 
+  function getBlogModule() {
+    if (window.i18n && typeof window.i18n.getModule === 'function') {
+      return window.i18n.getModule('blog') || {};
+    }
+    return {};
+  }
+
   async function loadArticles() {
     const grid = document.getElementById('blog-articles-grid');
     if (grid) {
@@ -25,6 +32,29 @@
         </div>
       `;
     }
+
+    const mod = getBlogModule();
+    if (mod && Array.isArray(mod.articles) && mod.articles.length > 0) {
+      articles = mod.articles;
+      renderArticles();
+      checkUrlParams();
+      return;
+    }
+
+    const lang = window.currentLangFormat || 'pt-BR';
+    try {
+      // Tenta carregar do módulo de idioma ativo
+      const res = await fetch(`lang/${lang}/blog.json`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && Array.isArray(data.articles)) {
+          articles = data.articles;
+          renderArticles();
+          checkUrlParams();
+          return;
+        }
+      }
+    } catch (e) {}
 
     try {
       const res = await fetch('assets/data/blog.json');
@@ -94,6 +124,9 @@
       return;
     }
 
+    const mod = getBlogModule();
+    const readMoreText = mod.read_more || 'Ler Artigo →';
+
     grid.innerHTML = filtered.map(art => {
       const imgHtml = window.MediaManager ? 
         window.MediaManager.createImageHTML({
@@ -104,6 +137,8 @@
           className: 'blog-card-media'
         }) : 
         `<img src="${art.coverImage}" alt="${art.title}" class="blog-card-img" loading="lazy">`;
+
+      const dateFormatted = window.formatDate ? window.formatDate(new Date(art.date + 'T12:00:00')) : art.date;
 
       return `
         <article class="card blog-card" style="display: flex; flex-direction: column; overflow: hidden; padding: 0;">
@@ -122,8 +157,8 @@
               ${art.lead}
             </p>
             <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border); padding-top: 0.75rem; font-size: 0.8125rem;">
-              <span style="color: var(--text-muted);">${art.date}</span>
-              <button type="button" class="btn btn-outline btn-sm" data-article-open="${art.slug}">Ler Artigo →</button>
+              <span style="color: var(--text-muted);">${dateFormatted}</span>
+              <button type="button" class="btn btn-outline btn-sm" data-article-open="${art.slug}">${readMoreText}</button>
             </div>
           </div>
         </article>
@@ -149,6 +184,8 @@
     const listSec = document.getElementById('blog-list-section');
     const articleContainer = document.getElementById('article-view-container');
     const contentBox = document.getElementById('article-reader-content');
+    const mod = getBlogModule();
+    const reader = mod.reader || {};
 
     if (pushState) {
       savedScrollPosition = window.scrollY;
@@ -169,6 +206,17 @@
         className: 'mb-xl'
       }) : '';
 
+    const authorLabel = reader.by_author || 'Por:';
+    const dateFormatted = window.formatDate ? window.formatDate(new Date(art.date + 'T12:00:00')) : art.date;
+    const readingTimeLabel = reader.reading_time_prefix || 'Tempo de leitura:';
+    const listenLabel = reader.listen_button || 'Ouvir Artigo';
+    const shareTitle = reader.share_title || 'Compartilhar este conhecimento:';
+    const shareWhatsApp = reader.share_whatsapp || 'WhatsApp';
+    const shareLinkedIn = reader.share_linkedin || 'LinkedIn';
+    const shareTwitter = reader.share_twitter || 'Twitter / X';
+    const shareCopy = reader.share_copy || 'Copiar Link';
+    const relatedTitle = reader.related_title || 'Artigos Relacionados';
+
     if (contentBox) {
       contentBox.innerHTML = `
         <article class="article-reader-wrapper">
@@ -182,14 +230,14 @@
             </p>
             
             <div class="article-meta-bar" style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; padding-block: 0.75rem; border-block: 1px solid var(--border); font-size: 0.85rem; color: var(--text-muted);">
-              <span>✍️ <strong>Autor:</strong> ${art.author}</span>
-              <span>📅 <strong>Data:</strong> ${art.date}</span>
-              <span>⏱️ <strong>Leitura:</strong> ${art.readingTime}</span>
+              <span>✍️ <strong>${authorLabel}</strong> ${art.author}</span>
+              <span>📅 <strong>${dateFormatted}</strong></span>
+              <span>⏱️ <strong>${readingTimeLabel}</strong> ${art.readingTime}</span>
               
               <!-- Controles de Áudio TTS -->
               <div class="tts-player-bar ml-auto">
-                <button type="button" class="btn btn-outline btn-sm" id="btn-tts-toggle" aria-label="Ouvir artigo">
-                  🔊 <span id="tts-label">Ouvir Artigo</span>
+                <button type="button" class="btn btn-outline btn-sm" id="btn-tts-toggle" aria-label="${listenLabel}">
+                  🔊 <span id="tts-label">${listenLabel}</span>
                 </button>
               </div>
             </div>
@@ -211,12 +259,12 @@
             </div>
 
             <div class="article-share-panel card p-lg" style="background: var(--surface-alt); margin-bottom: 2rem;">
-              <h4 style="font-size: 0.95rem; font-weight: 800; margin-bottom: 0.75rem;">Compartilhar este conhecimento:</h4>
+              <h4 style="font-size: 0.95rem; font-weight: 800; margin-bottom: 0.75rem;">${shareTitle}</h4>
               <div style="display: flex; flex-wrap: wrap; gap: 0.6rem;">
                 <button type="button" class="btn btn-primary btn-sm" id="share-native">Compartilhar ↗</button>
-                <button type="button" class="btn btn-outline btn-sm" id="share-whatsapp">WhatsApp</button>
-                <button type="button" class="btn btn-outline btn-sm" id="share-linkedin">LinkedIn</button>
-                <button type="button" class="btn btn-outline btn-sm" id="share-copy">Copiar Link</button>
+                <button type="button" class="btn btn-outline btn-sm" id="share-whatsapp">${shareWhatsApp}</button>
+                <button type="button" class="btn btn-outline btn-sm" id="share-linkedin">${shareLinkedIn}</button>
+                <button type="button" class="btn btn-outline btn-sm" id="share-copy">${shareCopy}</button>
                 <button type="button" class="btn btn-outline btn-sm" id="share-print">🖨️ Imprimir</button>
               </div>
             </div>
@@ -225,12 +273,12 @@
             <div style="display: flex; justify-content: space-between; gap: 1rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
               ${prevArticle ? `
                 <button type="button" class="btn btn-outline btn-sm" data-nav-article="${prevArticle.slug}">
-                  ← Anterior: ${prevArticle.title.substring(0, 32)}...
+                  ← ${prevArticle.title.substring(0, 32)}...
                 </button>
               ` : '<div></div>'}
               ${nextArticle ? `
                 <button type="button" class="btn btn-outline btn-sm" data-nav-article="${nextArticle.slug}">
-                  Próximo: ${nextArticle.title.substring(0, 32)}... →
+                  ${nextArticle.title.substring(0, 32)}... →
                 </button>
               ` : '<div></div>'}
             </div>
@@ -238,7 +286,7 @@
             <!-- Artigos Relacionados -->
             ${related.length > 0 ? `
               <div class="related-articles-box">
-                <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 1rem;">Artigos Relacionados em ${art.category}</h3>
+                <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 1rem;">${relatedTitle} (${art.category})</h3>
                 <div class="grid-3">
                   ${related.map(r => `
                     <div class="card p-md" style="font-size: 0.875rem;">
@@ -258,7 +306,7 @@
         </article>
       `;
 
-      bindArticleEvents(art);
+      bindArticleEvents(art, reader);
     }
 
     if (hero) hero.style.display = 'none';
@@ -269,9 +317,11 @@
     initReadingProgress();
   }
 
-  function bindArticleEvents(art) {
+  function bindArticleEvents(art, reader = {}) {
     const url = window.location.href;
     const title = art.title;
+    const listenLabel = reader.listen_button || 'Ouvir Artigo';
+    const stopLabel = reader.btn_stop || 'Parar Áudio ⏹️';
 
     // TTS Áudio
     const ttsBtn = document.getElementById('btn-tts-toggle');
@@ -286,7 +336,7 @@
         if (isSpeaking) {
           window.speechSynthesis.cancel();
           isSpeaking = false;
-          if (ttsLabel) ttsLabel.textContent = 'Ouvir Artigo';
+          if (ttsLabel) ttsLabel.textContent = listenLabel;
         } else {
           window.speechSynthesis.cancel();
           const cleanText = `${art.title}. ${art.subtitle}. ${art.lead}.`;
@@ -295,11 +345,11 @@
           speechUtterance.rate = 1.0;
           speechUtterance.onend = () => {
             isSpeaking = false;
-            if (ttsLabel) ttsLabel.textContent = 'Ouvir Artigo';
+            if (ttsLabel) ttsLabel.textContent = listenLabel;
           };
           window.speechSynthesis.speak(speechUtterance);
           isSpeaking = true;
-          if (ttsLabel) ttsLabel.textContent = 'Parar Áudio ⏹️';
+          if (ttsLabel) ttsLabel.textContent = stopLabel;
         }
       });
     }
@@ -445,6 +495,25 @@
         openArticle(id, false);
       } else {
         closeArticle(false);
+      }
+    });
+
+    // Listener de Mudança Global de Idioma
+    window.addEventListener('languageChanged', (e) => {
+      const mod = getBlogModule();
+      if (mod && Array.isArray(mod.articles) && mod.articles.length > 0) {
+        articles = mod.articles;
+      }
+      renderArticles();
+      if (currentArticle) {
+        const updated = articles.find(a => a.id === currentArticle.id || a.slug === currentArticle.slug);
+        if (updated) {
+          if (isSpeaking && window.speechSynthesis) {
+            window.speechSynthesis.cancel();
+            isSpeaking = false;
+          }
+          openArticle(updated.slug || updated.id, false);
+        }
       }
     });
   }

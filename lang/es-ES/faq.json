@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Preguntas Frecuentes (FAQ)",
+    "subtitle": "Encuentre respuestas claras sobre donaciones, voluntariado, rendición de cuentas y programas sociales."
+  },
+  "categories": {
+    "all": "Todas las Preguntas",
+    "donations": "Donaciones y Finanzas",
+    "volunteer": "Voluntariado",
+    "projects": "Proyectos y Atención",
+    "governance": "Gobernanza y Alianzas"
+  },
+  "items": [
+    {
+      "q": "¿Cómo garantiza el Instituto que mi donación llegue a quienes realmente la necesitan?",
+      "a": "Mantenemos una eficiencia social superior al 90%, lo que asegura que más de 90 centavos de cada real donado se destinen directamente a las actividades pedagógicas y nutricionales sobre el terreno."
+    },
+    {
+      "q": "¿Se pueden deducir las donaciones del impuesto a la renta?",
+      "a": "Sí. Tanto personas jurídicas como físicas pueden canalizar donaciones amparadas en incentivos fiscales previstos en la legislación correspondiente."
+    },
+    {
+      "q": "¿Cómo es el proceso para incorporarse como voluntario?",
+      "a": "Completando nuestro asistente digital en 7 pasos donde se indican habilidades e intereses. Luego coordinamos una entrevista formativa y un taller sobre salvaguardia infantil."
+    },
+    {
+      "q": "¿Pueden las empresas patrocinar proyectos con criterios ESG?",
+      "a": "Sí. Contamos con paquetes de inversión corporativa desde aportes iniciales hasta fondos de preservación patrimonial, con informes trimestrales auditados bajo estándar GRI."
+    },
+    {
+      "q": "¿Dónde se desarrollan las clases y talleres infantiles?",
+      "a": "En nuestros centros comunitarios ubicados en Valparaíso de Goiás, equipados con aulas de refuerzo escolar, cocinas solidarias y laboratorios digitales."
+    },
+    {
+      "q": "¿Se pueden visitar las instalaciones del Instituto?",
+      "a": "¡Por supuesto! Promovemos la transparencia abierta. Solo solicitamos agendar la visita con anticipación para resguardar la privacidad y el aprendizaje de los alumnos."
+    }
+  ]
+}

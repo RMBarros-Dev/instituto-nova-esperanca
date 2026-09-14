@@ -1,1 +1,87 @@
-{}
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "projects": "Proyectos",
+    "impact": "Nuestro Impacto",
+    "companies": "Empresas ESG",
+    "volunteer": "Voluntariado",
+    "transparency": "Transparencia",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "donate": "Donar Ahora",
+    "faq": "Preguntas Frecuentes"
+  },
+  "search": {
+    "placeholder": "Buscar en el Instituto (Ctrl+K)...",
+    "modal_title": "Buscar en el Instituto Nova Esperança",
+    "input_aria": "Campo de búsqueda global",
+    "no_results": "No se encontraron resultados para",
+    "hint": "Intente utilizar términos más generales como \"educación\", \"nutrición\" o \"donación\".",
+    "nav_hint": "Navegación: ↑ ↓ para mover • Enter para seleccionar",
+    "esc_close": "Esc para cerrar",
+    "categories": {
+      "projects": "Proyectos",
+      "blog": "Noticias y Artículos",
+      "transparency": "Transparencia y Cuentas",
+      "donations": "Donaciones y Apoyo",
+      "faq": "Preguntas Frecuentes"
+    }
+  },
+  "a11y": {
+    "tools": "Herramientas de Accesibilidad",
+    "font_decrease": "Disminuir fuente (A-)",
+    "font_default": "Fuente predeterminada (A)",
+    "font_increase": "Aumentar fuente (A+)",
+    "high_contrast": "Alto Contraste",
+    "dark_mode": "Modo Oscuro",
+    "dyslexia_font": "Fuente para Dislexia",
+    "underline_links": "Subrayar Enlaces",
+    "reset": "Restablecer Valores",
+    "shortcuts_hint": "Atajos: Alt+1 Contenido | Alt+2 Menú | Alt+C Contraste | Ctrl+K Búsqueda"
+  },
+  "skip": {
+    "content": "Saltar al contenido principal",
+    "nav": "Saltar al menú de navegación",
+    "footer": "Saltar al pie de página"
+  },
+  "footer": {
+    "mission_summary": "Transformación social continua a través de educación integral, seguridad alimentaria y capacitación técnica en la periferia del Distrito Federal.",
+    "col_institutional": "Institucional",
+    "col_programs": "Programas",
+    "col_support": "Cómo Ayudar",
+    "col_contact": "Atención",
+    "rights": "© 2026 Instituto Nova Esperança. Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "cookies": "Cookies",
+    "accessibility": "Accesibilidad",
+    "governance": "Gobernanza y Estatutos",
+    "address_short": "Valparaíso de Goiás — GO | Entorno del DF"
+  },
+  "states": {
+    "loading": "Cargando información...",
+    "error_title": "No se pudieron cargar los datos",
+    "error_desc": "Ocurrió un error temporal. Por favor, revise su conexión o intente nuevamente.",
+    "empty_title": "No se encontraron elementos",
+    "empty_desc": "Intente limpiar los filtros o realizar una búsqueda con términos más amplios.",
+    "offline_title": "Modo Fuera de Línea",
+    "offline_desc": "Está desconectado. Mostrando datos seguros guardados en memoria caché.",
+    "btn_retry": "Reintentar",
+    "btn_clear_filters": "Limpiar filtros"
+  },
+  "toast": {
+    "link_copied": "¡Enlace copiado al portapapeles con éxito!",
+    "form_success": "¡Su mensaje fue enviado con éxito! Nos comunicaremos a la brevedad.",
+    "form_error": "Por favor, corrija los campos señalados antes de enviar el formulario.",
+    "offline_notice": "Conexión perdida. La plataforma seguirá funcionando sin conexión.",
+    "online_restored": "Conexión restablecida. Datos sincronizados con éxito."
+  },
+  "cookie": {
+    "title": "Gestión de Privacidad y Cookies",
+    "message": "Utilizamos cookies indispensables para la navegación accesible y métricas anónimas en conformidad con las leyes de protección de datos.",
+    "accept": "Aceptar Todas",
+    "decline": "Solo Esenciales",
+    "preferences": "Preferencias"
+  },
+  "lang_name": "Español"
+}

@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "subtitle": "Find clear answers about financial contributions, volunteering, social programs, and governance."
+  },
+  "categories": {
+    "all": "All Questions",
+    "donations": "Giving & Finances",
+    "volunteer": "Volunteering",
+    "projects": "Programs & Impact",
+    "governance": "Governance & ESG"
+  },
+  "items": [
+    {
+      "q": "How does Instituto Nova Esperança ensure my contribution reaches those in need?",
+      "a": "We maintain a social efficiency rate exceeding 90%, meaning over 90 cents of every dollar donated directly funds core community programs. Every income stream and expenditure is independently audited and publicly released."
+    },
+    {
+      "q": "Are donations tax-deductible?",
+      "a": "Yes. In Brazil and through international partner fiscal sponsorships, corporate entities and individuals can deduct eligible contributions under applicable non-profit fiscal incentive laws."
+    },
+    {
+      "q": "How does the volunteer recruitment and onboarding process work?",
+      "a": "Our 7-step digital assistant registers your skills and schedule availability. We then schedule an interview and complete safeguarding training before field assignment."
+    },
+    {
+      "q": "Can corporate partners create bespoke ESG impact tiers?",
+      "a": "Yes. We offer structured corporate sponsorships ranging from R$ 1,000 up to endowment gifts exceeding R$ 100,000, accompanied by quarterly GRI-aligned impact reports."
+    },
+    {
+      "q": "Where do youth and child activities take place?",
+      "a": "All activities are held in dedicated community learning hubs in Valparaíso de Goiás and Cidade Ocidental, supervised by our licensed educators and social workers."
+    },
+    {
+      "q": "Can visitors tour the Institute's facilities?",
+      "a": "Yes! We practice radical open transparency. Site visits can be scheduled in advance through our contact page to respect child safeguarding protocols."
+    }
+  ]
+}

@@ -1,1 +1,131 @@
-{}
+{
+  "header": {
+    "title": "Programmes Structurants d'Impact Social",
+    "subtitle": "Des actions de terrain continues pour l'émancipation humaine, la citoyenneté active et la sortie durable de la grande précarité."
+  },
+  "filters": {
+    "all": "Tous les Programmes",
+    "education": "Éducation Intégrale",
+    "nutrition": "Sécurité Alimentaire",
+    "income": "Insertion Productive",
+    "infrastructure": "Infrastructures Locales"
+  },
+  "programs": [
+    {
+      "id": "novos-caminhos",
+      "slug": "novos-caminhos",
+      "name": "Novos Caminhos — Éducation & Citoyenneté",
+      "category": "Éducation Intégrale",
+      "area": "Éducation, Alphabétisation et Jeunesse",
+      "summary": "Soutien scolaire intensif en lecture et calcul, ateliers d'informatique, robotique libre et suivi psychologique pour les élèves défavorisés.",
+      "territory": "Valparaíso de Goiás (Quartiers Céu Azul, Anhanguera et Ipanema)",
+      "description": "Dispositif périscolaire reposant sur une pédagogie bienveillante, un suivi individuel et une étroite coopération avec les parents.",
+      "objectives": "Combler le retard scolaire accumulé, prévenir le décrochage et développer l'esprit critique des enfants des écoles publiques.",
+      "targets": "Accompagner 4 500 élèves par an, maintenir le taux d'abandon scolaire sous 2% et encourager les vocations scientifiques.",
+      "indicators": [
+        {
+          "label": "Décrochage Scolaire Inférieur à",
+          "value": "< 1.8%"
+        },
+        {
+          "label": "Élèves Primés aux Concours",
+          "value": "18"
+        },
+        {
+          "label": "Heures de Soutien / An",
+          "value": "1 840h"
+        }
+      ],
+      "status": "Actif / En Développement",
+      "cta_donate": "Soutenir ce Projet",
+      "cta_volunteer": "Devenir Tuteur Bénévole"
+    },
+    {
+      "id": "prato-transforma",
+      "slug": "prato-transforma",
+      "name": "Prato que Transforma — Nutrition & Jardins Partagés",
+      "category": "Sécurité Alimentaire",
+      "area": "Souveraineté Alimentaire, Agroécologie et Santé",
+      "summary": "Lutte contre la malnutrition chronique grâce à des cantines solidaires, des jardins potagers urbains et des ateliers d'alimentation saine.",
+      "territory": "Valparaíso de Goiás et Cidade Ocidental",
+      "description": "Circuit court solidaire combinant approvisionnement direct auprès de petits maraîchers locaux et distribution de déjeuners nutritifs.",
+      "objectives": "Garantir un apport nutritionnel sain aux enfants et personnes âgées isolées, tout en favorisant l'autonomie vivrière des quartiers.",
+      "targets": "Servir plus de 150 000 repas équilibrés par an, créer 5 potagers scolaires et former 300 foyers au maraîchage biologique.",
+      "indicators": [
+        {
+          "label": "Repas Équilibrés Servis / An",
+          "value": "145 000"
+        },
+        {
+          "label": "Potagers Partagés Actifs",
+          "value": "240"
+        },
+        {
+          "label": "Tonnes de Légumes Récoltées",
+          "value": "68 ton"
+        }
+      ],
+      "status": "Actif / Continu",
+      "cta_donate": "Offrir des Repas",
+      "cta_volunteer": "Aider aux Jardins"
+    },
+    {
+      "id": "renda-futuro",
+      "slug": "renda-futuro",
+      "name": "Renda e Futuro — Insertion & Économie Sociale",
+      "category": "Insertion Productive",
+      "area": "Formation Professionnelle, Emploi et Micro-entrepreneuriat",
+      "summary": "Formations techniques en confection textile, boulangerie artisanale et bureautique, complétées par un accompagnement au microcrédit.",
+      "territory": "Agglomération de la Périphérie de Brasília",
+      "description": "Parcours certifiants courts adaptés aux besoins immédiats des entreprises de la zone logistique, destinés en priorité aux mères isolées.",
+      "objectives": "Assurer l'indépendance financière durable des ménages par l'accès à des emplois stables ou la création de micro-entreprises.",
+      "targets": "Former 2 000 stagiaires par an, dépasser 60% d'immatriculation d'activités indépendantes et incuber 50 ateliers coopératifs.",
+      "indicators": [
+        {
+          "label": "Diplômés Immatriculés Déclarés",
+          "value": "64%"
+        },
+        {
+          "label": "Activités Artisanales Incubées",
+          "value": "42"
+        },
+        {
+          "label": "Hausse Moyenne du Revenu Foyer",
+          "value": "+74%"
+        }
+      ],
+      "status": "Actif / Inscriptions Ouvertes",
+      "cta_donate": "Financer des Bourses",
+      "cta_volunteer": "Devenir Mentor Pro"
+    },
+    {
+      "id": "comunidade-viva",
+      "slug": "comunidade-viva",
+      "name": "Comunidade Viva — Aménagement & Solidarité",
+      "category": "Infrastructures Locales",
+      "area": "Développement Territorial et Mobilisation Citoyenne",
+      "summary": "Chantiers collectifs de réhabilitation d'espaces verts, sécurisation de l'éclairage public et réunions de quartier participatives.",
+      "territory": "Valparaíso de Goiás (Secteurs Céu Azul et Anhanguera)",
+      "description": "Urbanisme participatif où les résidents identifient eux-mêmes les urgences de leur cadre de vie et mènent des travaux de réaménagement.",
+      "objectives": "Retisser le lien social de proximité, prévenir les tensions urbaines par l'appropriation positive des places publiques.",
+      "targets": "Réhabiliter 8 espaces publics par an, réunir 500 bénévoles sur les chantiers et pérenniser des conseils de quartier représentatifs.",
+      "indicators": [
+        {
+          "label": "Espaces Publics Rénovés",
+          "value": "12"
+        },
+        {
+          "label": "Habitants Mobilisés sur Chantiers",
+          "value": "620"
+        },
+        {
+          "label": "Baisse des Incidents de Quartier",
+          "value": "-38%"
+        }
+      ],
+      "status": "Actif / Participatif",
+      "cta_donate": "Financer les Travaux",
+      "cta_volunteer": "Participer aux Chantiers"
+    }
+  ]
+}

@@ -24,6 +24,37 @@
     operations: { pt: 'Operações e Manutenção Predial', en: 'Operations & Facilities', es: 'Operaciones e Instalaciones', fr: 'Opérations & Infrastructures', de: 'Betrieb & Instandhaltung', ja: '施設管理・運営' }
   };
 
+  const REVENUE_KEYS_MAP = {
+    donations: 'individual_donations',
+    partnerships: 'institutional_partnerships',
+    grants: 'public_grants',
+    corporate: 'corporate_esg',
+    other: 'investments_other'
+  };
+
+  function getRevenueLabel(key) {
+    if (window.i18n && typeof window.i18n.getModule === 'function') {
+      const mod = window.i18n.getModule('transparency');
+      const mapped = REVENUE_KEYS_MAP[key] || key;
+      if (mod && mod.revenue_section && mod.revenue_section.categories && mod.revenue_section.categories[mapped]) {
+        return mod.revenue_section.categories[mapped];
+      }
+    }
+    const lang = getLangPrefix();
+    return (REVENUE_LABELS[key] && REVENUE_LABELS[key][lang]) || (REVENUE_LABELS[key] && REVENUE_LABELS[key]['pt']) || key;
+  }
+
+  function getExpenseLabel(key) {
+    if (window.i18n && typeof window.i18n.getModule === 'function') {
+      const mod = window.i18n.getModule('transparency');
+      if (mod && mod.expense_section && mod.expense_section.categories && mod.expense_section.categories[key]) {
+        return mod.expense_section.categories[key];
+      }
+    }
+    const lang = getLangPrefix();
+    return (EXPENSE_LABELS[key] && EXPENSE_LABELS[key][lang]) || (EXPENSE_LABELS[key] && EXPENSE_LABELS[key]['pt']) || key;
+  }
+
   function getLangPrefix() {
     const code = window.currentLangFormat || 'pt-BR';
     return code.substring(0, 2);
@@ -76,7 +107,6 @@
   function renderTransparency() {
     if (!transparencyData || !transparencyData[currentYear]) return;
     const data = transparencyData[currentYear];
-    const lang = getLangPrefix();
 
     // 1. Atualizar Stat Cards
     const revEl = document.getElementById('transp-total-revenue');
@@ -105,7 +135,7 @@
       expenseKeys.forEach(item => {
         const val = data.expenses[item.key] || 0;
         const pct = totalExp > 0 ? (val / totalExp) * 100 : 0;
-        const label = (EXPENSE_LABELS[item.key] && EXPENSE_LABELS[item.key][lang]) || EXPENSE_LABELS[item.key]['pt'];
+        const label = getExpenseLabel(item.key);
 
         svgHtml += `
           <div class="chart-bar-item">
@@ -129,7 +159,7 @@
     if (tableBody && data.expenses) {
       const totalExp = Object.values(data.expenses).reduce((a, b) => a + b, 0);
       const rows = Object.entries(data.expenses).map(([k, val]) => {
-        const label = (EXPENSE_LABELS[k] && EXPENSE_LABELS[k][lang]) || k;
+        const label = getExpenseLabel(k);
         const pct = (val / totalExp) * 100;
         return `
           <tr>
@@ -151,7 +181,7 @@
       const totalRev = data.revenue;
       let revHtml = `<div class="chart-bars-list">`;
       Object.entries(data.revenue_breakdown).forEach(([k, val]) => {
-        const label = (REVENUE_LABELS[k] && REVENUE_LABELS[k][lang]) || k;
+        const label = getRevenueLabel(k);
         const pct = (val / totalRev) * 100;
         revHtml += `
           <div class="chart-bar-item">

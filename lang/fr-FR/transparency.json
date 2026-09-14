@@ -1,1 +1,44 @@
-{}
+{
+  "header": {
+    "title": "Portail de Transparence Financière",
+    "subtitle": "Comptes audités, sources de financement et traçabilité des dépenses conformes aux normes CFC / ITG 2002."
+  },
+  "stat_revenue": "Total Collecté",
+  "stat_applied": "Ressources Engagées",
+  "stat_efficiency": "Affectation aux Projets Sociaux",
+  "stat_beneficiaries": "Bénéficiaires Accompagnés",
+  "revenue_section": {
+    "title": "Origine des Recettes",
+    "subtitle": "Modèle de Financement Durable",
+    "categories": {
+      "individual_donations": "Dons de Particuliers",
+      "institutional_partnerships": "Partenariats Institutionnels",
+      "public_grants": "Subventions et Fondations",
+      "corporate_esg": "Investissement Social d'Entreprise (RSE)",
+      "investments_other": "Produits Financiers et Autres Recettes"
+    }
+  },
+  "expense_section": {
+    "title": "Répartition des Dépenses",
+    "subtitle": "Méthodologie Comptable CFC / ITG 2002",
+    "categories": {
+      "projects": "Actions Socio-Éducatives (Cœur de Mission)",
+      "administrative": "Gouvernance et Administration",
+      "fundraising": "Collecte de Fonds et Développement",
+      "communication": "Communication et Rapports Publics",
+      "operations": "Fonctionnement et Entretien des Locaux"
+    }
+  },
+  "table": {
+    "title": "Bilan Comptable Récapitulatif",
+    "caption": "Comptabilité annuelle certifiée de l'Instituto Nova Esperança",
+    "col_category": "Poste Budgétaire",
+    "col_value": "Montant Affecté",
+    "col_percentage": "Part (%)"
+  },
+  "reports_section": {
+    "title": "Rapports d'Activité et Documents d'Audit",
+    "subtitle": "Documents officiels certifiés disponibles en téléchargement libre.",
+    "btn_download": "Télécharger PDF"
+  }
+}

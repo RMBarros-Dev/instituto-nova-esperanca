@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono / WhatsApp",
+    "cpf": "Documento de Identidad (CPF)",
+    "cnpj": "Identificación Fiscal (CNPJ)",
+    "company": "Razón Social o Empresa",
+    "interest_area": "Área de Interés",
+    "availability": "Disponibilidad Horaria",
+    "message": "Mensaje o Propuesta",
+    "partnership_type": "Modalidad de Alianza"
+  },
+  "placeholders": {
+    "name": "Escriba su nombre completo",
+    "email": "nombre@ejemplo.com",
+    "phone": "+55 (61) 98765-4321",
+    "cpf": "000.000.000-00",
+    "cnpj": "00.000.000/0001-00",
+    "company": "Nombre de su entidad o empresa",
+    "message": "Comparta detalles sobre sus objetivos o consultas..."
+  },
+  "validation": {
+    "required": "Este campo es obligatorio.",
+    "invalid_email": "Por favor, ingrese un correo electrónico válido.",
+    "invalid_phone": "Por favor, ingrese un número de teléfono válido.",
+    "invalid_cpf": "Documento no válido. Revise los números.",
+    "invalid_cnpj": "Identificación fiscal no válida. Revise los dígitos."
+  },
+  "buttons": {
+    "submit": "Enviar Formulario",
+    "submitting": "Enviando datos...",
+    "success_title": "¡Formulario Enviado con Éxito!",
+    "success_desc": "Gracias por contactarnos. Le responderemos en un plazo máximo de 48 horas laborables.",
+    "error_title": "Error al Enviar",
+    "error_desc": "Ocurrió una falla durante el envío. Por favor, reintente en unos instantes."
+  }
+}

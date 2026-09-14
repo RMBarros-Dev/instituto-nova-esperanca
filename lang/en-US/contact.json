@@ -1,1 +1,24 @@
-{}
+{
+  "header": {
+    "title": "Contact Channels & Headquarters",
+    "subtitle": "We welcome donors, volunteers, corporate partners, researchers, and community members."
+  },
+  "info": {
+    "address_title": "Territorial Headquarters",
+    "address_val": "Quadra 12, Lote 04 — Céu Azul, Valparaíso de Goiás — GO, Postal Code 72871-012, Brazil",
+    "hours_title": "Operating Hours",
+    "hours_val": "Monday to Friday: 8:00 AM – 6:00 PM | Saturday: 8:00 AM – 12:00 PM (Workshops)",
+    "phone_title": "Phone & WhatsApp",
+    "phone_val": "+55 (61) 98765-4321",
+    "email_title": "General Inquiries",
+    "email_val": "contact@instituonovaresperanca.org.br",
+    "ombudsman_title": "Ombudsman & Ethics Hotline",
+    "ombudsman_val": "ombudsman@instituonovaresperanca.org.br",
+    "press_title": "Media & Press Office",
+    "press_val": "press@instituonovaresperanca.org.br"
+  },
+  "territory": {
+    "title": "Our Footprint in the Federal District Suburbs",
+    "desc": "Targeting high-density suburban communities with pressing demand for public educational infrastructure and family assistance."
+  }
+}

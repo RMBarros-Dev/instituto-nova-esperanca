@@ -1,1 +1,87 @@
-{}
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "当団体について",
+    "projects": "活動プログラム",
+    "impact": "活動成果",
+    "companies": "企業・ESG連携",
+    "volunteer": "ボランティア",
+    "transparency": "情報公開",
+    "blog": "活動ブログ",
+    "contact": "お問い合わせ",
+    "donate": "今すぐ寄付する",
+    "faq": "よくあるご質問"
+  },
+  "search": {
+    "placeholder": "サイト内を検索 (Ctrl+K)...",
+    "modal_title": "ノヴァ・エスペランサ研究所 サイト内検索",
+    "input_aria": "全体検索入力欄",
+    "no_results": "該当する結果が見つかりませんでした：",
+    "hint": "「教育」「栄養支援」「寄付」などのキーワードでお試しください。",
+    "nav_hint": "操作方法：↑ ↓ キーで移動 • Enter で選択",
+    "esc_close": "Esc キーで閉じる",
+    "categories": {
+      "projects": "活動プログラム",
+      "blog": "ブログ・最新記事",
+      "transparency": "情報公開・財務諸表",
+      "donations": "寄付・支援方法",
+      "faq": "よくあるご質問"
+    }
+  },
+  "a11y": {
+    "tools": "アクセシビリティ設定",
+    "font_decrease": "文字サイズを小さく (A-)",
+    "font_default": "標準文字サイズ (A)",
+    "font_increase": "文字サイズを大きく (A+)",
+    "high_contrast": "ハイコントラスト表示",
+    "dark_mode": "ダークモード表示",
+    "dyslexia_font": "読みやすい支援フォント",
+    "underline_links": "リンクの下線強調",
+    "reset": "設定を初期化",
+    "shortcuts_hint": "ショートカット：Alt+1 本文へ | Alt+2 メニュー | Alt+C コントラスト | Ctrl+K 検索"
+  },
+  "skip": {
+    "content": "メインコンテンツへスキップ",
+    "nav": "主要ナビゲーションへスキップ",
+    "footer": "フッター情報へスキップ"
+  },
+  "footer": {
+    "mission_summary": "ブラジル首都圏周縁部における包括的教育、食料安全保障、職業訓練を通じた持続的な社会変革を推進しています。",
+    "col_institutional": "団体情報",
+    "col_programs": "活動分野",
+    "col_support": "ご支援方法",
+    "col_contact": "お問い合わせ",
+    "rights": "© 2026 ノヴァ・エスペランサ研究所. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "cookies": "Cookie設定",
+    "accessibility": "アクセシビリティ方針",
+    "governance": "ガバナンス・定款",
+    "address_short": "ヴァウパライゾ・デ・ゴイアス (首都連邦直轄区近郊)"
+  },
+  "states": {
+    "loading": "情報を読み込んでいます...",
+    "error_title": "データを読み込めませんでした",
+    "error_desc": "一時的な通信エラーが発生しました。接続を確認のうえ、再試行してください。",
+    "empty_title": "該当する項目が見つかりませんでした",
+    "empty_desc": "検索条件を変更するか、より一般的な語句でお試しください。",
+    "offline_title": "オフライン動作中",
+    "offline_desc": "インターネット未接続です。保存されている安全なキャッシュデータを表示しています。",
+    "btn_retry": "再読み込み",
+    "btn_clear_filters": "条件をクリア"
+  },
+  "toast": {
+    "link_copied": "リンクをクリップボードにコピーしました！",
+    "form_success": "お問い合わせを受け付けました。担当者より折り返しご連絡いたします。",
+    "form_error": "必須項目をご確認のうえ、再度送信してください。",
+    "offline_notice": "通信が切断されました。オフラインモードで継続利用可能です。",
+    "online_restored": "通信が復旧しました。最新データを同期しました。"
+  },
+  "cookie": {
+    "title": "プライバシーとCookieポリシー",
+    "message": "当サイトでは、快適な閲覧、アクセシビリティの向上、および匿名アクセス解析のために必要なCookieを使用しています。",
+    "accept": "すべて同意",
+    "decline": "必要最小限のみ",
+    "preferences": "設定詳細"
+  },
+  "lang_name": "日本語"
+}

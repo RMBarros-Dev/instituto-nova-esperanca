@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Donaciones e Inversión Social",
+    "subtitle": "Su aporte transforma vidas con rigurosa rendición de cuentas e impacto verificado."
+  },
+  "frequency": {
+    "once": "Donación Única",
+    "monthly": "Aporte Mensual",
+    "annual": "Aporte Anual"
+  },
+  "step1_title": "1. Seleccione la Periodicidad",
+  "step2_title": "2. Elija el Monto y Simule el Impacto",
+  "step2_desc": "Seleccione uno de los niveles de contribución o ingrese una cantidad personalizada:",
+  "step3_title": "3. Elija el Medio de Pago",
+  "tiers": {
+    "t30": "Asegura 1 kit escolar completo con cuadernos, útiles y material de alfabetización infantil.",
+    "t60": "Proporciona alimentación saludable y equilibrada a un niño durante todo un mes lectivo.",
+    "t150": "Financia tutorías escolares y talleres de informática básica para dos jóvenes del barrio.",
+    "t500": "Cubre insumos y capacitación técnica en panadería o costura para una familia completa.",
+    "t1000": "Aporte institucional estratégico que permite equipar y dotar de internet a un aula comunitaria."
+  },
+  "custom_placeholder": "Otro importe (R$)",
+  "disclaimer": "Aviso: Los impactos indicados son estimaciones orientativas calculadas a partir de los costes medios de operación del Instituto.",
+  "pix": {
+    "title": "Pago Instantáneo vía PIX (Brasil)",
+    "copy_code": "Copiar Código PIX",
+    "copied": "¡Código PIX copiado al portapapeles!",
+    "expires": "Código generado válido para acreditación inmediata",
+    "instructions": "Abra la aplicación de su entidad financiera, elija PIX Copia y Pega y confirme la operación."
+  },
+  "card": {
+    "title": "Tarjeta de Crédito o Débito",
+    "name_placeholder": "Nombre impreso en la tarjeta",
+    "number_placeholder": "0000 0000 0000 0000",
+    "expiry_placeholder": "MM/AA",
+    "cvv_placeholder": "CVV",
+    "btn_pay": "Confirmar Donación Segura"
+  }
+}

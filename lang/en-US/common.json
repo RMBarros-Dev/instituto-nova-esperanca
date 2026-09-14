@@ -1,1 +1,87 @@
-{}
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Programs",
+    "impact": "Our Impact",
+    "companies": "Corporate ESG",
+    "volunteer": "Volunteer",
+    "transparency": "Transparency",
+    "blog": "Blog",
+    "contact": "Contact",
+    "donate": "Donate Now",
+    "faq": "FAQ"
+  },
+  "search": {
+    "placeholder": "Search the Institute (Ctrl+K)...",
+    "modal_title": "Search Instituto Nova Esperança",
+    "input_aria": "Global search field",
+    "no_results": "No results found for",
+    "hint": "Try using broader terms such as \"education\", \"nutrition\" or \"donation\".",
+    "nav_hint": "Navigation: ↑ ↓ to navigate • Enter to select",
+    "esc_close": "Esc to close",
+    "categories": {
+      "projects": "Programs",
+      "blog": "News & Insights",
+      "transparency": "Transparency & Audits",
+      "donations": "Donations & Giving",
+      "faq": "Frequently Asked Questions"
+    }
+  },
+  "a11y": {
+    "tools": "Accessibility Tools",
+    "font_decrease": "Decrease font size (A-)",
+    "font_default": "Default font size (A)",
+    "font_increase": "Increase font size (A+)",
+    "high_contrast": "High Contrast",
+    "dark_mode": "Dark Mode",
+    "dyslexia_font": "Dyslexia Friendly Font",
+    "underline_links": "Underline Links",
+    "reset": "Reset Defaults",
+    "shortcuts_hint": "Shortcuts: Alt+1 Content | Alt+2 Menu | Alt+C Contrast | Ctrl+K Search"
+  },
+  "skip": {
+    "content": "Skip to main content",
+    "nav": "Skip to primary navigation",
+    "footer": "Skip to footer"
+  },
+  "footer": {
+    "mission_summary": "Continuous social transformation through comprehensive education, food security, and professional empowerment in the Federal District Suburbs.",
+    "col_institutional": "Institutional",
+    "col_programs": "Programs",
+    "col_support": "Ways to Give",
+    "col_contact": "Contact",
+    "rights": "© 2026 Instituto Nova Esperança. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Settings",
+    "accessibility": "Accessibility Statement",
+    "governance": "Governance & Bylaws",
+    "address_short": "Valparaíso de Goiás — GO | Federal District Suburbs"
+  },
+  "states": {
+    "loading": "Loading information...",
+    "error_title": "Unable to load data",
+    "error_desc": "A temporary error occurred. Please check your network connection or try again.",
+    "empty_title": "No items found",
+    "empty_desc": "Try clearing your filters or searching with broader terms.",
+    "offline_title": "Offline Mode",
+    "offline_desc": "You are currently disconnected. Displaying secure cached local data.",
+    "btn_retry": "Try again",
+    "btn_clear_filters": "Clear filters"
+  },
+  "toast": {
+    "link_copied": "Link successfully copied to clipboard!",
+    "form_success": "Your message has been sent successfully! We will get back to you shortly.",
+    "form_error": "Please correct the errors in the highlighted fields before submitting.",
+    "offline_notice": "Connection lost. The platform will continue operating in offline mode.",
+    "online_restored": "Connection reestablished. Data synchronized successfully."
+  },
+  "cookie": {
+    "title": "Privacy & Cookie Management",
+    "message": "We use essential cookies for seamless navigation, accessibility, and anonymous metrics in strict compliance with data privacy regulations.",
+    "accept": "Accept All",
+    "decline": "Essential Only",
+    "preferences": "Preferences"
+  },
+  "lang_name": "English (US)"
+}

@@ -1,1 +1,131 @@
-{}
+{
+  "header": {
+    "title": "Strategic Community Impact Programs",
+    "subtitle": "Continuous grassroots solutions focused on human emancipation, civic participation, and eradicating extreme poverty."
+  },
+  "filters": {
+    "all": "All Programs",
+    "education": "Comprehensive Education",
+    "nutrition": "Nutritional Security",
+    "income": "Productive Inclusion",
+    "infrastructure": "Community Infrastructure"
+  },
+  "programs": [
+    {
+      "id": "novos-caminhos",
+      "slug": "novos-caminhos",
+      "name": "Novos Caminhos — Education & Citizenship",
+      "category": "Comprehensive Education",
+      "area": "Education, Literacy, and Youth Development",
+      "summary": "After-school academic tutoring in mathematics and reading, computer science workshops, open-source robotics, and mental health support for youth.",
+      "territory": "Valparaíso de Goiás (Céu Azul, Anhanguera, and Ipanema Neighborhoods)",
+      "description": "A participatory after-school educational program ensuring individualized socio-pedagogical guidance and active parental involvement.",
+      "objectives": "Close the educational achievement gap, eliminate school dropouts, and nurture analytical thinking in public school students.",
+      "targets": "Serve 4,500 students annually, sustain dropout rates below 2%, and prepare 100% of elementary students for academic competitions.",
+      "indicators": [
+        {
+          "label": "School Dropout Reduced to",
+          "value": "< 1.8%"
+        },
+        {
+          "label": "Math Olympiad Awardees",
+          "value": "18"
+        },
+        {
+          "label": "Tutoring Classroom Hours / Year",
+          "value": "1,840h"
+        }
+      ],
+      "status": "Active / Expanding",
+      "cta_donate": "Support This Program",
+      "cta_volunteer": "Become a Tutor"
+    },
+    {
+      "id": "prato-transforma",
+      "slug": "prato-transforma",
+      "name": "Prato que Transforma — Nutrition & Urban Farms",
+      "category": "Nutritional Security",
+      "area": "Food Sovereignty, Agroecology, and Health",
+      "summary": "Combating chronic food insecurity through community kitchens, urban agroecological farms, and comprehensive nutrition education.",
+      "territory": "Valparaíso de Goiás and Cidade Ocidental",
+      "description": "A circular local model pairing direct procurement from family farmers, urban farm management on vacant lots, and daily nutritious meal distribution.",
+      "objectives": "Ensure wholesome meals for vulnerable youth and seniors, eliminate child malnutrition, and promote sustainable nutritional sovereignty.",
+      "targets": "Deliver over 150,000 nutritious meals annually, establish 5 new school gardens, and train 300 households in urban composting.",
+      "indicators": [
+        {
+          "label": "Nutritious Meals Served / Year",
+          "value": "145,000"
+        },
+        {
+          "label": "Active Community Micro-Farms",
+          "value": "240"
+        },
+        {
+          "label": "Harvested Fresh Produce",
+          "value": "68 tons"
+        }
+      ],
+      "status": "Active / Continuous",
+      "cta_donate": "Sponsor Meals",
+      "cta_volunteer": "Help at Urban Farms"
+    },
+    {
+      "id": "renda-futuro",
+      "slug": "renda-futuro",
+      "name": "Renda e Futuro — Livelihoods & Work",
+      "category": "Productive Inclusion",
+      "area": "Vocational Training, Employment, and Entrepreneurship",
+      "summary": "Certified technical training in industrial textile design, commercial baking, and technology, supported by microfinance mentorship.",
+      "territory": "Federal District Suburbs Metropolitan Area",
+      "description": "Accelerated job training tailored to actual labor market demands in regional logistics hubs, prioritizing single mothers and low-income families.",
+      "objectives": "Achieve lasting economic self-sufficiency for vulnerable households through small business incubation and formal job placement.",
+      "targets": "Train 2,000 individuals annually, attain micro-enterprise formalization rates above 60%, and incubate 50 new neighborhood cooperatives.",
+      "indicators": [
+        {
+          "label": "Graduates Formally Registered",
+          "value": "64%"
+        },
+        {
+          "label": "Incubated Small Businesses",
+          "value": "42"
+        },
+        {
+          "label": "Average Family Income Growth",
+          "value": "+74%"
+        }
+      ],
+      "status": "Active / Enrollment Open",
+      "cta_donate": "Fund Scholarships",
+      "cta_volunteer": "Become a Business Mentor"
+    },
+    {
+      "id": "comunidade-viva",
+      "slug": "comunidade-viva",
+      "name": "Comunidade Viva — Infrastructure & Social Cohesion",
+      "category": "Community Infrastructure",
+      "area": "Regional Development and Civic Engagement",
+      "summary": "Mobilizing local residents for public park restoration, solar street lighting, collective housing improvements, and neighborhood forums.",
+      "territory": "Valparaíso de Goiás (Céu Azul and Anhanguera Hubs)",
+      "description": "A social urbanism framework where community members identify their neighborhood priorities and jointly execute public space revitalizations.",
+      "objectives": "Reinforce community social fabric, curb urban violence through vibrant public gathering spaces, and foster civic responsibility.",
+      "targets": "Revitalize 8 public neighborhood spaces annually, engage 500 residents in mutual aid cleanups, and maintain active district boards.",
+      "indicators": [
+        {
+          "label": "Public Spaces Revitalized",
+          "value": "12"
+        },
+        {
+          "label": "Residents Engaged in Action Days",
+          "value": "620"
+        },
+        {
+          "label": "Incident Reduction in Target Areas",
+          "value": "-38%"
+        }
+      ],
+      "status": "Active / Grassroots",
+      "cta_donate": "Fund Upgrades",
+      "cta_volunteer": "Join Action Days"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Nome Completo",
+    "email": "E-mail de Contato",
+    "phone": "Telefone / WhatsApp",
+    "cpf": "CPF",
+    "cnpj": "CNPJ da Empresa",
+    "company": "Razão Social / Nome da Empresa",
+    "interest_area": "Área de Interesse",
+    "availability": "Disponibilidade de Horário",
+    "message": "Mensagem ou Proposta",
+    "partnership_type": "Modalidade de Parceria"
+  },
+  "placeholders": {
+    "name": "Digite seu nome completo",
+    "email": "exemplo@dominio.com.br",
+    "phone": "(61) 98765-4321",
+    "cpf": "000.000.000-00",
+    "cnpj": "00.000.000/0001-00",
+    "company": "Nome da sua organização",
+    "message": "Compartilhe detalhes sobre seu objetivo ou proposta..."
+  },
+  "validation": {
+    "required": "Este campo é de preenchimento obrigatório.",
+    "invalid_email": "Por favor, insira um endereço de e-mail válido.",
+    "invalid_phone": "Por favor, digite um número com DDD válido.",
+    "invalid_cpf": "CPF inválido. Verifique os números digitados.",
+    "invalid_cnpj": "CNPJ inválido. Verifique os números digitados."
+  },
+  "buttons": {
+    "submit": "Enviar Dados",
+    "submitting": "Processando envio...",
+    "success_title": "Formulário Enviado com Sucesso!",
+    "success_desc": "Agradecemos seu contato. Nossa equipe responderá em até 48 horas úteis.",
+    "error_title": "Não foi possível enviar",
+    "error_desc": "Ocorreu um erro na transmissão. Por favor, tente novamente."
+  }
+}

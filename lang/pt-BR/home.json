@@ -1,1 +1,44 @@
-{}
+{
+  "hero": {
+    "badge": "Transformação Territorial • Valparaíso de Goiás",
+    "title": "Construindo Dignidade, Educação e Futuro no Entorno do DF",
+    "subtitle": "Atuamos na raiz da vulnerabilidade social através de educação integral, segurança alimentar e inclusão produtiva para milhares de famílias.",
+    "cta_donate": "Fazer Doação",
+    "cta_projects": "Conhecer Projetos",
+    "stat_people": "12.480+",
+    "stat_people_label": "Pessoas Atendidas",
+    "stat_meals": "145.000+",
+    "stat_meals_label": "Refeições Distribuídas",
+    "stat_efficiency": "91.2%",
+    "stat_efficiency_label": "Eficiência em Projetos",
+    "stat_hours": "18.400h",
+    "stat_hours_label": "Horas de Voluntariado"
+  },
+  "pillars": {
+    "title": "Nossos Quatro Pilares de Atuação",
+    "subtitle": "Uma metodologia integrada desenhada para romper os ciclos intergeracionais de pobreza.",
+    "p1_title": "Educação Integral",
+    "p1_desc": "Reforço escolar, letramento digital e acolhimento para crianças e adolescentes.",
+    "p2_title": "Segurança Nutricional",
+    "p2_desc": "Alimentação saudável, hortas urbanas comunitárias e dignidade à mesa.",
+    "p3_title": "Renda & Trabalho",
+    "p3_desc": "Cursos profissionalizantes, microcrédito orientado e emancipação feminina.",
+    "p4_title": "Coesão Comunitária",
+    "p4_desc": "Fortalecimento de lideranças de bairro, mutirões e infraestrutura local."
+  },
+  "impact_preview": {
+    "title": "Impacto Auditável e Mensurável",
+    "subtitle": "Cada real investido é acompanhado com rigor contábil e métricas públicas de evolução social.",
+    "cta": "Acessar Painel de Impacto"
+  },
+  "transparency_preview": {
+    "title": "Transparência Ativa",
+    "subtitle": "Prestação de contas aberta em conformidade com as diretrizes do CFC / ITG 2002.",
+    "cta": "Ver Balanços e Relatórios"
+  },
+  "volunteer_cta": {
+    "title": "Faça Parte da Mudança",
+    "subtitle": "Doe seu tempo, conhecimento e empatia para transformar a realidade da nossa comunidade.",
+    "cta": "Seja Voluntário"
+  }
+}

@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Mehrjähriges Wirkungs-Dashboard",
+    "subtitle": "Geprüfte Kennzahlen und kontinuierliche Entwicklung des Instituto Nova Esperança (2023–2026)."
+  },
+  "fiscal_year_prefix": "Geschäfts- und Sozialjahr",
+  "status_target": "Jahresziel",
+  "status_audited": "Geprüft",
+  "timeline_aria": "Jahr für die Auswertung auswählen",
+  "indicators": {
+    "beneficiaries": "Direkt Geförderte Menschen",
+    "meals": "Ausgegebene Vollwertmahlzeiten",
+    "pedagogical_kits": "Verteilte Schul- und Lernpakete",
+    "trained_women": "Frauen mit Berufsqualifizierung",
+    "workshops": "Durchgeführte Bildungsworkshops",
+    "families_assisted": "Kontinuierlich Betreute Familien",
+    "school_attendance": "Regelmäßige Schulbesuchsquote",
+    "project_approval": "Schulerfolgs- und Verbleibquote",
+    "funds_in_projects": "Mittelverwendung in Förderprojekten"
+  },
+  "growth_badge_positive_prefix": "+",
+  "growth_vs_previous": "im Vergleich zum Vorjahr",
+  "chart": {
+    "title": "Entwicklung der Sozialen Reichweite (2023–2026)",
+    "subtitle": "Stetiger Anstieg der erreichten Zielgruppen und der geleisteten Förderinvestitionen.",
+    "aria_label": "Liniendiagramm der jährlichen Reichweitenentwicklung von 2023 bis 2026",
+    "legend_beneficiaries": "Erreichte Personen",
+    "legend_investment": "Projektinvestitionen"
+  },
+  "table": {
+    "title": "Übersichtstabelle der Wirkungsindikatoren (2023–2026)",
+    "caption": "Konsolidierte Daten zur sozialen Arbeit des Instituto Nova Esperança nach WCAG AAA Standard",
+    "col_metric": "Indikator / Kennzahl",
+    "col_2023": "2023 (Geprüft)",
+    "col_2024": "2024 (Geprüft)",
+    "col_2025": "2025 (Konsolidiert)",
+    "col_2026": "2026 (Zielwert / Prognose)"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "お名前（氏名）",
+    "email": "メールアドレス",
+    "phone": "電話番号 / WhatsApp",
+    "cpf": "納税者番号（CPF）",
+    "cnpj": "法人番号（CNPJ）",
+    "company": "法人名・団体名",
+    "interest_area": "関心のある分野",
+    "availability": "参加可能な時間帯",
+    "message": "お問い合わせ内容・ご提案",
+    "partnership_type": "連携の形態"
+  },
+  "placeholders": {
+    "name": "お名前を入力してください",
+    "email": "example@domain.jp",
+    "phone": "+55 (61) 98765-4321",
+    "cpf": "000.000.000-00",
+    "cnpj": "00.000.000/0001-00",
+    "company": "ご所属の企業・団体名",
+    "message": "ご相談内容の詳細をご記入ください..."
+  },
+  "validation": {
+    "required": "この項目は入力必須です。",
+    "invalid_email": "有効なメールアドレスを入力してください。",
+    "invalid_phone": "有効な電話番号を入力してください。",
+    "invalid_cpf": "納税者番号の形式が正しくありません。",
+    "invalid_cnpj": "法人番号の形式が正しくありません。"
+  },
+  "buttons": {
+    "submit": "送信する",
+    "submitting": "送信処理中...",
+    "success_title": "送信が完了いたしました",
+    "success_desc": "お問い合わせありがとうございます。2営業日以内に担当よりご連絡いたします。",
+    "error_title": "送信に失敗しました",
+    "error_desc": "通信エラーが発生しました。時間をおいて再度お試しください。"
+  }
+}

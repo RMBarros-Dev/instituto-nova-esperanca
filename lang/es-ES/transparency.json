@@ -1,1 +1,44 @@
-{}
+{
+  "header": {
+    "title": "Portal de Transparencia Activa",
+    "subtitle": "Balances auditados, origen de ingresos y destino de fondos según directrices CFC / ITG 2002."
+  },
+  "stat_revenue": "Total Recaudado",
+  "stat_applied": "Recursos Aplicados",
+  "stat_efficiency": "Tasa en Programas Sociales",
+  "stat_beneficiaries": "Beneficiarios Atendidos",
+  "revenue_section": {
+    "title": "Origen de los Ingresos",
+    "subtitle": "Fuentes de Financiamiento Sostenible",
+    "categories": {
+      "individual_donations": "Donaciones Individuales",
+      "institutional_partnerships": "Alianzas Institucionales",
+      "public_grants": "Convocatorias y Fundaciones",
+      "corporate_esg": "Inversión Social Corporativa (ESG)",
+      "investments_other": "Rendimientos y Otros Ingresos"
+    }
+  },
+  "expense_section": {
+    "title": "Distribución del Gasto",
+    "subtitle": "Metodología CFC / ITG 2002",
+    "categories": {
+      "projects": "Proyectos Socioeducativos (Misión Directa)",
+      "administrative": "Gobernanza y Administración",
+      "fundraising": "Captación de Fondos (Fundraising)",
+      "communication": "Comunicación y Rendición Pública",
+      "operations": "Operaciones y Mantenimiento Edilicio"
+    }
+  },
+  "table": {
+    "title": "Estado Contable Detallado",
+    "caption": "Balance anual certificado del Instituto Nova Esperança",
+    "col_category": "Partida Presupuestaria",
+    "col_value": "Monto Aplicado",
+    "col_percentage": "Porcentaje (%)"
+  },
+  "reports_section": {
+    "title": "Documentos Oficiales e Informes de Auditoría",
+    "subtitle": "Archivos públicos de descarga con firma contable y dictamen independiente.",
+    "btn_download": "Descargar PDF"
+  }
+}

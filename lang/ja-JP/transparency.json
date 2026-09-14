@@ -1,1 +1,44 @@
-{}
+{
+  "header": {
+    "title": "情報公開・財務情報ポータル",
+    "subtitle": "公認会計士監査済みの財務諸表、資金調達の内訳、使途報告（CFC / ITG 2002会計基準準拠）。"
+  },
+  "stat_revenue": "年間総受入額",
+  "stat_applied": "事業投入総額",
+  "stat_efficiency": "社会事業活動費比率",
+  "stat_beneficiaries": "年間総支援者数",
+  "revenue_section": {
+    "title": "収入の構成内訳",
+    "subtitle": "持続可能な財政基盤",
+    "categories": {
+      "individual_donations": "個人からの寄付金",
+      "institutional_partnerships": "助成機関・団体提携金",
+      "public_grants": "公的助成金・財団拠出金",
+      "corporate_esg": "企業による社会的投資（ESG）",
+      "investments_other": "運用益・その他雑収入"
+    }
+  },
+  "expense_section": {
+    "title": "支出の分配内訳",
+    "subtitle": "CFC / ITG 2002会計基準に基づく分類",
+    "categories": {
+      "projects": "教育・福祉事業費（本来活動費）",
+      "administrative": "法人管理運営費",
+      "fundraising": "資金調達・広報活動費",
+      "communication": "情報開示・年次報告書作成費",
+      "operations": "施設維持・運営拠点管理費"
+    }
+  },
+  "table": {
+    "title": "年次決算内訳表",
+    "caption": "ノヴァ・エスペランサ研究所の監査済み年次財務諸表",
+    "col_category": "勘定科目 / 項目",
+    "col_value": "支出金額",
+    "col_percentage": "構成比率 (%)"
+  },
+  "reports_section": {
+    "title": "公式情報公開文書・年次監査報告書",
+    "subtitle": "独立公認会計士の署名付き監査報告書をPDF形式で全文ダウンロードいただけます。",
+    "btn_download": "PDFをダウンロード"
+  }
+}

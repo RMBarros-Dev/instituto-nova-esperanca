@@ -1,1 +1,53 @@
-{}
+{
+  "header": {
+    "title": "Historia, Principios y Gobernanza",
+    "subtitle": "Conozca los pilares éticos, la trayectoria de impacto y los líderes que guían al Instituto Nova Esperança."
+  },
+  "manifesto": {
+    "title": "Nuestro Manifiesto Institucional",
+    "p1": "Sostenemos que la dignidad humana es un derecho fundamental innegociable. Nacimos de la acción directa frente a la desigualdad que vulnera a los sectores periféricos del Distrito Federal.",
+    "p2": "Trabajamos codo a codo con las familias. Nuestro objetivo es aportar herramientas metodológicas, educación de calidad y capacitación laboral para que cada persona sea protagonista de su propia emancipación."
+  },
+  "history": {
+    "title": "Trayectoria de Transformación",
+    "t2020": "Fundación en Valparaíso de Goiás para atender la crisis alimentaria inmediata en barrios vulnerables.",
+    "t2022": "Apertura del centro de apoyo educativo y cultivo de los primeros huertos comunitarios agroecológicos.",
+    "t2024": "Consolidación de cursos de oficio en corte industrial, panificación y alfabetización digital.",
+    "t2026": "Más de 12.480 personas beneficiadas, auditoría independiente con 91,2% de inversión social directa y expansión comunitaria."
+  },
+  "mission_vision": {
+    "mission_title": "Nuestra Misión",
+    "mission_text": "Desarrollar el potencial humano de familias vulnerables a través de educación transformadora, seguridad alimentaria y empleo digno.",
+    "vision_title": "Nuestra Visión",
+    "vision_text": "Ser referente internacional en transparencia contable, gobernanza ética y modelos escalables contra la pobreza extrema.",
+    "values_title": "Nuestros Valores",
+    "v1_title": "Transparencia Absoluta",
+    "v1_desc": "Información financiera pública, datos abiertos y rigor administrativo.",
+    "v2_title": "Equidad e Inclusión",
+    "v2_desc": "Acceso universal sin discriminación de género, raza, religión o procedencia.",
+    "v3_title": "Autonomía Comunitaria",
+    "v3_desc": "Escucha activa y liderazgo vecinal en cada etapa de los proyectos.",
+    "v4_title": "Rigor Técnico",
+    "v4_desc": "Metodologías sociales auditadas y evaluadas en base a resultados comprobables."
+  },
+  "governance": {
+    "title": "Consejo Directivo y Gobierno",
+    "subtitle": "Profesionales comprometidos con amplia experiencia en gestión pública, pedagogía, derecho y contabilidad.",
+    "d1_role": "Directora Ejecutiva",
+    "d1_name": "Jardy Silva",
+    "d1_bio": "Especialista en Políticas Públicas y Desarrollo Social con 15 años de liderazgo en el tercer sector.",
+    "d2_role": "Coordinadora Pedagógica",
+    "d2_name": "Dra. Helena Ribeiro",
+    "d2_bio": "Doctora en Educación por la Universidad de Brasília (UnB), investigadora de alfabetización comunitaria.",
+    "d3_role": "Director de Finanzas y Compliance",
+    "d3_name": "Marcelo Pires",
+    "d3_bio": "Auditor colegiado con posgrado en Gobernanza Institucional y fiscalización de entidades sociales."
+  },
+  "compliance": {
+    "title": "Cumplimiento Ético y Registros Legales",
+    "text": "Operamos bajo estricto cumplimiento del marco legal de organizaciones sin fines de lucro, con certificados de solvencia fiscal siempre al día.",
+    "cert_statute": "Estatuto Social Inscrito en Registro Público Notarial",
+    "cert_audit": "Auditoría Contable Externa conforme a Normas Internacionales",
+    "cert_tax": "Regularidad Tributaria Plena ante Órganos Estatales y Federales"
+  }
+}

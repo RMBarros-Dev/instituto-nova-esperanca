@@ -1,1 +1,267 @@
-{}
+{
+  "header": {
+    "title": "News & Community Insights",
+    "subtitle": "Editorial articles, grassroots field reports, governance benchmarks, and non-profit best practices."
+  },
+  "search_placeholder": "Search articles by title, topic, or author...",
+  "filters": {
+    "all": "All Articles",
+    "education": "Education",
+    "nutrition": "Food Security",
+    "youth": "Youth",
+    "income": "Productive Inclusion",
+    "volunteer": "Volunteering",
+    "partnerships": "Partnerships",
+    "transparency": "Transparency",
+    "innovation": "Innovation",
+    "gender": "Gender & Rights"
+  },
+  "reader": {
+    "progress_bar_aria": "Article reading progress",
+    "listen_button": "Listen to Article",
+    "playing": "Audio playing...",
+    "paused": "Audio paused",
+    "btn_pause": "Pause",
+    "btn_resume": "Resume",
+    "btn_stop": "Stop",
+    "btn_back": "← Back to News",
+    "share_title": "Share this article:",
+    "share_whatsapp": "WhatsApp",
+    "share_linkedin": "LinkedIn",
+    "share_twitter": "Twitter / X",
+    "share_copy": "Copy Link",
+    "related_title": "Related Articles",
+    "reading_time_prefix": "Reading time:",
+    "by_author": "By"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "slug": "educacao-como-transformacao-social",
+      "title": "Education as social transformation: breaking vulnerability cycles in the Federal District Suburbs",
+      "subtitle": "Why continuous socio-pedagogical guidance and critical literacy are the most potent engines of social mobility.",
+      "category": "Education",
+      "author": "Dr. Helena Ribeiro, Head of Educational Programs",
+      "date": "2026-08-15",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-1.svg",
+      "tags": [
+        "Education",
+        "Inclusion",
+        "Youth",
+        "Valparaíso"
+      ],
+      "lead": "In Brazilian urban outskirts, school access is only the starting point. Without structured educational guidance and psycho-social care, thousands of teenagers drop out before completing secondary education.",
+      "content": "<h3>The Challenge of Comprehensive Literacy</h3><p>Educational conditions in suburban metropolitan regions impose unique hurdles. Data from educational census reviews shows that age-grade lag remains acute when contrasted against central urban areas.</p><p>At Instituto Nova Esperança, the <em>Novos Caminhos</em> initiative starts from the core belief that learning cannot be a passive transmission of facts. We focus on mathematics and language tutoring, coupled with critical inquiry and community robotics.</p><blockquote>\"When we give a child the conviction that their voice matters and their dreams are achievable, the entire family ecosystem transforms.\" — Helena Ribeiro</blockquote><h3>Measurable Progress and Participatory Learning</h3><p>Our methodology in Valparaíso de Goiás involves quarterly diagnostic assessments, individualized learning roadmaps, and active parental engagement. Over the past 18 months, 88% of enrolled students demonstrated documented academic improvement, cutting dropout rates to under 2%.</p>"
+    },
+    {
+      "id": 2,
+      "slug": "seguranca-alimentar-nutricional",
+      "title": "Food security and nutritional sovereignty: far beyond emergency famine relief",
+      "subtitle": "Building grassroots networks of nutritious food distribution, agroecological urban gardens, and community health.",
+      "category": "Food Security",
+      "author": "Carlos Alberto Mendes, Community Nutritionist",
+      "date": "2026-08-02",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-2.svg",
+      "tags": [
+        "Food",
+        "Nutrition",
+        "Urban Farms",
+        "Health"
+      ],
+      "lead": "Hunger is not a climate or demographic fatality; it is a structural distribution failure. Overcoming it with dignity requires transcending emergency handouts to build lasting nutritional autonomy.",
+      "content": "<h3>From Emergency to Sovereignty</h3><p>Emergency food distributions are vital during acute crises. However, the <em>Prato que Transforma</em> initiative recognizes that conventional grocery baskets often rely on nutrient-poor ultra-processed goods. Our circular framework pairs direct purchases from regional family farmers with vacant-lot community gardens.</p><p>The nutrition provided to a child fundamentally shapes their cognitive development and lifelong health.</p><blockquote>\"Nutritional sovereignty means the community decides what to plant, how to cook, and how to safeguard the health of upcoming generations.\" — Carlos Mendes</blockquote>"
+    },
+    {
+      "id": 3,
+      "slug": "juventude-e-horizontes-de-futuro",
+      "title": "Youth and future horizons: shaping successful career trajectories in regional hubs",
+      "subtitle": "Talent mapping, executive mentorship, and digital literacy empowering the next generation of leaders.",
+      "category": "Youth",
+      "author": "Mariana Duarte, Youth Public Policy Specialist",
+      "date": "2026-07-20",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-3.svg",
+      "tags": [
+        "Youth",
+        "Mentorship",
+        "Careers",
+        "Future"
+      ],
+      "lead": "Suburban youth frequently face a scarcity of accessible professional role models. Structured mentorship bridges this divide by connecting emerging talents directly to formal employment opportunities.",
+      "content": "<h3>Navigating First Employment Barriers</h3><p>National statistics indicate that youth unemployment is more than double the national average. When compounded by commuting distances between the suburbs and Brasília's central districts, entering the formal job market becomes exhausting.</p><p>The Institute launched a pioneer six-month mentorship initiative connecting high schoolers with corporate executives, researchers, and software engineers to practice interviews and build portfolios.</p>"
+    },
+    {
+      "id": 4,
+      "slug": "trabalho-renda-e-autonomia-produtiva",
+      "title": "Work, income, and productive autonomy: from vocational training to micro-enterprise",
+      "subtitle": "How intensive short-cycle technical training combined with microfinance restores dignity to heads of household.",
+      "category": "Productive Inclusion",
+      "author": "Rodrigo Silveira, Social Business Consultant",
+      "date": "2026-07-05",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-4.svg",
+      "tags": [
+        "Income",
+        "Employment",
+        "Entrepreneurship",
+        "Autonomy"
+      ],
+      "lead": "Permanent welfare perpetuates systemic dependency. Genuine emancipation takes place when households secure their own sustainable sources of economic livelihood.",
+      "content": "<h3>Aligning Curricula with Real Market Needs</h3><p>Many non-profits make the error of teaching skills without researching regional labor demands. The <em>Renda e Futuro</em> program conducts quarterly market surveys across the Federal District Suburbs to identify genuine industry labor shortages.</p><p>Graduates receive commercial toolkits to launch immediate economic activities in baking, garment manufacturing, and building electrical systems.</p>"
+    },
+    {
+      "id": 5,
+      "slug": "voluntariado-com-proposito-e-metodo",
+      "title": "Purpose-driven volunteering: engineering high-impact community engagement",
+      "subtitle": "Transitioning from sporadic goodwill to structured governance, accountability, and continuous volunteer support.",
+      "category": "Volunteering",
+      "author": "Camila Fernandes, Community Engagement Manager",
+      "date": "2026-06-18",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-5.svg",
+      "tags": [
+        "Volunteering",
+        "Governance",
+        "Engagement",
+        "Impact"
+      ],
+      "lead": "Goodwill sparks the initial flame, but methodology, active listening, and consistency sustain social transformations over decades.",
+      "content": "<h3>The Value of Specialized Skills-Based Volunteers</h3><p>Historically, volunteerism was tied to holiday distributions. While commendable, it builds no lasting institutional capacity. We established specialized volunteer pods: pediatricians offering checkups, attorneys providing consumer legal counsel, and IT pros automating workflows.</p>"
+    },
+    {
+      "id": 6,
+      "slug": "empresas-e-impacto-social",
+      "title": "Corporations and social impact: unlocking strategic corporate social investments",
+      "subtitle": "Why authentic ESG criteria require grassroots commitments and multi-year alliances with local communities.",
+      "category": "Partnerships",
+      "author": "Eduardo Fontes, ESG & Sustainability Advisor",
+      "date": "2026-06-01",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-6.svg",
+      "tags": [
+        "ESG",
+        "Corporate",
+        "Social Investment",
+        "Partnerships"
+      ],
+      "lead": "International investors and discerning consumers no longer tolerate greenwashing. True ESG impact is measured by the tangible legacy created in frontline communities.",
+      "content": "<h3>Bridging Corporate Purpose with Grassroots Realities</h3><p>Corporations operating along the BR-040 logistics corridor can become powerful catalysts for development. Partnering with Instituto Nova Esperança allows corporations to direct deductible tax allocations into student scholarships and solar-powered community cafeterias under verified GRI reporting standards.</p>"
+    },
+    {
+      "id": 7,
+      "slug": "investimento-social-privado-no-brasil",
+      "title": "Private social philanthropy in Brazil: governance and metrics for family offices",
+      "subtitle": "How major individual donors and family foundations maximize the efficacy and permanence of philanthropic gifts.",
+      "category": "Transparency",
+      "author": "Patrícia Albuquerque, Strategic Philanthropy Advisor",
+      "date": "2026-05-14",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-7.svg",
+      "tags": [
+        "Major Donors",
+        "Governance",
+        "Philanthropy",
+        "Transparency"
+      ],
+      "lead": "Modern philanthropy has evolved from discretionary charity into an investment discipline grounded in rigorous due diligence and granular impact monitoring.",
+      "content": "<h3>Legal Rigor and Accountability for Major Gifts</h3><p>Family offices demand the same compliance standard as commercial transactions: segregated bank accounts for supported projects, active oversight committees, and independent audits.</p>"
+    },
+    {
+      "id": 8,
+      "slug": "transparencia-ativa-e-governanca-etica",
+      "title": "Active transparency and ethical governance: the indispensable foundation of public trust",
+      "subtitle": "How publishing open balance sheets, meeting minutes, and financial audits builds enduring institutional credibility.",
+      "category": "Transparency",
+      "author": "Marcelo Pires, Certified Public Auditor",
+      "date": "2026-04-29",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-8.svg",
+      "tags": [
+        "Transparency",
+        "Audit",
+        "Compliance",
+        "Accountability"
+      ],
+      "lead": "In an era of relentless scrutiny, transparency cannot be an afterthought. High-maturity organizations keep their operational accounts openly accessible to society.",
+      "content": "<h3>Open Data Principles in Civil Society</h3><p>Our transparency framework follows the highest standards: online publication of registered bylaws, board election minutes, and certified balance sheets with independent external audit verification.</p>"
+    },
+    {
+      "id": 9,
+      "slug": "desenvolvimento-comunitario-de-base",
+      "title": "Grassroots community development: resident leadership at the core of urban change",
+      "subtitle": "Why social initiatives built 'for' the community falter, while those built 'with' the community flourish.",
+      "category": "Volunteering",
+      "author": "Lucas Nogueira, Social Worker & Community Organizer",
+      "date": "2026-04-10",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-9.svg",
+      "tags": [
+        "Community",
+        "Leadership",
+        "Valparaíso",
+        "Citizenship"
+      ],
+      "lead": "No desk-bound external policy can replace the collective wisdom of residents who live every day with community challenges.",
+      "content": "<h3>Active Listening and Neighborhood Assemblies</h3><p>The <em>Comunidade Viva</em> initiative coordinates monthly town halls where residents democratically decide public improvement priorities, revitalizing parks and lighting corridors.</p>"
+    },
+    {
+      "id": 10,
+      "slug": "tecnologia-para-impacto",
+      "title": "Technology for impact: how open data and digital literacy amplify humanitarian reach",
+      "subtitle": "Deploying family georeferencing, cloud systems, and coding workshops in the fight against exclusion.",
+      "category": "Innovation",
+      "author": "Beatriz Vasconcelos, Social Tech Coordinator",
+      "date": "2026-03-22",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-10.svg",
+      "tags": [
+        "Technology",
+        "Innovation",
+        "Data",
+        "Digital Literacy"
+      ],
+      "lead": "Digital transformation is essential for humanitarian organizations to operate with precision logistics and maximum operational efficiency.",
+      "content": "<h3>Evidence-Based Territorial Mapping</h3><p>We implemented georeferenced records for supported families, revealing critical clusters lacking potable water or school transit, while teaching programming to public school students.</p>"
+    },
+    {
+      "id": 11,
+      "slug": "mulheres-maternidade-e-oportunidades",
+      "title": "Women, motherhood, and opportunity: overcoming gender barriers in urban peripheries",
+      "subtitle": "The critical crossroads between unpaid caregiving burdens, vulnerability, and female financial independence.",
+      "category": "Gender & Rights",
+      "author": "Aline Santos, Psychologist & Conflict Mediator",
+      "date": "2026-03-08",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-11.svg",
+      "tags": [
+        "Women",
+        "Motherhood",
+        "Autonomy",
+        "Human Rights"
+      ],
+      "lead": "Over 65% of deeply vulnerable households in suburban districts are headed solely by single mothers. Empowering mothers secures the entire family.",
+      "content": "<h3>Support Networks and Supervised Daycare Spaces</h3><p>A single mother cannot attend job interviews or skill classes without a secure environment for her children. We combine vocational training sessions with supervised creative child-enrichment rooms.</p>"
+    },
+    {
+      "id": 12,
+      "slug": "o-futuro-das-organizacoes-sociais",
+      "title": "The future of non-profit organizations: financial longevity, hybrid capital, and innovation",
+      "subtitle": "Key trends for the decade ahead: blended finance, institutional endowment funds, and cross-sector alliances.",
+      "category": "Innovation",
+      "author": "Dr. Fernando Arantes, Executive Director",
+      "date": "2026-02-15",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-12.svg",
+      "tags": [
+        "Management",
+        "Sustainability",
+        "Endowment",
+        "Future"
+      ],
+      "lead": "21st-century civil society must be agile, technically rigorous, and financially diversified to thrive amidst global uncertainties.",
+      "content": "<h3>Hybrid Revenue Frameworks and Longevity</h3><p>Relying solely on sporadic grants threatens continuity. We established a three-tiered financial structure: recurring donations, corporate ESG partnerships, and an initial endowment reserve.</p>"
+    }
+  ]
+}

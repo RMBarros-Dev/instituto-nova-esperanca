@@ -1,1 +1,267 @@
-{}
+{
+  "header": {
+    "title": "Blog y Noticias del Instituto",
+    "subtitle": "Artículos de opinión, informes de campo, transparencia activa y mejores prácticas sociales."
+  },
+  "search_placeholder": "Buscar artículos por título, tema o autor...",
+  "filters": {
+    "all": "Todos los Artículos",
+    "education": "Educación",
+    "nutrition": "Seguridad Alimentaria",
+    "youth": "Juventud",
+    "income": "Inclusión Laboral",
+    "volunteer": "Voluntariado",
+    "partnerships": "Alianzas",
+    "transparency": "Transparencia",
+    "innovation": "Innovación",
+    "gender": "Género y Derechos"
+  },
+  "reader": {
+    "progress_bar_aria": "Progreso de lectura del artículo",
+    "listen_button": "Escuchar Artículo",
+    "playing": "Reproduciendo audio...",
+    "paused": "Audio en pausa",
+    "btn_pause": "Pausar",
+    "btn_resume": "Reanudar",
+    "btn_stop": "Detener",
+    "btn_back": "← Volver a Noticias",
+    "share_title": "Compartir este artículo:",
+    "share_whatsapp": "WhatsApp",
+    "share_linkedin": "LinkedIn",
+    "share_twitter": "Twitter / X",
+    "share_copy": "Copiar Enlace",
+    "related_title": "Artículos Relacionados",
+    "reading_time_prefix": "Tiempo de lectura:",
+    "by_author": "Por"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "slug": "educacao-como-transformacao-social",
+      "title": "La educación como transformación social: superando ciclos de vulnerabilidad",
+      "subtitle": "Por qué el acompañamiento psicopedagógico continuo es la palanca más potente de movilidad social.",
+      "category": "Educación",
+      "author": "Dra. Helena Ribeiro, Coordinadora Pedagógica",
+      "date": "2026-08-15",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-1.svg",
+      "tags": [
+        "Educación",
+        "Inclusión",
+        "Juventud",
+        "Valparaíso"
+      ],
+      "lead": "En las periferias urbanas, el acceso a la escuela es apenas el primer paso. Sin soporte pedagógico y afectivo, miles de jóvenes abandonan sus estudios.",
+      "content": "<h3>El Desafío de la Alfabetización Integral</h3><p>La realidad escolar en las periferias metropolitanas exige respuestas sólidas frente al rezago educativo histórico.</p><p>El programa <em>Novos Caminhos</em> impulsa tutorías de matemáticas y lengua, articuladas con robótica comunitaria y pensamiento científico.</p>"
+    },
+    {
+      "id": 2,
+      "slug": "seguranca-alimentar-nutricional",
+      "title": "Seguridad y soberanía alimentaria: mucho más que mitigar el hambre inmediata",
+      "subtitle": "Redes locales de alimentación saludable, huertos urbanos agroecológicos y nutrición comunitaria.",
+      "category": "Seguridad Alimentaria",
+      "author": "Carlos Alberto Mendes, Nutricionista Social",
+      "date": "2026-08-02",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-2.svg",
+      "tags": [
+        "Alimentación",
+        "Nutrición",
+        "Huertos Urbanos",
+        "Salud"
+      ],
+      "lead": "El hambre es una falla política y distributiva. Superarla exige trascender la ayuda de emergencia para construir soberanía alimentaria.",
+      "content": "<h3>De la Emergencia a la Autonomía</h3><p>El programa <em>Prato que Transforma</em> articula compras directas a campesinos familiares con huertos ecológicos barriales en terrenos ociosos.</p>"
+    },
+    {
+      "id": 3,
+      "slug": "juventude-e-horizontes-de-futuro",
+      "title": "Juventud y horizontes de futuro: abriendo caminos laborales en barrios periféricos",
+      "subtitle": "Mapeo de talentos, mentoría profesional e inserción digital para la nueva generación.",
+      "category": "Juventud",
+      "author": "Mariana Duarte, Especialista en Juventud",
+      "date": "2026-07-20",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-3.svg",
+      "tags": [
+        "Juventud",
+        "Mentoría",
+        "Carrera",
+        "Futuro"
+      ],
+      "lead": "Los jóvenes de las periferias enfrentan la escasez de modelos profesionales accesibles. La mentoría estratégica conecta su talento con oportunidades reales.",
+      "content": "<h3>Rompiendo Barreras en el Primer Empleo</h3><p>El programa de mentorías individuales conecta durante seis meses a estudiantes con ejecutivos e ingenieros para preparar entrevistas y portafolios.</p>"
+    },
+    {
+      "id": 4,
+      "slug": "trabalho-renda-e-autonomia-produtiva",
+      "title": "Trabajo, ingresos y autonomía productiva: de la formación técnica al microemprendimiento",
+      "subtitle": "Cómo las capacitaciones técnicas intensivas devuelven la dignidad a las familias vulnerables.",
+      "category": "Inclusión Laboral",
+      "author": "Rodrigo Silveira, Consultor de Negocios Sociales",
+      "date": "2026-07-05",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-4.svg",
+      "tags": [
+        "Ingreso",
+        "Empleo",
+        "Emprendimiento",
+        "Autonomía"
+      ],
+      "lead": "El asistencialismo perpetuo genera dependencia. La verdadera emancipación ocurre cuando la familia genera sus propios recursos económicos.",
+      "content": "<h3>Formación Adaptada a la Demanda Real</h3><p>Los cursos de confección, panadería artesanal e instalaciones eléctricas capacitan con estándares del mercado logístico e industrial regional.</p>"
+    },
+    {
+      "id": 5,
+      "slug": "voluntariado-com-proposito-e-metodo",
+      "title": "Voluntariado con propósito y método: organizando acciones de alto impacto social",
+      "subtitle": "La transición del voluntariado ocasional hacia un modelo de gobernanza, metas y formación continua.",
+      "category": "Voluntariado",
+      "author": "Camila Fernandes, Gestora Comunitaria",
+      "date": "2026-06-18",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-5.svg",
+      "tags": [
+        "Voluntariado",
+        "Gobernanza",
+        "Compromiso",
+        "Impacto"
+      ],
+      "lead": "La buena voluntad inicia el cambio, pero el método y la constancia lo consolidan en el tiempo.",
+      "content": "<h3>El Valor del Voluntario Especialista</h3><p>Estructuramos células temáticas donde médicos, abogados e informáticos aportan sus competencias específicas para optimizar el servicio comunitario.</p>"
+    },
+    {
+      "id": 6,
+      "slug": "empresas-e-impacto-social",
+      "title": "Empresas e impacto social: el potencial de la inversión corporativa estratégica",
+      "subtitle": "Por qué los criterios ESG genuinos requieren compromiso territorial profundo y alianzas duraderas.",
+      "category": "Alianzas",
+      "author": "Eduardo Fontes, Consultor en ESG",
+      "date": "2026-06-01",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-6.svg",
+      "tags": [
+        "ESG",
+        "Empresas",
+        "Inversión Social",
+        "Alianzas"
+      ],
+      "lead": "La sociedad no acepta el lavado verde. El compromiso ESG auténtico se mide por el legado directo en las comunidades vecinas.",
+      "content": "<h3>Propósito Corporativo y Desarrollo Local</h3><p>A través de alianzas estratégicas, las corporaciones convierten incentivos fiscales en becas educativas y comedores comunitarios con informes GRI auditados.</p>"
+    },
+    {
+      "id": 7,
+      "slug": "investimento-social-privado-no-brasil",
+      "title": "Filantropía estratégica en Brasil: gobernanza y métricas para grandes donantes",
+      "subtitle": "Cómo las fundaciones familiares maximizan la eficiencia y trascendencia de sus aportes.",
+      "category": "Transparencia",
+      "author": "Patrícia Albuquerque, Asesora Filantrópica",
+      "date": "2026-05-14",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-7.svg",
+      "tags": [
+        "Grandes Donantes",
+        "Gobernanza",
+        "Filantropía",
+        "Transparencia"
+      ],
+      "lead": "La filantropía contemporánea exige la misma rigurosidad y debida diligencia que una inversión corporativa de primer nivel.",
+      "content": "<h3>Seguridad Jurídica y Cuentas Segregadas</h3><p>Ofrecemos cuentas individualizadas para cada proyecto y auditorías externas para aportes significativos superiores a 50.000 R$.</p>"
+    },
+    {
+      "id": 8,
+      "slug": "transparencia-ativa-e-governanca-etica",
+      "title": "Transparencia activa y gobernanza ética: la base de la confianza pública",
+      "subtitle": "Cómo la publicación abierta de balances y auditorías consolida la reputación institucional.",
+      "category": "Transparencia",
+      "author": "Marcelo Pires, Auditor Contable",
+      "date": "2026-04-29",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-8.svg",
+      "tags": [
+        "Transparencia",
+        "Auditoría",
+        "Compliance",
+        "Cuentas"
+      ],
+      "lead": "En un entorno de escrutinio público, la transparencia debe ser proactiva, didáctica y verificable.",
+      "content": "<h3>El Principio de Datos Abiertos</h3><p>Mantenemos una tasa de eficiencia superior al 90%, garantizando que los recursos financien de forma directa la labor social en aulas y cocinas comunitarias.</p>"
+    },
+    {
+      "id": 9,
+      "slug": "desenvolvimento-comunitario-de-base",
+      "title": "Desarrollo comunitario desde las bases: protagonismo vecinal en el barrio",
+      "subtitle": "Por qué los proyectos construidos 'para' la comunidad fracasan, mientras los construidos 'con' ella perduran.",
+      "category": "Voluntariado",
+      "author": "Lucas Nogueira, Trabajador Social",
+      "date": "2026-04-10",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-9.svg",
+      "tags": [
+        "Comunidad",
+        "Liderazgo",
+        "Valparaíso",
+        "Ciudadanía"
+      ],
+      "lead": "Ninguna política trazada desde oficinas lejanas supera el conocimiento acumulado por los vecinos que viven los retos cotidianos.",
+      "content": "<h3>Asambleas y Participación Ciudadana</h3><p>El programa <em>Comunidade Viva</em> impulsa mejoras barriales participativas donde los residentes votan y ejecutan las obras colectivas de su entorno.</p>"
+    },
+    {
+      "id": 10,
+      "slug": "tecnologia-para-impacto",
+      "title": "Tecnología para el impacto: datos e inclusión digital en la acción social",
+      "subtitle": "Georreferenciación de familias vulnerables y alfabetización digital frente a la exclusión.",
+      "category": "Innovación",
+      "author": "Beatriz Vasconcelos, Coordinadora de Tecnología",
+      "date": "2026-03-22",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-10.svg",
+      "tags": [
+        "Tecnología",
+        "Innovación",
+        "Datos",
+        "Inclusión Digital"
+      ],
+      "lead": "La transformación digital es fundamental para que las entidades sociales operen con máxima agilidad y precisión.",
+      "content": "<h3>Mapeo Territorial Basado en Evidencias</h3><p>El censo georreferenciado permite priorizar la ayuda urgente a la vez que se capacita a jóvenes en diseño y desarrollo web.</p>"
+    },
+    {
+      "id": 11,
+      "slug": "mulheres-maternidade-e-oportunidades",
+      "title": "Mujeres, maternidad y oportunidades: superando barreras en sectores periféricos",
+      "subtitle": "Cuidados familiares no remunerados, violencia de género y conquista de la independencia económica.",
+      "category": "Género y Derechos",
+      "author": "Aline Santos, Psicóloga y Mediadora",
+      "date": "2026-03-08",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-11.svg",
+      "tags": [
+        "Mujeres",
+        "Maternidad",
+        "Autonomía",
+        "Derechos"
+      ],
+      "lead": "Más del 65% de los hogares vulnerables están encabezados por madres solas. Apoyar a la madre es proteger a toda la infancia.",
+      "content": "<h3>Redes de Apoyo y Cuidado Infantil</h3><p>Articulamos horarios de formación laboral con espacios lúdicos y seguros para que las madres puedan capacitarse con tranquilidad.</p>"
+    },
+    {
+      "id": 12,
+      "slug": "o-futuro-das-organizacoes-sociais",
+      "title": "El porvenir de las organizaciones sociales: modelos híbridos e innovación",
+      "subtitle": "Financiación combinada, fondos patrimoniales permanentes y colaboración intersectorial.",
+      "category": "Innovación",
+      "author": "Dr. Fernando Arantes, Director Ejecutivo",
+      "date": "2026-02-15",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-12.svg",
+      "tags": [
+        "Gestión",
+        "Sostenibilidad",
+        "Endowment",
+        "Futuro"
+      ],
+      "lead": "El tercer sector del siglo XXI debe combinar solvencia técnica con diversificación de ingresos para asegurar su permanencia.",
+      "content": "<h3>Sostenibilidad y Fondos Patrimoniales</h3><p>El Instituto sustenta sus operaciones en donaciones recurrentes, alianzas ESG con empresas y un fondo patrimonial inicial (endowment).</p>"
+    }
+  ]
+}

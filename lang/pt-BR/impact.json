@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Painel de Impacto Social Multi-anual",
+    "subtitle": "Métricas auditadas e evolução contínua da atuação territorial do Instituto Nova Esperança (2023–2026)."
+  },
+  "fiscal_year_prefix": "Exercício Fiscal e Social",
+  "status_target": "Meta Anual",
+  "status_audited": "Auditado",
+  "timeline_aria": "Selecione o ano para análise",
+  "indicators": {
+    "beneficiaries": "Pessoas Atendidas Diretamente",
+    "meals": "Refeições Balanceadas Distribuídas",
+    "pedagogical_kits": "Kits Pedagógicos Entregues",
+    "trained_women": "Mulheres Capacitadas Profissionalmente",
+    "workshops": "Oficinas Socioeducativas Realizadas",
+    "families_assisted": "Famílias Acompanhadas Continuamente",
+    "school_attendance": "Frequência Escolar dos Alunos",
+    "project_approval": "Índice de Retenção e Aprovação",
+    "funds_in_projects": "Recursos Aplicados na Atividade-fim"
+  },
+  "growth_badge_positive_prefix": "+",
+  "growth_vs_previous": "em relação ao ano anterior",
+  "chart": {
+    "title": "Evolução do Alcance Social (2023–2026)",
+    "subtitle": "Crescimento contínuo do número total de pessoas atendidas e investimento aplicado.",
+    "aria_label": "Gráfico de evolução anual de pessoas atendidas de 2023 a 2026",
+    "legend_beneficiaries": "Pessoas Atendidas",
+    "legend_investment": "Investimento Aplicado"
+  },
+  "table": {
+    "title": "Tabela Demonstrativa de Indicadores de Impacto (2023–2026)",
+    "caption": "Dados consolidados da atuação social do Instituto Nova Esperança com conformidade WCAG AAA",
+    "col_metric": "Indicador / Métrica",
+    "col_2023": "2023 (Realizado)",
+    "col_2024": "2024 (Realizado)",
+    "col_2025": "2025 (Consolidado)",
+    "col_2026": "2026 (Projeção / Meta)"
+  }
+}

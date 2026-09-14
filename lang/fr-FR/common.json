@@ -1,1 +1,87 @@
-{}
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "Qui Sommes-Nous",
+    "projects": "Programmes",
+    "impact": "Notre Impact",
+    "companies": "Entreprises ESG",
+    "volunteer": "Bénévolat",
+    "transparency": "Transparence",
+    "blog": "Blog",
+    "contact": "Contact",
+    "donate": "Faire un Don",
+    "faq": "Foire Aux Questions"
+  },
+  "search": {
+    "placeholder": "Rechercher sur le site (Ctrl+K)...",
+    "modal_title": "Recherche sur l'Instituto Nova Esperança",
+    "input_aria": "Champ de recherche global",
+    "no_results": "Aucun résultat trouvé pour",
+    "hint": "Essayez des termes plus larges tels que \"éducation\", \"nutrition\" ou \"don\".",
+    "nav_hint": "Navigation : ↑ ↓ pour naviguer • Entrée pour sélectionner",
+    "esc_close": "Échap pour fermer",
+    "categories": {
+      "projects": "Programmes",
+      "blog": "Actualités & Blog",
+      "transparency": "Transparence & Comptes",
+      "donations": "Dons & Soutien",
+      "faq": "Questions Fréquentes"
+    }
+  },
+  "a11y": {
+    "tools": "Outils d'Accessibilité",
+    "font_decrease": "Diminuer la police (A-)",
+    "font_default": "Police par défaut (A)",
+    "font_increase": "Agrandir la police (A+)",
+    "high_contrast": "Contraste Élevé",
+    "dark_mode": "Mode Sombre",
+    "dyslexia_font": "Police pour Dyslexie",
+    "underline_links": "Souligner les Liens",
+    "reset": "Réinitialiser",
+    "shortcuts_hint": "Raccourcis : Alt+1 Contenu | Alt+2 Menu | Alt+C Contraste | Ctrl+K Recherche"
+  },
+  "skip": {
+    "content": "Passer au contenu principal",
+    "nav": "Passer à la navigation principale",
+    "footer": "Passer au pied de page"
+  },
+  "footer": {
+    "mission_summary": "Transformation sociale durable par l'éducation intégrale, la sécurité alimentaire et l'émancipation économique en périphérie de Brasília.",
+    "col_institutional": "Institutionnel",
+    "col_programs": "Programmes",
+    "col_support": "Comment Aider",
+    "col_contact": "Contact",
+    "rights": "© 2026 Instituto Nova Esperança. Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "cookies": "Cookies",
+    "accessibility": "Accessibilité",
+    "governance": "Gouvernance & Statuts",
+    "address_short": "Valparaíso de Goiás — GO | Périphérie du DF"
+  },
+  "states": {
+    "loading": "Chargement des informations...",
+    "error_title": "Impossible de charger les données",
+    "error_desc": "Une erreur temporaire est survenue. Veuillez vérifier votre connexion ou réessayer.",
+    "empty_title": "Aucun élément trouvé",
+    "empty_desc": "Essayez de réinitialiser vos filtres ou d'élargir vos termes de recherche.",
+    "offline_title": "Mode Hors Ligne",
+    "offline_desc": "Vous êtes actuellement déconnecté. Données locales sécurisées en cache.",
+    "btn_retry": "Réessayer",
+    "btn_clear_filters": "Effacer les filtres"
+  },
+  "toast": {
+    "link_copied": "Lien copié dans le presse-papiers avec succès !",
+    "form_success": "Votre message a bien été envoyé ! Nous vous répondrons rapidement.",
+    "form_error": "Veuillez corriger les champs obligatoires avant de soumettre.",
+    "offline_notice": "Connexion perdue. La plateforme continue de fonctionner hors ligne.",
+    "online_restored": "Connexion rétablie. Données synchronisées avec succès."
+  },
+  "cookie": {
+    "title": "Gestion de la Confidentialité et des Cookies",
+    "message": "Nous utilisons des cookies essentiels pour garantir une navigation fluide, l'accessibilité et des mesures anonymes conformément au RGPD.",
+    "accept": "Tout Accepter",
+    "decline": "Essentiels Uniquement",
+    "preferences": "Préférences"
+  },
+  "lang_name": "Français"
+}

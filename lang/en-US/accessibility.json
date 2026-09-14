@@ -1,0 +1,24 @@
+{
+  "header": {
+    "title": "Digital Accessibility Statement",
+    "subtitle": "Uncompromising commitment to universal inclusion and W3C / WCAG 2.2 AAA standard compliance."
+  },
+  "statement": {
+    "title": "Universal Access Commitment",
+    "text": "Instituto Nova Esperança engineered this digital platform to ensure an equitable, frictionless experience for all people regardless of physical, visual, auditory, or cognitive abilities."
+  },
+  "shortcuts": {
+    "title": "Keyboard Shortcuts",
+    "s1": "Alt + 1: Skip directly to Main Content",
+    "s2": "Alt + 2: Skip directly to Main Navigation",
+    "s3": "Ctrl + K or /: Open Instant Global Search",
+    "s4": "Alt + C: Toggle High Contrast Mode",
+    "s5": "Alt + D: Toggle Dyslexia-Friendly Font",
+    "s6": "Esc: Close open modals, drawers, and overlays"
+  },
+  "feedback": {
+    "title": "Accessibility Assistance Channel",
+    "desc": "If you encounter any barrier or technical difficulty navigating this site, please let our engineering team know.",
+    "btn": "Report an Accessibility Issue"
+  }
+}

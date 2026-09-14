@@ -89,8 +89,8 @@
     <section id="blog-hero" class="hero-section hero-compact" aria-labelledby="blog-title">
       <div class="container text-center max-w-820">
         <span class="hero-territory-tag">Produção de Conhecimento e Análises</span>
-        <h1 id="blog-title" class="hero-title u-style-b3b371">Reflexões e Evidências do Terceiro Setor</h1>
-        <p class="hero-lead u-style-b3b371">
+        <h1 id="blog-title" class="hero-title u-style-b3b371" data-i18n="blog.header.title">Reflexões e Evidências do Terceiro Setor</h1>
+        <p class="hero-lead u-style-b3b371" data-i18n="blog.header.subtitle">
           Análises aprofundadas, dados de campo e metodologias de intervenção social produzidas por nossa equipe técnica e especialistas convidados.
         </p>
       </div>
@@ -103,20 +103,20 @@
 
         <div class="blog-search-bar">
           <label for="blog-search-input" class="sr-only">Pesquisar artigos</label>
-          <input type="search" id="blog-search-input" class="form-control" placeholder="Buscar por tema, palavra-chave ou autor...">
+          <input type="search" id="blog-search-input" class="form-control" placeholder="Buscar notícias por título, tema ou autor..." data-i18n-placeholder="blog.search_placeholder">
         </div>
 
         <div class="category-chips" role="group" aria-label="Filtrar artigos por tema">
-          <button type="button" class="chip-btn is-active" data-blog-category="all">Todas as Áreas</button>
-          <button type="button" class="chip-btn" data-blog-category="Educação">Educação</button>
-          <button type="button" class="chip-btn" data-blog-category="Segurança Alimentar">Segurança Alimentar</button>
-          <button type="button" class="chip-btn" data-blog-category="Juventude">Juventude</button>
-          <button type="button" class="chip-btn" data-blog-category="Inclusão Produtiva">Inclusão Produtiva</button>
-          <button type="button" class="chip-btn" data-blog-category="Voluntariado">Voluntariado</button>
-          <button type="button" class="chip-btn" data-blog-category="Parcerias">ESG & Empresas</button>
-          <button type="button" class="chip-btn" data-blog-category="Transparência">Transparência</button>
-          <button type="button" class="chip-btn" data-blog-category="Inovação">Inovação Social</button>
-          <button type="button" class="chip-btn" data-blog-category="Gênero e Cidadania">Mulheres & Família</button>
+          <button type="button" class="chip-btn is-active" data-blog-category="all" data-i18n="blog.filters.all">Todos os Artigos</button>
+          <button type="button" class="chip-btn" data-blog-category="Educação" data-i18n="blog.filters.education">Educação</button>
+          <button type="button" class="chip-btn" data-blog-category="Segurança Alimentar" data-i18n="blog.filters.nutrition">Segurança Alimentar</button>
+          <button type="button" class="chip-btn" data-blog-category="Juventude" data-i18n="blog.filters.youth">Juventude</button>
+          <button type="button" class="chip-btn" data-blog-category="Inclusão Produtiva" data-i18n="blog.filters.income">Inclusão Produtiva</button>
+          <button type="button" class="chip-btn" data-blog-category="Voluntariado" data-i18n="blog.filters.volunteer">Voluntariado</button>
+          <button type="button" class="chip-btn" data-blog-category="Parcerias" data-i18n="blog.filters.partnerships">Parcerias</button>
+          <button type="button" class="chip-btn" data-blog-category="Transparência" data-i18n="blog.filters.transparency">Transparência</button>
+          <button type="button" class="chip-btn" data-blog-category="Inovação" data-i18n="blog.filters.innovation">Inovação</button>
+          <button type="button" class="chip-btn" data-blog-category="Gênero e Cidadania" data-i18n="blog.filters.gender">Gênero e Cidadania</button>
         </div>
 
         <!-- Grade de 12 Artigos Renderizada via JS -->
@@ -130,7 +130,7 @@
     <section id="article-view-container" class="section article-view-container" aria-live="polite">
       <div class="container max-w-820">
         <div class="article-view-header">
-          <button type="button" class="btn btn-outline btn-sm" id="btn-back-to-blog" aria-label="Voltar para a lista de artigos">
+          <button type="button" class="btn btn-outline btn-sm" id="btn-back-to-blog" data-i18n="blog.reader.btn_back" aria-label="Voltar para a lista de artigos">
             ← Voltar para Notícias
           </button>
           <div id="tts-controls" class="u-style-c6588e"></div>

@@ -1,1 +1,44 @@
-{}
+{
+  "header": {
+    "title": "Active Transparency & Financial Audit",
+    "subtitle": "Audited financial statements, revenue streams, and fund allocation under international non-profit standards."
+  },
+  "stat_revenue": "Total Revenue Raised",
+  "stat_applied": "Total Funds Deployed",
+  "stat_efficiency": "Social Program Efficiency",
+  "stat_beneficiaries": "Direct Beneficiaries Served",
+  "revenue_section": {
+    "title": "Revenue Sources",
+    "subtitle": "Sustainable Financing Streams",
+    "categories": {
+      "individual_donations": "Individual Donations",
+      "institutional_partnerships": "Institutional Partnerships",
+      "public_grants": "Foundations & Public Grants",
+      "corporate_esg": "Corporate Social Investment (ESG)",
+      "investments_other": "Financial Returns & Other Income"
+    }
+  },
+  "expense_section": {
+    "title": "Expense Breakdown",
+    "subtitle": "Accounting Framework CFC / ITG 2002",
+    "categories": {
+      "projects": "Direct Socio-Educational Programs (Core Mission)",
+      "administrative": "Governance & Administration",
+      "fundraising": "Resource Development & Fundraising",
+      "communication": "Communications & Public Reporting",
+      "operations": "Facility Operations & Maintenance"
+    }
+  },
+  "table": {
+    "title": "Full Financial Statement",
+    "caption": "Audited annual breakdown of Instituto Nova Esperança financial allocation",
+    "col_category": "Budget Line Item",
+    "col_value": "Allocated Amount",
+    "col_percentage": "Share (%)"
+  },
+  "reports_section": {
+    "title": "Official Governance & Audit Reports",
+    "subtitle": "Certified public disclosure files signed by independent certified accountants.",
+    "btn_download": "Download PDF"
+  }
+}

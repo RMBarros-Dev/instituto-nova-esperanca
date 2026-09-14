@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Dons et Mécénat Solidaire",
+    "subtitle": "Votre soutien transforme durablement des vies avec une traçabilité comptable certifiée."
+  },
+  "frequency": {
+    "once": "Don Ponctuel",
+    "monthly": "Don Mensuel",
+    "annual": "Engagement Annuel"
+  },
+  "step1_title": "1. Choisissez la Périodicité",
+  "step2_title": "2. Choisissez le Montant & Simulez l'Impact",
+  "step2_desc": "Sélectionnez un palier suggéré ou saisissez un montant personnalisé :",
+  "step3_title": "3. Choisissez Votre Mode de Règlement",
+  "tiers": {
+    "t30": "Finance 1 kit scolaire complet avec cahiers, fournitures et manuels d'apprentissage de la lecture.",
+    "t60": "Garantit des déjeuners sains et équilibrés pour un enfant pendant un mois scolaire entier.",
+    "t150": "Prend en charge le soutien scolaire et l'apprentissage numérique de deux collégiens défavorisés.",
+    "t500": "Finance l'équipement et la formation professionnelle qualifiante en boulangerie pour un foyer entier.",
+    "t1000": "Contribution stratégique pérenne finançant le matériel informatique d'un espace numérique partagé."
+  },
+  "custom_placeholder": "Autre montant (R$ / EUR)",
+  "disclaimer": "Information : Les équivalences d'impact mentionnées constituent des estimations moyennes basées sur les coûts réels de nos actions de terrain.",
+  "pix": {
+    "title": "Paiement Instantané PIX (Brésil)",
+    "copy_code": "Copier le Code PIX",
+    "copied": "Code PIX copié dans le presse-papiers !",
+    "expires": "Chaîne numérique active pour un règlement immédiat",
+    "instructions": "Ouvrez votre application bancaire, sélectionnez 'PIX Copia e Cola', collez le code et validez."
+  },
+  "card": {
+    "title": "Carte Bancaire Sécurisée",
+    "name_placeholder": "Nom du titulaire",
+    "number_placeholder": "0000 0000 0000 0000",
+    "expiry_placeholder": "MM/AA",
+    "cvv_placeholder": "CVC",
+    "btn_pay": "Valider le Don Sécurisé"
+  }
+}

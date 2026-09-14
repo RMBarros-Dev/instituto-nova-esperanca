@@ -1,1 +1,131 @@
-{}
+{
+  "header": {
+    "title": "Programas Estruturantes de Impacto Social",
+    "subtitle": "Soluções territoriais contínuas voltadas à emancipação humana, cidadania e quebra da vulnerabilidade extrema."
+  },
+  "filters": {
+    "all": "Todos os Programas",
+    "education": "Educação Integral",
+    "nutrition": "Segurança Alimentar",
+    "income": "Inclusão Produtiva",
+    "infrastructure": "Infraestrutura Comunitária"
+  },
+  "programs": [
+    {
+      "id": "novos-caminhos",
+      "slug": "novos-caminhos",
+      "name": "Novos Caminhos — Educação & Cidadania",
+      "category": "Educação Integral",
+      "area": "Educação, Letramento e Juventude",
+      "summary": "Reforço escolar continuado em língua portuguesa e matemática, oficinas de letramento digital, robótica livre e acolhimento socioemocional para crianças e jovens.",
+      "territory": "Valparaíso de Goiás (Bairros Céu Azul, Anhanguera e Ipanema)",
+      "description": "O programa atua no contraturno escolar com metodologia participativa, garantindo acompanhamento psicopedagógico individual e envolvimento ativo das famílias.",
+      "objectives": "Reduzir a defasagem idade-série, erradicar a evasão escolar e desenvolver o raciocínio lógico-científico em crianças e jovens de escolas públicas.",
+      "targets": "Atender 4.500 estudantes ao ano, manter a evasão escolar abaixo de 2% e preparar 100% dos alunos do ensino fundamental para olimpíadas do conhecimento.",
+      "indicators": [
+        {
+          "label": "Evasão Escolar Reduzida",
+          "value": "< 1.8%"
+        },
+        {
+          "label": "Alunos com Menção OBMEP",
+          "value": "18"
+        },
+        {
+          "label": "Horas/aula de Reforço ao Ano",
+          "value": "1.840h"
+        }
+      ],
+      "status": "Ativo / Em Expansão",
+      "cta_donate": "Apoiar Este Projeto",
+      "cta_volunteer": "Ser Tutor Voluntário"
+    },
+    {
+      "id": "prato-transforma",
+      "slug": "prato-transforma",
+      "name": "Prato que Transforma — Nutrição & Hortas Urbanas",
+      "category": "Segurança Alimentar",
+      "area": "Soberania Alimentar, Agroecologia e Saúde",
+      "summary": "Combate à insegurança alimentar crônica por meio de cozinhas comunitárias solidárias, hortas agroecológicas no cerrado e educação para o aproveitamento integral dos alimentos.",
+      "territory": "Valparaíso de Goiás e Cidade Ocidental",
+      "description": "Modelo circular que une compra direta de pequenos agricultores familiares, manejo de hortas urbanas em terrenos ociosos e fornecimento diário de refeições ricas em nutrientes.",
+      "objectives": "Garantir refeições balanceadas para crianças e idosos em extrema vulnerabilidade, combatendo a desnutrição infantil e promovendo autonomia alimentar.",
+      "targets": "Distribuir mais de 150.000 refeições ao ano, implantar 5 novas hortas escolares e capacitar 300 famílias em compostagem e agricultura urbana sustentável.",
+      "indicators": [
+        {
+          "label": "Refeições Balanceadas / Ano",
+          "value": "145.000"
+        },
+        {
+          "label": "Famílias com Hortas Ativas",
+          "value": "240"
+        },
+        {
+          "label": "Toneladas de Alimentos Frescos",
+          "value": "68 ton"
+        }
+      ],
+      "status": "Ativo / Contínuo",
+      "cta_donate": "Doar Refeições",
+      "cta_volunteer": "Apoiar nas Hortas"
+    },
+    {
+      "id": "renda-futuro",
+      "slug": "renda-futuro",
+      "name": "Renda e Futuro — Inclusão Produtiva e Trabalho",
+      "category": "Inclusão Produtiva",
+      "area": "Qualificação Profissional, Trabalho e Empreendedorismo",
+      "summary": "Cursos técnicos profissionalizantes em corte industrial, confeitaria artesanal e tecnologia, com orientação de microcrédito e formalização MEI.",
+      "territory": "Região Metropolitana do Entorno do DF",
+      "description": "Formação acelerada focada nas demandas reais de contratação do polo logístico e comercial, priorizando mães solos e chefes de família sem renda fixa.",
+      "objectives": "Promover a autonomia econômica de famílias em vulnerabilidade, estimulando o empreendedorismo comunitário e a inserção no mercado formal.",
+      "targets": "Capacitar 2.000 pessoas ao ano, alcançar taxa de formalização como MEI superior a 60% e incubar 50 novos microempreendimentos comunitários.",
+      "indicators": [
+        {
+          "label": "Egressos Formalizados (MEI)",
+          "value": "64%"
+        },
+        {
+          "label": "Microempresas Incubadas",
+          "value": "42"
+        },
+        {
+          "label": "Aumento Médio de Renda Familiar",
+          "value": "+74%"
+        }
+      ],
+      "status": "Ativo / Em Turmas",
+      "cta_donate": "Financiar Bolsas",
+      "cta_volunteer": "Ser Mentor Profissional"
+    },
+    {
+      "id": "comunidade-viva",
+      "slug": "comunidade-viva",
+      "name": "Comunidade Viva — Infraestrutura & Coesão Social",
+      "category": "Infraestrutura Comunitária",
+      "area": "Desenvolvimento Territorial e Cidadania",
+      "summary": "Mobilização de moradores para revitalização de praças públicas, iluminação comunitária, mutirões de melhoria habitacional e assembleias de bairro.",
+      "territory": "Valparaíso de Goiás (Pólos Céu Azul e Anhanguera)",
+      "description": "Metodologia de urbanismo social onde os próprios moradores diagnosticam os desafios de seus bairros e executam projetos conjuntos de recuperação urbana.",
+      "objectives": "Fortalecer o tecido social, reduzir índices de violência por meio da ocupação positiva dos espaços públicos e estimular o senso de corresponsabilidade.",
+      "targets": "Revitalizar 8 espaços públicos comunitários ao ano, envolver 500 moradores em mutirões e estruturar conselhos locais atuantes.",
+      "indicators": [
+        {
+          "label": "Espaços Públicos Recuperados",
+          "value": "12"
+        },
+        {
+          "label": "Moradores Mobilizados em Mutirões",
+          "value": "620"
+        },
+        {
+          "label": "Redução de Ocorrências no Entorno",
+          "value": "-38%"
+        }
+      ],
+      "status": "Ativo / Territorial",
+      "cta_donate": "Apoiar Reformas",
+      "cta_volunteer": "Participar do Mutirão"
+    }
+  ]
+}

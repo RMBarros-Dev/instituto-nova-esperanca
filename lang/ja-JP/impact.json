@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "社会的インパクト年次ダッシュボード",
+    "subtitle": "ノヴァ・エスペランサ研究所の監査済み活動実績と地域発展の推移（2023年〜2026年）。"
+  },
+  "fiscal_year_prefix": "会計・社会事業年度",
+  "status_target": "年間目標値",
+  "status_audited": "監査済み",
+  "timeline_aria": "分析対象の年度を選択",
+  "indicators": {
+    "beneficiaries": "直接支援を受けた受益者数",
+    "meals": "提供した栄養バランス給食数",
+    "pedagogical_kits": "配布した学習教材セット数",
+    "trained_women": "就労訓練を修了した女性の数",
+    "workshops": "開催した社会教育ワークショップ数",
+    "families_assisted": "継続支援を行う家庭の総数",
+    "school_attendance": "支援児童の学校出席率",
+    "project_approval": "学業継続率・進級率",
+    "funds_in_projects": "社会事業活動への直接投入額"
+  },
+  "growth_badge_positive_prefix": "+",
+  "growth_vs_previous": "前年度比の伸び率",
+  "chart": {
+    "title": "社会的影響力の推移（2023年〜2026年）",
+    "subtitle": "支援対象者数および現場への直接投資額の継続的な拡大推移を示しています。",
+    "aria_label": "2023年から2026年にかけての受益者推移を示す折れ線グラフ",
+    "legend_beneficiaries": "支援対象者数",
+    "legend_investment": "直接投入資金"
+  },
+  "table": {
+    "title": "主要活動成果指標 一覧表（2023年〜2026年）",
+    "caption": "ノヴァ・エスペランサ研究所の年次活動実績まとめ（WCAG AAA適合）",
+    "col_metric": "成果指標 / 項目",
+    "col_2023": "2023年（実績・監査済）",
+    "col_2024": "2024年（実績・監査済）",
+    "col_2025": "2025年（確定値）",
+    "col_2026": "2026年（目標予測値）"
+  }
+}

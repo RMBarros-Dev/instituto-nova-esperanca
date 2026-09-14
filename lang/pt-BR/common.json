@@ -1,17 +1,87 @@
 {
-  "nav_home": "Início",
-  "nav_about": "Quem Somos",
-  "nav_projects": "Projetos",
-  "nav_impact": "Nosso Impacto",
-  "nav_companies": "Empresas",
-  "nav_volunteer": "Voluntariado",
-  "nav_transparency": "Transparência",
-  "nav_blog": "Notícias & Artigos",
-  "nav_contact": "Contato",
-  "nav_donate": "Doar Agora",
-  "nav_faq": "FAQ",
-  "skip_content": "Pular para o conteúdo principal",
-  "skip_nav": "Pular para a navegação",
-  "a11y_tools": "Ferramentas de Acessibilidade",
-  "footer_rights": "© 2026 Instituto Nova Esperança. Todos os direitos reservados."
+  "nav": {
+    "home": "Início",
+    "about": "Quem Somos",
+    "projects": "Projetos",
+    "impact": "Nosso Impacto",
+    "companies": "Empresas",
+    "volunteer": "Voluntariado",
+    "transparency": "Transparência",
+    "blog": "Blog",
+    "contact": "Contato",
+    "donate": "Doar Agora",
+    "faq": "Perguntas Frequentes"
+  },
+  "search": {
+    "placeholder": "Pesquisar no Instituto (Ctrl+K)...",
+    "modal_title": "Pesquisar no Instituto Nova Esperança",
+    "input_aria": "Campo de pesquisa global",
+    "no_results": "Nenhum resultado para",
+    "hint": "Tente utilizar termos mais gerais como \"educação\", \"alimentação\" ou \"doação\".",
+    "nav_hint": "Navegação: ↑ ↓ para mover • Enter para selecionar",
+    "esc_close": "Esc para fechar",
+    "categories": {
+      "projects": "Projetos",
+      "blog": "Notícias & Blog",
+      "transparency": "Transparência & Contabilidade",
+      "donations": "Doações & Como Apoiar",
+      "faq": "Dúvidas Frequentes"
+    }
+  },
+  "a11y": {
+    "tools": "Ferramentas de Acessibilidade",
+    "font_decrease": "Diminuir fonte (A-)",
+    "font_default": "Fonte padrão (A)",
+    "font_increase": "Aumentar fonte (A+)",
+    "high_contrast": "Alto Contraste",
+    "dark_mode": "Modo Escuro",
+    "dyslexia_font": "Fonte para Dislexia",
+    "underline_links": "Sublinhar Links",
+    "reset": "Redefinir Padrões",
+    "shortcuts_hint": "Atalhos: Alt+1 Conteúdo | Alt+2 Menu | Alt+C Contraste | Ctrl+K Busca"
+  },
+  "skip": {
+    "content": "Pular para o conteúdo principal",
+    "nav": "Pular para a navegação primária",
+    "footer": "Pular para o rodapé"
+  },
+  "footer": {
+    "mission_summary": "Transformação social contínua através de educação integral, segurança alimentar e capacitação profissional no Entorno do Distrito Federal.",
+    "col_institutional": "Institucional",
+    "col_programs": "Programas",
+    "col_support": "Como Apoiar",
+    "col_contact": "Atendimento",
+    "rights": "© 2026 Instituto Nova Esperança. Todos os direitos reservados.",
+    "privacy": "Privacidade",
+    "cookies": "Cookies",
+    "accessibility": "Acessibilidade",
+    "governance": "Governança & Estatuto",
+    "address_short": "Valparaíso de Goiás — GO | Entorno do DF"
+  },
+  "states": {
+    "loading": "Carregando informações...",
+    "error_title": "Não foi possível carregar os dados",
+    "error_desc": "Ocorreu uma falha temporária. Por favor, verifique sua conexão ou tente novamente.",
+    "empty_title": "Nenhum item encontrado",
+    "empty_desc": "Tente redefinir seus filtros ou pesquisar com termos mais abrangentes.",
+    "offline_title": "Modo Offline",
+    "offline_desc": "Você está sem conexão. Exibindo dados locais seguros salvos em cache.",
+    "btn_retry": "Tentar novamente",
+    "btn_clear_filters": "Limpar filtros"
+  },
+  "toast": {
+    "link_copied": "Link copiado para a área de transferência com sucesso!",
+    "form_success": "Sua mensagem foi enviada com sucesso! Retornaremos em breve.",
+    "form_error": "Por favor, corrija os erros nos campos antes de enviar.",
+    "offline_notice": "Conexão perdida. A plataforma continuará operando offline.",
+    "online_restored": "Conexão restabelecida. Dados sincronizados com sucesso."
+  },
+  "cookie": {
+    "title": "Gestão de Privacidade & Cookies",
+    "message": "Utilizamos cookies necessários para navegação, acessibilidade e análise de tráfego anônimo em conformidade com a LGPD.",
+    "accept": "Aceitar Todos",
+    "decline": "Apenas Essenciais",
+    "preferences": "Preferências"
+  },
+  "lang_name": "Português (Brasil)"
 }

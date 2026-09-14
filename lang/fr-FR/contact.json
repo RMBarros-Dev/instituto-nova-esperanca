@@ -1,1 +1,24 @@
-{}
+{
+  "header": {
+    "title": "Coordonnées et Siège Social",
+    "subtitle": "Nous sommes à l'écoute des donateurs, bénévoles, entreprises partenaires et de la communauté."
+  },
+  "info": {
+    "address_title": "Siège Opérationnel",
+    "address_val": "Quadra 12, Lote 04 — Céu Azul, Valparaíso de Goiás — GO, Code Postal 72871-012, Brésil",
+    "hours_title": "Heures d'Ouverture",
+    "hours_val": "Du lundi au vendredi : 08h00 – 18h00 | Samedi : 08h00 – 12h00 (Ateliers)",
+    "phone_title": "Téléphone & WhatsApp",
+    "phone_val": "+55 (61) 98765-4321",
+    "email_title": "Courriel Général",
+    "email_val": "contact@instituonovaresperanca.org.br",
+    "ombudsman_title": "Médiation et Comité d'Éthique",
+    "ombudsman_val": "ethique@instituonovaresperanca.org.br",
+    "press_title": "Relations Presse",
+    "press_val": "presse@instituonovaresperanca.org.br"
+  },
+  "territory": {
+    "title": "Implantation en Périphérie de Brasília",
+    "desc": "Nos actions ciblent les quartiers prioritaires nécessitant un soutien éducatif continu et une aide alimentaire d'urgence."
+  }
+}

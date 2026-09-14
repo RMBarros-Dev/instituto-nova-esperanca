@@ -1,0 +1,22 @@
+{
+  "name": "instituto-nova-esperanca",
+  "version": "7.2.1",
+  "description": "Plataforma Digital Institucional Premium do Instituto Nova Esperança (V7.2+ Stability, Content & Analytics)",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "start": "node scripts/dev_server.js",
+    "test": "node scripts/verify_v7_2_plus.js",
+    "test:i18n": "node scripts/verify_i18n.js",
+    "build:locales": "node scripts/compile_locales.js"
+  },
+  "keywords": [
+    "ong",
+    "terceiro-setor",
+    "acessibilidade",
+    "wcag",
+    "i18n",
+    "transparencia"
+  ],
+  "author": "Instituto Nova Esperança",
+  "license": "MIT"
+}

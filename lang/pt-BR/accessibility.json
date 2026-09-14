@@ -1,0 +1,24 @@
+{
+  "header": {
+    "title": "Declaração de Acessibilidade Digital",
+    "subtitle": "Compromisso integral com a inclusão e conformidade com as diretrizes W3C / WCAG 2.2 AAA."
+  },
+  "statement": {
+    "title": "Nosso Compromisso com o Acesso Universal",
+    "text": "O Instituto Nova Esperança desenvolveu esta plataforma para garantir navegação plena e equitativa a todas as pessoas, independentemente de limitações visuais, motoras, auditivas ou cognitivas."
+  },
+  "shortcuts": {
+    "title": "Teclas de Atalho de Teclado",
+    "s1": "Alt + 1: Pular direto para o Conteúdo Principal",
+    "s2": "Alt + 2: Pular para a Navegação Principal",
+    "s3": "Ctrl + K ou /: Abrir Busca Global Instantânea",
+    "s4": "Alt + C: Alternar Modo de Alto Contraste",
+    "s5": "Alt + D: Alternar Tipografia para Dislexia",
+    "s6": "Esc: Fechar modais, janelas e painéis abertos"
+  },
+  "feedback": {
+    "title": "Canal Direto de Acessibilidade",
+    "desc": "Caso encontre qualquer obstáculo técnico ou dificuldade de navegação, informe nossa equipe de desenvolvimento.",
+    "btn": "Reportar Barreira de Acessibilidade"
+  }
+}

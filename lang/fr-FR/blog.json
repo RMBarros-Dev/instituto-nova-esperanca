@@ -1,1 +1,267 @@
-{}
+{
+  "header": {
+    "title": "Blog & Actualités de l'Institut",
+    "subtitle": "Analyses de fond, rapports de mission sur le terrain, éthique associative et impact social durable."
+  },
+  "search_placeholder": "Rechercher par titre, thème ou auteur...",
+  "filters": {
+    "all": "Tous les Articles",
+    "education": "Éducation",
+    "nutrition": "Sécurité Alimentaire",
+    "youth": "Jeunesse",
+    "income": "Insertion",
+    "volunteer": "Bénévolat",
+    "partnerships": "Partenariats",
+    "transparency": "Transparence",
+    "innovation": "Innovation",
+    "gender": "Égalité & Citoyenneté"
+  },
+  "reader": {
+    "progress_bar_aria": "Progression de lecture de l'article",
+    "listen_button": "Écouter l'Article",
+    "playing": "Lecture audio en cours...",
+    "paused": "Audio en pause",
+    "btn_pause": "Pause",
+    "btn_resume": "Reprendre",
+    "btn_stop": "Arrêter",
+    "btn_back": "← Retour aux Actualités",
+    "share_title": "Partager cet article :",
+    "share_whatsapp": "WhatsApp",
+    "share_linkedin": "LinkedIn",
+    "share_twitter": "Twitter / X",
+    "share_copy": "Copier le Lien",
+    "related_title": "Articles Similaires",
+    "reading_time_prefix": "Temps de lecture :",
+    "by_author": "Par"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "slug": "educacao-como-transformacao-social",
+      "title": "L'éducation comme levier de transformation : rompre les cycles de précarité",
+      "subtitle": "Pourquoi l'accompagnement pédagogique bienveillant est le moteur essentiel de l'émancipation sociale.",
+      "category": "Éducation",
+      "author": "Dre Helena Ribeiro, Directrice Pédagogique",
+      "date": "2026-08-15",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-1.svg",
+      "tags": [
+        "Éducation",
+        "Inclusion",
+        "Jeunesse",
+        "Valparaíso"
+      ],
+      "lead": "Dans les banlieues populaires, la scolarisation seule ne suffit pas. Sans soutien méthodologique et psychologique, trop de jeunes décrochent prématurément.",
+      "content": "<h3>L'Impératif de l'Apprentissage Global</h3><p>Le programme <em>Novos Caminhos</em> propose du soutien périscolaire intensif en mathématiques, lecture et informatique libre.</p>"
+    },
+    {
+      "id": 2,
+      "slug": "seguranca-alimentar-nutricional",
+      "title": "Sécurité et souveraineté alimentaire : dépasser la simple aide d'urgence",
+      "subtitle": "Création de circuits courts solidaires, jardins partagés et éducation nutritionnelle durable.",
+      "category": "Sécurité Alimentaire",
+      "author": "Carlos Alberto Mendes, Nutritionniste Social",
+      "date": "2026-08-02",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-2.svg",
+      "tags": [
+        "Alimentation",
+        "Nutrition",
+        "Jardins Partagés",
+        "Santé"
+      ],
+      "lead": "La faim n'est pas une fatalité. La surmonter dignement exige de bâtir une autonomie nutritionnelle pérenne.",
+      "content": "<h3>De l'Urgence à la Souveraineté</h3><p>Le projet <em>Prato que Transforma</em> associe achats directs aux producteurs locaux et potagers écologiques urbains.</p>"
+    },
+    {
+      "id": 3,
+      "slug": "juventude-e-horizontes-de-futuro",
+      "title": "Jeunesse et perspectives d'avenir : ouvrir des trajectoires d'insertion réussies",
+      "subtitle": "Identification des talents, parrainage professionnel et culture numérique pour la nouvelle génération.",
+      "category": "Jeunesse",
+      "author": "Mariana Duarte, Spécialiste Jeunesse",
+      "date": "2026-07-20",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-3.svg",
+      "tags": [
+        "Jeunesse",
+        "Mentorat",
+        "Carrière",
+        "Avenir"
+      ],
+      "lead": "Les jeunes de banlieue manquent souvent de modèles professionnels identifiables. Le mentorat brise cet isolement.",
+      "content": "<h3>L'Accompagnement Vers le Premier Emploi</h3><p>Nos parrainages de six mois mettent en relation directe des lycéens avec des cadres et ingénieurs pour préparer leur entrée dans la vie active.</p>"
+    },
+    {
+      "id": 4,
+      "slug": "trabalho-renda-e-autonomia-produtiva",
+      "title": "Emploi et indépendance économique : des formations qualifiantes au micro-entrepreneuriat",
+      "subtitle": "Comment les cycles courts d'apprentissage technique redonnent dignité et revenus aux familles.",
+      "category": "Insertion",
+      "author": "Rodrigo Silveira, Conseiller en Économie Sociale",
+      "date": "2026-07-05",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-4.svg",
+      "tags": [
+        "Revenu",
+        "Emploi",
+        "Entrepreneuriat",
+        "Autonomie"
+      ],
+      "lead": "L'émancipation véritable advient lorsque le foyer dispose de sources de revenus stables et pérennes.",
+      "content": "<h3>Formations en Adéquation avec le Marché</h3><p>Nos cours certifiants en boulangerie, couture et électricité répondent aux besoins précis des entreprises de la zone logistique.</p>"
+    },
+    {
+      "id": 5,
+      "slug": "voluntariado-com-proposito-e-metodo",
+      "title": "Bénévolat engagé et structuré : maximiser l'impact sur le terrain",
+      "subtitle": "Passer de la bonne volonté spontanée à une organisation rigoureuse au service de la communauté.",
+      "category": "Bénévolat",
+      "author": "Camila Fernandes, Responsable Partenariats Citoyens",
+      "date": "2026-06-18",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-5.svg",
+      "tags": [
+        "Bénévolat",
+        "Gouvernance",
+        "Engagement",
+        "Impact"
+      ],
+      "lead": "L'enthousiasme est l'étincelle première, mais c'est la rigueur méthodique qui ancre le changement dans la durée.",
+      "content": "<h3>L'Expertise au Cœur de l'Action</h3><p>Médecins, juristes et informaticiens mettent bénévolement leurs compétences pointues au service des familles accompagnées.</p>"
+    },
+    {
+      "id": 6,
+      "slug": "empresas-e-impacto-social",
+      "title": "Entreprises et engagement sociétal : la force de l'investissement RSE stratégique",
+      "subtitle": "Pourquoi une démarche RSE sincère exige un ancrage territorial fort et des partenariats durables.",
+      "category": "Partenariats",
+      "author": "Eduardo Fontes, Expert RSE",
+      "date": "2026-06-01",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-6.svg",
+      "tags": [
+        "RSE",
+        "Entreprises",
+        "Investissement Social",
+        "Partenariats"
+      ],
+      "lead": "Le public ne tolère plus les simples opérations de communication. La RSE authentique se mesure par l'impact direct sur les populations locales.",
+      "content": "<h3>Allier Performance Économique et Utilité Sociale</h3><p>Nos conventions de mécénat permettent aux entreprises de financer des bourses et des réfectoires solidaires avec reporting audité GRI.</p>"
+    },
+    {
+      "id": 7,
+      "slug": "investimento-social-privado-no-brasil",
+      "title": "Philanthropie stratégique : gouvernance et indicateurs pour donateurs institutionnels",
+      "subtitle": "Optimiser l'efficacité et la pérennité des grands dons grâce à des normes d'audit rigoureuses.",
+      "category": "Transparence",
+      "author": "Patrícia Albuquerque, Consultante Philanthropie",
+      "date": "2026-05-14",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-7.svg",
+      "tags": [
+        "Grands Donateurs",
+        "Gouvernance",
+        "Philanthropie",
+        "Transparence"
+      ],
+      "lead": "La philanthropie moderne applique les exigences de conformité et d'évaluation des investissements responsables les plus stricts.",
+      "content": "<h3>Comptes Dédiés et Traçabilité Intégrale</h3><p>Chaque grand don fait l'objet d'un suivi comptable individualisé et d'une mesure périodique du retour social sur investissement (SROI).</p>"
+    },
+    {
+      "id": 8,
+      "slug": "transparencia-ativa-e-governanca-etica",
+      "title": "Transparence active et déontologie : le socle de la confiance citoyenne",
+      "subtitle": "Pourquoi la publication exhaustive des comptes et des audits confère aux ONG une légitimité durable.",
+      "category": "Transparence",
+      "author": "Marcelo Pires, Expert-Comptable Auditeur",
+      "date": "2026-04-29",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-8.svg",
+      "tags": [
+        "Transparence",
+        "Audit",
+        "Conformité",
+        "Comptes"
+      ],
+      "lead": "Dans une société d'exigence, la transparence doit être continue, accessible et vérifiée par des tiers indépendants.",
+      "content": "<h3>L'Exigence de l'Open Data Associatif</h3><p>Avec plus de 90% des fonds affectés aux actions de terrain, chaque euro versé finance concrètement les activités périscolaires et nutritionnelles.</p>"
+    },
+    {
+      "id": 9,
+      "slug": "desenvolvimento-comunitario-de-base",
+      "title": "Développement communautaire participatif : la voix des résidents au centre de l'action",
+      "subtitle": "Pourquoi les projets pensés 'pour' les habitants échouent, tandis que ceux conçus 'avec' eux réussissent.",
+      "category": "Bénévolat",
+      "author": "Lucas Nogueira, Éducateur Spécialisé",
+      "date": "2026-04-10",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-9.svg",
+      "tags": [
+        "Communauté",
+        "Citoyenneté",
+        "Valparaíso",
+        "Participation"
+      ],
+      "lead": "Aucune décision prise à distance ne remplace le diagnostic éclairé des résidents confrontés aux réalités de leur quartier.",
+      "content": "<h3>Démocratie Participative de Proximité</h3><p>Le programme <em>Comunidade Viva</em> réunit chaque mois les représentants de quartier pour prioriser et mener à bien les rénovations urbaines collectives.</p>"
+    },
+    {
+      "id": 10,
+      "slug": "tecnologia-para-impacto",
+      "title": "La technologie au service de l'humain : données ouvertes et inclusion numérique",
+      "subtitle": "Géolocalisation des besoins d'urgence et apprentissage du code contre l'exclusion sociale.",
+      "category": "Innovation",
+      "author": "Beatriz Vasconcelos, Ingénieure Sociale",
+      "date": "2026-03-22",
+      "readingTime": "5 min",
+      "coverImage": "assets/img/blog/artigo-10.svg",
+      "tags": [
+        "Technologie",
+        "Innovation",
+        "Données",
+        "Inclusion Numérique"
+      ],
+      "lead": "Les outils numériques permettent aux acteurs associatifs de déployer une logistique humanitaire ultra-précise.",
+      "content": "<h3>Cartographie Territoriale Prédictive</h3><p>Grâce à des relevés de terrain précis, nous ciblons les poches d'extrême urgence tout en formant la jeunesse aux métiers du web.</p>"
+    },
+    {
+      "id": 11,
+      "slug": "mulheres-maternidade-e-oportunidades",
+      "title": "Femmes, maternité et émancipation : briser les plafonds de verre en périphérie",
+      "subtitle": "Entre charge mentale parentale, précarité et conquête de l'indépendance financière des mères.",
+      "category": "Égalité & Citoyenneté",
+      "author": "Aline Santos, Psychologue Clinicienne",
+      "date": "2026-03-08",
+      "readingTime": "6 min",
+      "coverImage": "assets/img/blog/artigo-11.svg",
+      "tags": [
+        "Femmes",
+        "Maternité",
+        "Autonomie",
+        "Droits Humains"
+      ],
+      "lead": "Plus de 65 % des familles précaires sont portées par des mères isolées. Soutenir les mères, c'est protéger tout l'avenir des enfants.",
+      "content": "<h3>Espaces de Garde Solidaires</h3><p>Nous concilions formations professionnelles et accueil sécurisé des enfants afin que les mères puissent acquérir un métier sereinement.</p>"
+    },
+    {
+      "id": 12,
+      "slug": "o-futuro-das-organizacoes-sociais",
+      "title": "L'avenir des organisations de solidarité : financements hybrides et durabilité",
+      "subtitle": "Mécénat croisé, dotations pérennes (endowments) et coopération multisectorielle.",
+      "category": "Innovation",
+      "author": "Dr Fernando Arantes, Directeur Général",
+      "date": "2026-02-15",
+      "readingTime": "7 min",
+      "coverImage": "assets/img/blog/artigo-12.svg",
+      "tags": [
+        "Gestion",
+        "Pérennité",
+        "Dotation",
+        "Avenir"
+      ],
+      "lead": "Les ONG du XXIe siècle doivent conjuguer professionnalisme technique et diversification de leurs ressources.",
+      "content": "<h3>Modèle Économique Hybride</h3><p>Notre structure associe dons réguliers de particuliers, mécénat d'entreprises et constitution d'un fonds de dotation initial protecteur.</p>"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "header": {
+    "title": "Déclaration d'Accessibilité Numérique",
+    "subtitle": "Engagement ferme en faveur de l'inclusion universelle et conformité stricte WCAG 2.2 AAA."
+  },
+  "statement": {
+    "title": "Accès Équitable Pour Tous",
+    "text": "L'Instituto Nova Esperança a conçu ce portail afin d'offrir une navigation intuitive et accessible à chacun, quelles que soient ses capacités physiques, sensorielles ou cognitives."
+  },
+  "shortcuts": {
+    "title": "Raccourcis Clavier Utiles",
+    "s1": "Alt + 1 : Accéder directement au contenu principal",
+    "s2": "Alt + 2 : Accéder au menu de navigation",
+    "s3": "Ctrl + K ou / : Ouvrir la recherche globale",
+    "s4": "Alt + C : Basculer en mode contraste élevé",
+    "s5": "Alt + D : Activer la police adaptée à la dyslexie",
+    "s6": "Échap : Fermer les fenêtres modales et panneaux"
+  },
+  "feedback": {
+    "title": "Signalement d'Obstacles Numériques",
+    "desc": "Si vous rencontrez une difficulté d'accessibilité sur notre site, veuillez en faire part à notre équipe technique.",
+    "btn": "Signaler un Défaut d'Accessibilité"
+  }
+}

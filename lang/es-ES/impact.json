@@ -1,1 +1,39 @@
-{}
+{
+  "header": {
+    "title": "Panel Multianual de Impacto Social",
+    "subtitle": "Indicadores auditados y evolución comunitaria del Instituto Nova Esperança (2023–2026)."
+  },
+  "fiscal_year_prefix": "Ejercicio Fiscal y Social",
+  "status_target": "Meta Anual",
+  "status_audited": "Auditado",
+  "timeline_aria": "Seleccione el año para el análisis",
+  "indicators": {
+    "beneficiaries": "Personas Atendidas Directamente",
+    "meals": "Comidas Balanceadas Servidas",
+    "pedagogical_kits": "Kits Pedagógicos Entregados",
+    "trained_women": "Mujeres Capacitadas Laboralmente",
+    "workshops": "Talleres Socioeducativos Realizados",
+    "families_assisted": "Familias Acompañadas Mensualmente",
+    "school_attendance": "Asistencia Escolar de los Alumnos",
+    "project_approval": "Tasa de Retención y Aprobación",
+    "funds_in_projects": "Recursos Aplicados a la Actividad Social"
+  },
+  "growth_badge_positive_prefix": "+",
+  "growth_vs_previous": "respecto al ejercicio anterior",
+  "chart": {
+    "title": "Evolución del Alcance Social (2023–2026)",
+    "subtitle": "Crecimiento sostenido del total de beneficiarios y de la inversión territorial.",
+    "aria_label": "Gráfico de evolución anual de beneficiarios de 2023 a 2026",
+    "legend_beneficiaries": "Personas Atendidas",
+    "legend_investment": "Inversión Aplicada"
+  },
+  "table": {
+    "title": "Tabla de Indicadores de Impacto (2023–2026)",
+    "caption": "Datos consolidados de la labor social del Instituto Nova Esperança según directrices WCAG AAA",
+    "col_metric": "Indicador / Métrica",
+    "col_2023": "2023 (Realizado)",
+    "col_2024": "2024 (Realizado)",
+    "col_2025": "2025 (Consolidado)",
+    "col_2026": "2026 (Meta / Proyección)"
+  }
+}

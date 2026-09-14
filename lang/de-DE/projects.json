@@ -1,1 +1,131 @@
-{}
+{
+  "header": {
+    "title": "Strukturierte Programme mit Sozialer Wirkung",
+    "subtitle": "Langfristige Förderansätze für menschliche Selbstbestimmung, Bildungsgerechtigkeit und die Überwindung extremer Armut."
+  },
+  "filters": {
+    "all": "Alle Programme",
+    "education": "Ganzheitliche Bildung",
+    "nutrition": "Ernährungssicherheit",
+    "income": "Arbeit & Einkommen",
+    "infrastructure": "Kommunale Infrastruktur"
+  },
+  "programs": [
+    {
+      "id": "novos-caminhos",
+      "slug": "novos-caminhos",
+      "name": "Novos Caminhos — Bildung und Bürgerrechte",
+      "category": "Ganzheitliche Bildung",
+      "area": "Bildung, Alphabetisierung und Jugendförderung",
+      "summary": "Schulische Nachhilfe in Mathematik und Sprache, IT-Kompetenzen, Robotik-Workshops und psychologische Betreuung für Kinder und Jugendliche.",
+      "territory": "Valparaíso de Goiás (Stadtteile Céu Azul, Anhanguera und Ipanema)",
+      "description": "Ein nachschulisches Betreuungsprogramm mit partizipativem Ansatz, individuellen Lernplänen und enger Einbindung der Eltern.",
+      "objectives": "Bildungsdefizite abbauen, Schulabbrüche verhindern und wissenschaftliches Denkvermögen an öffentlichen Regelschulen stärken.",
+      "targets": "4.500 Kinder jährlich betreuen, Schulabbruchquote unter 2% halten und Teilnahmen an Schülerwettbewerben fördern.",
+      "indicators": [
+        {
+          "label": "Schulabbruchquote Gesenkt auf",
+          "value": "< 1.8%"
+        },
+        {
+          "label": "Preisträger Schülerwettbewerbe",
+          "value": "18"
+        },
+        {
+          "label": "Förderstunden pro Jahr",
+          "value": "1.840h"
+        }
+      ],
+      "status": "Aktiv / Im Ausbau",
+      "cta_donate": "Projekt Unterstützen",
+      "cta_volunteer": "Lernbegleiter Werden"
+    },
+    {
+      "id": "prato-transforma",
+      "slug": "prato-transforma",
+      "name": "Prato que Transforma — Ernährung & Stadtgärten",
+      "category": "Ernährungssicherheit",
+      "area": "Ernährungssouveränität, Agrarökologie und Gesundheit",
+      "summary": "Hilfe gegen Mangelernährung durch solidarische Suppenküchen, ökologische Stadtgärten und Schulungen zur vollwertigen Speisenzubereitung.",
+      "territory": "Valparaíso de Goiás und Cidade Ocidental",
+      "description": "Ein lokaler Kreislauf aus direktem Zukauf von Kleinbauern, Anbau auf ungenutzten Flächen und täglicher Speiseversorgung Bedürftiger.",
+      "objectives": "Gesunde Ernährung für Kinder und Senioren sicherstellen, Mangelernährung beenden und eigenständige Versorgung stärken.",
+      "targets": "Über 150.000 Mahlzeiten jährlich ausgeben, 5 neue Schulgärten anlegen und 300 Familien in biologischem Gartenbau schulen.",
+      "indicators": [
+        {
+          "label": "Gesunde Mahlzeiten pro Jahr",
+          "value": "145.000"
+        },
+        {
+          "label": "Aktive Gartenprojekte",
+          "value": "240"
+        },
+        {
+          "label": "Erntemenge Frisches Gemüse",
+          "value": "68 ton"
+        }
+      ],
+      "status": "Aktiv / Fortlaufend",
+      "cta_donate": "Mahlzeiten Spenden",
+      "cta_volunteer": "Im Garten Mithelfen"
+    },
+    {
+      "id": "renda-futuro",
+      "slug": "renda-futuro",
+      "name": "Renda e Futuro — Berufliche Integration",
+      "category": "Arbeit & Einkommen",
+      "area": "Berufsausbildung, Arbeitsmarkt und Existenzgründung",
+      "summary": "Zertifizierte Fachkurse im Schneiderhandwerk, Bäckereiwesen und PC-Anwendungen mit anschließender Begleitung bei Existenzgründungen.",
+      "territory": "Metropolregion im Umland von Brasília",
+      "description": "Praxisorientierte Kurzzeitausbildungen abgestimmt auf den realen Arbeitskräftebedarf des regionalen Logistik- und Dienstleistungssektors.",
+      "objectives": "Dauerhafte wirtschaftliche Selbstständigkeit gefährdeter Haushalte durch Vermittlung in den ersten Arbeitsmarkt fördern.",
+      "targets": "2.000 Absolventen jährlich schulen, über 60% formale Gewerbeanmeldungen erreichen und 50 Kleinstbetriebe begleiten.",
+      "indicators": [
+        {
+          "label": "Absolventen mit Gewerbeschein",
+          "value": "64%"
+        },
+        {
+          "label": "Geförderte Mikrobetriebe",
+          "value": "42"
+        },
+        {
+          "label": "Mittlerer Familieneinkommenszuwachs",
+          "value": "+74%"
+        }
+      ],
+      "status": "Aktiv / Kurse Laufen",
+      "cta_donate": "Stipendien Fördern",
+      "cta_volunteer": "Mentoring Übernehmen"
+    },
+    {
+      "id": "comunidade-viva",
+      "slug": "comunidade-viva",
+      "name": "Comunidade Viva — Infrastruktur & Nachbarschaft",
+      "category": "Kommunale Infrastruktur",
+      "area": "Gemeindeentwicklung und Bürgerengagement",
+      "summary": "Aktivierung der Anwohner zur Verschönerung öffentlicher Plätze, Beleuchtung dunkler Zonen und gemeinsamer Instandsetzung von Wohnraum.",
+      "territory": "Valparaíso de Goiás (Quartiere Céu Azul und Anhanguera)",
+      "description": "Partizipative Stadtteilentwicklung: Nachbarn ermitteln Herausforderungen ihres Wohnumfeldes und beheben Mängel in Eigenregie.",
+      "objectives": "Den sozialen Zusammenhalt festigen, Kriminalität durch belebte Plätze vorbeugen und bürgerschaftliches Verantwortungsgefühl wecken.",
+      "targets": "8 öffentliche Plätze jährlich instand setzen, 500 Anwohner in Aktionstage einbinden und Bürgerbeiräte etablieren.",
+      "indicators": [
+        {
+          "label": "Aufgewertete Öffentliche Räume",
+          "value": "12"
+        },
+        {
+          "label": "Aktive Teilnehmende an Aktionstagen",
+          "value": "620"
+        },
+        {
+          "label": "Rückgang Lokaler Zwischenfälle",
+          "value": "-38%"
+        }
+      ],
+      "status": "Aktiv / Vor Ort",
+      "cta_donate": "Renovierung Fördern",
+      "cta_volunteer": "Bei Aktionstagen Helfen"
+    }
+  ]
+}

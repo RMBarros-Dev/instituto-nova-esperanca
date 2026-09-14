@@ -1,1 +1,44 @@
-{}
+{
+  "header": {
+    "title": "Portal da Transparência Ativa",
+    "subtitle": "Balanços auditados, origem das receitas e prestação de contas conforme normas CFC / ITG 2002."
+  },
+  "stat_revenue": "Total Arrecadado",
+  "stat_applied": "Recursos Aplicados",
+  "stat_efficiency": "Taxa em Projetos Sociais",
+  "stat_beneficiaries": "Beneficiários Atendidos",
+  "revenue_section": {
+    "title": "Origem das Receitas",
+    "subtitle": "Fontes de Financiamento Sustentável",
+    "categories": {
+      "individual_donations": "Doações Individuais",
+      "institutional_partnerships": "Parcerias Institucionais",
+      "public_grants": "Editais e Fundações",
+      "corporate_esg": "Investimento Social Corporativo (ESG)",
+      "investments_other": "Rendimentos e Outras Receitas"
+    }
+  },
+  "expense_section": {
+    "title": "Distribuição de Despesas",
+    "subtitle": "Metodologia CFC / ITG 2002",
+    "categories": {
+      "projects": "Projetos Socioeducativos (Atividade-fim)",
+      "administrative": "Governança e Administração",
+      "fundraising": "Captação de Recursos (Fundraising)",
+      "communication": "Comunicação e Relatórios Públicos",
+      "operations": "Operações e Manutenção Predial"
+    }
+  },
+  "table": {
+    "title": "Demonstrativo Contábil Completo",
+    "caption": "Balanço anual discriminado e auditado do Instituto Nova Esperança",
+    "col_category": "Rubrica Orçamentária",
+    "col_value": "Valor Aplicado",
+    "col_percentage": "Proporção (%)"
+  },
+  "reports_section": {
+    "title": "Documentos Oficiais & Relatórios de Auditoria",
+    "subtitle": "Arquivos abertos para download com assinatura dos contadores e parecer independente.",
+    "btn_download": "Baixar PDF"
+  }
+}

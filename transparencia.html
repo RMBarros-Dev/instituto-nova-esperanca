@@ -87,9 +87,9 @@
     <section class="hero-section hero-compact" aria-labelledby="transp-title">
       <div class="container">
         <div class="hero-territory-tag">Governança, Rigor e Compliance</div>
-        <h1 id="transp-title" class="hero-title">Transparência Ativa: A base da nossa credibilidade pública.</h1>
-        <p class="hero-lead">
-          Acreditamos que a prestação de contas deve ser proativa, didática e acessível a qualquer cidadão, empresa ou órgão de fomento.
+        <h1 id="transp-title" class="hero-title" data-i18n="transparency.header.title">Portal da Transparência Ativa</h1>
+        <p class="hero-lead" data-i18n="transparency.header.subtitle">
+          Balanços auditados, origem das receitas e prestação de contas conforme normas CFC / ITG 2002.
         </p>
       </div>
     </section>
@@ -126,19 +126,19 @@
         <div class="transparency-summary-grid">
           <div class="stat-card">
             <div class="stat-number text-primary" id="transp-total-revenue">R$ 2.45M</div>
-            <div class="stat-label">Total Arrecadado</div>
+            <div class="stat-label" data-i18n="transparency.stat_revenue">Total Arrecadado</div>
           </div>
           <div class="stat-card">
             <div class="stat-number text-secondary" id="transp-total-applied">R$ 2.23M</div>
-            <div class="stat-label">Recursos Aplicados</div>
+            <div class="stat-label" data-i18n="transparency.stat_applied">Recursos Aplicados</div>
           </div>
           <div class="stat-card">
             <div class="stat-number text-accent" id="transp-efficiency-rate">91.2%</div>
-            <div class="stat-label">Taxa em Projetos Sociais</div>
+            <div class="stat-label" data-i18n="transparency.stat_efficiency">Taxa em Projetos Sociais</div>
           </div>
           <div class="stat-card">
             <div class="stat-number" id="transp-total-beneficiaries">12.480</div>
-            <div class="stat-label">Beneficiários Atendidos</div>
+            <div class="stat-label" data-i18n="transparency.stat_beneficiaries">Beneficiários Atendidos</div>
           </div>
         </div>
 
@@ -146,8 +146,8 @@
           <!-- Gráfico Interativo: Origem dos Recursos (Receitas) -->
           <div class="chart-card">
             <h3 class="chart-title">
-              <span>Origem das Receitas</span>
-              <span class="chart-subtitle">Fontes de Financiamento Sustentável</span>
+              <span data-i18n="transparency.revenue_section.title">Origem das Receitas</span>
+              <span class="chart-subtitle" data-i18n="transparency.revenue_section.subtitle">Fontes de Financiamento Sustentável</span>
             </h3>
             <div id="transparency-revenue-breakdown" class="chart-svg-container mt-lg" aria-hidden="true">
               <!-- Gerado dinamicamente via assets/js/transparency.js -->
@@ -157,8 +157,8 @@
           <!-- Gráfico Interativo: Destinação dos Recursos (Despesas) -->
           <div class="chart-card">
             <h3 class="chart-title">
-              <span>Distribuição de Despesas</span>
-              <span class="chart-subtitle">Metodologia CFC / ITG 2002</span>
+              <span data-i18n="transparency.expense_section.title">Distribuição de Despesas</span>
+              <span class="chart-subtitle" data-i18n="transparency.expense_section.subtitle">Metodologia CFC / ITG 2002</span>
             </h3>
             <div id="transparency-bar-chart" class="chart-svg-container mt-lg" aria-hidden="true">
               <!-- Gerado dinamicamente via assets/js/transparency.js -->
@@ -168,15 +168,15 @@
 
         <!-- Tabela de Dados Completa e Acessível (WCAG AAA) -->
         <div class="chart-card">
-          <h3 class="chart-title">Demonstrativo Contábil Analítico de Aplicação</h3>
+          <h3 class="chart-title" data-i18n="transparency.table.title">Demonstrativo Contábil Completo</h3>
           <div class="table-responsive">
             <table class="table" id="transparency-data-table" aria-label="Tabela detalhada de despesas orçamentárias">
-              <caption>Demonstrativo Consolidado de Aplicação de Recursos por Centro de Custo</caption>
+              <caption data-i18n="transparency.table.caption">Balanço anual discriminado e auditado do Instituto Nova Esperança</caption>
               <thead>
                 <tr>
-                  <th scope="col">Área / Centro de Custo</th>
-                  <th scope="col">Valor Aplicado (R$)</th>
-                  <th scope="col">Participação (%)</th>
+                  <th scope="col" data-i18n="transparency.table.col_category">Rubrica Orçamentária</th>
+                  <th scope="col" data-i18n="transparency.table.col_value">Valor Aplicado</th>
+                  <th scope="col" data-i18n="transparency.table.col_percentage">Proporção (%)</th>
                 </tr>
               </thead>
               <tbody>
@@ -201,8 +201,8 @@
       <div class="container">
         <div class="section-header text-center">
           <span class="section-subtitle">Repositório Institucional</span>
-          <h2 id="docs-heading" class="section-title">Biblioteca de Documentos e Demonstrações Oficiais</h2>
-          <p class="section-desc">
+          <h2 id="docs-heading" class="section-title" data-i18n="transparency.reports_section.title">Biblioteca de Documentos e Demonstrações Oficiais</h2>
+          <p class="section-desc" data-i18n="transparency.reports_section.subtitle">
             Acesse na íntegra relatórios de atividades, atas constitutivas, pareceres fiscais e políticas de salvaguarda.
           </p>
         </div>
@@ -217,7 +217,7 @@
                 <span class="u-style-bd308a">Balanço Patrimonial, DRE e Notas Explicativas • 4.2 MB</span>
               </div>
             </div>
-            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Balanco_Auditado_2025.pdf">Baixar PDF</button>
+            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Balanco_Auditado_2025.pdf" data-i18n="transparency.reports_section.btn_download">Baixar PDF</button>
           </div>
 
           <div class="doc-item">
@@ -228,7 +228,7 @@
                 <span class="u-style-bd308a">Histórias, métricas georreferenciadas e retorno social (SROI) • 8.5 MB</span>
               </div>
             </div>
-            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Relatorio_Impacto_2025.pdf">Baixar PDF</button>
+            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Relatorio_Impacto_2025.pdf" data-i18n="transparency.reports_section.btn_download">Baixar PDF</button>
           </div>
 
           <div class="doc-item">
@@ -239,7 +239,7 @@
                 <span class="u-style-bd308a">Estatuto consolidado e ata de fundação legal • 1.8 MB</span>
               </div>
             </div>
-            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Estatuto_Social_INE.pdf">Baixar PDF</button>
+            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Estatuto_Social_INE.pdf" data-i18n="transparency.reports_section.btn_download">Baixar PDF</button>
           </div>
 
           <div class="doc-item">
@@ -250,7 +250,7 @@
                 <span class="u-style-bd308a">Políticas de salvaguarda, prevenção de assédio e canal de denúncia • 920 KB</span>
               </div>
             </div>
-            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Codigo_Etica_INE.pdf">Baixar PDF</button>
+            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Codigo_Etica_INE.pdf" data-i18n="transparency.reports_section.btn_download">Baixar PDF</button>
           </div>
 
           <div class="doc-item">
@@ -261,7 +261,7 @@
                 <span class="u-style-bd308a">Composição legal dos órgãos estatutários deliberativos • 650 KB</span>
               </div>
             </div>
-            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Ata_Eleicao_Diretoria.pdf">Baixar PDF</button>
+            <button type="button" class="btn btn-outline btn-sm" data-download-doc="Ata_Eleicao_Diretoria.pdf" data-i18n="transparency.reports_section.btn_download">Baixar PDF</button>
           </div>
 
         </div>

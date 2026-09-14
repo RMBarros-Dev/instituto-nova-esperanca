@@ -1,1 +1,44 @@
-{}
+{
+  "hero": {
+    "badge": "Impact Territorial • Périphérie de Brasília",
+    "title": "Construire la Dignité, l'Éducation et l'Avenir Durable",
+    "subtitle": "Agir à la racine de la précarité par l'éducation globale, la sécurité nutritionnelle et l'émancipation productive des familles vulnérables.",
+    "cta_donate": "Faire un Don",
+    "cta_projects": "Découvrir les Programmes",
+    "stat_people": "12 480+",
+    "stat_people_label": "Personnes Accompagnées",
+    "stat_meals": "145 000+",
+    "stat_meals_label": "Repas Distribués",
+    "stat_efficiency": "91,2%",
+    "stat_efficiency_label": "Affectation Directe aux Projets",
+    "stat_hours": "18 400h",
+    "stat_hours_label": "Heures de Bénévolat"
+  },
+  "pillars": {
+    "title": "Nos Quatre Piliers d'Action",
+    "subtitle": "Une approche systémique conçue pour rompre durablement la transmission de la pauvreté.",
+    "p1_title": "Éducation Intégrale",
+    "p1_desc": "Soutien scolaire continu, culture numérique et suivi bienveillant de la jeunesse.",
+    "p2_title": "Sécurité Nutritionnelle",
+    "p2_desc": "Repas équilibrés, jardins partagés agroécologiques et souveraineté alimentaire.",
+    "p3_title": "Revenu & Insertion",
+    "p3_desc": "Formations certifiantes, microfinance éthique et autonomie financière des mères.",
+    "p4_title": "Cohésion Citoyenne",
+    "p4_desc": "Gouvernance participative, chantiers solidaires et dynamisation de quartier."
+  },
+  "impact_preview": {
+    "title": "Impact Mesurable et Audité",
+    "subtitle": "Chaque ressource mobilisée fait l'objet d'un suivi comptable rigoureux et d'indicateurs publics.",
+    "cta": "Consulter le Tableau de Bord"
+  },
+  "transparency_preview": {
+    "title": "Transparence Exemplaire",
+    "subtitle": "Publication exhaustive des bilans financiers certifiés par des auditeurs indépendants.",
+    "cta": "Accéder aux Rapports Publics"
+  },
+  "volunteer_cta": {
+    "title": "Rejoignez Notre Équipe Solidaire",
+    "subtitle": "Mettez votre expertise et votre générosité au service du développement communautaire.",
+    "cta": "Devenir Bénévole"
+  }
+}

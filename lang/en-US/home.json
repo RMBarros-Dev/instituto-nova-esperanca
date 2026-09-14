@@ -1,1 +1,44 @@
-{}
+{
+  "hero": {
+    "badge": "Community Empowerment • Federal District Suburbs",
+    "title": "Building Dignity, Education, and Sustainable Futures",
+    "subtitle": "Tackling social vulnerability at its roots through comprehensive education, food security, and workforce inclusion for vulnerable families.",
+    "cta_donate": "Donate Now",
+    "cta_projects": "Explore Programs",
+    "stat_people": "12,480+",
+    "stat_people_label": "People Supported",
+    "stat_meals": "145,000+",
+    "stat_meals_label": "Meals Distributed",
+    "stat_efficiency": "91.2%",
+    "stat_efficiency_label": "Program Efficiency Rate",
+    "stat_hours": "18,400h",
+    "stat_hours_label": "Volunteer Hours"
+  },
+  "pillars": {
+    "title": "Our Four Strategic Pillars",
+    "subtitle": "An integrated framework engineered to break the intergenerational cycles of poverty.",
+    "p1_title": "Comprehensive Education",
+    "p1_desc": "Academic tutoring, digital literacy, and socio-emotional care for youth.",
+    "p2_title": "Nutritional Security",
+    "p2_desc": "Wholesome food supply, community agroecological gardens, and meal equity.",
+    "p3_title": "Income & Livelihood",
+    "p3_desc": "Technical job training, microfinance mentorship, and female financial autonomy.",
+    "p4_title": "Community Cohesion",
+    "p4_desc": "Neighborhood leadership development, cooperative efforts, and infrastructure."
+  },
+  "impact_preview": {
+    "title": "Auditable and Measurable Impact",
+    "subtitle": "Every resource deployed is tracked with strict financial governance and public metric evolution.",
+    "cta": "View Impact Dashboard"
+  },
+  "transparency_preview": {
+    "title": "Active Transparency",
+    "subtitle": "Open accountability in full alignment with international and national non-profit audit standards.",
+    "cta": "View Audit Reports"
+  },
+  "volunteer_cta": {
+    "title": "Be the Catalyst for Change",
+    "subtitle": "Dedicate your skills, time, and empathy to create lasting grassroots transformation.",
+    "cta": "Become a Volunteer"
+  }
+}
