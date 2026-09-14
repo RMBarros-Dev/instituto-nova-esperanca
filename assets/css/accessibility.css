@@ -1,0 +1,265 @@
+/* ==========================================================================
+   INSTITUTO NOVA ESPERANÇA — ACCESSIBILITY STYLES (WCAG 2.2 AA / AAA)
+   Alto Contraste, Modo Escuro, Tipografia Dislexia, Foco Visível & Skip Links
+   ========================================================================== */
+
+/* Skip Links WCAG AAA */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: var(--space-md, 1rem);
+  background: var(--primary, #075E54);
+  color: #FFFFFF;
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--radius-md, 8px);
+  font-weight: 700;
+  font-size: 0.875rem;
+  z-index: 99999;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: top 0.2s ease-in-out;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  outline: 3px solid #1D4ED8;
+  outline-offset: 3px;
+}
+
+/* Screen Reader Only Utility */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.sr-only-focusable:focus {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  overflow: visible !important;
+  clip: auto !important;
+  white-space: normal !important;
+}
+
+/* Assistive Global Toolbar */
+.a11y-toolbar {
+  background-color: #032E2A;
+  color: #E8F5F2;
+  font-size: 0.8125rem;
+  padding-block: 0.45rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  position: relative;
+  z-index: 1000;
+}
+
+.a11y-toolbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.a11y-group {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.a11y-label {
+  font-weight: 600;
+  color: #BEE3D8;
+  margin-right: 0.25rem;
+}
+
+.a11y-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: all 0.15s ease;
+}
+
+.a11y-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.a11y-btn[aria-pressed="true"] {
+  background: var(--secondary, #E76F51);
+  border-color: var(--secondary, #E76F51);
+  color: #FFFFFF;
+}
+
+.a11y-btn:focus-visible {
+  outline: 3px solid #60A5FA;
+  outline-offset: 2px;
+}
+
+/* Alto Contraste (WCAG AAA - Relação > 7:1 e 21:1) */
+body.high-contrast,
+:root[data-contrast="high"],
+[data-contrast="high"] body {
+  --background: #000000 !important;
+  --surface: #000000 !important;
+  --surface-alt: #121212 !important;
+  --text: #FFFFFF !important;
+  --text-muted: #FFFF00 !important;
+  --border: #FFFFFF !important;
+  --primary: #FFFF00 !important;
+  --primary-light: #1A1A00 !important;
+  --primary-dark: #FFFF00 !important;
+  --secondary: #00FFFF !important;
+  --accent: #00FF00 !important;
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+body.high-contrast a,
+[data-contrast="high"] a {
+  color: #00FFFF !important;
+  text-decoration: underline !important;
+}
+
+body.high-contrast .card,
+body.high-contrast .stat-card,
+body.high-contrast .chart-card,
+body.high-contrast .doc-item,
+[data-contrast="high"] .card,
+[data-contrast="high"] .stat-card,
+[data-contrast="high"] .chart-card,
+[data-contrast="high"] .doc-item {
+  background-color: #000000 !important;
+  border: 2px solid #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+
+body.high-contrast .btn-primary,
+[data-contrast="high"] .btn-primary {
+  background: #FFFF00 !important;
+  color: #000000 !important;
+  border: 2px solid #FFFFFF !important;
+  font-weight: 900 !important;
+}
+
+body.high-contrast .btn-outline,
+[data-contrast="high"] .btn-outline {
+  border: 2px solid #00FFFF !important;
+  color: #00FFFF !important;
+  background: #000000 !important;
+}
+
+body.high-contrast .a11y-toolbar,
+[data-contrast="high"] .a11y-toolbar {
+  background-color: #000000 !important;
+  border-bottom: 2px solid #FFFFFF !important;
+}
+
+/* Modo Escuro Nativo (OLED Friendly) */
+body.dark-mode,
+:root[data-theme="dark"],
+[data-theme="dark"] body {
+  --background: #0D1615;
+  --surface: #142220;
+  --surface-alt: #1A2B29;
+  --text: #E8F5F2;
+  --text-muted: #9BB3AD;
+  --border: #263D39;
+  --border-light: #1E312E;
+  background-color: #0D1615;
+  color: #E8F5F2;
+}
+
+body.dark-mode .site-header,
+[data-theme="dark"] .site-header {
+  background-color: rgba(13, 22, 21, 0.95);
+  border-bottom-color: var(--border);
+}
+
+body.dark-mode .card,
+body.dark-mode .stat-card,
+body.dark-mode .chart-card,
+body.dark-mode .doc-item,
+body.dark-mode .modal-container,
+[data-theme="dark"] .card,
+[data-theme="dark"] .stat-card,
+[data-theme="dark"] .chart-card,
+[data-theme="dark"] .doc-item,
+[data-theme="dark"] .modal-container {
+  background-color: #142220;
+  border-color: var(--border);
+  color: var(--text);
+}
+
+body.dark-mode .table thead th,
+[data-theme="dark"] .table thead th {
+  background-color: #1A2B29;
+  color: #FFFFFF;
+}
+
+body.dark-mode .table td,
+[data-theme="dark"] .table td {
+  border-color: var(--border);
+}
+
+body.dark-mode .form-control,
+[data-theme="dark"] .form-control {
+  background-color: #1A2B29;
+  border-color: var(--border);
+  color: var(--text);
+}
+
+/* Tipografia Adaptada para Dislexia */
+body.dyslexia-font,
+:root[data-font="dyslexic"],
+[data-font="dyslexic"] body {
+  font-family: 'OpenDyslexic', 'Comic Sans MS', sans-serif !important;
+  letter-spacing: 0.05em !important;
+  word-spacing: 0.15em !important;
+  line-height: 1.8 !important;
+}
+
+body.dyslexia-font p,
+body.dyslexia-font span,
+body.dyslexia-font a,
+body.dyslexia-font li,
+[data-font="dyslexic"] p,
+[data-font="dyslexic"] span,
+[data-font="dyslexic"] a,
+[data-font="dyslexic"] li {
+  font-family: inherit !important;
+}
+
+/* Sublinhado Forçado em Links */
+body.underline-links a:not(.btn):not(.brand-logo),
+:root[data-underline="true"] a:not(.btn):not(.brand-logo),
+[data-underline="true"] a:not(.btn):not(.brand-logo) {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+/* Ajustes de Redução de Movimento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "2026": {
+    "year": "2026",
+    "status": "Execução / Homologação MVP",
+    "revenue": 2450000,
+    "applied": 2230000,
+    "beneficiaries": 12480,
+    "efficiency_rate": 91.2,
+    "admin_rate": 3.4,
+    "fundraising_rate": 5.4,
+    "revenue_breakdown": {
+      "donations": 735000,
+      "partnerships": 686000,
+      "grants": 490000,
+      "corporate": 392000,
+      "other": 147000
+    },
+    "expenses": {
+      "projects": 2033760,
+      "administrative": 75820,
+      "fundraising": 120420,
+      "communication": 55800,
+      "operations": 72400
+    },
+    "project_distribution": {
+      "novos_caminhos": 752000,
+      "prato_transforma": 630000,
+      "renda_futuro": 412000,
+      "comunidade_viva": 239760
+    }
+  },
+  "2025": {
+    "year": "2025",
+    "status": "Consolidado / Auditado",
+    "revenue": 1850000,
+    "applied": 1630000,
+    "beneficiaries": 9230,
+    "efficiency_rate": 88.4,
+    "admin_rate": 4.4,
+    "fundraising_rate": 7.2,
+    "revenue_breakdown": {
+      "donations": 555000,
+      "partnerships": 518000,
+      "grants": 370000,
+      "corporate": 277500,
+      "other": 129500
+    },
+    "expenses": {
+      "projects": 1440920,
+      "administrative": 71720,
+      "fundraising": 117360,
+      "communication": 45000,
+      "operations": 55000
+    },
+    "project_distribution": {
+      "novos_caminhos": 533000,
+      "prato_transforma": 446000,
+      "renda_futuro": 292000,
+      "comunidade_viva": 169920
+    }
+  },
+  "2024": {
+    "year": "2024",
+    "status": "Consolidado / Auditado",
+    "revenue": 1250000,
+    "applied": 1050000,
+    "beneficiaries": 6540,
+    "efficiency_rate": 84.0,
+    "admin_rate": 6.2,
+    "fundraising_rate": 9.8,
+    "revenue_breakdown": {
+      "donations": 375000,
+      "partnerships": 350000,
+      "grants": 250000,
+      "corporate": 187500,
+      "other": 87500
+    },
+    "expenses": {
+      "projects": 882000,
+      "administrative": 65100,
+      "fundraising": 102900,
+      "communication": 35000,
+      "operations": 45000
+    },
+    "project_distribution": {
+      "novos_caminhos": 326000,
+      "prato_transforma": 273000,
+      "renda_futuro": 178000,
+      "comunidade_viva": 105000
+    }
+  },
+  "2023": {
+    "year": "2023",
+    "status": "Consolidado / Fundação",
+    "revenue": 850000,
+    "applied": 680000,
+    "beneficiaries": 3100,
+    "efficiency_rate": 80.0,
+    "admin_rate": 8.0,
+    "fundraising_rate": 12.0,
+    "revenue_breakdown": {
+      "donations": 255000,
+      "partnerships": 238000,
+      "grants": 170000,
+      "corporate": 127500,
+      "other": 59500
+    },
+    "expenses": {
+      "projects": 544000,
+      "administrative": 54400,
+      "fundraising": 81600,
+      "communication": 28000,
+      "operations": 32000
+    },
+    "project_distribution": {
+      "novos_caminhos": 201000,
+      "prato_transforma": 168000,
+      "renda_futuro": 110000,
+      "comunidade_viva": 65000
+    }
+  }
+}

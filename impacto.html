@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Dashboard de Impacto Social | Instituto Nova Esperança</title>
+  <meta name="description" content="Acompanhe as métricas públicas e verificáveis de impacto do Instituto Nova Esperança: pessoas atendidas, kits entregues e horas de formação.">
+  <link rel="canonical" href="https://instituto-novaesperanca.org.br/impacto.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/accessibility.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="apple-touch-icon" href="assets/img/icon-192.svg">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link" data-i18n="skip_content">Pular para o conteúdo principal</a>
+  <a href="#main-navigation" class="skip-link" data-i18n="skip_nav">Pular para a navegação</a>
+
+  <aside class="a11y-toolbar" aria-label="Ferramentas de Acessibilidade">
+    <div class="container a11y-toolbar-inner">
+      <div class="a11y-group">
+        <span class="a11y-label">Acessibilidade:</span>
+        <button type="button" class="a11y-btn" data-a11y-action="font-dec">A-</button>
+        <button type="button" class="a11y-btn" data-a11y-action="font-reset">A</button>
+        <button type="button" class="a11y-btn" data-a11y-action="font-inc">A+</button>
+        <button type="button" class="a11y-btn" data-a11y-action="contrast">◐ Alto Contraste</button>
+        <button type="button" class="a11y-btn" data-a11y-action="dark">🌙 Modo Escuro</button>
+        <button type="button" class="a11y-btn" data-a11y-action="dyslexia">📖 Fonte Legível</button>
+      </div>
+      <div class="a11y-group">
+        <div class="lang-pills-group">
+          <button type="button" class="lang-pill-btn is-active" data-lang-code="PT">PT</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="EN">EN</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="ES">ES</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="FR">FR</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="DE">DE</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="JP">JP</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-symbol">NE</div>
+        <div class="brand-info">
+          <span class="brand-name">Instituto Nova Esperança</span>
+          <span class="brand-tagline">Impacto Social & Cidadania</span>
+        </div>
+      </a>
+
+      <nav id="main-navigation" class="main-nav" role="navigation" aria-label="Navegação Principal">
+        <a href="index.html" class="nav-link" data-i18n="nav_home">Início</a>
+        <a href="sobre.html" class="nav-link" data-i18n="nav_about">Quem Somos</a>
+        <a href="projetos.html" class="nav-link" data-i18n="nav_projects">Projetos</a>
+        <a href="impacto.html" class="nav-link is-current" data-i18n="nav_impact">Nosso Impacto</a>
+        <a href="empresas.html" class="nav-link" data-i18n="nav_companies">Empresas</a>
+        <a href="voluntariado.html" class="nav-link" data-i18n="nav_volunteer">Voluntariado</a>
+        <a href="transparencia.html" class="nav-link" data-i18n="nav_transparency">Transparência</a>
+        <a href="blog.html" class="nav-link" data-i18n="nav_blog">Blog</a>
+        <a href="contato.html" class="nav-link" data-i18n="nav_contact">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn-search-trigger" aria-label="Pesquisar no portal">
+          🔍 <span class="search-shortcut-hint">Ctrl+K</span>
+        </button>
+        <a href="doacoes.html" class="btn btn-donate btn-sm" data-i18n="nav_donate">Doar Agora</a>
+        <button type="button" class="mobile-nav-toggle" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" role="main">
+
+    <section class="hero-section hero-compact" aria-labelledby="imp-title">
+      <div class="container">
+        <div class="hero-territory-tag">Evidências e Monitoramento Contínuo</div>
+        <h1 id="imp-title" class="hero-title">Resultados concretos que transformam o presente e o futuro.</h1>
+        <p class="hero-lead">
+          Acompanhe os dados auditados de atuação do Instituto Nova Esperança em Valparaíso de Goiás e Entorno do Distrito Federal.
+        </p>
+      </div>
+    </section>
+
+    <!-- Indicadores Principais em Destaque & Dashboard Dinâmico (Regra 20) -->
+    <section class="section" aria-labelledby="metricas-heading">
+      <div class="container">
+        <div class="section-header text-center mb-xl">
+          <span class="section-subtitle">Painel Consolidado & Transparência Territorial</span>
+          <h2 id="metricas-heading" class="section-title">Dashboard de Impacto Social (2023–2026)</h2>
+          <p class="section-desc">
+            Acompanhe a evolução verificável de nossas intervenções em Valparaíso de Goiás e Entorno do Distrito Federal.
+          </p>
+        </div>
+
+        <!-- Montagem do Dashboard Dinâmico -->
+        <div id="impact-dashboard-mount">
+          <!-- Renderizado via assets/js/dashboard.js -->
+        </div>
+      </div>
+    </section>
+
+        <!-- Histórias de Transformação com Rigor e Respeito (Regra 58 / 59) -->
+        <div class="section-header">
+          <span class="section-subtitle">Vidas Reais</span>
+          <h3 class="section-title">Histórias de Autonomia e Superação</h3>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <span class="badge badge-primary mb-xs">Educação</span>
+            <h4 class="mb-xs">Gabriel, 15 anos</h4>
+            <p class="u-style-16882d">
+              Com defasagem escolar em matemática, ingressou no programa Novos Caminhos em 2024. Após 14 meses de reforço escolar e letramento digital, conquistou menção honrosa na Olimpíada Brasileira de Matemática (OBMEP) de sua escola pública em Valparaíso.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="badge badge-accent mb-xs">Empreendedorismo</span>
+            <h4 class="mb-xs">Dona Rosângela, 42 anos</h4>
+            <p class="u-style-16882d">
+              Mãe solo de três filhos, concluiu a formação técnica em corte & costura industrial do programa Renda e Futuro. Hoje formalizada como MEI, lidera uma microconfecção cooperada que produz uniformes escolares e peças para o comércio regional.
+            </p>
+          </div>
+
+          <div class="card">
+            <span class="badge badge-secondary mb-xs">Segurança Alimentar</span>
+            <h4 class="mb-xs">Seu Valdomiro, 58 anos</h4>
+            <p class="u-style-16882d">
+              Morador do bairro Céu Azul, tornou-se voluntário-chefe da horta agroecológica comunitária. Além de garantir verduras frescas semanais para sua família, ensina técnicas de adubação orgânica para as crianças da comunidade.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Instituto Nova Esperança. Todos os direitos reservados.</div>
+        <ul class="footer-legal-links">
+          <li><a href="privacidade.html">Privacidade</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="acessibilidade.html">Acessibilidade</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/toast.js"></script>
+  <script src="assets/js/a11y.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/media.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

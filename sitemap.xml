@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://instituto-novaesperanca.org.br/index.html?lang=pt-BR"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://instituto-novaesperanca.org.br/index.html?lang=en-US"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://instituto-novaesperanca.org.br/index.html?lang=es-ES"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://instituto-novaesperanca.org.br/index.html?lang=fr-FR"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://instituto-novaesperanca.org.br/index.html?lang=de-DE"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://instituto-novaesperanca.org.br/index.html?lang=ja-JP"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Sobre -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/sobre.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://instituto-novaesperanca.org.br/sobre.html?lang=pt-BR"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://instituto-novaesperanca.org.br/sobre.html?lang=en-US"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projetos -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/projetos.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://instituto-novaesperanca.org.br/projetos.html?lang=pt-BR"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://instituto-novaesperanca.org.br/projetos.html?lang=en-US"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Doações -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/doacoes.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://instituto-novaesperanca.org.br/doacoes.html?lang=pt-BR"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://instituto-novaesperanca.org.br/doacoes.html?lang=en-US"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Voluntariado -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/voluntariado.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Transparência -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/transparencia.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Impacto -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/impacto.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contato -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/contato.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://instituto-novaesperanca.org.br/faq.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

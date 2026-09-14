@@ -1,0 +1,35 @@
+{
+  "requiredKeys": [
+    "nav_home",
+    "nav_about",
+    "nav_projects",
+    "nav_impact",
+    "nav_companies",
+    "nav_volunteer",
+    "nav_transparency",
+    "nav_blog",
+    "nav_contact",
+    "nav_donate",
+    "nav_faq",
+    "skip_content",
+    "skip_nav",
+    "a11y_tools",
+    "lang_selector",
+    "footer_rights",
+    "footer_privacy",
+    "footer_cookies",
+    "footer_a11y"
+  ],
+  "pages": [
+    "common",
+    "home",
+    "about",
+    "projects",
+    "impact",
+    "donations",
+    "blog",
+    "transparency",
+    "contact",
+    "faq"
+  ]
+}

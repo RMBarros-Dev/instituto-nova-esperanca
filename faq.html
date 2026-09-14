@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Central de Ajuda & Perguntas Frequentes (FAQ) | Instituto Nova Esperança</title>
+  <meta name="description" content="Tire suas dúvidas sobre doações, transparência, voluntariado, parcerias corporativas e atuação do Instituto Nova Esperança.">
+  <link rel="canonical" href="https://instituto-novaesperanca.org.br/faq.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/accessibility.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <style>
+    details {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-md) var(--space-lg);
+      margin-bottom: var(--space-sm);
+      transition: all var(--transition-fast);
+    }
+    details[open] {
+      border-color: var(--primary);
+      box-shadow: var(--shadow-sm);
+    }
+    summary {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    summary::after {
+      content: '+';
+      font-size: 1.3rem;
+      color: var(--primary);
+      font-weight: bold;
+    }
+    details[open] summary::after {
+      content: '−';
+    }
+    .faq-answer {
+      margin-top: var(--space-md);
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+  </style>
+  <link rel="apple-touch-icon" href="assets/img/icon-192.svg">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link" data-i18n="skip_content">Pular para o conteúdo principal</a>
+  <a href="#main-navigation" class="skip-link" data-i18n="skip_nav">Pular para a navegação</a>
+
+  <aside class="a11y-toolbar" aria-label="Ferramentas de Acessibilidade">
+    <div class="container a11y-toolbar-inner">
+      <div class="a11y-group">
+        <span class="a11y-label">Acessibilidade:</span>
+        <button type="button" class="a11y-btn" data-a11y-action="font-dec">A-</button>
+        <button type="button" class="a11y-btn" data-a11y-action="font-reset">A</button>
+        <button type="button" class="a11y-btn" data-a11y-action="font-inc">A+</button>
+        <button type="button" class="a11y-btn" data-a11y-action="contrast">◐ Alto Contraste</button>
+        <button type="button" class="a11y-btn" data-a11y-action="dark">🌙 Modo Escuro</button>
+        <button type="button" class="a11y-btn" data-a11y-action="dyslexia">📖 Fonte Legível</button>
+      </div>
+      <div class="a11y-group">
+        <div class="lang-pills-group">
+          <button type="button" class="lang-pill-btn is-active" data-lang-code="PT">PT</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="EN">EN</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="ES">ES</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="FR">FR</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="DE">DE</button>
+          <button type="button" class="lang-pill-btn" data-lang-code="JP">JP</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-symbol">NE</div>
+        <div class="brand-info">
+          <span class="brand-name">Instituto Nova Esperança</span>
+          <span class="brand-tagline">Impacto Social & Cidadania</span>
+        </div>
+      </a>
+
+      <nav id="main-navigation" class="main-nav" role="navigation" aria-label="Navegação Principal">
+        <a href="index.html" class="nav-link" data-i18n="nav_home">Início</a>
+        <a href="sobre.html" class="nav-link" data-i18n="nav_about">Quem Somos</a>
+        <a href="projetos.html" class="nav-link" data-i18n="nav_projects">Projetos</a>
+        <a href="impacto.html" class="nav-link" data-i18n="nav_impact">Nosso Impacto</a>
+        <a href="empresas.html" class="nav-link" data-i18n="nav_companies">Empresas</a>
+        <a href="voluntariado.html" class="nav-link" data-i18n="nav_volunteer">Voluntariado</a>
+        <a href="transparencia.html" class="nav-link" data-i18n="nav_transparency">Transparência</a>
+        <a href="blog.html" class="nav-link" data-i18n="nav_blog">Blog</a>
+        <a href="contato.html" class="nav-link" data-i18n="nav_contact">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="btn-search-trigger" aria-label="Pesquisar no portal">
+          🔍 <span class="search-shortcut-hint">Ctrl+K</span>
+        </button>
+        <a href="doacoes.html" class="btn btn-donate btn-sm" data-i18n="nav_donate">Doar Agora</a>
+        <button type="button" class="mobile-nav-toggle" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" role="main">
+
+    <section class="hero-section hero-compact" aria-labelledby="faq-title">
+      <div class="container text-center max-w-800">
+        <span class="hero-territory-tag">Central de Ajuda e Esclarecimentos</span>
+        <h1 id="faq-title" class="hero-title u-style-b3b371">Perguntas Frequentes (FAQ)</h1>
+        <p class="hero-lead u-style-b3b371">
+          Respostas claras e objetivas sobre o funcionamento do Instituto, processos de doação, prestação de contas e voluntariado.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="perguntas-heading">
+      <div class="container max-w-860">
+        <h2 id="perguntas-heading" class="sr-only">Lista de Perguntas e Respostas</h2>
+        
+        <div class="faq-search-bar u-style-0ddb97">
+          <label for="faq-search-input" class="sr-only">Pesquisar dúvida</label>
+          <input type="search" id="faq-search-input" class="form-control u-style-fc0e8d" placeholder="Buscar uma dúvida...">
+        </div>
+
+        <details class="faq-item">
+          <summary>Como posso fazer uma doação?</summary>
+          <div class="faq-answer">
+            Você pode realizar sua contribuição de forma rápida e segura através da nossa página de doações. Aceitamos PIX instantâneo com geração de QR Code e chave de cópia fácil, cartões de crédito (com opções de contribuição única ou mensal recorrente) e boleto bancário. Todas as transações são criptografadas.
+          </div>
+        </details>
+
+        <details>
+          <summary>Como funciona a doação mensal recorrente e como cancelá-la?</summary>
+          <div class="faq-answer">
+            A doação recorrente é debitada automaticamente a cada 30 dias na fatura do seu cartão. Você recebe um recibo por e-mail a cada cobrança. Não há qualquer período de carência ou fidelidade: você pode pausar ou cancelar sua recorrência a qualquer momento enviando um e-mail para <code>doacoes@instituto-novaesperanca.org.br</code> ou pelo WhatsApp de atendimento.
+          </div>
+        </details>
+
+        <details>
+          <summary>Como os recursos financeiros são utilizados?</summary>
+          <div class="faq-answer">
+            Mantemos uma política estrita de eficiência orçamentária: em 2026, 91,2% de todas as receitas são aplicadas diretamente nos projetos socioeducativos (alimentação, material escolar, remuneração de instrutores e insumos de oficina). Apenas 5,4% destinam-se à captação de recursos e 3,4% à administração e governança contábil.
+          </div>
+        </details>
+
+        <details>
+          <summary>Como posso acessar os balanços contábeis e relatórios de auditoria?</summary>
+          <div class="faq-answer">
+            Todos os relatórios de gestão, demonstrações contábeis e pareceres dos auditores independentes estão disponíveis para download público no nosso <a href="transparencia.html" class="u-style-ecaffb">Portal da Transparência</a>.
+          </div>
+        </details>
+
+        <details>
+          <summary>Como posso me tornar um voluntário do Instituto?</summary>
+          <div class="faq-answer">
+            Basta acessar nossa página de <a href="voluntariado.html" class="u-style-ecaffb">Voluntariado</a> e preencher o formulário em 7 etapas. Atuamos com base na Lei Federal 9.608/98, oferecendo termo formal de adesão, capacitação inicial e certificados com validação de horas complementares.
+          </div>
+        </details>
+
+        <details>
+          <summary>Como minha empresa pode se tornar parceira institucional?</summary>
+          <div class="faq-answer">
+            Oferecemos modalidades estruturadas de patrocínio corporativo, programas de matching gift, voluntariado corporativo de equipes e encomendas de produtos confeccionados por nossos alunos. Visite a página de <a href="empresas.html" class="u-style-ecaffb">Empresas</a> para agendar uma reunião com nossa equipe de relações institucionais.
+          </div>
+        </details>
+
+        <details>
+          <summary>Onde o Instituto Nova Esperança atua fisicamente?</summary>
+          <div class="faq-answer">
+            Nossos polos operacionais estão situados no município de Valparaíso de Goiás — GO, na região metropolitana do Entorno do Distrito Federal, com atendimento a famílias dos bairros Céu Azul, Morada Nobre, Anhanguera e municípios circunvizinhos como Novo Gama e Luziânia.
+          </div>
+        </details>
+
+        <details>
+          <summary>O Instituto possui fins lucrativos ou vínculos político-partidários?</summary>
+          <div class="faq-answer">
+            Não. O Instituto Nova Esperança é uma associação civil sem fins lucrativos, laica, apartidária e independente, regida por estatuto social registrado e com governança fiscal transparente.
+          </div>
+        </details>
+
+        <div class="u-style-880151">
+          <h3 class="u-style-adfca3">Ainda tem alguma dúvida?</h3>
+          <p class="u-style-5203d2">Nossa equipe está pronta para conversar com você.</p>
+          <a href="contato.html" class="btn btn-primary">Fale Conosco Diretamente</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 Instituto Nova Esperança. Todos os direitos reservados.</div>
+        <ul class="footer-legal-links">
+          <li><a href="privacidade.html">Privacidade</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="acessibilidade.html">Acessibilidade</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/toast.js"></script>
+  <script src="assets/js/a11y.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/media.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

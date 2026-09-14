@@ -1,0 +1,138 @@
+{
+  "2026": {
+    "year": "2026",
+    "status": "Meta em Execução",
+    "metrics": {
+      "beneficiaries": 12480,
+      "families": 3120,
+      "meals_served": 145000,
+      "pedagogical_kits": 5320,
+      "active_volunteers": 420,
+      "active_projects": 4,
+      "municipalities_reached": 6,
+      "volunteer_hours": 18400,
+      "funds_destined_projects": 2033760
+    },
+    "growth_vs_previous_year": {
+      "beneficiaries": 35.2,
+      "meals_served": 42.1,
+      "funds_destined": 41.1
+    },
+    "monthly_evolution": [
+      { "month": "Jan", "beneficiaries": 9300, "meals": 10500 },
+      { "month": "Fev", "beneficiaries": 9600, "meals": 11000 },
+      { "month": "Mar", "beneficiaries": 9950, "meals": 11400 },
+      { "month": "Abr", "beneficiaries": 10400, "meals": 11900 },
+      { "month": "Mai", "beneficiaries": 10800, "meals": 12300 },
+      { "month": "Jun", "beneficiaries": 11200, "meals": 12700 },
+      { "month": "Jul", "beneficiaries": 11500, "meals": 13000 },
+      { "month": "Ago", "beneficiaries": 11900, "meals": 13500 },
+      { "month": "Set", "beneficiaries": 12100, "meals": 13800 },
+      { "month": "Out", "beneficiaries": 12250, "meals": 14000 },
+      { "month": "Nov", "beneficiaries": 12380, "meals": 14200 },
+      { "month": "Dez", "beneficiaries": 12480, "meals": 14500 }
+    ]
+  },
+  "2025": {
+    "year": "2025",
+    "status": "Consolidado",
+    "metrics": {
+      "beneficiaries": 9230,
+      "families": 2300,
+      "meals_served": 102000,
+      "pedagogical_kits": 3800,
+      "active_volunteers": 310,
+      "active_projects": 4,
+      "municipalities_reached": 4,
+      "volunteer_hours": 13500,
+      "funds_destined_projects": 1440920
+    },
+    "growth_vs_previous_year": {
+      "beneficiaries": 41.1,
+      "meals_served": 47.8,
+      "funds_destined": 63.4
+    },
+    "monthly_evolution": [
+      { "month": "Jan", "beneficiaries": 6600, "meals": 7500 },
+      { "month": "Fev", "beneficiaries": 6850, "meals": 7800 },
+      { "month": "Mar", "beneficiaries": 7100, "meals": 8100 },
+      { "month": "Abr", "beneficiaries": 7400, "meals": 8400 },
+      { "month": "Mai", "beneficiaries": 7700, "meals": 8700 },
+      { "month": "Jun", "beneficiaries": 8000, "meals": 9000 },
+      { "month": "Jul", "beneficiaries": 8250, "meals": 9200 },
+      { "month": "Ago", "beneficiaries": 8500, "meals": 9500 },
+      { "month": "Set", "beneficiaries": 8750, "meals": 9700 },
+      { "month": "Out", "beneficiaries": 8900, "meals": 9900 },
+      { "month": "Nov", "beneficiaries": 9080, "meals": 10050 },
+      { "month": "Dez", "beneficiaries": 9230, "meals": 10200 }
+    ]
+  },
+  "2024": {
+    "year": "2024",
+    "status": "Consolidado",
+    "metrics": {
+      "beneficiaries": 6540,
+      "families": 1630,
+      "meals_served": 69000,
+      "pedagogical_kits": 2600,
+      "active_volunteers": 220,
+      "active_projects": 3,
+      "municipalities_reached": 3,
+      "volunteer_hours": 9200,
+      "funds_destined_projects": 882000
+    },
+    "growth_vs_previous_year": {
+      "beneficiaries": 111.0,
+      "meals_served": 115.6,
+      "funds_destined": 62.1
+    },
+    "monthly_evolution": [
+      { "month": "Jan", "beneficiaries": 3200, "meals": 3800 },
+      { "month": "Fev", "beneficiaries": 3450, "meals": 4100 },
+      { "month": "Mar", "beneficiaries": 3750, "meals": 4500 },
+      { "month": "Abr", "beneficiaries": 4100, "meals": 4900 },
+      { "month": "Mai", "beneficiaries": 4450, "meals": 5300 },
+      { "month": "Jun", "beneficiaries": 4800, "meals": 5700 },
+      { "month": "Jul", "beneficiaries": 5150, "meals": 6100 },
+      { "month": "Ago", "beneficiaries": 5500, "meals": 6400 },
+      { "month": "Set", "beneficiaries": 5800, "meals": 6700 },
+      { "month": "Out", "beneficiaries": 6100, "meals": 7000 },
+      { "month": "Nov", "beneficiaries": 6320, "meals": 7200 },
+      { "month": "Dez", "beneficiaries": 6540, "meals": 7400 }
+    ]
+  },
+  "2023": {
+    "year": "2023",
+    "status": "Consolidado / Fundação",
+    "metrics": {
+      "beneficiaries": 3100,
+      "families": 780,
+      "meals_served": 32000,
+      "pedagogical_kits": 1200,
+      "active_volunteers": 110,
+      "active_projects": 2,
+      "municipalities_reached": 2,
+      "volunteer_hours": 4600,
+      "funds_destined_projects": 544000
+    },
+    "growth_vs_previous_year": {
+      "beneficiaries": 0,
+      "meals_served": 0,
+      "funds_destined": 0
+    },
+    "monthly_evolution": [
+      { "month": "Jan", "beneficiaries": 800, "meals": 1200 },
+      { "month": "Fev", "beneficiaries": 1000, "meals": 1500 },
+      { "month": "Mar", "beneficiaries": 1300, "meals": 1900 },
+      { "month": "Abr", "beneficiaries": 1550, "meals": 2200 },
+      { "month": "Mai", "beneficiaries": 1780, "meals": 2500 },
+      { "month": "Jun", "beneficiaries": 2000, "meals": 2800 },
+      { "month": "Jul", "beneficiaries": 2200, "meals": 3000 },
+      { "month": "Ago", "beneficiaries": 2400, "meals": 3300 },
+      { "month": "Set", "beneficiaries": 2600, "meals": 3600 },
+      { "month": "Out", "beneficiaries": 2800, "meals": 3900 },
+      { "month": "Nov", "beneficiaries": 2950, "meals": 4100 },
+      { "month": "Dez", "beneficiaries": 3100, "meals": 4300 }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "novos-caminhos",
+    "slug": "novos-caminhos",
+    "name": "Novos Caminhos — Educação & Cidadania",
+    "category": "Educação",
+    "area": "Educação e Juventude",
+    "summary": "Reforço escolar continuado em língua portuguesa e matemática, oficinas de letramento digital, robótica livre e acolhimento socioemocional para crianças e jovens do Entorno do DF.",
+    "beneficiaries": 4200,
+    "annual_budget": 752000,
+    "territory": "Valparaíso de Goiás (Céu Azul, Anhanguera e Ipanema)",
+    "indicators": [
+      { "label": "Evasão Escolar Reduzida", "value": "< 1.8%" },
+      { "label": "Alunos com Menção OBMEP", "value": "18" },
+      { "label": "Horas/aula de Reforço", "value": "1.840h" }
+    ],
+    "image": "assets/img/projects/educacao.svg",
+    "status": "Ativo / Expansão"
+  },
+  {
+    "id": "prato-transforma",
+    "slug": "prato-transforma",
+    "name": "Prato que Transforma — Nutrição & Hortas Urbanas",
+    "category": "Segurança Alimentar",
+    "area": "Segurança Alimentar e Saúde",
+    "summary": "Combate à insegurança alimentar através de cozinhas comunitárias solidárias, hortas agroecológicas no cerrado e capacitação em educação nutricional e aproveitamento integral dos alimentos.",
+    "beneficiaries": 5100,
+    "annual_budget": 630000,
+    "territory": "Valparaíso de Goiás e Cidade Ocidental",
+    "indicators": [
+      { "label": "Refeições Balanceadas / Ano", "value": "145.000" },
+      { "label": "Famílias com Hortas Ativas", "value": "240" },
+      { "label": "Toneladas de Alimentos Frescos", "value": "68 ton" }
+    ],
+    "image": "assets/img/projects/alimentacao.svg",
+    "status": "Ativo / Contínuo"
+  },
+  {
+    "id": "renda-futuro",
+    "slug": "renda-futuro",
+    "name": "Renda e Futuro — Inclusão Produtiva e Trabalho",
+    "category": "Inclusão Produtiva",
+    "area": "Qualificação Profissional e Renda",
+    "summary": "Cursos técnicos profissionalizantes em costura industrial, confeitaria e panificação, letramento financeiro e suporte à formalização como Microempreendedor Individual (MEI).",
+    "beneficiaries": 1850,
+    "annual_budget": 412000,
+    "territory": "Região Metropolitana do Entorno do DF",
+    "indicators": [
+      { "label": "Egressos Formalizados (MEI)", "value": "64%" },
+      { "label": "Microempresas Incubadas", "value": "42" },
+      { "label": "Aumento Médio de Renda Familiar", "value": "+74%" }
+    ],
+    "image": "assets/img/projects/renda.svg",
+    "status": "Ativo / Em Turmas"
+  },
+  {
+    "id": "comunidade-viva",
+    "slug": "comunidade-viva",
+    "name": "Comunidade Viva — Infraestrutura & Coesão Social",
+    "category": "Infraestrutura",
+    "area": "Cultura, Esporte e Território",
+    "summary": "Mutirões de melhoria habitacional, saneamento ecológico, revitalização de praças públicas, escolinhas comunitárias de esporte e rodas de diálogo para prevenção à violência.",
+    "beneficiaries": 1330,
+    "annual_budget": 239760,
+    "territory": "Valparaíso de Goiás e Novo Gama",
+    "indicators": [
+      { "label": "Espaços Públicos Revitalizados", "value": "7" },
+      { "label": "Crianças em Escolinhas de Esporte", "value": "380" },
+      { "label": "Mutirões Comunitários Concluídos", "value": "14" }
+    ],
+    "image": "assets/img/projects/comunidade.svg",
+    "status": "Ativo / Mobilização"
+  }
+]
