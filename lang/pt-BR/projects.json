@@ -127,5 +127,22 @@
       "cta_donate": "Apoiar Reformas",
       "cta_volunteer": "Participar do Mutirão"
     }
-  ]
+  ],
+  "territorial_map": {
+    "title": "Mapeamento Territorial dos Polos de Atendimento",
+    "subtitle": "Presença Comunitária no Entorno do Distrito Federal",
+    "badge_demo": "Localização Demonstrativa — MVP",
+    "desc": "Conheça os polos planejados para acolhimento socioeducativo, segurança alimentar e qualificação profissional em Valparaíso de Goiás e região metropolitana.",
+    "filter_all": "Todos os Polos",
+    "card_programs": "Programas Atendidos:",
+    "card_capacity": "Capacidade Projetada:",
+    "card_schedule": "Horário de Atendimento:",
+    "btn_routes": "Traçar Rota no Mapa",
+    "table_caption": "Demonstrativo Territorial Acessível dos Polos de Atendimento",
+    "col_name": "Polo / Unidade",
+    "col_location": "Bairro / Território",
+    "col_capacity": "Capacidade",
+    "col_status": "Status Operacional",
+    "demonstrative_notice": "Aviso Obrigatório (Regras 35 & 84): Todas as coordenadas e instalações possuem caráter exclusivamente demonstrativo para homologação do MVP. Devem ser validadas presencialmente antes de qualquer convocação pública."
+  }
 }

@@ -11,7 +11,8 @@
       "blog": "Blog",
       "contact": "Contacto",
       "donate": "Donar Ahora",
-      "faq": "Preguntas Frecuentes"
+      "faq": "Preguntas Frecuentes",
+      "press": "Prensa"
     },
     "search": {
       "placeholder": "Buscar en el Instituto (Ctrl+K)...",
@@ -57,7 +58,8 @@
       "cookies": "Cookies",
       "accessibility": "Accesibilidad",
       "governance": "Gobernanza y Estatutos",
-      "address_short": "Valparaíso de Goiás — GO | Entorno del DF"
+      "address_short": "Valparaíso de Goiás — GO | Entorno del DF",
+      "press": "Sala de Prensa"
     },
     "states": {
       "loading": "Cargando información...",
@@ -181,6 +183,26 @@
       "cert_statute": "Estatuto Social Inscrito en Registro Público Notarial",
       "cert_audit": "Auditoría Contable Externa conforme a Normas Internacionales",
       "cert_tax": "Regularidad Tributaria Plena ante Órganos Estatales y Federales"
+    },
+    "press_room": {
+      "title": "Sala de Prensa y Kit de Marca Oficial",
+      "subtitle": "Información auditada, comunicados de prensa, identidad visual y portavoces para periodistas e investigadores.",
+      "badge": "Comunicación Institucional",
+      "releases_title": "Comunicados Oficiales y Notas de Prensa",
+      "brand_kit_title": "Kit Oficial de Identidad de Marca",
+      "brand_kit_desc": "Archivos vectoriales en alta resolución de los logotipos institucionales del Instituto Nova Esperança para uso periodístico.",
+      "logo_primary": "Logo Oficial Principal (#075E54)",
+      "logo_white": "Logo Negativo Blanco",
+      "logo_mono": "Logo Monocromático Negro",
+      "btn_download_svg": "Descargar Vector (SVG)",
+      "palette_title": "Colores Oficiales de la Identidad Visual",
+      "primary_color": "Verde Esperanza (#075E54) — Principal Institucional",
+      "secondary_color": "Verde Bosque (#2A9D8F) — Acción Social",
+      "accent_color": "Naranja Energía (#E76F51) — Juventud y Destacados",
+      "spokespersons_title": "Portavoces Oficiales y Contacto de Prensa",
+      "press_contact_label": "Gabinete de Comunicación y Prensa:",
+      "press_email": "imprensa@instituto-novaesperanca.org.br",
+      "press_phone": "+55 (61) 98765-4321"
     }
   },
   "projects": {
@@ -312,7 +334,24 @@
         "cta_donate": "Apoyar Obras",
         "cta_volunteer": "Participar en Jornadas"
       }
-    ]
+    ],
+    "territorial_map": {
+      "title": "Mapeo Territorial de los Centros de Atención",
+      "subtitle": "Presencia Comunitaria en la Región del Entorno del DF",
+      "badge_demo": "Ubicación Demostrativa — MVP",
+      "desc": "Conozca los centros planificados para acogida socioeducativa, seguridad alimentaria y formación laboral en Valparaíso de Goiás y área metropolitana.",
+      "filter_all": "Todos los Centros",
+      "card_programs": "Programas Vinculados:",
+      "card_capacity": "Capacidad Proyectada:",
+      "card_schedule": "Horario de Atención:",
+      "btn_routes": "Ver Ruta en el Mapa",
+      "table_caption": "Tabla Accesible de Centros Comunitarios de Atención",
+      "col_name": "Centro / Unidad",
+      "col_location": "Barrio / Territorio",
+      "col_capacity": "Capacidad",
+      "col_status": "Estado Operativo",
+      "demonstrative_notice": "Aviso Obligatorio (Reglas 35 y 84): Todas las coordenadas e instalaciones tienen carácter exclusivamente demostrativo para homologación del MVP. Requieren validación in situ."
+    }
   },
   "impact": {
     "header": {
@@ -351,6 +390,12 @@
       "col_2024": "2024 (Realizado)",
       "col_2025": "2025 (Consolidado)",
       "col_2026": "2026 (Meta / Proyección)"
+    },
+    "open_data": {
+      "btn_csv": "Exportar Indicadores de Impacto (CSV)",
+      "btn_json": "Exportar Indicadores de Impacto (JSON)",
+      "tooltip_csv": "Serie histórica 2023-2026 en formato tabular CSV",
+      "tooltip_json": "Matriz completa de 9 indicadores de impacto en JSON"
     }
   },
   "donations": {
@@ -390,6 +435,34 @@
       "expiry_placeholder": "MM/AA",
       "cvv_placeholder": "CVV",
       "btn_pay": "Confirmar Donación Segura"
+    },
+    "ir_calculator": {
+      "title": "Calculadora de Deducción Fiscal (IRPF e IRPJ a Coste Cero)",
+      "subtitle": "Destine hasta el 6% de sus impuestos debidos sin desembolso adicional a través de Fondos de la Infancia y Leyes de Incentivo.",
+      "type_pf": "Persona Física (Declaración Completa — hasta 6%)",
+      "type_pj": "Persona Jurídica (Beneficio Real — hasta 2%)",
+      "label_income": "Impuesto sobre la Renta Estimado (R$):",
+      "label_deduction": "Importe Máximo para Destinación a Coste Cero:",
+      "impact_prefix": "Su aporte a coste cero financia:",
+      "darf_guide_title": "Cómo proceder en el software de la Agencia Tributaria:",
+      "darf_step1": "1. En el programa de IRPF, acceda a la pestaña 'Donaciones Directas en Declaración'.",
+      "darf_step2": "2. Seleccione 'Infancia y Adolescencia' (Fondo Municipal de Valparaíso de Goiás - GO).",
+      "darf_step3": "3. Indique el importe calculado e imprima el comprobante fiscal (DARF) específico.",
+      "darf_step4": "4. El 100% del importe pagado se descuenta del impuesto a pagar o se suma a la devolución.",
+      "disclaimer": "Aviso de Homologación (Regla 35): Herramienta de simulación demostrativa para el MVP. Consulte a su asesor contable antes del envío definitivo."
+    },
+    "certificate": {
+      "btn_open": "Emitir Certificado Demostrativo de Impacto",
+      "title": "Certificado Demostrativo de Impacto Social",
+      "badge_demo": "Homologación Técnica MVP",
+      "certifies_that": "Certificamos con fines de registro ciudadano que",
+      "has_contributed": "ha realizado una contribución solidaria demostrativa destinada a los proyectos socioeducativos del Instituto Nova Esperança.",
+      "legal_safeguard": "Aviso de Salvaguarda Jurídica: Documento de carácter exclusivamente demostrativo emitido en el entorno de pruebas del MVP. No posee validez de recibo fiscal ni desgravación legal.",
+      "issued_at": "Fecha de Emisión:",
+      "auth_code": "Código de Verificación:",
+      "btn_download_pdf": "Descargar Certificado en PDF",
+      "btn_share_linkedin": "Compartir en LinkedIn",
+      "btn_close": "Cerrar"
     }
   },
   "blog": {
@@ -701,6 +774,15 @@
       "title": "Documentos Oficiales e Informes de Auditoría",
       "subtitle": "Archivos públicos de descarga con firma contable y dictamen independiente.",
       "btn_download": "Descargar PDF"
+    },
+    "open_data": {
+      "title": "Datos Abiertos y Rendición Pública de Cuentas",
+      "subtitle": "Descargue conjuntos de datos financieros auditados en formatos abiertos para auditoría independiente e investigación.",
+      "btn_csv": "Exportar Datos Contables (CSV)",
+      "btn_json": "Exportar Datos Contables (JSON)",
+      "tooltip_csv": "Archivo CSV en UTF-8 con BOM para Excel y LibreOffice",
+      "tooltip_json": "Archivo JSON estructurado para consumo en APIs y Python/Pandas",
+      "notice": "Metodología conforme a las normas contables CFC/ITG 2002 y estándares de transparencia activa."
     }
   },
   "contact": {
@@ -826,6 +908,69 @@
       "success_desc": "Gracias por contactarnos. Le responderemos en un plazo máximo de 48 horas laborables.",
       "error_title": "Error al Enviar",
       "error_desc": "Ocurrió una falla durante el envío. Por favor, reintente en unos instantes."
+    },
+    "volunteer_board": {
+      "title": "Bolsa de Voluntariado y Puestos Abiertos",
+      "subtitle": "Encuentre la oportunidad que mejor se adapte a su talento, vocación y tiempo.",
+      "filter_all": "Todas las Áreas",
+      "filter_education": "Educación y Apoyo",
+      "filter_nutrition": "Seguridad Alimentaria",
+      "filter_technology": "Robótica y TI",
+      "filter_communication": "Comunicación",
+      "filter_legal": "Ciudadanía y Legal",
+      "label_requirements": "Requisitos:",
+      "label_modality": "Modalidad:",
+      "label_hours": "Dedicación:",
+      "btn_apply": "Quiero este Puesto",
+      "applied_toast": "¡Puesto seleccionado! Continúe completando el formulario a continuación.",
+      "proof_title": "Comprobante Demostrativo de Adhesión Voluntaria (MVP)",
+      "proof_desc": "Documento demostrativo conforme a las directrices de la Ley de Voluntariado (Ley 9.608/98).",
+      "proof_btn": "Descargar Comprobante (PDF)"
+    }
+  },
+  "companies": {
+    "header": {
+      "badge": "Alianzas de Alto Impacto ESG",
+      "title": "Su empresa puede ampliar el impacto y transformar comunidades.",
+      "lead": "Conectamos la inversión social privada corporativa con resultados auditados y duraderos en educación básica, seguridad alimentaria e inclusión productiva en el entorno de Brasilia."
+    },
+    "modalities": {
+      "title": "Modalidades Estratégicas de Alianza Corporativa",
+      "subtitle": "Formatos flexibles y alineados con los compromisos de sostenibilidad y ESG de su empresa.",
+      "tax_incentive_title": "Aporte con Incentivo Fiscal (Coste Cero)",
+      "tax_incentive_desc": "Destinación directa de hasta el 1% del impuesto de sociedades (régimen de beneficio real) a fondos de infancia y proyectos acreditados sin desembolso extra.",
+      "direct_title": "Patrocinio Directo de Proyectos Estructurales",
+      "direct_desc": "Financiación continuada para becas educativas integrales, laboratorios de robótica comunitaria y expansión de comedores solidarios.",
+      "volunteer_title": "Voluntariado Corporativo y Mentorías",
+      "volunteer_desc": "Iniciativas conjuntas para implicar a sus equipos en tutorías profesionales para jóvenes y jornadas comunitarias de rehabilitación.",
+      "probono_title": "Donaciones en Bienes y Servicios Pro Bono",
+      "probono_desc": "Aportación de equipamiento tecnológico reciclado, suministros y asesoramiento profesional para fortalecer la infraestructura institucional."
+    },
+    "benefits": {
+      "title": "Diferenciales de Gobernanza para Empresas Aliadas",
+      "subtitle": "Seguridad jurídica y métricas rigurosas de impacto según los más altos estándares internacionales.",
+      "compliance_title": "Compliance y Reportes según Estándar GRI",
+      "compliance_desc": "Balances trimestrales con indicadores auditables de Retorno Social sobre la Inversión (SROI) y certificación contable independiente.",
+      "tax_title": "Regularidad Fiscal y Certificados de Solvencia",
+      "tax_desc": "Entidad al corriente de todas sus obligaciones fiscales, laborales y de seguridad social ante los organismos reguladores.",
+      "badge_title": "Sello de Empresa Comprometida y Reconocimiento",
+      "badge_desc": "Autorización formal para el uso de nuestro sello institucional en memorias de sostenibilidad y comunicaciones corporativas."
+    },
+    "contact": {
+      "title": "Diseñe una Alianza con el Instituto Nova Esperança",
+      "subtitle": "Nuestro equipo de alianzas institucionales está listo para elaborar una propuesta a medida para su empresa.",
+      "company_name": "Razón Social / Nombre de la Empresa",
+      "contact_name": "Persona de Contacto / Cargo",
+      "email": "Correo Electrónico Corporativo",
+      "phone": "Teléfono / WhatsApp",
+      "interests": "Área de Interés Principal",
+      "opt_esg": "Inversión Social Privada (ESG)",
+      "opt_tax": "Destinación Fiscal a Coste Cero (IRPJ)",
+      "opt_vol": "Voluntariado Corporativo",
+      "opt_infra": "Donación de Bienes / Tecnología",
+      "message": "Mensaje o Detalles de la Propuesta",
+      "btn_submit": "Solicitar Propuesta de Alianza →",
+      "success_msg": "¡Mensaje recibido! Nuestro equipo corporativo responderá en un plazo máximo de 24 horas laborables."
     }
   }
 }

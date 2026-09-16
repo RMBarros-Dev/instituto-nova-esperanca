@@ -1,0 +1,45 @@
+{
+  "header": {
+    "badge": "Alianças de Alto Impacto ESG",
+    "title": "Sua empresa pode ampliar o impacto e transformar territórios.",
+    "lead": "Conectamos o investimento social privado corporativo a resultados auditados e perenes em educação básica, nutrição e inclusão produtiva no corredor do Entorno do DF."
+  },
+  "modalities": {
+    "title": "Modalidades Estratégicas de Parceria Corporativa",
+    "subtitle": "Formatos flexíveis e alinhados às diretrizes socioambientais da sua organização.",
+    "tax_incentive_title": "Aporte com Incentivo Fiscal (Custo Zero)",
+    "tax_incentive_desc": "Destinação direta de até 1% do imposto de renda corporativo (Lucro Real) aos fundos da infância e projetos chancelados sem custo adicional.",
+    "direct_title": "Patrocínio Direto de Projetos Estruturantes",
+    "direct_desc": "Financiamento de longo prazo para bolsas integrais de estudo, laboratórios de robótica comunitária e expansão da cozinha solidária.",
+    "volunteer_title": "Voluntariado Corporativo e Mentorias",
+    "volunteer_desc": "Programas integrados de engajamento de colaboradores em mentorias profissionais para jovens e mutirões de revitalização comunitária.",
+    "probono_title": "Doações em Bens e Serviços Pro Bono",
+    "probono_desc": "Aporte de tecnologia, equipamentos de informática reciclados, insumos e assessoria técnica especializada para modernização institucional."
+  },
+  "benefits": {
+    "title": "Diferenciais de Governança para Empresas Parceiras",
+    "subtitle": "Segurança jurídica e mensuração de impacto segundo as melhores práticas internacionais.",
+    "compliance_title": "Compliance e Relatórios Padrão GRI",
+    "compliance_desc": "Emissão de relatórios trimestrais de prestação de contas com indicadores de retorno social sobre investimento (SROI) plenamente auditáveis.",
+    "tax_title": "Regularidade Fiscal e Certidões Negativas",
+    "tax_desc": "Organização plenamente adimplente com todas as obrigações fiscais, trabalhistas e previdenciárias perante as autoridades competentes.",
+    "badge_title": "Selo Empresa Cidadã e Reconhecimento",
+    "badge_desc": "Direito de uso do selo institucional em relatórios anuais de sustentabilidade e comunicações corporativas para comprovação de ESG."
+  },
+  "contact": {
+    "title": "Estruture uma Parceria com o Instituto Nova Esperança",
+    "subtitle": "Nossa equipe de relações institucionais está pronta para elaborar uma proposta personalizada para sua empresa.",
+    "company_name": "Razão Social / Nome da Empresa",
+    "contact_name": "Nome do Responsável / Cargo",
+    "email": "E-mail Corporativo",
+    "phone": "Telefone / WhatsApp",
+    "interests": "Área de Interesse Principal",
+    "opt_esg": "Investimento Social Privado (ESG)",
+    "opt_tax": "Destinação Fiscal a Custo Zero (IRPJ)",
+    "opt_vol": "Voluntariado Corporativo",
+    "opt_infra": "Doação de Bens / Tecnologia",
+    "message": "Mensagem ou Detalhes da Proposta",
+    "btn_submit": "Solicitar Proposta de Parceria →",
+    "success_msg": "Mensagem enviada com sucesso! Nossa equipe de relações institucionais entrará em contato em até 24 horas."
+  }
+}

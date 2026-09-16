@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 90" width="340" height="90" role="img" aria-label="Logo Oficial Instituto Nova Esperança">
+  <g transform="translate(10, 16) scale(1.15)">
+    
+  <g id="emblem-group">
+    <!-- Folha Central -->
+    <path d="M 33 22 C 30 13 32 4 34 2 C 36 4 38 13 35 22 C 34 25 33 25 33 22 Z" fill="#075E54"/>
+    <!-- Folha Esquerda -->
+    <path d="M 32 20 C 23 18 17 21 16 24 C 19 28 27 27 32 20 Z" fill="#075E54"/>
+    <!-- Folha Direita -->
+    <path d="M 34 20 C 43 18 49 21 50 24 C 47 28 39 27 34 20 Z" fill="#075E54"/>
+    <!-- Tronco Base -->
+    <path d="M 33 22 L 33 39 C 33 42 30 44 26 44 L 24 44" fill="none" stroke="#075E54" stroke-width="3" stroke-linecap="round"/>
+    <!-- Arco Dinâmico Ascendente -->
+    <path d="M 24 44 C 36 45 50 39 55 25 C 57 20 58 15 59 10" fill="none" stroke="#0F2439" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Ponta Dourada da Esperança -->
+    <path d="M 59 10 L 61 4 L 56 7 Z" fill="#D4AF37"/>
+    <!-- Monograma NE Centralizado -->
+    <text x="36" y="36" font-family="'Manrope', sans-serif" font-size="11" font-weight="900" fill="#0F2439" letter-spacing="-0.5">NE</text>
+  </g>
+
+  </g>
+  <text x="96" y="42" font-family="'Manrope', 'Inter', sans-serif" font-size="20" font-weight="800" fill="#0F2439" letter-spacing="-0.5">Instituto Nova Esperança</text>
+  <text x="96" y="62" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#075E54" letter-spacing="0.5">IMPACTO SOCIAL &amp; CIDADANIA</text>
+</svg>

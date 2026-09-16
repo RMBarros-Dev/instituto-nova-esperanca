@@ -35,5 +35,33 @@
     "expiry_placeholder": "MM/YY",
     "cvv_placeholder": "CVC",
     "btn_pay": "Complete Secure Donation"
+  },
+  "ir_calculator": {
+    "title": "Tax Incentive Calculator (Zero-Cost Charitable Deduction)",
+    "subtitle": "Direct up to 6% of your owed income tax at zero extra cost through Child Support Funds and incentive laws.",
+    "type_pf": "Individual (Standard Tax Filing — up to 6%)",
+    "type_pj": "Corporate (Real Profit — up to 2%)",
+    "label_income": "Estimated Tax Liability (R$):",
+    "label_deduction": "Maximum Directable Amount at Zero Cost:",
+    "impact_prefix": "Your zero-cost contribution funds:",
+    "darf_guide_title": "Step-by-step federal tax filing guide:",
+    "darf_step1": "1. In the official tax filing software, go to 'Donations Directly on Tax Return'.",
+    "darf_step2": "2. Select 'Child and Adolescent' (Municipal Fund of Valparaíso de Goiás - GO).",
+    "darf_step3": "3. Enter the calculated amount and generate the dedicated payment slip (DARF).",
+    "darf_step4": "4. 100% of the slip payment is deducted from tax payable or added to your refund.",
+    "disclaimer": "Homologation Notice (Rule 35): This tool is an MVP demonstrative simulation. Consult your accountant prior to submitting your formal tax return."
+  },
+  "certificate": {
+    "btn_open": "Issue Demonstrative Impact Certificate",
+    "title": "Demonstrative Social Impact Certificate",
+    "badge_demo": "MVP Technical Homologation",
+    "certifies_that": "We certify for citizen engagement purposes that",
+    "has_contributed": "performed a demonstrative solidarity contribution supporting the socio-educational initiatives of Instituto Nova Esperança.",
+    "legal_safeguard": "Legal Safeguard Notice: Strictly demonstrative document generated in an MVP test environment. Not valid as a tax receipt or official tax deduction slip.",
+    "issued_at": "Issue Date:",
+    "auth_code": "Verification Code:",
+    "btn_download_pdf": "Download Certificate (PDF)",
+    "btn_share_linkedin": "Share on LinkedIn",
+    "btn_close": "Close"
   }
 }

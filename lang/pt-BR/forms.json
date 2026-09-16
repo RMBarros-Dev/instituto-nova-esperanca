@@ -34,5 +34,23 @@
     "success_desc": "Agradecemos seu contato. Nossa equipe responderá em até 48 horas úteis.",
     "error_title": "Não foi possível enviar",
     "error_desc": "Ocorreu um erro na transmissão. Por favor, tente novamente."
+  },
+  "volunteer_board": {
+    "title": "Mural de Oportunidades & Vagas Abertas",
+    "subtitle": "Encontre a oportunidade que melhor combina com seu talento e disponibilidade de tempo.",
+    "filter_all": "Todas as Áreas",
+    "filter_education": "Educação & Reforço",
+    "filter_nutrition": "Segurança Alimentar",
+    "filter_technology": "Robótica & TI",
+    "filter_communication": "Comunicação & Mídia",
+    "filter_legal": "Cidadania & Direito",
+    "label_requirements": "Requisitos:",
+    "label_modality": "Modalidade:",
+    "label_hours": "Carga Horária:",
+    "btn_apply": "Quero Esta Vaga",
+    "applied_toast": "Vaga selecionada! Continue o preenchimento do formulário abaixo.",
+    "proof_title": "Comprovante Demonstrativo de Adesão Voluntária (MVP)",
+    "proof_desc": "Documento demonstrativo de inscrição conforme diretrizes da Lei do Voluntariado (Lei nº 9.608/98).",
+    "proof_btn": "Baixar Comprovante de Inscrição (PDF)"
   }
 }

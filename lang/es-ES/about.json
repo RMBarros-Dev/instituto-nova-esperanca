@@ -49,5 +49,25 @@
     "cert_statute": "Estatuto Social Inscrito en Registro Público Notarial",
     "cert_audit": "Auditoría Contable Externa conforme a Normas Internacionales",
     "cert_tax": "Regularidad Tributaria Plena ante Órganos Estatales y Federales"
+  },
+  "press_room": {
+    "title": "Sala de Prensa y Kit de Marca Oficial",
+    "subtitle": "Información auditada, comunicados de prensa, identidad visual y portavoces para periodistas e investigadores.",
+    "badge": "Comunicación Institucional",
+    "releases_title": "Comunicados Oficiales y Notas de Prensa",
+    "brand_kit_title": "Kit Oficial de Identidad de Marca",
+    "brand_kit_desc": "Archivos vectoriales en alta resolución de los logotipos institucionales del Instituto Nova Esperança para uso periodístico.",
+    "logo_primary": "Logo Oficial Principal (#075E54)",
+    "logo_white": "Logo Negativo Blanco",
+    "logo_mono": "Logo Monocromático Negro",
+    "btn_download_svg": "Descargar Vector (SVG)",
+    "palette_title": "Colores Oficiales de la Identidad Visual",
+    "primary_color": "Verde Esperanza (#075E54) — Principal Institucional",
+    "secondary_color": "Verde Bosque (#2A9D8F) — Acción Social",
+    "accent_color": "Naranja Energía (#E76F51) — Juventud y Destacados",
+    "spokespersons_title": "Portavoces Oficiales y Contacto de Prensa",
+    "press_contact_label": "Gabinete de Comunicación y Prensa:",
+    "press_email": "imprensa@instituto-novaesperanca.org.br",
+    "press_phone": "+55 (61) 98765-4321"
   }
 }

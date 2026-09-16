@@ -49,5 +49,25 @@
     "cert_statute": "公証役場にて正式登録された法人定款",
     "cert_audit": "独立公認会計士による年次財務監査報告書",
     "cert_tax": "連邦・州・市町村における完全な納税証明"
+  },
+  "press_room": {
+    "title": "プレストップ・公式ブランドキット",
+    "subtitle": "監査済み公式情報、プレスリリース、ブランド資産、報道関係者・研究者向け連絡窓口。",
+    "badge": "広報・コミュニケーション",
+    "releases_title": "公式発表・プレスリリース一覧",
+    "brand_kit_title": "公式ブランド・アイデンティティキット",
+    "brand_kit_desc": "報道および公式パートナーシップ向けの高解像度ベクターロゴデータ（SVG形式）。",
+    "logo_primary": "公式プライマリーロゴ（#075E54）",
+    "logo_white": "白抜き反転ロゴ",
+    "logo_mono": "モノクロ黒ロゴ",
+    "btn_download_svg": "ベクター形式をダウンロード（SVG）",
+    "palette_title": "公式ブランドカラーパレット",
+    "primary_color": "エスペランサ・グリーン（#075E54）— メインブランドカラー",
+    "secondary_color": "フォレスト・グリーン（#2A9D8F）— 社会事業カラー",
+    "accent_color": "エナジー・オレンジ（#E76F51）— ハイライト・青少年",
+    "spokespersons_title": "公式スポークスパーソン・取材対応窓口",
+    "press_contact_label": "広報・プレス担当:",
+    "press_email": "imprensa@instituto-novaesperanca.org.br",
+    "press_phone": "+55 (61) 98765-4321"
   }
 }

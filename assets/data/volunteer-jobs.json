@@ -1,0 +1,62 @@
+[
+  {
+    "id": "job.pedagogia",
+    "area_key": "education",
+    "hours": "2h - 4h / semana",
+    "modality": "presencial",
+    "polo_id": "polo.ceu_azul",
+    "polo_name": "Polo Central Céu Azul",
+    "title": "Educador Voluntário de Reforço Escolar",
+    "desc": "Apoio pedagógico individualizado e oficinas lúdicas de letramento e matemática básica para crianças do ensino fundamental.",
+    "requirements": "Estudantes ou graduados em Pedagogia, Letras, Matemática ou áreas afins. Empatia e compromisso social.",
+    "badge": "Educação"
+  },
+  {
+    "id": "job.nutricao",
+    "area_key": "nutrition",
+    "hours": "3h / semana (Sábados)",
+    "modality": "presencial",
+    "polo_id": "polo.jardim_inga",
+    "polo_name": "Polo Jardim Ingá",
+    "title": "Monitor de Oficina de Culinária & Segurança Alimentar",
+    "desc": "Auxílio na preparação de refeições nutritivas, aproveitamento integral de alimentos e oficinas de boas práticas na cozinha comunitária.",
+    "requirements": "Interesse por gastronomia social, nutrição ou assistência comunitária. Pontualidade e trabalho em equipe.",
+    "badge": "Alimentação"
+  },
+  {
+    "id": "job.tecnologia",
+    "area_key": "technology",
+    "hours": "2h / semana",
+    "modality": "hibrido",
+    "polo_id": "polo.anhanguera",
+    "polo_name": "Polo Anhanguera",
+    "title": "Instrutor de Robótica & Letramento Digital",
+    "desc": "Mentoria prática para jovens em oficinas de lógica de programação em blocos, robótica com sucata e informática cidadã.",
+    "requirements": "Conhecimentos básicos de programação, robótica educacional ou informática. Paciência pedagógica.",
+    "badge": "Tecnologia"
+  },
+  {
+    "id": "job.comunicacao",
+    "area_key": "communication",
+    "hours": "2h / semana",
+    "modality": "remoto",
+    "polo_id": "polo.remoto",
+    "polo_name": "Remoto / Territorial",
+    "title": "Voluntário de Comunicação & Criação de Conteúdo",
+    "desc": "Produção de fotografias, redação de relatos de impacto comunitário e cobertura de ações nos territórios atendidos.",
+    "requirements": "Habilidade com redação, fotografia com smartphone ou design básico. Sensibilidade social e respeito à privacidade.",
+    "badge": "Comunicação"
+  },
+  {
+    "id": "job.juridico",
+    "area_key": "legal",
+    "hours": "2h quinzenais",
+    "modality": "remoto",
+    "polo_id": "polo.remoto",
+    "polo_name": "Remoto / Orientação",
+    "title": "Orientador Social e Cidadania Pro Bono",
+    "desc": "Esclarecimento de dúvidas sobre emissão de documentos civis básicos, benefícios socioassistenciais (CadÚnico/BPC) e direitos do consumidor.",
+    "requirements": "Estudantes de Direito (a partir do 7º semestre), advogados ou assistentes sociais.",
+    "badge": "Cidadania"
+  }
+]

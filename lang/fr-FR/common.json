@@ -10,7 +10,8 @@
     "blog": "Blog",
     "contact": "Contact",
     "donate": "Faire un Don",
-    "faq": "Foire Aux Questions"
+    "faq": "Foire Aux Questions",
+    "press": "Presse"
   },
   "search": {
     "placeholder": "Rechercher sur le site (Ctrl+K)...",
@@ -56,7 +57,8 @@
     "cookies": "Cookies",
     "accessibility": "Accessibilité",
     "governance": "Gouvernance & Statuts",
-    "address_short": "Valparaíso de Goiás — GO | Périphérie du DF"
+    "address_short": "Valparaíso de Goiás — GO | Périphérie du DF",
+    "press": "Salle de Presse"
   },
   "states": {
     "loading": "Chargement des informations...",

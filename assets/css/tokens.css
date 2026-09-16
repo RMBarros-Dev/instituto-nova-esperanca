@@ -1,95 +1,34 @@
 /* ==========================================================================
-   INSTITUTO NOVA ESPERANÇA — DESIGN SYSTEM TOKENS
-   Conformidade WCAG 2.2 AA / AAA
+   INSTITUTO NOVA ESPERANÇA — DESIGN SYSTEM TOKENS V7.4
+   Conformidade WCAG 2.2 AA / AAA & Identidade Visual Premium
    ========================================================================== */
 
 :root {
-  /* Core Brand Colors */
-  --primary: #075E54;
-  --primary-dark: #043F39;
-  --primary-light: #E8F5F2;
-  --primary-hover: #0a7367;
+  /* ------------------------------------------------------------------------
+     1. V7.4 Core Design Tokens (Especificação Oficial)
+     ------------------------------------------------------------------------ */
+  --color-primary: #075E54;
+  --color-secondary: #0F2439;
+  --color-accent: #2A9D8F;
+  --color-gold: #D4AF37;
+  --color-gold-dark: #B8860B;
+  --color-navy: #0F2439;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F1F5F9;
+  --color-background: #F8FAFC;
+  --color-text: #1E293B;
+  --color-muted: #64748B;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-info: #0284C7;
 
-  --secondary: #E76F51;
-  --secondary-dark: #C8553C;
-  --secondary-light: #FDEEE9;
-  --secondary-hover: #d35f42;
-
-  --accent: #2A9D8F;
-  --accent-dark: #20756B;
-  --accent-light: #E6F5F3;
-
-  --background: #F7F9F8;
-  --surface: #FFFFFF;
-  --surface-alt: #F0F4F2;
-
-  --text: #17211F;
-  --text-muted: #5E6B67;
-  --text-light: #FFFFFF;
-
-  --border: #DCE5E2;
-  --border-light: #EEF2F0;
-
-  --focus: #1D4ED8;
-  --focus-ring: 0 0 0 3px rgba(29, 78, 216, 0.45);
-
-  --success: #1B8A5A;
-  --success-bg: #E8F7F0;
-  --warning: #D97706;
-  --warning-bg: #FEF3C7;
-  --danger: #DC2626;
-  --danger-bg: #FEE2E2;
-  --info: #0284C7;
-  --info-bg: #E0F2FE;
-
-  /* Primary Scale (50-900) */
-  --primary-50: #F2FAF8;
-  --primary-100: #E1F3EE;
-  --primary-200: #BEE3D8;
-  --primary-300: #88CCBC;
-  --primary-400: #4CAE9A;
-  --primary-500: #075E54;
-  --primary-600: #06544B;
-  --primary-700: #054740;
-  --primary-800: #043F39;
-  --primary-900: #032E2A;
-
-  /* Neutral Scale */
-  --neutral-50: #F9FAFA;
-  --neutral-100: #F2F4F3;
-  --neutral-200: #E5E8E7;
-  --neutral-300: #D2D7D5;
-  --neutral-400: #9EABA7;
-  --neutral-500: #5E6B67;
-  --neutral-600: #434D4A;
-  --neutral-700: #2D3533;
-  --neutral-800: #1C2220;
-  --neutral-900: #101514;
-
-  /* Typography */
-  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-body: 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  /* Tipografia Premium Institucional */
+  --font-display: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-metrics: 'IBM Plex Sans', system-ui, -apple-system, monospace;
-  --font-dyslexic: 'OpenDyslexic', 'Comic Sans MS', sans-serif;
 
-  /* Fluid Font Sizes using clamp() */
-  --text-display: clamp(2.5rem, 5vw + 1rem, 4.25rem);
-  --text-h1: clamp(2rem, 3.5vw + 0.75rem, 3.25rem);
-  --text-h2: clamp(1.625rem, 2.5vw + 0.5rem, 2.375rem);
-  --text-h3: clamp(1.25rem, 1.5vw + 0.5rem, 1.75rem);
-  --text-h4: clamp(1.125rem, 1vw + 0.35rem, 1.375rem);
-  --text-body-large: clamp(1.125rem, 0.5vw + 1rem, 1.25rem);
-  --text-body: 1rem;
-  --text-body-small: 0.875rem;
-  --text-caption: 0.75rem;
-
-  /* Line Heights */
-  --leading-tight: 1.15;
-  --leading-snug: 1.3;
-  --leading-normal: 1.55;
-  --leading-relaxed: 1.7;
-
-  /* Spacing */
+  /* Espaçamentos Oficiais */
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
@@ -99,101 +38,101 @@
   --space-3xl: 4.5rem;
   --space-4xl: 6rem;
 
-  /* Radii */
+  /* Raios de Arredondamento */
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 16px;
   --radius-xl: 24px;
   --radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-xs: 0 1px 2px rgba(23, 33, 31, 0.04);
-  --shadow-sm: 0 2px 6px rgba(23, 33, 31, 0.06);
-  --shadow-md: 0 6px 18px rgba(23, 33, 31, 0.08);
-  --shadow-lg: 0 14px 32px rgba(23, 33, 31, 0.1);
-  --shadow-xl: 0 24px 48px rgba(23, 33, 31, 0.12);
+  /* Sombras Sofisticadas */
+  --shadow-sm: 0 1px 3px rgba(15, 36, 57, 0.06), 0 1px 2px rgba(15, 36, 57, 0.04);
+  --shadow-md: 0 4px 14px rgba(15, 36, 57, 0.08), 0 2px 6px rgba(15, 36, 57, 0.04);
+  --shadow-lg: 0 12px 32px rgba(15, 36, 57, 0.12), 0 4px 12px rgba(15, 36, 57, 0.06);
 
-  /* Containers & Layout */
-  --container-max: 1280px;
-  --container-narrow: 880px;
-  --container-wide: 1440px;
-  --header-height: 80px;
-  --a11y-bar-height: 40px;
+  /* ------------------------------------------------------------------------
+     2. Aliases de Retrocompatibilidade
+     ------------------------------------------------------------------------ */
+  --primary: var(--color-primary);
+  --primary-dark: #043F39;
+  --primary-light: #E8F5F2;
+  --primary-hover: #0a7367;
 
-  /* Transitions */
+  --secondary: var(--color-secondary);
+  --secondary-dark: #0A192F;
+  --secondary-light: #E2E8F0;
+  --secondary-hover: #1E293B;
+
+  --accent: var(--color-accent);
+  --accent-dark: #20756B;
+  --accent-light: #E6F5F3;
+
+  --background: var(--color-background);
+  --surface: var(--color-surface);
+  --surface-alt: var(--color-surface-alt);
+
+  --text: var(--color-text);
+  --text-muted: var(--color-muted);
+  --text-light: #FFFFFF;
+
+  --border: #CBD5E1;
+  --border-light: #E2E8F0;
+
+  --focus: #1D4ED8;
+  --focus-ring: 0 0 0 3px rgba(29, 78, 216, 0.45);
+
+  --success: var(--color-success);
+  --success-bg: #ECFDF5;
+  --warning: var(--color-warning);
+  --warning-bg: #FFFBEB;
+  --danger: var(--color-danger);
+  --danger-bg: #FEF2F2;
+  --info: var(--color-info);
+  --info-bg: #F0F9FF;
+
+  /* Escala de Tipografia */
+  --font-heading: var(--font-display);
+
+  /* Fluid Font Sizes using clamp() */
+  --text-display: clamp(2.25rem, 4.5vw + 1rem, 3.75rem);
+  --text-h1: clamp(1.85rem, 3vw + 0.75rem, 2.85rem);
+  --text-h2: clamp(1.5rem, 2.25vw + 0.5rem, 2.15rem);
+  --text-h3: clamp(1.2rem, 1.25vw + 0.5rem, 1.6rem);
+  --text-h4: clamp(1.05rem, 0.75vw + 0.35rem, 1.25rem);
+  --text-body-large: clamp(1.05rem, 0.4vw + 0.95rem, 1.18rem);
+  --text-body: 1rem;
+  --text-body-small: 0.875rem;
+  --text-caption: 0.75rem;
+
+  /* Line Heights */
+  --leading-tight: 1.15;
+  --leading-snug: 1.3;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* Transições Suaves */
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* Z-Index Hierarchy */
-  --z-negative: -1;
-  --z-base: 1;
+  /* Layout */
+  --container-max: 1240px;
+  --header-height: 76px;
   --z-sticky: 100;
-  --z-header: 500;
-  --z-dropdown: 600;
-  --z-drawer: 700;
-  --z-modal-backdrop: 800;
-  --z-modal: 900;
-  --z-toast: 1000;
-  --z-tooltip: 1100;
+  --z-drawer: 200;
+  --z-modal: 300;
+  --z-toast: 400;
 }
 
-/* ==========================================================================
-   THEME VARIATIONS: DARK MODE & HIGH CONTRAST
-   ========================================================================== */
-
-[data-theme="dark"] {
-  --background: #0D1413;
-  --surface: #141F1D;
-  --surface-alt: #1C2B28;
-  --text: #F2FAF8;
-  --text-muted: #A3B5B1;
-  --border: #2B3D39;
-  --border-light: #20302D;
-  --primary-light: #18332E;
-  --secondary-light: #38201B;
-  --accent-light: #163632;
-  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.35);
-  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
-  --shadow-lg: 0 14px 32px rgba(0, 0, 0, 0.55);
-}
-
-[data-contrast="high"] {
-  --background: #000000 !important;
-  --surface: #000000 !important;
-  --surface-alt: #111111 !important;
-  --text: #FFFFFF !important;
-  --text-muted: #FFFF00 !important;
-  --border: #FFFFFF !important;
-  --border-light: #FFFFFF !important;
-  --primary: #00FFCC !important;
-  --primary-dark: #00CCAA !important;
-  --primary-light: #00221A !important;
-  --secondary: #FFCC00 !important;
-  --accent: #00FFFF !important;
-  --focus: #FFFF00 !important;
-  --focus-ring: 0 0 0 4px #FFFF00 !important;
-}
-
-[data-font="dyslexic"] {
-  --font-heading: 'OpenDyslexic', 'Comic Sans MS', sans-serif !important;
-  --font-body: 'OpenDyslexic', 'Comic Sans MS', sans-serif !important;
-  letter-spacing: 0.05em;
-  word-spacing: 0.1em;
-  line-height: 1.8;
-}
-
-[data-underline="true"] a {
-  text-decoration: underline !important;
-  text-underline-offset: 4px;
-}
-
-/* Reduced Motion Override */
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+/* Modo Alto Contraste Acessível */
+[data-high-contrast="true"] {
+  --color-primary: #004D40;
+  --color-secondary: #000000;
+  --color-surface: #FFFFFF;
+  --color-background: #FFFFFF;
+  --color-text: #000000;
+  --color-muted: #222222;
+  --border: #000000;
+  --focus: #FFD700;
+  --focus-ring: 0 0 0 4px #000000, 0 0 0 6px #FFD700;
 }

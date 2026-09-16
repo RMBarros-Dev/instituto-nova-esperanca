@@ -11,7 +11,8 @@
       "blog": "Blog",
       "contact": "Contact",
       "donate": "Faire un Don",
-      "faq": "Foire Aux Questions"
+      "faq": "Foire Aux Questions",
+      "press": "Presse"
     },
     "search": {
       "placeholder": "Rechercher sur le site (Ctrl+K)...",
@@ -57,7 +58,8 @@
       "cookies": "Cookies",
       "accessibility": "Accessibilité",
       "governance": "Gouvernance & Statuts",
-      "address_short": "Valparaíso de Goiás — GO | Périphérie du DF"
+      "address_short": "Valparaíso de Goiás — GO | Périphérie du DF",
+      "press": "Salle de Presse"
     },
     "states": {
       "loading": "Chargement des informations...",
@@ -181,6 +183,26 @@
       "cert_statute": "Statuts Déposés au Registre Civil des Personnes Morales",
       "cert_audit": "Audit Financier Indépendant Annuel Certifié",
       "cert_tax": "Situation Fiscale Régulière au Niveau Fédéral et Local"
+    },
+    "press_room": {
+      "title": "Salle de Presse & Kit de Marque Officiel",
+      "subtitle": "Informations vérifiées, communiqués officiels, charte graphique et contacts pour journalistes et chercheurs.",
+      "badge": "Communication Institutionnelle",
+      "releases_title": "Communiqués Officiels & Dossiers de Presse",
+      "brand_kit_title": "Kit Officiel d'Identité Visuelle",
+      "brand_kit_desc": "Fichiers vectoriels haute résolution des logos institutionnels de l'Instituto Nova Esperança à l'usage des médias.",
+      "logo_primary": "Logo Principal Officiel (#075E54)",
+      "logo_white": "Logo Blanc Négatif",
+      "logo_mono": "Logo Monochrome Noir",
+      "btn_download_svg": "Télécharger Vectoriel (SVG)",
+      "palette_title": "Palette Officielle de Couleurs",
+      "primary_color": "Vert Espérance (#075E54) — Institutionnel Principal",
+      "secondary_color": "Vert Forêt (#2A9D8F) — Actions Sociales",
+      "accent_color": "Orange Énergie (#E76F51) — Jeunesse & Focus",
+      "spokespersons_title": "Porte-Paroles Officiels & Relations Presse",
+      "press_contact_label": "Contact Relations Presse:",
+      "press_email": "imprensa@instituto-novaesperanca.org.br",
+      "press_phone": "+55 (61) 98765-4321"
     }
   },
   "projects": {
@@ -312,7 +334,24 @@
         "cta_donate": "Financer les Travaux",
         "cta_volunteer": "Participer aux Chantiers"
       }
-    ]
+    ],
+    "territorial_map": {
+      "title": "Cartographie Territoriale des Centres d'Accueil",
+      "subtitle": "Présence Communautaire dans la Région Métropolitaine du DF",
+      "badge_demo": "Localisation Démonstrative — MVP",
+      "desc": "Découvrez les centres prévus pour l'accompagnement socio-éducatif, la sécurité alimentaire et l'insertion professionnelle à Valparaíso de Goiás.",
+      "filter_all": "Tous les Centres",
+      "card_programs": "Programmes Associés:",
+      "card_capacity": "Capacité Prévue:",
+      "card_schedule": "Horaires d'Ouverture:",
+      "btn_routes": "Itinéraire sur la Carte",
+      "table_caption": "Tableau Accessible des Centres Communautaires d'Accueil",
+      "col_name": "Centre / Établissement",
+      "col_location": "Quartier / Territoire",
+      "col_capacity": "Capacité",
+      "col_status": "Statut Opérationnel",
+      "demonstrative_notice": "Mention Obligatoire (Règles 35 & 84): Toutes les coordonnées géographiques et installations ont un caractère purement démonstratif pour validation MVP."
+    }
   },
   "impact": {
     "header": {
@@ -351,6 +390,12 @@
       "col_2024": "2024 (Constaté)",
       "col_2025": "2025 (Consolidé)",
       "col_2026": "2026 (Projection / Cible)"
+    },
+    "open_data": {
+      "btn_csv": "Exporter Indicateurs d'Impact (CSV)",
+      "btn_json": "Exporter Indicateurs d'Impact (JSON)",
+      "tooltip_csv": "Série historique 2023-2026 au format tabulaire CSV",
+      "tooltip_json": "Matrice intégrale des 9 indicateurs au format JSON"
     }
   },
   "donations": {
@@ -390,6 +435,34 @@
       "expiry_placeholder": "MM/AA",
       "cvv_placeholder": "CVC",
       "btn_pay": "Valider le Don Sécurisé"
+    },
+    "ir_calculator": {
+      "title": "Calculateur de Déduction Fiscale (IRPF & IRPJ à Coût Zéro)",
+      "subtitle": "Allouez jusqu'à 6% de votre impôt dû sans débourser un centime de plus via les Fonds de l'Enfance et les Lois d'Incitation.",
+      "type_pf": "Particulier (Déclaration Complète — jusqu'à 6%)",
+      "type_pj": "Entreprise (Bénéfice Réel — jusqu'à 2%)",
+      "label_income": "Montant de l'Impôt Estimé (R$):",
+      "label_deduction": "Montant Maximum Allouable à Coût Zéro:",
+      "impact_prefix": "Votre contribution à coût zéro finance:",
+      "darf_guide_title": "Guide de déclaration auprès de l'Administration Fiscale:",
+      "darf_step1": "1. Dans le logiciel de déclaration fiscale, rendez-vous à l'onglet 'Dons Directs'.",
+      "darf_step2": "2. Sélectionnez 'Enfance et Jeunesse' (Fonds Municipal de Valparaíso de Goiás - GO).",
+      "darf_step3": "3. Renseignez le montant calculé et éditez le bordereau de règlement (DARF).",
+      "darf_step4": "4. Le montant versé est déduit à 100% de votre impôt dû ou ajouté à votre remboursement.",
+      "disclaimer": "Avis d'Homologation (Règle 35): Cet outil est un simulateur de démonstration MVP. Veuillez consulter votre expert-comptable avant déclaration officielle."
+    },
+    "certificate": {
+      "btn_open": "Délivrer l'Attestation Démonstrative d'Impact",
+      "title": "Attestation Démonstrative d'Impact Social",
+      "badge_demo": "Homologation Technique MVP",
+      "certifies_that": "Nous attestons à des fins d'engagement citoyen que",
+      "has_contributed": "a effectué une contribution solidaire démonstrative aux initiatives socio-éducatives de l'Instituto Nova Esperança.",
+      "legal_safeguard": "Avertissement Juridique: Document purement démonstratif émis dans le cadre de la version de test MVP. Ne constitue pas un reçu fiscal officiel.",
+      "issued_at": "Date d'Émission:",
+      "auth_code": "Code de Validation:",
+      "btn_download_pdf": "Télécharger l'Attestation (PDF)",
+      "btn_share_linkedin": "Partager sur LinkedIn",
+      "btn_close": "Fermer"
     }
   },
   "blog": {
@@ -701,6 +774,15 @@
       "title": "Rapports d'Activité et Documents d'Audit",
       "subtitle": "Documents officiels certifiés disponibles en téléchargement libre.",
       "btn_download": "Télécharger PDF"
+    },
+    "open_data": {
+      "title": "Données Ouvertes et Transparence Publique (Open Data)",
+      "subtitle": "Téléchargez les jeux de données financières auditées en formats ouverts pour audit indépendant et journalisme de données.",
+      "btn_csv": "Exporter Données Comptables (CSV)",
+      "btn_json": "Exporter Données Comptables (JSON)",
+      "tooltip_csv": "Fichier CSV UTF-8 avec BOM optimisé pour Excel et LibreOffice",
+      "tooltip_json": "Jeu de données JSON structuré pour intégration API et Python/Pandas",
+      "notice": "Méthodologie strictement conforme aux normes comptables CFC/ITG 2002."
     }
   },
   "contact": {
@@ -826,6 +908,69 @@
       "success_desc": "Merci pour votre message. Nos équipes reviendront vers vous sous 48h ouvrées.",
       "error_title": "Échec de l'Envoi",
       "error_desc": "Une erreur est survenue lors de l'envoi. Merci de renouveler votre tentative."
+    },
+    "volunteer_board": {
+      "title": "Espace Bénévolat & Missions Ouvertes",
+      "subtitle": "Trouvez la mission qui correspond le mieux à vos compétences et disponibilités.",
+      "filter_all": "Tous les Domaines",
+      "filter_education": "Éducation & Soutien",
+      "filter_nutrition": "Sécurité Alimentaire",
+      "filter_technology": "Robotique & Numérique",
+      "filter_communication": "Communication & Média",
+      "filter_legal": "Citoyenneté & Droits",
+      "label_requirements": "Prérequis:",
+      "label_modality": "Modalité:",
+      "label_hours": "Temps Requis:",
+      "btn_apply": "Postuler à cette Mission",
+      "applied_toast": "Mission sélectionnée! Veuillez poursuivre le formulaire ci-dessous.",
+      "proof_title": "Attestation Démonstrative d'Engagement Bénévole (MVP)",
+      "proof_desc": "Document de démonstration aligné sur le cadre légal du bénévolat (Loi 9.608/98).",
+      "proof_btn": "Télécharger l'Attestation (PDF)"
+    }
+  },
+  "companies": {
+    "header": {
+      "badge": "Alliances Stratégiques ESG à Fort Impact",
+      "title": "Votre entreprise peut amplifier l'impact et transformer les territoires.",
+      "lead": "Nous relions l'investissement social privé des entreprises à des résultats audités et pérennes dans l'éducation de base, la sécurité alimentaire et l'inclusion productive dans la périphérie de Brasília."
+    },
+    "modalities": {
+      "title": "Modalités Stratégiques de Partenariat d'Entreprise",
+      "subtitle": "Des formats flexibles et alignés sur les engagements de développement durable et ESG de votre organisation.",
+      "tax_incentive_title": "Affectation Fiscale à Coût Zéro",
+      "tax_incentive_desc": "Affectation directe de jusqu'à 1% de l'impôt sur les sociétés (régime du bénéfice réel) aux fonds pour l'enfance et projets accrédités sans débours supplémentaire.",
+      "direct_title": "Parrainage Direct de Projets Structurants",
+      "direct_desc": "Financement pérenne de bourses scolaires complètes, de laboratoires de robotique communautaire et de cantines solidaires.",
+      "volunteer_title": "Bénévolat d'Entreprise et Mentorat",
+      "volunteer_desc": "Mobilisation coordonnée des équipes salariées pour du mentorat auprès des jeunes et des chantiers solidaires de rénovation.",
+      "probono_title": "Dons en Nature et Mécénat de Compétences",
+      "probono_desc": "Apport de matériel informatique reconditionné, de fournitures et d'expertise technique pour moderniser nos infrastructures d'accueil."
+    },
+    "benefits": {
+      "title": "Gouvernance d'Excellence pour Entreprises Partenaires",
+      "subtitle": "Sécurité juridique et mesure rigoureuse de l'impact selon les meilleurs standards internationaux.",
+      "compliance_title": "Conformité et Rapports au Standard GRI",
+      "compliance_desc": "Bilans trimestriels avec indicateurs auditables de Retour Social sur Investissement (SROI) et certification comptable indépendante.",
+      "tax_title": "Régularité Fiscale et Attestations Légales",
+      "tax_desc": "Organisation en parfaite conformité avec l'ensemble des obligations fiscales, sociales et réglementaires applicables.",
+      "badge_title": "Label Entreprise Citoyenne et Reconnaissance",
+      "badge_desc": "Autorisation d'utilisation de notre label institutionnel certifié dans vos rapports RSE et supports de communication d'entreprise."
+    },
+    "contact": {
+      "title": "Construisez un Partenariat avec l'Institut Nova Esperança",
+      "subtitle": "Notre équipe des relations institutionnelles est à votre écoute pour concevoir un projet adapté à vos objectifs d'impact.",
+      "company_name": "Raison Sociale / Nom de l'Entreprise",
+      "contact_name": "Nom du Responsable / Fonction",
+      "email": "E-mail Professionnel",
+      "phone": "Téléphone / WhatsApp",
+      "interests": "Domaine d'Intérêt Prioritaire",
+      "opt_esg": "Investissement Social d'Entreprise (ESG)",
+      "opt_tax": "Affectation Fiscale à Coût Zéro (IRPJ)",
+      "opt_vol": "Bénévolat d'Entreprise & Mentorat",
+      "opt_infra": "Dons de Matériel / Technologies",
+      "message": "Message ou Précisions sur votre Projet",
+      "btn_submit": "Demander une Proposition de Partenariat →",
+      "success_msg": "Message bien reçu ! Notre équipe partenariats prendra contact avec vous dans un délai de 24 heures ouvrées."
     }
   }
 }

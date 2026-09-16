@@ -34,5 +34,23 @@
     "success_desc": "Merci pour votre message. Nos équipes reviendront vers vous sous 48h ouvrées.",
     "error_title": "Échec de l'Envoi",
     "error_desc": "Une erreur est survenue lors de l'envoi. Merci de renouveler votre tentative."
+  },
+  "volunteer_board": {
+    "title": "Espace Bénévolat & Missions Ouvertes",
+    "subtitle": "Trouvez la mission qui correspond le mieux à vos compétences et disponibilités.",
+    "filter_all": "Tous les Domaines",
+    "filter_education": "Éducation & Soutien",
+    "filter_nutrition": "Sécurité Alimentaire",
+    "filter_technology": "Robotique & Numérique",
+    "filter_communication": "Communication & Média",
+    "filter_legal": "Citoyenneté & Droits",
+    "label_requirements": "Prérequis:",
+    "label_modality": "Modalité:",
+    "label_hours": "Temps Requis:",
+    "btn_apply": "Postuler à cette Mission",
+    "applied_toast": "Mission sélectionnée! Veuillez poursuivre le formulaire ci-dessous.",
+    "proof_title": "Attestation Démonstrative d'Engagement Bénévole (MVP)",
+    "proof_desc": "Document de démonstration aligné sur le cadre légal du bénévolat (Loi 9.608/98).",
+    "proof_btn": "Télécharger l'Attestation (PDF)"
   }
 }

@@ -49,5 +49,25 @@
     "cert_statute": "Statuts Déposés au Registre Civil des Personnes Morales",
     "cert_audit": "Audit Financier Indépendant Annuel Certifié",
     "cert_tax": "Situation Fiscale Régulière au Niveau Fédéral et Local"
+  },
+  "press_room": {
+    "title": "Salle de Presse & Kit de Marque Officiel",
+    "subtitle": "Informations vérifiées, communiqués officiels, charte graphique et contacts pour journalistes et chercheurs.",
+    "badge": "Communication Institutionnelle",
+    "releases_title": "Communiqués Officiels & Dossiers de Presse",
+    "brand_kit_title": "Kit Officiel d'Identité Visuelle",
+    "brand_kit_desc": "Fichiers vectoriels haute résolution des logos institutionnels de l'Instituto Nova Esperança à l'usage des médias.",
+    "logo_primary": "Logo Principal Officiel (#075E54)",
+    "logo_white": "Logo Blanc Négatif",
+    "logo_mono": "Logo Monochrome Noir",
+    "btn_download_svg": "Télécharger Vectoriel (SVG)",
+    "palette_title": "Palette Officielle de Couleurs",
+    "primary_color": "Vert Espérance (#075E54) — Institutionnel Principal",
+    "secondary_color": "Vert Forêt (#2A9D8F) — Actions Sociales",
+    "accent_color": "Orange Énergie (#E76F51) — Jeunesse & Focus",
+    "spokespersons_title": "Porte-Paroles Officiels & Relations Presse",
+    "press_contact_label": "Contact Relations Presse:",
+    "press_email": "imprensa@instituto-novaesperanca.org.br",
+    "press_phone": "+55 (61) 98765-4321"
   }
 }

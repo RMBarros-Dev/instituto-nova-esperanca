@@ -40,5 +40,14 @@
     "title": "Official Governance & Audit Reports",
     "subtitle": "Certified public disclosure files signed by independent certified accountants.",
     "btn_download": "Download PDF"
+  },
+  "open_data": {
+    "title": "Open Data & Public Accountability (FOIA)",
+    "subtitle": "Download raw audited financial datasets in open formats for independent auditing, journalism, and academic research.",
+    "btn_csv": "Export Accounting Data (CSV)",
+    "btn_json": "Export Accounting Data (JSON)",
+    "tooltip_csv": "UTF-8 with BOM CSV formatted for Microsoft Excel and LibreOffice",
+    "tooltip_json": "Structured JSON dataset ready for API consumption and Python/Pandas",
+    "notice": "Methodology strictly compliant with CFC/ITG 2002 accounting standards and open data best practices."
   }
 }

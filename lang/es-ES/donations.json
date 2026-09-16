@@ -35,5 +35,33 @@
     "expiry_placeholder": "MM/AA",
     "cvv_placeholder": "CVV",
     "btn_pay": "Confirmar Donación Segura"
+  },
+  "ir_calculator": {
+    "title": "Calculadora de Deducción Fiscal (IRPF e IRPJ a Coste Cero)",
+    "subtitle": "Destine hasta el 6% de sus impuestos debidos sin desembolso adicional a través de Fondos de la Infancia y Leyes de Incentivo.",
+    "type_pf": "Persona Física (Declaración Completa — hasta 6%)",
+    "type_pj": "Persona Jurídica (Beneficio Real — hasta 2%)",
+    "label_income": "Impuesto sobre la Renta Estimado (R$):",
+    "label_deduction": "Importe Máximo para Destinación a Coste Cero:",
+    "impact_prefix": "Su aporte a coste cero financia:",
+    "darf_guide_title": "Cómo proceder en el software de la Agencia Tributaria:",
+    "darf_step1": "1. En el programa de IRPF, acceda a la pestaña 'Donaciones Directas en Declaración'.",
+    "darf_step2": "2. Seleccione 'Infancia y Adolescencia' (Fondo Municipal de Valparaíso de Goiás - GO).",
+    "darf_step3": "3. Indique el importe calculado e imprima el comprobante fiscal (DARF) específico.",
+    "darf_step4": "4. El 100% del importe pagado se descuenta del impuesto a pagar o se suma a la devolución.",
+    "disclaimer": "Aviso de Homologación (Regla 35): Herramienta de simulación demostrativa para el MVP. Consulte a su asesor contable antes del envío definitivo."
+  },
+  "certificate": {
+    "btn_open": "Emitir Certificado Demostrativo de Impacto",
+    "title": "Certificado Demostrativo de Impacto Social",
+    "badge_demo": "Homologación Técnica MVP",
+    "certifies_that": "Certificamos con fines de registro ciudadano que",
+    "has_contributed": "ha realizado una contribución solidaria demostrativa destinada a los proyectos socioeducativos del Instituto Nova Esperança.",
+    "legal_safeguard": "Aviso de Salvaguarda Jurídica: Documento de carácter exclusivamente demostrativo emitido en el entorno de pruebas del MVP. No posee validez de recibo fiscal ni desgravación legal.",
+    "issued_at": "Fecha de Emisión:",
+    "auth_code": "Código de Verificación:",
+    "btn_download_pdf": "Descargar Certificado en PDF",
+    "btn_share_linkedin": "Compartir en LinkedIn",
+    "btn_close": "Cerrar"
   }
 }

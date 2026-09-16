@@ -34,5 +34,23 @@
     "success_desc": "Gracias por contactarnos. Le responderemos en un plazo máximo de 48 horas laborables.",
     "error_title": "Error al Enviar",
     "error_desc": "Ocurrió una falla durante el envío. Por favor, reintente en unos instantes."
+  },
+  "volunteer_board": {
+    "title": "Bolsa de Voluntariado y Puestos Abiertos",
+    "subtitle": "Encuentre la oportunidad que mejor se adapte a su talento, vocación y tiempo.",
+    "filter_all": "Todas las Áreas",
+    "filter_education": "Educación y Apoyo",
+    "filter_nutrition": "Seguridad Alimentaria",
+    "filter_technology": "Robótica y TI",
+    "filter_communication": "Comunicación",
+    "filter_legal": "Ciudadanía y Legal",
+    "label_requirements": "Requisitos:",
+    "label_modality": "Modalidad:",
+    "label_hours": "Dedicación:",
+    "btn_apply": "Quiero este Puesto",
+    "applied_toast": "¡Puesto seleccionado! Continúe completando el formulario a continuación.",
+    "proof_title": "Comprobante Demostrativo de Adhesión Voluntaria (MVP)",
+    "proof_desc": "Documento demostrativo conforme a las directrices de la Ley de Voluntariado (Ley 9.608/98).",
+    "proof_btn": "Descargar Comprobante (PDF)"
   }
 }

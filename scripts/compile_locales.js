@@ -24,7 +24,8 @@ const MODULES = [
   'contact',
   'faq',
   'accessibility',
-  'forms'
+  'forms',
+  'companies'
 ];
 
 if (!fs.existsSync(LOCALES_DIR)) {

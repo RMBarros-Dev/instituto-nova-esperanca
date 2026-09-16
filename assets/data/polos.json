@@ -1,0 +1,54 @@
+[
+  {
+    "id": "polo.ceu_azul",
+    "name": "Polo Central Céu Azul (Localização Demonstrativa — MVP)",
+    "territory": "Valparaíso de Goiás — GO",
+    "bairro": "Bairro Céu Azul",
+    "address": "Quadra 12, Lote 04 — Valparaíso de Goiás (Demonstrativo)",
+    "coordinates": [-16.0645, -47.9782],
+    "programs": ["Novos Caminhos", "Comunidade Viva"],
+    "capacity": "450 atendimentos / semana",
+    "schedule": "Segunda a Sexta, 08h às 18h",
+    "status": "Planejamento Técnico / Homologação MVP",
+    "is_demonstrative": true
+  },
+  {
+    "id": "polo.jardim_inga",
+    "name": "Polo Jardim Ingá (Localização Demonstrativa — MVP)",
+    "territory": "Luziânia / Valparaíso de Goiás",
+    "bairro": "Jardim Ingá",
+    "address": "Av. Principal, Setor Leste (Demonstrativo)",
+    "coordinates": [-16.1432, -47.9351],
+    "programs": ["Prato que Transforma", "Renda e Futuro"],
+    "capacity": "600 refeições / dia e oficinas técnicas",
+    "schedule": "Terça a Sábado, 07h às 17h",
+    "status": "Planejamento Técnico / Homologação MVP",
+    "is_demonstrative": true
+  },
+  {
+    "id": "polo.anhanguera",
+    "name": "Polo Anhanguera (Localização Demonstrativa — MVP)",
+    "territory": "Valparaíso de Goiás — GO",
+    "bairro": "Parque Anhanguera",
+    "address": "Rua 15, Área Especial (Demonstrativo)",
+    "coordinates": [-16.0712, -47.9890],
+    "programs": ["Novos Caminhos (Robótica)", "Inclusão Digital"],
+    "capacity": "280 jovens / semana",
+    "schedule": "Segunda a Sexta, 13h às 19h",
+    "status": "Planejamento Técnico / Homologação MVP",
+    "is_demonstrative": true
+  },
+  {
+    "id": "polo.ypiranga",
+    "name": "Polo Agroecológico Ypiranga (Localização Demonstrativa — MVP)",
+    "territory": "Valparaíso de Goiás — GO",
+    "bairro": "Chácaras Ypiranga",
+    "address": "Setor de Chácaras, Gleba B (Demonstrativo)",
+    "coordinates": [-16.0890, -47.9620],
+    "programs": ["Prato que Transforma (Hortas)", "Educação Ambiental"],
+    "capacity": "240 famílias cooperadas",
+    "schedule": "Quarta a Domingo, 07h às 15h",
+    "status": "Planejamento Técnico / Homologação MVP",
+    "is_demonstrative": true
+  }
+]

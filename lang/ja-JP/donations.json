@@ -35,5 +35,33 @@
     "expiry_placeholder": "月/年",
     "cvv_placeholder": "セキュリティコード",
     "btn_pay": "安全に寄付を完了する"
+  },
+  "ir_calculator": {
+    "title": "税制優遇・控除シミュレーター（追加負担ゼロ寄付）",
+    "subtitle": "児童保護基金および寄付控除制度を通じて、納付所得税の最大6%を追加自己負担ゼロで地域社会に還元。",
+    "type_pf": "個人（確定申告・全額控除方式 — 最大6%）",
+    "type_pj": "法人（実績利益方式 — 最大2%）",
+    "label_income": "見積納税額（R$）:",
+    "label_deduction": "自己負担ゼロでの最大寄付枠:",
+    "impact_prefix": "自己負担ゼロでのご支援が実現すること:",
+    "darf_guide_title": "確定申告ソフトウェアでの手続きガイド:",
+    "darf_step1": "1. 所得税申告システムで「申告時直接寄付」項目を開きます。",
+    "darf_step2": "2. 「児童・青少年支援」（ゴイアス州ヴァルパライゾ市基金）を選択します。",
+    "darf_step3": "3. 計算された金額を入力し、指定納付書（DARF）を発行します。",
+    "darf_step4": "4. 納付額は100%納税額から控除されるか還付額に加算されます。",
+    "disclaimer": "承認・検証に関する注記（規則35）: 本ツールはMVP検証用のシミュレーターです。申告前に担当税理士等にご相談ください。"
+  },
+  "certificate": {
+    "btn_open": "実証用ソーシャルインパクト証明書を発行",
+    "title": "実証用ソーシャルインパクト証明書",
+    "badge_demo": "MVP技術検証用",
+    "certifies_that": "市民参加の記録として以下を証明します:",
+    "has_contributed": "Instituto Nova Esperançaの教育および地域支援プロジェクトに対し、実証的連帯支援を実施しました。",
+    "legal_safeguard": "法的注記: 本書はMVP検証環境で発行された実証用文書です。公式な税額控除領収書としては使用できません。",
+    "issued_at": "発行日:",
+    "auth_code": "検証コード:",
+    "btn_download_pdf": "証明書をPDFでダウンロード",
+    "btn_share_linkedin": "LinkedInで共有",
+    "btn_close": "閉じる"
   }
 }

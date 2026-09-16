@@ -1,0 +1,92 @@
+[
+  {
+    "id": "release-2026-08",
+    "date": "2026-08-20",
+    "i18n": {
+      "pt-BR": {
+        "title": "Instituto Nova Esperança atinge 91.2% de taxa de eficiência e beneficia mais de 12 mil pessoas no Entorno do DF",
+        "lead": "Valparaíso de Goiás — O Instituto Nova Esperança apresentou suas demonstrações contábeis e relatório de impacto social relativos aos primeiros meses do exercício de 2026, consolidando uma taxa de aplicação em atividade-fim de 91,2%.",
+        "tag": "Transparência",
+        "author": "Assessoria de Comunicação Institucional"
+      },
+      "en-US": {
+        "title": "Nova Esperança Institute reaches 91.2% efficiency rate and benefits over 12,000 people",
+        "lead": "Valparaíso de Goiás — Nova Esperança Institute presented its financial statements and social impact report for 2026, consolidating a direct impact application rate of 91.2%.",
+        "tag": "Transparency",
+        "author": "Institutional Communications Office"
+      },
+      "es-ES": {
+        "title": "Instituto Nova Esperança alcanza 91.2% de tasa de eficiencia beneficiando a más de 12 mil personas",
+        "lead": "Valparaíso de Goiás — El Instituto Nova Esperança presentó sus estados contables y reporte de impacto social para 2026, consolidando una tasa de aplicación en actividad principal del 91,2%.",
+        "tag": "Transparencia",
+        "author": "Oficina de Comunicación Institucional"
+      },
+      "fr-FR": {
+        "title": "L'Institut Nova Esperança atteint 91,2% d'efficacité et bénéficie à plus de 12 000 personnes",
+        "lead": "Valparaíso de Goiás — L'Institut Nova Esperança a présenté ses états financiers et son rapport d'impact social pour 2026, consolidant un taux d'application directe de 91,2%.",
+        "tag": "Transparence",
+        "author": "Bureau de Communication Institutionnelle"
+      },
+      "de-DE": {
+        "title": "Instituto Nova Esperança erreicht 91,2% Effizienzrate und unterstützt über 12.000 Menschen",
+        "lead": "Valparaíso de Goiás — Das Instituto Nova Esperança legte seinen Finanzbericht und Wirkungsausweis für 2026 vor und bestätigte eine direkte Förderquote von 91,2%.",
+        "tag": "Transparenz",
+        "author": "Büro für institutionelle Kommunikation"
+      },
+      "ja-JP": {
+        "title": "ノヴァ・エスペランサ研究所、91.2%の事業効率を達成し12,000人以上を支援",
+        "lead": "ヴァルパライゾ・デ・ゴイアス — ノヴァ・エスペランサ研究所は2026年の財務諸表と社会的インパクト報告を発表し、直接事業への資金配分率91.2%を達成しました。",
+        "tag": "透明性",
+        "author": "広報・渉外部門"
+      }
+    },
+    "downloads": [
+      { "name": "Comunicado Oficial (PDF)", "file": "assets/docs/Release_Oficial_Agosto_2026.pdf", "size": "340 KB" }
+    ]
+  },
+  {
+    "id": "release-2026-06",
+    "date": "2026-06-10",
+    "i18n": {
+      "pt-BR": {
+        "title": "Inauguração do Laboratório Comunitário de Robótica Livre em parceria com educadores voluntários",
+        "lead": "Com foco na inclusão digital e letramento tecnológico de jovens em vulnerabilidade, o novo polo integra componentes reciclados e formação continuada em robótica educacional.",
+        "tag": "Educação",
+        "author": "Assessoria de Comunicação Institucional"
+      },
+      "en-US": {
+        "title": "Inauguration of the Open Community Robotics Lab in partnership with volunteer educators",
+        "lead": "Focusing on digital inclusion and tech literacy for youth in vulnerability, the new hub integrates recycled electronics and continuous educational robotics training.",
+        "tag": "Education",
+        "author": "Institutional Communications Office"
+      },
+      "es-ES": {
+        "title": "Inauguración del Laboratorio Comunitario de Robótica Libre con educadores voluntarios",
+        "lead": "Con foco en la inclusión digital y alfabetización tecnológica de jóvenes en vulnerabilidad, el nuevo centro integra componentes reciclados y formación continua.",
+        "tag": "Educación",
+        "author": "Oficina de Comunicación Institucional"
+      },
+      "fr-FR": {
+        "title": "Inauguration du Laboratoire Communautaire de Robotique Libre avec des éducateurs bénévoles",
+        "lead": "Axé sur l'inclusion numérique et l'apprentissage technologique des jeunes en situation de vulnérabilité, le nouveau pôle intègre du matériel reconditionné.",
+        "tag": "Éducation",
+        "author": "Bureau de Communication Institutionnelle"
+      },
+      "de-DE": {
+        "title": "Eröffnung des gemeinschaftlichen Open-Source-Robotiklabors mit ehrenamtlichen Pädagogen",
+        "lead": "Mit Fokus auf digitale Inklusion und technologische Bildung junger Menschen integriert das neue Zentrum recycelte Komponenten und Robotik-Workshops.",
+        "tag": "Bildung",
+        "author": "Büro für institutionelle Kommunikation"
+      },
+      "ja-JP": {
+        "title": "ボランティア教育者との連携によるオープン・コミュニティ・ロボティクス・ラボの開設",
+        "lead": "若年層のデジタル・インクルージョンとテクノロジー・リテラシー向上を目指し、リサイクル電子部品を活用した教育ロボット拠点を新設しました。",
+        "tag": "教育",
+        "author": "広報・渉外部門"
+      }
+    },
+    "downloads": [
+      { "name": "Nota à Imprensa (PDF)", "file": "assets/docs/Release_Robotica_Junho_2026.pdf", "size": "290 KB" }
+    ]
+  }
+]

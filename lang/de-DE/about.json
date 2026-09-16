@@ -49,5 +49,25 @@
     "cert_statute": "Amtlich Beglaubigte und Registrierte Vereinssatzung",
     "cert_audit": "Unabhängiger Prüfbericht nach Internationalen Rechnungslegungsstandards",
     "cert_tax": "Steuerliche Unbedenklichkeitsbescheinigungen Aller Ebenen"
+  },
+  "press_room": {
+    "title": "Pressebereich & Offizielles Marken-Kit",
+    "subtitle": "Geprüfte Informationen, Pressemitteilungen, visuelle Markenressourcen und Ansprechpartner für Medien und Forschung.",
+    "badge": "Institutionelle Kommunikation",
+    "releases_title": "Offizielle Mitteilungen & Pressemitteilungen",
+    "brand_kit_title": "Offizielles Marken- und Logo-Kit",
+    "brand_kit_desc": "Hochauflösende Vektordateien der offiziellen Logos des Instituto Nova Esperança für redaktionelle Berichterstattung.",
+    "logo_primary": "Offizielles Hauptlogo (#075E54)",
+    "logo_white": "Negatives Weißes Logo",
+    "logo_mono": "Monochromes Schwarzes Logo",
+    "btn_download_svg": "Vektordatei Herunterladen (SVG)",
+    "palette_title": "Offizielle Farbpalette der Markenidentität",
+    "primary_color": "Hoffnungsgrün (#075E54) — Institutionelle Hauptfarbe",
+    "secondary_color": "Waldgrün (#2A9D8F) — Soziale Projekte",
+    "accent_color": "Energie-Orange (#E76F51) — Jugend & Highlights",
+    "spokespersons_title": "Offizielle Pressesprecher & Medienkontakt",
+    "press_contact_label": "Presse- und Medienabteilung:",
+    "press_email": "imprensa@instituto-novaesperanca.org.br",
+    "press_phone": "+55 (61) 98765-4321"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "header": {
+    "badge": "Alliances Stratégiques ESG à Fort Impact",
+    "title": "Votre entreprise peut amplifier l'impact et transformer les territoires.",
+    "lead": "Nous relions l'investissement social privé des entreprises à des résultats audités et pérennes dans l'éducation de base, la sécurité alimentaire et l'inclusion productive dans la périphérie de Brasília."
+  },
+  "modalities": {
+    "title": "Modalités Stratégiques de Partenariat d'Entreprise",
+    "subtitle": "Des formats flexibles et alignés sur les engagements de développement durable et ESG de votre organisation.",
+    "tax_incentive_title": "Affectation Fiscale à Coût Zéro",
+    "tax_incentive_desc": "Affectation directe de jusqu'à 1% de l'impôt sur les sociétés (régime du bénéfice réel) aux fonds pour l'enfance et projets accrédités sans débours supplémentaire.",
+    "direct_title": "Parrainage Direct de Projets Structurants",
+    "direct_desc": "Financement pérenne de bourses scolaires complètes, de laboratoires de robotique communautaire et de cantines solidaires.",
+    "volunteer_title": "Bénévolat d'Entreprise et Mentorat",
+    "volunteer_desc": "Mobilisation coordonnée des équipes salariées pour du mentorat auprès des jeunes et des chantiers solidaires de rénovation.",
+    "probono_title": "Dons en Nature et Mécénat de Compétences",
+    "probono_desc": "Apport de matériel informatique reconditionné, de fournitures et d'expertise technique pour moderniser nos infrastructures d'accueil."
+  },
+  "benefits": {
+    "title": "Gouvernance d'Excellence pour Entreprises Partenaires",
+    "subtitle": "Sécurité juridique et mesure rigoureuse de l'impact selon les meilleurs standards internationaux.",
+    "compliance_title": "Conformité et Rapports au Standard GRI",
+    "compliance_desc": "Bilans trimestriels avec indicateurs auditables de Retour Social sur Investissement (SROI) et certification comptable indépendante.",
+    "tax_title": "Régularité Fiscale et Attestations Légales",
+    "tax_desc": "Organisation en parfaite conformité avec l'ensemble des obligations fiscales, sociales et réglementaires applicables.",
+    "badge_title": "Label Entreprise Citoyenne et Reconnaissance",
+    "badge_desc": "Autorisation d'utilisation de notre label institutionnel certifié dans vos rapports RSE et supports de communication d'entreprise."
+  },
+  "contact": {
+    "title": "Construisez un Partenariat avec l'Institut Nova Esperança",
+    "subtitle": "Notre équipe des relations institutionnelles est à votre écoute pour concevoir un projet adapté à vos objectifs d'impact.",
+    "company_name": "Raison Sociale / Nom de l'Entreprise",
+    "contact_name": "Nom du Responsable / Fonction",
+    "email": "E-mail Professionnel",
+    "phone": "Téléphone / WhatsApp",
+    "interests": "Domaine d'Intérêt Prioritaire",
+    "opt_esg": "Investissement Social d'Entreprise (ESG)",
+    "opt_tax": "Affectation Fiscale à Coût Zéro (IRPJ)",
+    "opt_vol": "Bénévolat d'Entreprise & Mentorat",
+    "opt_infra": "Dons de Matériel / Technologies",
+    "message": "Message ou Précisions sur votre Projet",
+    "btn_submit": "Demander une Proposition de Partenariat →",
+    "success_msg": "Message bien reçu ! Notre équipe partenariats prendra contact avec vous dans un délai de 24 heures ouvrées."
+  }
+}

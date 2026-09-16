@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="1200" height="675" preserveAspectRatio="xMidYMid slice" data-image-type="imagem-ilustrativa" role="img" aria-label="Invista no Futuro Comunitário — Sua contribuição transforma vidas reais">
+  <defs>
+    <linearGradient id="bg_Doao" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#075E54" />
+      <stop offset="100%" stop-color="#1D7066" />
+    </linearGradient>
+    <linearGradient id="gold_Doao" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+    <filter id="shadow_Doao" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.25" flood-color="#0F2439" />
+    </filter>
+  </defs>
+  
+  <rect width="800" height="450" fill="url(#bg_Doao)" />
+  
+  <!-- Formas geométricas dinâmicas & orgânicas -->
+  <circle cx="720" cy="80" r="160" fill="rgba(255,255,255,0.06)" />
+  <circle cx="760" cy="380" r="120" fill="rgba(255,255,255,0.04)" />
+  <path d="M-40 390 Q 200 330, 450 370 T 840 340 L 840 450 L -40 450 Z" fill="rgba(0,0,0,0.18)" />
+
+  <!-- Badge / Emblema Central -->
+  <g transform="translate(400, 155)" text-anchor="middle">
+    <circle cx="0" cy="0" r="50" fill="rgba(255,255,255,0.15)" filter="url(#shadow_Doao)" />
+    <circle cx="0" cy="0" r="40" fill="rgba(255,255,255,0.96)" />
+    <text x="0" y="14" font-size="40" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">💚</text>
+  </g>
+
+  <!-- Tag Pill -->
+  <g transform="translate(400, 245)">
+    <rect x="-85" y="-13" width="170" height="26" rx="13" fill="url(#gold_Doao)" />
+    <text x="0" y="5" fill="#FFFFFF" font-family="'Manrope', -apple-system, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5" text-anchor="middle">DOAÇÃO</text>
+  </g>
+
+  <!-- Título e Subtítulo -->
+  <text x="400" y="305" fill="#FFFFFF" font-family="'Manrope', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="800" text-anchor="middle" filter="url(#shadow_Doao)">Invista no Futuro Comunitário</text>
+  <text x="400" y="338" fill="rgba(255,255,255,0.88)" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="500" text-anchor="middle">Sua contribuição transforma vidas reais</text>
+
+  <!-- Assinatura Oficial -->
+  <text x="400" y="418" fill="rgba(255,255,255,0.45)" font-family="'Manrope', -apple-system, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2">INSTITUTO NOVA ESPERANÇA • V7.4</text>
+</svg>

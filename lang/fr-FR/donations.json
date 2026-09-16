@@ -35,5 +35,33 @@
     "expiry_placeholder": "MM/AA",
     "cvv_placeholder": "CVC",
     "btn_pay": "Valider le Don Sécurisé"
+  },
+  "ir_calculator": {
+    "title": "Calculateur de Déduction Fiscale (IRPF & IRPJ à Coût Zéro)",
+    "subtitle": "Allouez jusqu'à 6% de votre impôt dû sans débourser un centime de plus via les Fonds de l'Enfance et les Lois d'Incitation.",
+    "type_pf": "Particulier (Déclaration Complète — jusqu'à 6%)",
+    "type_pj": "Entreprise (Bénéfice Réel — jusqu'à 2%)",
+    "label_income": "Montant de l'Impôt Estimé (R$):",
+    "label_deduction": "Montant Maximum Allouable à Coût Zéro:",
+    "impact_prefix": "Votre contribution à coût zéro finance:",
+    "darf_guide_title": "Guide de déclaration auprès de l'Administration Fiscale:",
+    "darf_step1": "1. Dans le logiciel de déclaration fiscale, rendez-vous à l'onglet 'Dons Directs'.",
+    "darf_step2": "2. Sélectionnez 'Enfance et Jeunesse' (Fonds Municipal de Valparaíso de Goiás - GO).",
+    "darf_step3": "3. Renseignez le montant calculé et éditez le bordereau de règlement (DARF).",
+    "darf_step4": "4. Le montant versé est déduit à 100% de votre impôt dû ou ajouté à votre remboursement.",
+    "disclaimer": "Avis d'Homologation (Règle 35): Cet outil est un simulateur de démonstration MVP. Veuillez consulter votre expert-comptable avant déclaration officielle."
+  },
+  "certificate": {
+    "btn_open": "Délivrer l'Attestation Démonstrative d'Impact",
+    "title": "Attestation Démonstrative d'Impact Social",
+    "badge_demo": "Homologation Technique MVP",
+    "certifies_that": "Nous attestons à des fins d'engagement citoyen que",
+    "has_contributed": "a effectué une contribution solidaire démonstrative aux initiatives socio-éducatives de l'Instituto Nova Esperança.",
+    "legal_safeguard": "Avertissement Juridique: Document purement démonstratif émis dans le cadre de la version de test MVP. Ne constitue pas un reçu fiscal officiel.",
+    "issued_at": "Date d'Émission:",
+    "auth_code": "Code de Validation:",
+    "btn_download_pdf": "Télécharger l'Attestation (PDF)",
+    "btn_share_linkedin": "Partager sur LinkedIn",
+    "btn_close": "Fermer"
   }
 }

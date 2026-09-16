@@ -35,5 +35,33 @@
     "expiry_placeholder": "MM/JJ",
     "cvv_placeholder": "Prüfziffer",
     "btn_pay": "Sichere Spende Abschließen"
+  },
+  "ir_calculator": {
+    "title": "Steuerabzug-Rechner (Null-Kosten-Steuerzuweisung IRPF & IRPJ)",
+    "subtitle": "Leiten Sie bis zu 6% Ihrer fälligen Einkommensteuer ohne zusätzliche Kosten an Kinderhilfsfonds und Förderprojekte weiter.",
+    "type_pf": "Privatperson (Vollständige Steuererklärung — bis zu 6%)",
+    "type_pj": "Unternehmen (Realgewinn — bis zu 2%)",
+    "label_income": "Geschätzte Steuerlast (R$):",
+    "label_deduction": "Maximaler Zuweisungsbetrag bei Null Kosten:",
+    "impact_prefix": "Ihr kostenloser Beitrag finanziert:",
+    "darf_guide_title": "Schritt-für-Schritt-Anleitung für die Steuererklärung:",
+    "darf_step1": "1. Wählen Sie im Steuerprogramm den Bereich 'Direkte Spenden auf der Steuererklärung'.",
+    "darf_step2": "2. Wählen Sie 'Kinder- und Jugendförderung' (Kommunalfonds Valparaíso de Goiás - GO).",
+    "darf_step3": "3. Geben Sie den berechneten Betrag ein und drucken Sie den Zahlungsbeleg (DARF).",
+    "darf_step4": "4. 100% des eingezahlten Betrags werden von der Steuerschuld abgezogen oder erstattet.",
+    "disclaimer": "Homologationshinweis (Regel 35): Dieses Tool ist ein MVP-Demonstrationssimulator. Konsultieren Sie Ihren Steuerberater vor der Abgabe."
+  },
+  "certificate": {
+    "btn_open": "Demonstrations-Wirkungszertifikat Erstellen",
+    "title": "Demonstratives Zertifikat für Soziale Wirkung",
+    "badge_demo": "MVP Technische Homologation",
+    "certifies_that": "Wir bestätigen hiermit für bürgerschaftliche Zwecke, dass",
+    "has_contributed": "einen demonstrativen Solidaritätsbeitrag zur Unterstützung der Bildungsprojekte des Instituto Nova Esperança geleistet hat.",
+    "legal_safeguard": "Rechtlicher Schutzhinweis: Reines Demonstrationsdokument aus der MVP-Testumgebung. Gilt nicht als offizielle steuerliche Spendenquittung.",
+    "issued_at": "Ausstellungsdatum:",
+    "auth_code": "Verifizierungscode:",
+    "btn_download_pdf": "Zertifikat als PDF Herunterladen",
+    "btn_share_linkedin": "Auf LinkedIn Teilen",
+    "btn_close": "Schließen"
   }
 }

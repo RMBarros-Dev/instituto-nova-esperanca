@@ -35,5 +35,33 @@
     "expiry_placeholder": "MM/AA",
     "cvv_placeholder": "CVV",
     "btn_pay": "Concluir Doação Segura"
+  },
+  "ir_calculator": {
+    "title": "Calculadora de Dedução Fiscal (IRPF & IRPJ a Custo Zero)",
+    "subtitle": "Destine até 6% do seu imposto devido sem desembolso adicional via Fundos da Infância e Leis de Incentivo.",
+    "type_pf": "Pessoa Física (Declaração Completa — até 6%)",
+    "type_pj": "Pessoa Jurídica (Lucro Real — até 2%)",
+    "label_income": "Imposto de Renda Devido Estimado (R$):",
+    "label_deduction": "Valor Máximo para Destinação a Custo Zero:",
+    "impact_prefix": "Seu aporte a custo zero financia:",
+    "darf_guide_title": "Como realizar no programa da Receita Federal:",
+    "darf_step1": "1. No programa IRPF, acesse a aba 'Doações Diretamente na Declaração'.",
+    "darf_step2": "2. Selecione 'Criança e Adolescente' (Fundo Municipal de Valparaíso de Goiás - GO).",
+    "darf_step3": "3. Informe o valor calculado e imprima o DARF específico até o prazo final.",
+    "darf_step4": "4. O valor pago no DARF será 100% abatido do imposto a pagar ou somado à sua restituição.",
+    "disclaimer": "Aviso de Homologação (Regra 35): Esta ferramenta é um simulador demonstrativo do MVP. Consulte seu contador antes do envio definitivo da declaração."
+  },
+  "certificate": {
+    "btn_open": "Emitir Certificado Demonstrativo de Impacto",
+    "title": "Certificado Demonstrativo de Impacto Social",
+    "badge_demo": "Homologação Técnica MVP",
+    "certifies_that": "Certificamos para fins de registro cidadão que",
+    "has_contributed": "realizou contribuição solidária demonstrativa destinada às ações socioeducativas do Instituto Nova Esperança.",
+    "legal_safeguard": "Aviso de Salvaguarda Jurídica: Documento exclusivamente demonstrativo emitido em ambiente de testes da versão MVP. Não possui validade como recibo fiscal ou dedução legal.",
+    "issued_at": "Data de Emissão:",
+    "auth_code": "Código de Autenticidade:",
+    "btn_download_pdf": "Baixar Certificado em PDF",
+    "btn_share_linkedin": "Compartilhar no LinkedIn",
+    "btn_close": "Fechar"
   }
 }

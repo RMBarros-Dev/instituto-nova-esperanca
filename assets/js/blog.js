@@ -42,9 +42,11 @@
     }
 
     const lang = window.currentLangFormat || 'pt-BR';
+    const resolve = (p) => window.MediaManager ? window.MediaManager.resolvePath(p) : p;
+
     try {
       // Tenta carregar do módulo de idioma ativo
-      const res = await fetch(`lang/${lang}/blog.json`);
+      const res = await fetch(resolve(`lang/${lang}/blog.json`));
       if (res.ok) {
         const data = await res.json();
         if (data && Array.isArray(data.articles)) {
@@ -57,7 +59,7 @@
     } catch (e) {}
 
     try {
-      const res = await fetch('assets/data/blog.json');
+      const res = await fetch(resolve('assets/data/blog.json'));
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       articles = await res.json();
       renderArticles();
@@ -128,9 +130,12 @@
     const readMoreText = mod.read_more || 'Ler Artigo →';
 
     grid.innerHTML = filtered.map(art => {
+      const baseCover = (art.coverImage || '').replace(/\.svg$/, '');
       const imgHtml = window.MediaManager ? 
         window.MediaManager.createImageHTML({
           src: art.coverImage,
+          srcset: `${baseCover}-480.svg 480w, ${baseCover}-768.svg 768w, ${baseCover}-1200.svg 1200w`,
+          sizes: '(max-width: 768px) 100vw, 33vw',
           alt: art.title,
           width: 800,
           height: 450,
@@ -197,9 +202,12 @@
     const prevArticle = articles.find(a => a.id === art.id - 1);
     const nextArticle = articles.find(a => a.id === art.id + 1);
 
+    const baseCover = (art.coverImage || '').replace(/\.svg$/, '');
     const imgHeader = window.MediaManager ?
       window.MediaManager.createImageHTML({
         src: art.coverImage,
+        srcset: `${baseCover}-480.svg 480w, ${baseCover}-768.svg 768w, ${baseCover}-1200.svg 1200w`,
+        sizes: '(max-width: 1200px) 100vw, 1200px',
         alt: art.title,
         width: 1200,
         height: 600,
@@ -453,7 +461,15 @@
 
   function checkUrlParams() {
     const params = new URLSearchParams(window.location.search);
-    const id = params.get('id');
+    let id = params.get('id');
+    if (!id && window.location.hash) {
+      const cleanHash = window.location.hash.replace(/^#/, '');
+      if (cleanHash.startsWith('artigo-')) {
+        id = cleanHash.replace(/^artigo-/, '');
+      } else {
+        id = cleanHash;
+      }
+    }
     if (id) {
       openArticle(id, false);
     }

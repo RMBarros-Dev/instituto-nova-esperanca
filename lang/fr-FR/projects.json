@@ -127,5 +127,22 @@
       "cta_donate": "Financer les Travaux",
       "cta_volunteer": "Participer aux Chantiers"
     }
-  ]
+  ],
+  "territorial_map": {
+    "title": "Cartographie Territoriale des Centres d'Accueil",
+    "subtitle": "Présence Communautaire dans la Région Métropolitaine du DF",
+    "badge_demo": "Localisation Démonstrative — MVP",
+    "desc": "Découvrez les centres prévus pour l'accompagnement socio-éducatif, la sécurité alimentaire et l'insertion professionnelle à Valparaíso de Goiás.",
+    "filter_all": "Tous les Centres",
+    "card_programs": "Programmes Associés:",
+    "card_capacity": "Capacité Prévue:",
+    "card_schedule": "Horaires d'Ouverture:",
+    "btn_routes": "Itinéraire sur la Carte",
+    "table_caption": "Tableau Accessible des Centres Communautaires d'Accueil",
+    "col_name": "Centre / Établissement",
+    "col_location": "Quartier / Territoire",
+    "col_capacity": "Capacité",
+    "col_status": "Statut Opérationnel",
+    "demonstrative_notice": "Mention Obligatoire (Règles 35 & 84): Toutes les coordonnées géographiques et installations ont un caractère purement démonstratif pour validation MVP."
+  }
 }

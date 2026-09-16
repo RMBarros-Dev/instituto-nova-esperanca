@@ -11,7 +11,8 @@
       "blog": "活動ブログ",
       "contact": "お問い合わせ",
       "donate": "今すぐ寄付する",
-      "faq": "よくあるご質問"
+      "faq": "よくあるご質問",
+      "press": "報道・プレス"
     },
     "search": {
       "placeholder": "サイト内を検索 (Ctrl+K)...",
@@ -57,7 +58,8 @@
       "cookies": "Cookie設定",
       "accessibility": "アクセシビリティ方針",
       "governance": "ガバナンス・定款",
-      "address_short": "ヴァウパライゾ・デ・ゴイアス (首都連邦直轄区近郊)"
+      "address_short": "ヴァウパライゾ・デ・ゴイアス (首都連邦直轄区近郊)",
+      "press": "プレストップ"
     },
     "states": {
       "loading": "情報を読み込んでいます...",
@@ -181,6 +183,26 @@
       "cert_statute": "公証役場にて正式登録された法人定款",
       "cert_audit": "独立公認会計士による年次財務監査報告書",
       "cert_tax": "連邦・州・市町村における完全な納税証明"
+    },
+    "press_room": {
+      "title": "プレストップ・公式ブランドキット",
+      "subtitle": "監査済み公式情報、プレスリリース、ブランド資産、報道関係者・研究者向け連絡窓口。",
+      "badge": "広報・コミュニケーション",
+      "releases_title": "公式発表・プレスリリース一覧",
+      "brand_kit_title": "公式ブランド・アイデンティティキット",
+      "brand_kit_desc": "報道および公式パートナーシップ向けの高解像度ベクターロゴデータ（SVG形式）。",
+      "logo_primary": "公式プライマリーロゴ（#075E54）",
+      "logo_white": "白抜き反転ロゴ",
+      "logo_mono": "モノクロ黒ロゴ",
+      "btn_download_svg": "ベクター形式をダウンロード（SVG）",
+      "palette_title": "公式ブランドカラーパレット",
+      "primary_color": "エスペランサ・グリーン（#075E54）— メインブランドカラー",
+      "secondary_color": "フォレスト・グリーン（#2A9D8F）— 社会事業カラー",
+      "accent_color": "エナジー・オレンジ（#E76F51）— ハイライト・青少年",
+      "spokespersons_title": "公式スポークスパーソン・取材対応窓口",
+      "press_contact_label": "広報・プレス担当:",
+      "press_email": "imprensa@instituto-novaesperanca.org.br",
+      "press_phone": "+55 (61) 98765-4321"
     }
   },
   "projects": {
@@ -312,7 +334,24 @@
         "cta_donate": "修繕資材費を支援する",
         "cta_volunteer": "共同作業ボランティアに参加"
       }
-    ]
+    ],
+    "territorial_map": {
+      "title": "地域支援拠点マッピング",
+      "subtitle": "ブラジリア連邦直轄区周辺地域におけるコミュニティ展開",
+      "badge_demo": "実証用配置 — MVP",
+      "desc": "ゴイアス州ヴァルパライゾ市および首都圏において計画中の教育支援、食糧支援、就労訓練拠点の配置計画。",
+      "filter_all": "全拠点",
+      "card_programs": "実施事業:",
+      "card_capacity": "計画受入規模:",
+      "card_schedule": "対応時間:",
+      "btn_routes": "地図でルートを確認",
+      "table_caption": "地域コミュニティ支援拠点アクセシブルデータ一覧",
+      "col_name": "拠点名",
+      "col_location": "地区 / 地域",
+      "col_capacity": "受入規模",
+      "col_status": "稼働状況",
+      "demonstrative_notice": "義務的注記（規則35および84）: 本マップに表示される全座標および施設情報はMVP検証用の実証データです。現地確認前の公開はお控えください。"
+    }
   },
   "impact": {
     "header": {
@@ -351,6 +390,12 @@
       "col_2024": "2024年（実績・監査済）",
       "col_2025": "2025年（確定値）",
       "col_2026": "2026年（目標予測値）"
+    },
+    "open_data": {
+      "btn_csv": "インパクト指標をエクスポート（CSV）",
+      "btn_json": "インパクト指標をエクスポート（JSON）",
+      "tooltip_csv": "2023年〜2026年の時系列表形式CSVデータ",
+      "tooltip_json": "9大監査指標の完全なJSONマトリクス"
     }
   },
   "donations": {
@@ -390,6 +435,34 @@
       "expiry_placeholder": "月/年",
       "cvv_placeholder": "セキュリティコード",
       "btn_pay": "安全に寄付を完了する"
+    },
+    "ir_calculator": {
+      "title": "税制優遇・控除シミュレーター（追加負担ゼロ寄付）",
+      "subtitle": "児童保護基金および寄付控除制度を通じて、納付所得税の最大6%を追加自己負担ゼロで地域社会に還元。",
+      "type_pf": "個人（確定申告・全額控除方式 — 最大6%）",
+      "type_pj": "法人（実績利益方式 — 最大2%）",
+      "label_income": "見積納税額（R$）:",
+      "label_deduction": "自己負担ゼロでの最大寄付枠:",
+      "impact_prefix": "自己負担ゼロでのご支援が実現すること:",
+      "darf_guide_title": "確定申告ソフトウェアでの手続きガイド:",
+      "darf_step1": "1. 所得税申告システムで「申告時直接寄付」項目を開きます。",
+      "darf_step2": "2. 「児童・青少年支援」（ゴイアス州ヴァルパライゾ市基金）を選択します。",
+      "darf_step3": "3. 計算された金額を入力し、指定納付書（DARF）を発行します。",
+      "darf_step4": "4. 納付額は100%納税額から控除されるか還付額に加算されます。",
+      "disclaimer": "承認・検証に関する注記（規則35）: 本ツールはMVP検証用のシミュレーターです。申告前に担当税理士等にご相談ください。"
+    },
+    "certificate": {
+      "btn_open": "実証用ソーシャルインパクト証明書を発行",
+      "title": "実証用ソーシャルインパクト証明書",
+      "badge_demo": "MVP技術検証用",
+      "certifies_that": "市民参加の記録として以下を証明します:",
+      "has_contributed": "Instituto Nova Esperançaの教育および地域支援プロジェクトに対し、実証的連帯支援を実施しました。",
+      "legal_safeguard": "法的注記: 本書はMVP検証環境で発行された実証用文書です。公式な税額控除領収書としては使用できません。",
+      "issued_at": "発行日:",
+      "auth_code": "検証コード:",
+      "btn_download_pdf": "証明書をPDFでダウンロード",
+      "btn_share_linkedin": "LinkedInで共有",
+      "btn_close": "閉じる"
     }
   },
   "blog": {
@@ -701,6 +774,15 @@
       "title": "公式情報公開文書・年次監査報告書",
       "subtitle": "独立公認会計士の署名付き監査報告書をPDF形式で全文ダウンロードいただけます。",
       "btn_download": "PDFをダウンロード"
+    },
+    "open_data": {
+      "title": "オープンデータと情報公開（LAI準拠）",
+      "subtitle": "独立監査、報道機関、学術研究向けに監査済み会計データをオープンフォーマットで提供。",
+      "btn_csv": "会計データをエクスポート（CSV）",
+      "btn_json": "会計データをエクスポート（JSON）",
+      "tooltip_csv": "ExcelおよびLibreOffice対応のUTF-8（BOM付き）CSVファイル",
+      "tooltip_json": "API連携およびPython/Pandas解析用の構造化JSONファイル",
+      "notice": "CFC/ITG 2002会計基準および国際透明性基準に準拠。"
     }
   },
   "contact": {
@@ -826,6 +908,69 @@
       "success_desc": "お問い合わせありがとうございます。2営業日以内に担当よりご連絡いたします。",
       "error_title": "送信に失敗しました",
       "error_desc": "通信エラーが発生しました。時間をおいて再度お試しください。"
+    },
+    "volunteer_board": {
+      "title": "ボランティア募集情報・公募一覧",
+      "subtitle": "あなたの専門知識、情熱、活動可能時間に適したボランティア活動を見つける。",
+      "filter_all": "全分野",
+      "filter_education": "教育・学習支援",
+      "filter_nutrition": "食糧支援・栄養",
+      "filter_technology": "IT・ロボット工学",
+      "filter_communication": "広報・メディア",
+      "filter_legal": "市民権利・法務",
+      "label_requirements": "応募要件:",
+      "label_modality": "活動形態:",
+      "label_hours": "所要時間:",
+      "btn_apply": "この活動に応募する",
+      "applied_toast": "活動が選択されました。以下の登録フォームへお進みください。",
+      "proof_title": "実証用ボランティア参加証明書（MVP）",
+      "proof_desc": "ブラジルボランティア活動法（法律第9.608/98号）の指針に準拠した実証用参加確認書。",
+      "proof_btn": "参加確認書をPDFでダウンロード"
+    }
+  },
+  "companies": {
+    "header": {
+      "badge": "高インパクトESGパートナーシップ",
+      "title": "企業の社会的投資が地域社会を大きく変革します。",
+      "lead": "企業の社会的責任（ESG）と民間投資を、ブラジリア近郊における初等教育、食料安全保障、就労支援の確実で検証可能な成果へと直結させます。"
+    },
+    "modalities": {
+      "title": "企業パートナーシップの戦略的形態",
+      "subtitle": "貴社の持続可能性方針やESGコミットメントに柔軟に合致する連携モデルを提供します。",
+      "tax_incentive_title": "実質追加負担ゼロの税制優遇活用寄付",
+      "tax_incentive_desc": "実質利益課税制度の法人税（最大1%）を、追加の自己負担なく児童支援基金および認定事業へ直接振り替えることができます。",
+      "direct_title": "重要基盤事業への直接協賛",
+      "direct_desc": "子どもたちの全額奨学金、地域オープンソースロボット工学教室、コミュニティ食堂の拡充に対する長期的な資金支援。",
+      "volunteer_title": "企業ボランティア・社員メンターシップ",
+      "volunteer_desc": "青少年へのキャリア教育や職業ガイダンス、地域施設の改修活動への社員参加型エンゲージメントプログラム。",
+      "probono_title": "現物機器寄贈・プロボノ技術支援",
+      "probono_desc": "再生PCやIT機器、活動資材の寄贈、ならびに組織運営高度化のための専門技術やコンサルティング支援。"
+    },
+    "benefits": {
+      "title": "パートナー企業向けガバナンスと信頼性の担保",
+      "subtitle": "国際基準に準拠した法的安全性と厳格な社会的インパクトの定量的測定。",
+      "compliance_title": "GRI基準に準拠した透明な情報開示",
+      "compliance_desc": "第三者監査済みの社会的投資回収率（SROI）指標を含む四半期ごとの実績報告書の提供。",
+      "tax_title": "税務・労務・法務における完全な適合証明",
+      "tax_desc": "関係当局による納税証明書、労働債務不在証明書を完備し、デューデリジェンスに即時対応可能。",
+      "badge_title": "市民企業公式認定バッジの付与",
+      "badge_desc": "統合報告書、サステナビリティ開示、ESG広報資料に公式パートナーバッジをご活用いただけます。"
+    },
+    "contact": {
+      "title": "ノヴァ・エスペランサ研究所とのパートナーシップ設計",
+      "subtitle": "貴社のESG戦略に合わせた最適な協働プランをご提案いたします。お気軽にご相談ください。",
+      "company_name": "貴社名 / 法人名",
+      "contact_name": "ご担当者様氏名 / 役職",
+      "email": "会社用メールアドレス",
+      "phone": "お電話番号 / 連絡先",
+      "interests": "ご関心のある協働分野",
+      "opt_esg": "民間社会的投資（ESG）",
+      "opt_tax": "税制控除を活用した寄付（IRPJ）",
+      "opt_vol": "企業ボランティア・社員参加",
+      "opt_infra": "機器・IT資材の現物寄贈",
+      "message": "ご相談内容・ご要望の詳細",
+      "btn_submit": "協働プランのご提案を申し込む →",
+      "success_msg": "送信が完了いたしました。担当チームより原則24営業時間内にご連絡を差し上げます。"
     }
   }
 }

@@ -49,5 +49,25 @@
     "cert_statute": "Official Bylaws Certified in Public Civil Registry",
     "cert_audit": "Independent External Audit aligned with International Accounting Standards",
     "cert_tax": "Comprehensive Federal, State, and Municipal Tax Clearance"
+  },
+  "press_room": {
+    "title": "Press Room & Official Brand Kit",
+    "subtitle": "Audited information, press releases, visual identity assets, and media spokespersons for journalists and researchers.",
+    "badge": "Corporate Communications",
+    "releases_title": "Official Communications & Press Releases",
+    "brand_kit_title": "Official Brand Identity Kit",
+    "brand_kit_desc": "High-resolution vector assets of Instituto Nova Esperança's proprietary logos for editorial coverage and formal partnership use.",
+    "logo_primary": "Official Primary Logo (#075E54)",
+    "logo_white": "Negative White Logo",
+    "logo_mono": "Monochrome Black Logo",
+    "btn_download_svg": "Download Vector (SVG)",
+    "palette_title": "Official Color Palette",
+    "primary_color": "Hope Green (#075E54) — Primary Institutional",
+    "secondary_color": "Forest Green (#2A9D8F) — Social Actions",
+    "accent_color": "Energy Orange (#E76F51) — Youth & Highlights",
+    "spokespersons_title": "Official Spokespersons & Media Contact",
+    "press_contact_label": "Press & Media Relations:",
+    "press_email": "imprensa@instituto-novaesperanca.org.br",
+    "press_phone": "+55 (61) 98765-4321"
   }
 }

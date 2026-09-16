@@ -127,5 +127,22 @@
       "cta_donate": "Apoyar Obras",
       "cta_volunteer": "Participar en Jornadas"
     }
-  ]
+  ],
+  "territorial_map": {
+    "title": "Mapeo Territorial de los Centros de Atención",
+    "subtitle": "Presencia Comunitaria en la Región del Entorno del DF",
+    "badge_demo": "Ubicación Demostrativa — MVP",
+    "desc": "Conozca los centros planificados para acogida socioeducativa, seguridad alimentaria y formación laboral en Valparaíso de Goiás y área metropolitana.",
+    "filter_all": "Todos los Centros",
+    "card_programs": "Programas Vinculados:",
+    "card_capacity": "Capacidad Proyectada:",
+    "card_schedule": "Horario de Atención:",
+    "btn_routes": "Ver Ruta en el Mapa",
+    "table_caption": "Tabla Accesible de Centros Comunitarios de Atención",
+    "col_name": "Centro / Unidad",
+    "col_location": "Barrio / Territorio",
+    "col_capacity": "Capacidad",
+    "col_status": "Estado Operativo",
+    "demonstrative_notice": "Aviso Obligatorio (Reglas 35 y 84): Todas las coordenadas e instalaciones tienen carácter exclusivamente demostrativo para homologación del MVP. Requieren validación in situ."
+  }
 }

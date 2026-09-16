@@ -127,5 +127,22 @@
       "cta_donate": "Fund Upgrades",
       "cta_volunteer": "Join Action Days"
     }
-  ]
+  ],
+  "territorial_map": {
+    "title": "Territorial Mapping of Service Centers",
+    "subtitle": "Community Presence in the Federal District Surrounding Region",
+    "badge_demo": "Demonstrative Location — MVP",
+    "desc": "Discover our planned service centers for socio-educational support, food security, and vocational training across Valparaíso de Goiás and metropolitan regions.",
+    "filter_all": "All Centers",
+    "card_programs": "Associated Programs:",
+    "card_capacity": "Projected Capacity:",
+    "card_schedule": "Operating Hours:",
+    "btn_routes": "Get Directions on Map",
+    "table_caption": "Accessible Territorial Data Table of Community Centers",
+    "col_name": "Center / Facility",
+    "col_location": "District / Territory",
+    "col_capacity": "Capacity",
+    "col_status": "Operational Status",
+    "demonstrative_notice": "Mandatory Notice (Rules 35 & 84): All geographic coordinates and facilities are strictly demonstrative for MVP homologation. On-site verification is required prior to public release."
+  }
 }

@@ -40,5 +40,14 @@
     "title": "Offizielle Dokumente & Prüfberichte",
     "subtitle": "Offizielle Rechenschaftsberichte mit Bestätigungsvermerk unabhängiger Wirtschaftsprüfer.",
     "btn_download": "PDF Herunterladen"
+  },
+  "open_data": {
+    "title": "Open Data & Öffentliche Rechenschaftslegung",
+    "subtitle": "Laden Sie geprüfte Finanzdaten in offenen Formaten für unabhängige Prüfungen, Journalismus und Forschung herunter.",
+    "btn_csv": "Buchhaltungsdaten Exportieren (CSV)",
+    "btn_json": "Buchhaltungsdaten Exportieren (JSON)",
+    "tooltip_csv": "UTF-8 mit BOM formatierte CSV-Datei für Excel und LibreOffice",
+    "tooltip_json": "Strukturierter JSON-Datensatz für APIs und Python/Pandas",
+    "notice": "Methodik in strikter Übereinstimmung mit CFC/ITG 2002 Rechnungslegungsstandards."
   }
 }

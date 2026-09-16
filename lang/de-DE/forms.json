@@ -34,5 +34,23 @@
     "success_desc": "Vielen Dank für Ihre Nachricht. Wir melden uns innerhalb von 48 Arbeitsstunden.",
     "error_title": "Fehler beim Absenden",
     "error_desc": "Die Datenübertragung ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+  },
+  "volunteer_board": {
+    "title": "Ehrenamtsbörse & Offene Stellen",
+    "subtitle": "Finden Sie die Aufgabe, die am besten zu Ihren Fähigkeiten und zeitlichen Möglichkeiten passt.",
+    "filter_all": "Alle Bereiche",
+    "filter_education": "Bildung & Nachhilfe",
+    "filter_nutrition": "Ernährungssicherheit",
+    "filter_technology": "Robotik & IT",
+    "filter_communication": "Medien & Öffentlichkeitsarbeit",
+    "filter_legal": "Bürgerrechte & Recht",
+    "label_requirements": "Anforderungen:",
+    "label_modality": "Format:",
+    "label_hours": "Zeitaufwand:",
+    "btn_apply": "Für diese Stelle Bewerben",
+    "applied_toast": "Stelle ausgewählt! Bitte füllen Sie das nachfolgende Formular aus.",
+    "proof_title": "Demonstrativer Ehrenamtsnachweis (MVP)",
+    "proof_desc": "Demonstrative Registrierungsbestätigung gemäß Richtlinien des Freiwilligengesetzes (Gesetz 9.608/98).",
+    "proof_btn": "Nachweis als PDF Herunterladen"
   }
 }

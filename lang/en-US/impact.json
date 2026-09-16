@@ -35,5 +35,11 @@
     "col_2024": "2024 (Audited)",
     "col_2025": "2025 (Consolidated)",
     "col_2026": "2026 (Target Projection)"
+  },
+  "open_data": {
+    "btn_csv": "Export Impact Indicators (CSV)",
+    "btn_json": "Export Impact Indicators (JSON)",
+    "tooltip_csv": "Historical series 2023-2026 in tabular CSV format",
+    "tooltip_json": "Complete matrix of 9 audit indicators in JSON format"
   }
 }

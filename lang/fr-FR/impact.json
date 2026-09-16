@@ -35,5 +35,11 @@
     "col_2024": "2024 (Constaté)",
     "col_2025": "2025 (Consolidé)",
     "col_2026": "2026 (Projection / Cible)"
+  },
+  "open_data": {
+    "btn_csv": "Exporter Indicateurs d'Impact (CSV)",
+    "btn_json": "Exporter Indicateurs d'Impact (JSON)",
+    "tooltip_csv": "Série historique 2023-2026 au format tabulaire CSV",
+    "tooltip_json": "Matrice intégrale des 9 indicateurs au format JSON"
   }
 }

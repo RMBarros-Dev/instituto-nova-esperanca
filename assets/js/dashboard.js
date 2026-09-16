@@ -48,7 +48,8 @@
     renderState(container, 'loading');
 
     try {
-      const res = await fetch('assets/data/dashboard.json');
+      const resolve = (p) => window.MediaManager ? window.MediaManager.resolvePath(p) : p;
+      const res = await fetch(resolve('assets/data/dashboard.json'));
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       impactData = await res.json();
       renderDashboard();

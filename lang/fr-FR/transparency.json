@@ -40,5 +40,14 @@
     "title": "Rapports d'Activité et Documents d'Audit",
     "subtitle": "Documents officiels certifiés disponibles en téléchargement libre.",
     "btn_download": "Télécharger PDF"
+  },
+  "open_data": {
+    "title": "Données Ouvertes et Transparence Publique (Open Data)",
+    "subtitle": "Téléchargez les jeux de données financières auditées en formats ouverts pour audit indépendant et journalisme de données.",
+    "btn_csv": "Exporter Données Comptables (CSV)",
+    "btn_json": "Exporter Données Comptables (JSON)",
+    "tooltip_csv": "Fichier CSV UTF-8 avec BOM optimisé pour Excel et LibreOffice",
+    "tooltip_json": "Jeu de données JSON structuré pour intégration API et Python/Pandas",
+    "notice": "Méthodologie strictement conforme aux normes comptables CFC/ITG 2002."
   }
 }

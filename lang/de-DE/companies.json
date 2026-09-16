@@ -1,0 +1,45 @@
+{
+  "header": {
+    "badge": "ESG-Unternehmensallianzen mit Hoher Wirkung",
+    "title": "Ihr Unternehmen kann soziale Wirkung skalieren und Regionen transformieren.",
+    "lead": "Wir verknüpfen unternehmerisches soziales Engagement mit geprüften, nachhaltigen Ergebnissen in Grundbildung, Ernährungssicherheit und produktiver Inklusion im Umland von Brasília."
+  },
+  "modalities": {
+    "title": "Strategische Formen der Unternehmenspartnerschaft",
+    "subtitle": "Flexible Kooperationsmodelle im Einklang mit den Nachhaltigkeits- und ESG-Zielen Ihrer Organisation.",
+    "tax_incentive_title": "Steuerliche Zuweisung zum Nulltarif",
+    "tax_incentive_desc": "Direkte Zuweisung von bis zu 1% der Körperschaftsteuer (reale Gewinnbesteuerung) an akkreditierte Kinderfonds ohne zusätzliche Kosten.",
+    "direct_title": "Direkte Projektförderung",
+    "direct_desc": "Mehrjährige Finanzierung von Vollstipendien, offenen Robotik-Laboren und dem Ausbau der solidarischen Gemeinschaftsküche.",
+    "volunteer_title": "Corporate Volunteering und Mentoring",
+    "volunteer_desc": "Gezielte Einbindung Ihrer Belegschaft in Mentoring-Programme für Jugendliche und gemeinsame Renovierungsaktionen.",
+    "probono_title": "Sachspenden und Pro-Bono-Expertise",
+    "probono_desc": "Bereitstellung von aufbereiteter IT-Ausstattung, Materialien und Fachberatung zur Stärkung der institutionellen Leistungsfähigkeit."
+  },
+  "benefits": {
+    "title": "Exzellente Governance für Partnerunternehmen",
+    "subtitle": "Rechtssicherheit, Verlässlichkeit und rigorose Wirkungsmessung nach höchsten internationalen Standards.",
+    "compliance_title": "Compliance und Berichterstattung nach GRI-Standard",
+    "compliance_desc": "Vierteljährliche Rechenschaftsberichte mit auditierbaren Indikatoren zur sozialen Rendite (SROI) und unabhängigen Prüfungstestaten.",
+    "tax_title": "Vollständige steuerliche und arbeitsrechtliche Unbedenklichkeit",
+    "tax_desc": "Vollständig zertifizierte gemeinnützige Organisation im Einklang mit allen steuer- und arbeitsrechtlichen Vorgaben der Behörden.",
+    "badge_title": "Siegel Bürgerorientiertes Unternehmen & Anerkennung",
+    "badge_desc": "Offizielles Nutzungsrecht unseres Partnersiegels für Ihre Nachhaltigkeitsberichte und unternehmensweite ESG-Kommunikation."
+  },
+  "contact": {
+    "title": "Gestalten Sie eine Partnerschaft mit dem Instituto Nova Esperança",
+    "subtitle": "Unser Team für institutionelle Beziehungen erstellt gerne ein individuelles Konzept für Ihr Unternehmen.",
+    "company_name": "Unternehmensname / Rechtsform",
+    "contact_name": "Ansprechpartner / Position",
+    "email": "Geschäftliche E-Mail-Adresse",
+    "phone": "Telefon / WhatsApp",
+    "interests": "Hauptinteresse",
+    "opt_esg": "Privates soziales Investment (ESG)",
+    "opt_tax": "Steuerliche Zuweisung zum Nulltarif (IRPJ)",
+    "opt_vol": "Corporate Volunteering",
+    "opt_infra": "Sachspenden / IT-Ausstattung",
+    "message": "Nachricht oder Details zu Ihrem Vorhaben",
+    "btn_submit": "Partnerschaftsvorschlag anfordern →",
+    "success_msg": "Nachricht erfolgreich übermittelt! Unser Partnerschaftsteam wird sich innerhalb von 24 Arbeitsstunden bei Ihnen melden."
+  }
+}

@@ -40,5 +40,14 @@
     "title": "Documentos Oficiales e Informes de Auditoría",
     "subtitle": "Archivos públicos de descarga con firma contable y dictamen independiente.",
     "btn_download": "Descargar PDF"
+  },
+  "open_data": {
+    "title": "Datos Abiertos y Rendición Pública de Cuentas",
+    "subtitle": "Descargue conjuntos de datos financieros auditados en formatos abiertos para auditoría independiente e investigación.",
+    "btn_csv": "Exportar Datos Contables (CSV)",
+    "btn_json": "Exportar Datos Contables (JSON)",
+    "tooltip_csv": "Archivo CSV en UTF-8 con BOM para Excel y LibreOffice",
+    "tooltip_json": "Archivo JSON estructurado para consumo en APIs y Python/Pandas",
+    "notice": "Metodología conforme a las normas contables CFC/ITG 2002 y estándares de transparencia activa."
   }
 }

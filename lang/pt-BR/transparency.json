@@ -40,5 +40,14 @@
     "title": "Documentos Oficiais & Relatórios de Auditoria",
     "subtitle": "Arquivos abertos para download com assinatura dos contadores e parecer independente.",
     "btn_download": "Baixar PDF"
+  },
+  "open_data": {
+    "title": "Dados Abertos e Prestação Pública de Contas (LAI)",
+    "subtitle": "Baixe os conjuntos completos de dados em formato aberto para auditoria independente, jornalismo e pesquisa.",
+    "btn_csv": "Exportar Dados Contábeis (CSV)",
+    "btn_json": "Exportar Dados Contábeis (JSON)",
+    "tooltip_csv": "Arquivo CSV formatado em UTF-8 com BOM para Excel e LibreOffice",
+    "tooltip_json": "Arquivo JSON estruturado para consumo em APIs e Python/Pandas",
+    "notice": "Metodologia alinhada com as normas CFC/ITG 2002 e padrões abertos de transparência."
   }
 }

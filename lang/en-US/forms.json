@@ -34,5 +34,23 @@
     "success_desc": "Thank you for reaching out. Our team will get back to you within 48 business hours.",
     "error_title": "Submission Failed",
     "error_desc": "An error occurred while sending your request. Please try again."
+  },
+  "volunteer_board": {
+    "title": "Volunteer Job Board & Open Positions",
+    "subtitle": "Find the position that best matches your talents, passion, and availability.",
+    "filter_all": "All Areas",
+    "filter_education": "Education & Mentoring",
+    "filter_nutrition": "Food Security",
+    "filter_technology": "Robotics & IT",
+    "filter_communication": "Media & Comms",
+    "filter_legal": "Citizenship & Legal",
+    "label_requirements": "Requirements:",
+    "label_modality": "Format:",
+    "label_hours": "Time Commitment:",
+    "btn_apply": "Apply for this Position",
+    "applied_toast": "Position selected! Please continue filling the application form below.",
+    "proof_title": "Demonstrative Volunteer Proof (MVP)",
+    "proof_desc": "Demonstrative enrollment proof aligned with Brazilian Volunteer Act (Law 9,608/98).",
+    "proof_btn": "Download Enrollment Proof (PDF)"
   }
 }

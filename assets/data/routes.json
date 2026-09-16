@@ -1,0 +1,98 @@
+{
+  "home": {
+    "pt-BR": "/pt-BR/index.html",
+    "en-US": "/en-US/index.html",
+    "es-ES": "/es-ES/index.html",
+    "fr-FR": "/fr-FR/index.html",
+    "de-DE": "/de-DE/index.html",
+    "ja-JP": "/ja-JP/index.html"
+  },
+  "about": {
+    "pt-BR": "/pt-BR/sobre.html",
+    "en-US": "/en-US/about.html",
+    "es-ES": "/es-ES/nosotros.html",
+    "fr-FR": "/fr-FR/a-propos.html",
+    "de-DE": "/de-DE/ueber-uns.html",
+    "ja-JP": "/ja-JP/about.html"
+  },
+  "projects": {
+    "pt-BR": "/pt-BR/projetos.html",
+    "en-US": "/en-US/projects.html",
+    "es-ES": "/es-ES/proyectos.html",
+    "fr-FR": "/fr-FR/projets.html",
+    "de-DE": "/de-DE/projekte.html",
+    "ja-JP": "/ja-JP/projects.html"
+  },
+  "impact": {
+    "pt-BR": "/pt-BR/impacto.html",
+    "en-US": "/en-US/impact.html",
+    "es-ES": "/es-ES/impacto.html",
+    "fr-FR": "/fr-FR/impact.html",
+    "de-DE": "/de-DE/wirkung.html",
+    "ja-JP": "/ja-JP/impact.html"
+  },
+  "companies": {
+    "pt-BR": "/pt-BR/empresas.html",
+    "en-US": "/en-US/companies.html",
+    "es-ES": "/es-ES/empresas.html",
+    "fr-FR": "/fr-FR/entreprises.html",
+    "de-DE": "/de-DE/unternehmen.html",
+    "ja-JP": "/ja-JP/companies.html"
+  },
+  "volunteering": {
+    "pt-BR": "/pt-BR/voluntariado.html",
+    "en-US": "/en-US/volunteering.html",
+    "es-ES": "/es-ES/voluntariado.html",
+    "fr-FR": "/fr-FR/benevolat.html",
+    "de-DE": "/de-DE/ehrenamt.html",
+    "ja-JP": "/ja-JP/volunteer.html"
+  },
+  "transparency": {
+    "pt-BR": "/pt-BR/transparencia.html",
+    "en-US": "/en-US/transparency.html",
+    "es-ES": "/es-ES/transparencia.html",
+    "fr-FR": "/fr-FR/transparence.html",
+    "de-DE": "/de-DE/transparenz.html",
+    "ja-JP": "/ja-JP/transparency.html"
+  },
+  "blog": {
+    "pt-BR": "/pt-BR/blog.html",
+    "en-US": "/en-US/blog.html",
+    "es-ES": "/es-ES/blog.html",
+    "fr-FR": "/fr-FR/blog.html",
+    "de-DE": "/de-DE/blog.html",
+    "ja-JP": "/ja-JP/blog.html"
+  },
+  "donations": {
+    "pt-BR": "/pt-BR/doacoes.html",
+    "en-US": "/en-US/donations.html",
+    "es-ES": "/es-ES/donaciones.html",
+    "fr-FR": "/fr-FR/dons.html",
+    "de-DE": "/de-DE/spenden.html",
+    "ja-JP": "/ja-JP/donations.html"
+  },
+  "contact": {
+    "pt-BR": "/pt-BR/contato.html",
+    "en-US": "/en-US/contact.html",
+    "es-ES": "/es-ES/contacto.html",
+    "fr-FR": "/fr-FR/contact.html",
+    "de-DE": "/de-DE/kontakt.html",
+    "ja-JP": "/ja-JP/contact.html"
+  },
+  "faq": {
+    "pt-BR": "/pt-BR/faq.html",
+    "en-US": "/en-US/faq.html",
+    "es-ES": "/es-ES/faq.html",
+    "fr-FR": "/fr-FR/faq.html",
+    "de-DE": "/de-DE/faq.html",
+    "ja-JP": "/ja-JP/faq.html"
+  },
+  "press": {
+    "pt-BR": "/pt-BR/imprensa.html",
+    "en-US": "/en-US/press.html",
+    "es-ES": "/es-ES/prensa.html",
+    "fr-FR": "/fr-FR/presse.html",
+    "de-DE": "/de-DE/presse.html",
+    "ja-JP": "/ja-JP/press.html"
+  }
+}

@@ -127,5 +127,22 @@
       "cta_donate": "修繕資材費を支援する",
       "cta_volunteer": "共同作業ボランティアに参加"
     }
-  ]
+  ],
+  "territorial_map": {
+    "title": "地域支援拠点マッピング",
+    "subtitle": "ブラジリア連邦直轄区周辺地域におけるコミュニティ展開",
+    "badge_demo": "実証用配置 — MVP",
+    "desc": "ゴイアス州ヴァルパライゾ市および首都圏において計画中の教育支援、食糧支援、就労訓練拠点の配置計画。",
+    "filter_all": "全拠点",
+    "card_programs": "実施事業:",
+    "card_capacity": "計画受入規模:",
+    "card_schedule": "対応時間:",
+    "btn_routes": "地図でルートを確認",
+    "table_caption": "地域コミュニティ支援拠点アクセシブルデータ一覧",
+    "col_name": "拠点名",
+    "col_location": "地区 / 地域",
+    "col_capacity": "受入規模",
+    "col_status": "稼働状況",
+    "demonstrative_notice": "義務的注記（規則35および84）: 本マップに表示される全座標および施設情報はMVP検証用の実証データです。現地確認前の公開はお控えください。"
+  }
 }

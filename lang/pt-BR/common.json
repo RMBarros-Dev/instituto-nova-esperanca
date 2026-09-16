@@ -10,7 +10,8 @@
     "blog": "Blog",
     "contact": "Contato",
     "donate": "Doar Agora",
-    "faq": "Perguntas Frequentes"
+    "faq": "Perguntas Frequentes",
+    "press": "Imprensa"
   },
   "search": {
     "placeholder": "Pesquisar no Instituto (Ctrl+K)...",
@@ -56,7 +57,8 @@
     "cookies": "Cookies",
     "accessibility": "Acessibilidade",
     "governance": "Governança & Estatuto",
-    "address_short": "Valparaíso de Goiás — GO | Entorno do DF"
+    "address_short": "Valparaíso de Goiás — GO | Entorno do DF",
+    "press": "Sala de Imprensa"
   },
   "states": {
     "loading": "Carregando informações...",

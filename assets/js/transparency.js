@@ -83,7 +83,8 @@
     }
 
     try {
-      const res = await fetch('assets/data/transparency.json');
+      const resolve = (p) => window.MediaManager ? window.MediaManager.resolvePath(p) : p;
+      const res = await fetch(resolve('assets/data/transparency.json'));
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       transparencyData = await res.json();
       renderTransparency();
@@ -126,9 +127,9 @@
       const expenseKeys = [
         { key: 'projects', color: '#075E54' },
         { key: 'administrative', color: '#2A9D8F' },
-        { key: 'fundraising', color: '#E76F51' },
-        { key: 'communication', color: '#457B9D' },
-        { key: 'operations', color: '#6B7280' }
+        { key: 'fundraising', color: '#D4AF37' },
+        { key: 'communication', color: '#0F2439' },
+        { key: 'operations', color: '#64748B' }
       ];
 
       let svgHtml = `<div class="chart-bars-list">`;

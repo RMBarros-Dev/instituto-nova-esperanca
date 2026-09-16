@@ -219,6 +219,18 @@
       });
     }
 
+    // Botão de Certificado Demonstrativo de Impacto
+    document.querySelectorAll('[data-open-impact-certificate]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (window.CertificateManager) {
+          window.CertificateManager.openCertificateModal({
+            type: 'donation',
+            impact: getImpactEstimation(currentAmount)
+          });
+        }
+      });
+    });
+
     window.addEventListener('languageChanged', () => {
       updateSidebarAndImpact();
     });

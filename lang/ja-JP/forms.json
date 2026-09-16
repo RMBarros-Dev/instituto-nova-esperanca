@@ -34,5 +34,23 @@
     "success_desc": "お問い合わせありがとうございます。2営業日以内に担当よりご連絡いたします。",
     "error_title": "送信に失敗しました",
     "error_desc": "通信エラーが発生しました。時間をおいて再度お試しください。"
+  },
+  "volunteer_board": {
+    "title": "ボランティア募集情報・公募一覧",
+    "subtitle": "あなたの専門知識、情熱、活動可能時間に適したボランティア活動を見つける。",
+    "filter_all": "全分野",
+    "filter_education": "教育・学習支援",
+    "filter_nutrition": "食糧支援・栄養",
+    "filter_technology": "IT・ロボット工学",
+    "filter_communication": "広報・メディア",
+    "filter_legal": "市民権利・法務",
+    "label_requirements": "応募要件:",
+    "label_modality": "活動形態:",
+    "label_hours": "所要時間:",
+    "btn_apply": "この活動に応募する",
+    "applied_toast": "活動が選択されました。以下の登録フォームへお進みください。",
+    "proof_title": "実証用ボランティア参加証明書（MVP）",
+    "proof_desc": "ブラジルボランティア活動法（法律第9.608/98号）の指針に準拠した実証用参加確認書。",
+    "proof_btn": "参加確認書をPDFでダウンロード"
   }
 }

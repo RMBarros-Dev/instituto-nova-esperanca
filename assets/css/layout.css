@@ -1,0 +1,199 @@
+/* ==========================================================================
+   INSTITUTO NOVA ESPERANÇA — LAYOUT SYSTEM V7.4
+   Mobile-First (320px a 2560px), Grids Fluidos e Contêineres
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Contêineres
+   -------------------------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--space-md);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: var(--space-xl);
+  }
+}
+
+.container-sm {
+  max-width: 800px;
+}
+
+.container-lg {
+  max-width: 1440px;
+}
+
+/* --------------------------------------------------------------------------
+   2. Seções
+   -------------------------------------------------------------------------- */
+.section {
+  padding-block: var(--space-3xl);
+  position: relative;
+}
+
+.section-compact {
+  padding-block: var(--space-xl);
+}
+
+.section-alt {
+  background-color: var(--color-surface-alt);
+}
+
+.section-navy {
+  background: radial-gradient(circle at top, #0F2439 0%, #081624 100%);
+  color: #FFFFFF;
+}
+
+.section-navy h2, .section-navy h3, .section-navy h4 {
+  color: #FFFFFF;
+}
+
+/* --------------------------------------------------------------------------
+   3. Grids Responsivos
+   -------------------------------------------------------------------------- */
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 640px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 640px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-lg);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Flexbox Layouts
+   -------------------------------------------------------------------------- */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-xs { gap: var(--space-xs); }
+.gap-sm { gap: var(--space-sm); }
+.gap-md { gap: var(--space-md); }
+.gap-lg { gap: var(--space-lg); }
+.gap-xl { gap: var(--space-xl); }
+
+/* --------------------------------------------------------------------------
+   5. Hero Sections
+   -------------------------------------------------------------------------- */
+.hero-section {
+  padding-block: var(--space-3xl) var(--space-2xl);
+  background: radial-gradient(circle at top right, #0F2439 0%, #071726 100%);
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-compact {
+  padding-block: var(--space-2xl) var(--space-xl);
+}
+
+.hero-title {
+  color: #FFFFFF;
+  font-size: var(--text-display);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: var(--space-md);
+  letter-spacing: -0.025em;
+}
+
+.hero-lead {
+  font-size: var(--text-body-large);
+  color: #94A3B8;
+  max-width: 760px;
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-xl);
+}
+
+.hero-territory-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(42, 157, 143, 0.18);
+  color: #5EEAD4;
+  border: 1px solid rgba(94, 234, 212, 0.3);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-md);
+}

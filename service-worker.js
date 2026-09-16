@@ -1,10 +1,10 @@
 /**
- * INSTITUTO NOVA ESPERANÇA — SERVICE WORKER V7.2+
- * PWA Hardening: Cache Inteligente, Stale-While-Revalidate para JSON,
- * Fallback Resiliente para Imagens e Suporte Offline Total.
+ * INSTITUTO NOVA ESPERANÇA — SERVICE WORKER V7.4
+ * PWA 2.0: App Shell, Limpeza de Versões Anteriores, Cache Inteligente,
+ * Stale-While-Revalidate para JSON, Fallback Offline Elegante e Resiliência Total de Mídias.
  */
 
-const CACHE_VERSION = 'ine-v7.2-plus-cache';
+const CACHE_VERSION = 'ine-v7.4-cache';
 const STATIC_ASSETS = [
   './',
   'index.html',
@@ -24,8 +24,11 @@ const STATIC_ASSETS = [
   '404.html',
   'manifest.webmanifest',
   'assets/css/tokens.css',
-  'assets/css/accessibility.css',
+  'assets/css/base.css',
+  'assets/css/layout.css',
   'assets/css/components.css',
+  'assets/css/utilities.css',
+  'assets/css/accessibility.css',
   'assets/css/dashboard.css',
   'assets/css/style.css',
   'assets/css/pages.css',
@@ -38,11 +41,15 @@ const STATIC_ASSETS = [
   'assets/js/dashboard.js',
   'assets/js/transparency.js',
   'assets/js/blog.js',
+  'assets/js/certificate.js',
+  'assets/js/map.js',
   'assets/js/main.js',
   'assets/data/dashboard.json',
   'assets/data/transparency.json',
   'assets/data/projects.json',
   'assets/data/blog.json',
+  'assets/data/polos.json',
+  'assets/data/routes.json',
   'assets/locales/pt-BR.json',
   'assets/locales/en-US.json',
   'assets/locales/es-ES.json',
@@ -51,7 +58,10 @@ const STATIC_ASSETS = [
   'assets/locales/ja-JP.json',
   'assets/img/institutions/placeholder.svg',
   'assets/img/icon-192.svg',
-  'assets/img/icon-512.svg'
+  'assets/img/icon-512.svg',
+  'assets/img/brand/logo-primary.svg',
+  'assets/img/brand/logo-white.svg',
+  'assets/img/brand/logo-mono.svg'
 ];
 
 // Instalação do Service Worker
@@ -64,12 +74,15 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
-// Ativação e limpeza de caches antigos
+// Ativação e limpeza de caches antigos (v7.2, v7.3)
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
-        keys.filter((key) => key !== CACHE_VERSION).map((key) => caches.delete(key))
+        keys.filter((key) => key !== CACHE_VERSION).map((key) => {
+          console.log(`[ServiceWorker V7.4] Removendo cache obsoleto: ${key}`);
+          return caches.delete(key);
+        })
       );
     })
   );
@@ -103,7 +116,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 2. Imagens: Cache-First com Fallback SVG Instantâneo
+  // 2. Imagens: Cache-First com Fallback Resiliente
   if (event.request.destination === 'image' || url.pathname.match(/\.(svg|webp|png|jpg|jpeg)$/)) {
     event.respondWith(
       caches.match(event.request).then((cachedImage) => {
@@ -136,9 +149,34 @@ self.addEventListener('fetch', (event) => {
         caches.open(CACHE_VERSION).then((cache) => cache.put(event.request, toCache));
         return networkResponse;
       }).catch(() => {
-        // Fallback para navegação HTML offline
+        // Fallback elegante offline para navegação HTML
         if (event.request.headers.get('accept')?.includes('text/html')) {
-          return caches.match('index.html') || caches.match('404.html');
+          return new Response(`
+            <!DOCTYPE html>
+            <html lang="pt-BR">
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Offline | Instituto Nova Esperança</title>
+              <style>
+                body { font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #0F2439; color: #FFFFFF; text-align: center; padding: 2rem; }
+                .offline-card { max-width: 480px; background: rgba(255,255,255,0.05); padding: 2.5rem; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); }
+                h1 { color: #5EEAD4; margin-bottom: 0.75rem; font-size: 1.75rem; }
+                p { color: #94A3B8; line-height: 1.6; margin-bottom: 1.5rem; }
+                .btn { display: inline-block; background: #075E54; color: #fff; text-decoration: none; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight: 700; }
+              </style>
+            </head>
+            <body>
+              <div class="offline-card">
+                <h1>📡 Você está offline</h1>
+                <p>Alguns conteúdos da plataforma podem estar temporariamente indisponíveis sem conexão com a internet.</p>
+                <a href="javascript:window.location.reload()" class="btn">Tentar Conectar Novamente</a>
+              </div>
+            </body>
+            </html>
+          `, {
+            headers: { 'Content-Type': 'text/html; charset=utf-8' }
+          });
         }
       });
     })

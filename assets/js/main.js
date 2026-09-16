@@ -81,15 +81,18 @@
 
     async buildSearchIndex() {
       this.searchIndex = [];
+      const resolve = (p) => window.MediaManager ? window.MediaManager.resolvePath(p) : p;
+
       try {
         // Carrega projetos do módulo i18n ativo se disponível
         let projs = [];
         if (window.i18n && typeof window.i18n.getModule === 'function') {
           const mod = window.i18n.getModule('projects');
           if (mod && Array.isArray(mod.projects)) projs = mod.projects;
+          else if (mod && Array.isArray(mod.programs)) projs = mod.programs;
         }
         if (projs.length === 0) {
-          const projRes = await fetch('assets/data/projects.json');
+          const projRes = await fetch(resolve('assets/data/projects.json'));
           if (projRes.ok) projs = await projRes.json();
         }
         const projGroup = (window.i18n && window.i18n.get('nav_projects')) || 'Projetos';
@@ -97,8 +100,8 @@
           this.searchIndex.push({
             group: projGroup,
             title: p.name || p.title,
-            desc: p.summary || p.lead,
-            url: `projetos.html#${p.slug}`
+            desc: p.summary || p.lead || p.description,
+            url: `projetos.html#${p.slug || ''}`
           });
         });
 
@@ -109,16 +112,50 @@
           if (mod && Array.isArray(mod.articles)) arts = mod.articles;
         }
         if (arts.length === 0) {
-          const blogRes = await fetch('assets/data/blog.json');
+          const blogRes = await fetch(resolve('assets/data/blog.json'));
           if (blogRes.ok) arts = await blogRes.json();
         }
-        const blogGroup = (window.i18n && window.i18n.get('nav_blog')) || 'Blog';
+        const blogGroup = (window.i18n && window.i18n.get('nav_blog')) || 'Notícias';
         arts.forEach(a => {
           this.searchIndex.push({
             group: blogGroup,
             title: a.title,
-            desc: a.lead,
+            desc: a.lead || a.subtitle,
             url: `blog.html?id=${a.slug}`
+          });
+        });
+
+        // Central de Documentos
+        const docsGroup = 'Documentos';
+        const sampleDocs = [
+          { title: 'Relatório Anual de Atividades 2026', desc: 'Balanço detalhado de operações, auditoria independente e prestação de contas.', url: 'transparencia.html#documentos' },
+          { title: 'Demonstrações Financeiras & DRE 2025', desc: 'Balanço patrimonial auditado externamente e fluxo de caixa consolidado.', url: 'transparencia.html#documentos' },
+          { title: 'Estatuto Social Consolidado', desc: 'Regimento institucional registrado em cartório e governança corporativa.', url: 'transparencia.html#documentos' },
+          { title: 'Política de Privacidade & Conformidade LGPD', desc: 'Tratamento de dados pessoais, salvaguardas e direitos dos titulares.', url: 'privacidade.html' },
+          { title: 'Relatório Territorial de Impacto 2026', desc: 'Indicadores georreferenciados de atendimento no Entorno do DF.', url: 'impacto.html' }
+        ];
+        sampleDocs.forEach(d => {
+          this.searchIndex.push({
+            group: docsGroup,
+            title: d.title,
+            desc: d.desc,
+            url: d.url
+          });
+        });
+
+        // FAQ
+        let faqList = [];
+        if (window.i18n && typeof window.i18n.getModule === 'function') {
+          const mod = window.i18n.getModule('faq');
+          if (mod && Array.isArray(mod.questions)) faqList = mod.questions;
+        }
+        const faqGroup = 'FAQ';
+        faqList.forEach(q => {
+          this.searchIndex.push({
+            group: faqGroup,
+            title: q.question,
+            desc: q.answer ? q.answer.substring(0, 120) + '...' : '',
+            url: 'faq.html'
           });
         });
 

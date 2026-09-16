@@ -35,5 +35,11 @@
     "col_2024": "2024 (Geprüft)",
     "col_2025": "2025 (Konsolidiert)",
     "col_2026": "2026 (Zielwert / Prognose)"
+  },
+  "open_data": {
+    "btn_csv": "Wirkungsindikatoren Exportieren (CSV)",
+    "btn_json": "Wirkungsindikatoren Exportieren (JSON)",
+    "tooltip_csv": "Historische Datenreihe 2023-2026 im CSV-Format",
+    "tooltip_json": "Vollständige Matrix der 9 Indikatoren im JSON-Format"
   }
 }

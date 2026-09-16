@@ -19,7 +19,7 @@
       this.targetLangs = options.targetLangs || ['en-US', 'es-ES', 'fr-FR', 'de-DE', 'ja-JP'];
       this.modules = options.modules || [
         'common', 'home', 'about', 'projects', 'impact', 'donations',
-        'blog', 'transparency', 'contact', 'faq', 'accessibility', 'forms'
+        'blog', 'transparency', 'contact', 'faq', 'accessibility', 'forms', 'companies'
       ];
       this.langDir = options.langDir || (path ? path.resolve(__dirname, '../../lang') : '/lang');
     }

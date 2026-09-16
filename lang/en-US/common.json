@@ -10,7 +10,8 @@
     "blog": "Blog",
     "contact": "Contact",
     "donate": "Donate Now",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "press": "Press"
   },
   "search": {
     "placeholder": "Search the Institute (Ctrl+K)...",
@@ -56,7 +57,8 @@
     "cookies": "Cookie Settings",
     "accessibility": "Accessibility Statement",
     "governance": "Governance & Bylaws",
-    "address_short": "Valparaíso de Goiás — GO | Federal District Suburbs"
+    "address_short": "Valparaíso de Goiás — GO | Federal District Suburbs",
+    "press": "Press Room"
   },
   "states": {
     "loading": "Loading information...",

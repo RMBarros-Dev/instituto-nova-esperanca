@@ -4,39 +4,23 @@
    ========================================================================== */
 
 @import url('tokens.css');
-@import url('accessibility.css');
+@import url('base.css');
+@import url('layout.css');
 @import url('components.css');
+@import url('utilities.css');
+@import url('accessibility.css');
 @import url('dashboard.css');
 @import url('inline-utils.css');
 
-/* CSS Reset & Box Sizing */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 100%;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: var(--font-body);
-  font-size: var(--text-body);
-  line-height: var(--leading-normal);
-  color: var(--text);
-  background-color: var(--background);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-  transition: background-color var(--transition-base), color var(--transition-base);
-}
-
-/* Accessibility Focus States */
-:focus {
+/* Accessibility Focus States - Conforme WCAG 2.2 AAA */
+:focus:not(:focus-visible) {
   outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
 }
 
 :focus-visible {

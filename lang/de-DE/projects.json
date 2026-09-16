@@ -127,5 +127,22 @@
       "cta_donate": "Renovierung Fördern",
       "cta_volunteer": "Bei Aktionstagen Helfen"
     }
-  ]
+  ],
+  "territorial_map": {
+    "title": "Territoriale Kartierung der Betreuungszentren",
+    "subtitle": "Gemeinschaftspräsenz in der Region des Bundesdistrikts",
+    "badge_demo": "Demonstrativer Standort — MVP",
+    "desc": "Entdecken Sie die geplanten Zentren für sozioedukative Förderung, Ernährungssicherheit und berufliche Qualifizierung in Valparaíso de Goiás.",
+    "filter_all": "Alle Zentren",
+    "card_programs": "Zugehörige Programme:",
+    "card_capacity": "Geplante Kapazität:",
+    "card_schedule": "Öffnungszeiten:",
+    "btn_routes": "Route auf der Karte Planen",
+    "table_caption": "Barrierefreie Tabelle der Gemeinschaftszentren",
+    "col_name": "Zentrum / Einrichtung",
+    "col_location": "Bezirk / Region",
+    "col_capacity": "Kapazität",
+    "col_status": "Betriebsstatus",
+    "demonstrative_notice": "Pflicht-Hinweis (Regeln 35 & 84): Alle Koordinaten und Standorte dienen ausschließlich Demonstrationszwecken zur MVP-Homologation."
+  }
 }

@@ -40,5 +40,14 @@
     "title": "公式情報公開文書・年次監査報告書",
     "subtitle": "独立公認会計士の署名付き監査報告書をPDF形式で全文ダウンロードいただけます。",
     "btn_download": "PDFをダウンロード"
+  },
+  "open_data": {
+    "title": "オープンデータと情報公開（LAI準拠）",
+    "subtitle": "独立監査、報道機関、学術研究向けに監査済み会計データをオープンフォーマットで提供。",
+    "btn_csv": "会計データをエクスポート（CSV）",
+    "btn_json": "会計データをエクスポート（JSON）",
+    "tooltip_csv": "ExcelおよびLibreOffice対応のUTF-8（BOM付き）CSVファイル",
+    "tooltip_json": "API連携およびPython/Pandas解析用の構造化JSONファイル",
+    "notice": "CFC/ITG 2002会計基準および国際透明性基準に準拠。"
   }
 }

@@ -10,7 +10,8 @@
     "blog": "Blog",
     "contact": "Kontakt",
     "donate": "Jetzt Spenden",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "press": "Presse"
   },
   "search": {
     "placeholder": "Im Institut suchen (Ctrl+K)...",
@@ -56,7 +57,8 @@
     "cookies": "Cookies",
     "accessibility": "Barrierefreiheit",
     "governance": "Satzung & Leitung",
-    "address_short": "Valparaíso de Goiás — GO | Region Brasília"
+    "address_short": "Valparaíso de Goiás — GO | Region Brasília",
+    "press": "Pressebereich"
   },
   "states": {
     "loading": "Informationen werden geladen...",

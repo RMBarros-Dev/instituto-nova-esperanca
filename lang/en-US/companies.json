@@ -1,0 +1,45 @@
+{
+  "header": {
+    "badge": "High-Impact ESG Partnerships",
+    "title": "Your company can scale social impact and transform communities.",
+    "lead": "We connect corporate private social investment to audited, lasting outcomes in primary education, food security, and productive inclusion across the Federal District Suburbs."
+  },
+  "modalities": {
+    "title": "Strategic Corporate Partnership Modalities",
+    "subtitle": "Flexible collaboration models aligned with your organization's sustainability and ESG commitments.",
+    "tax_incentive_title": "Zero-Cost Tax Incentive Allocation",
+    "tax_incentive_desc": "Direct allocation of up to 1% of corporate income tax (Real Profit regime) to child protection funds and accredited initiatives at zero additional expense.",
+    "direct_title": "Direct Program Sponsorship",
+    "direct_desc": "Multi-year capital funding for full academic scholarships, open-source robotics labs, and community solidarity kitchen infrastructure.",
+    "volunteer_title": "Corporate Volunteering & Career Mentorship",
+    "volunteer_desc": "Integrated workforce engagement in career counseling for high schoolers, vocational coaching, and community revitalization workdays.",
+    "probono_title": "In-Kind Equipment & Pro Bono Advisory",
+    "probono_desc": "Hardware donations, refurbished computers, materials, and specialized technical consulting to advance institutional capacity."
+  },
+  "benefits": {
+    "title": "Governance Excellence for Corporate Partners",
+    "subtitle": "Legal certainty, fiduciary integrity, and rigorous impact auditing following global best practices.",
+    "compliance_title": "GRI-Aligned Reporting & Compliance",
+    "compliance_desc": "Quarterly accountability statements featuring verifiable Social Return on Investment (SROI) metrics and external audit sign-offs.",
+    "tax_title": "Full Fiscal & Labor Compliance Certifications",
+    "tax_desc": "Non-profit entity fully certified with positive tax, labor, and municipal debt clearance certificates available for due diligence.",
+    "badge_title": "Corporate Citizen Badge & Recognition",
+    "badge_desc": "Authorized use of our verified institutional partnership badge for annual ESG reports, sustainability indices, and investor relations."
+  },
+  "contact": {
+    "title": "Structure a Partnership with Instituto Nova Esperança",
+    "subtitle": "Our institutional relations team is ready to design a tailored impact proposal for your organization.",
+    "company_name": "Company Legal Name / Entity",
+    "contact_name": "Contact Representative / Title",
+    "email": "Corporate Email Address",
+    "phone": "Telephone / WhatsApp",
+    "interests": "Primary Area of Interest",
+    "opt_esg": "Private Social Investment (ESG)",
+    "opt_tax": "Zero-Cost Tax Allocation (IRPJ)",
+    "opt_vol": "Corporate Volunteering",
+    "opt_infra": "Equipment / Technology Donations",
+    "message": "Message or Proposal Details",
+    "btn_submit": "Request Partnership Proposal →",
+    "success_msg": "Message received! Our corporate relations team will reach out within 24 business hours."
+  }
+}

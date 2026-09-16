@@ -68,6 +68,14 @@
   color: var(--text, #17211F);
 }
 
+.brand-logo-img {
+  height: 42px;
+  width: auto;
+  max-width: 240px;
+  object-fit: contain;
+  display: block;
+}
+
 .brand-symbol {
   width: 42px;
   height: 42px;
@@ -809,4 +817,104 @@
 
 .aspect-16-9 {
   aspect-ratio: 16 / 9;
+}
+
+/* ==========================================================================
+   Componentes Específicos V7.4 (Premium UX & Design System)
+   ========================================================================== */
+
+/* Botão com Destaque Dourado Institucional */
+.btn-gold {
+  background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+  color: #0F2439;
+  font-weight: 800;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.25);
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #E5C158 0%, #C9971C 100%);
+  color: #051320;
+  box-shadow: 0 6px 18px rgba(212, 175, 55, 0.35);
+}
+
+.badge-gold {
+  background-color: rgba(212, 175, 55, 0.15);
+  color: #926C00;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  font-weight: 700;
+}
+
+.badge-navy {
+  background-color: #0F2439;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Central de Documentos */
+.doc-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  background: var(--color-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+  gap: 1rem;
+}
+
+.doc-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+.doc-icon {
+  font-size: 1.75rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+/* Tabela Acessível e Responsiva */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.table-responsive table {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* Impressão Limpa */
+@media print {
+  .site-header, .site-footer, .btn, .accessibility-dock, #global-search-modal, .cookie-consent-banner {
+    display: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 12pt;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .card {
+    border: 1px solid #CCCCCC !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
 }
