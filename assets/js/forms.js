@@ -40,6 +40,18 @@
         e.target.value = v;
       });
     });
+
+    // Máscara de CEP (XXXXX-XXX)
+    document.querySelectorAll('input[name="cep"], input[id*="cep"], input[data-mask="cep"]').forEach(input => {
+      input.addEventListener('input', (e) => {
+        let v = e.target.value.replace(/\D/g, '');
+        if (v.length > 8) v = v.substring(0, 8);
+        if (v.length > 5) {
+          v = v.replace(/^(\d{5})(\d{1,3})/, '$1-$2');
+        }
+        e.target.value = v;
+      });
+    });
   }
 
   function handleSmartSubmit(form, successMsg, customHandler) {
@@ -48,8 +60,12 @@
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      // Validação nativa HTML5
+      // Validação nativa HTML5 com foco acessível
       if (!form.checkValidity()) {
+        const firstInvalid = form.querySelector(':invalid');
+        if (firstInvalid) {
+          firstInvalid.focus();
+        }
         form.reportValidity();
         return;
       }

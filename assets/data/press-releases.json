@@ -41,7 +41,7 @@
       }
     },
     "downloads": [
-      { "name": "Comunicado Oficial (PDF)", "file": "assets/docs/Release_Oficial_Agosto_2026.pdf", "size": "340 KB" }
+      { "name": "Comunicado Oficial (PDF)", "file": "documents/relatorios/Release_Oficial_Agosto_2026.pdf", "size": "340 KB" }
     ]
   },
   {
@@ -86,7 +86,7 @@
       }
     },
     "downloads": [
-      { "name": "Nota à Imprensa (PDF)", "file": "assets/docs/Release_Robotica_Junho_2026.pdf", "size": "290 KB" }
+      { "name": "Nota à Imprensa (PDF)", "file": "documents/relatorios/Release_Robotica_Junho_2026.pdf", "size": "290 KB" }
     ]
   }
 ]

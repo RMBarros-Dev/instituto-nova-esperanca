@@ -48,6 +48,15 @@ langs.forEach(lang => {
 
     // 5. CSP Meta Hardening
     check(`CSP Security Meta presente em [${lang}/${f}]`, content.includes('http-equiv="Content-Security-Policy"'));
+
+    // 6. Open Graph & Social Cards
+    check(`Open Graph Title em [${lang}/${f}]`, content.includes('property="og:title"'));
+    check(`Open Graph Description em [${lang}/${f}]`, content.includes('property="og:description"'));
+    check(`Open Graph Image em [${lang}/${f}]`, content.includes('property="og:image"'));
+    check(`Twitter Card em [${lang}/${f}]`, content.includes('name="twitter:card"'));
+
+    // 7. Lang Tag correspondente
+    check(`Atributo lang="${lang}" em [${lang}/${f}]`, content.includes(`lang="${lang}"`));
   });
 });
 

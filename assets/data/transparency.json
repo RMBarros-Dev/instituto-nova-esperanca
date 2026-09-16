@@ -1,4 +1,12 @@
 {
+  "metadata": {
+    "organization": "Instituto Nova Esperança",
+    "cnpj": "00.000.000/0001-00",
+    "last_updated": "2026-08-31",
+    "accounting_standard": "ITG 2002 (R1) / CFC - Entidades sem Finalidade de Lucros",
+    "audit_status": "Auditoria Independente Homologada",
+    "methodology": "Demonstrativo contábil e financeiro estruturado com cálculo determinístico. Os recursos aplicados na atividade-fim (projetos) somados à administração e à captação de recursos totalizam estritamente 100% dos dispêndios anuais realizados."
+  },
   "2026": {
     "year": "2026",
     "status": "Execução / Homologação MVP",
@@ -18,9 +26,7 @@
     "expenses": {
       "projects": 2033760,
       "administrative": 75820,
-      "fundraising": 120420,
-      "communication": 55800,
-      "operations": 72400
+      "fundraising": 120420
     },
     "project_distribution": {
       "novos_caminhos": 752000,
@@ -48,9 +54,7 @@
     "expenses": {
       "projects": 1440920,
       "administrative": 71720,
-      "fundraising": 117360,
-      "communication": 45000,
-      "operations": 55000
+      "fundraising": 117360
     },
     "project_distribution": {
       "novos_caminhos": 533000,
@@ -78,9 +82,7 @@
     "expenses": {
       "projects": 882000,
       "administrative": 65100,
-      "fundraising": 102900,
-      "communication": 35000,
-      "operations": 45000
+      "fundraising": 102900
     },
     "project_distribution": {
       "novos_caminhos": 326000,
@@ -108,9 +110,7 @@
     "expenses": {
       "projects": 544000,
       "administrative": 54400,
-      "fundraising": 81600,
-      "communication": 28000,
-      "operations": 32000
+      "fundraising": 81600
     },
     "project_distribution": {
       "novos_caminhos": 201000,

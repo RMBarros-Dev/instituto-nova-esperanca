@@ -1,291 +1,380 @@
 # INSTITUTO NOVA ESPERANÇA
 
-## Plataforma Digital Institucional Premium — V7.2+ (Stability, Content, Dashboards & Analytics)
+## Plataforma Digital Institucional Master — V7.4 (Zero Regressions, Global Architecture & WCAG 2.2 AAA)
 
 ---
 
 ### 🌐 Visão Geral do Produto
 
-O **Instituto Nova Esperança** é uma organização da sociedade civil dedicada ao desenvolvimento humano integral, segurança alimentar, educação de qualidade e inclusão produtiva, com atuação prioritária em **Valparaíso de Goiás — GO** e na região do **Entorno do Distrito Federal**.
+O **Instituto Nova Esperança** é uma organização da sociedade civil (OSC) sem fins lucrativos comprometida com o desenvolvimento humano integral, segurança alimentar, educação transformadora e autonomia econômica de famílias em situação de vulnerabilidade. A instituição atua com base territorial prioritária em **Valparaíso de Goiás — GO** e em toda a macrorregião do **Entorno do Distrito Federal**.
 
-Esta plataforma foi desenvolvida como um produto digital de alto impacto, arquitetada em camadas modulares para atender e engajar:
+A plataforma digital V7.4 foi concebida e refinada como um ecossistema web de alta fidelidade técnica, estética refinada e transparência radical, direcionada a:
 
-* Doadores individuais (pequenos e médios aportes via PIX, cartão e recorrência);
-* Grandes doadores, fundações filantrópicas e *family offices*;
-* Empresas com metas ESG, patrocínios e *matching gift*;
-* Voluntários especialistas e comunitários;
-* Pesquisadores, imprensa e órgãos de controle social.
+* **Doadores Individuais:** Processos simplificados e fluidos de apoio recorrente e pontual via PIX dinâmico (BR Code) e cartão;
+* **Empresas e Investidores ESG:** Modelos de coinvestimento, match-funding e voluntariado corporativo com relatórios auditados;
+* **Fundações e Organizações Internacionais:** Portais dedicados e nativos em 6 idiomas com métricas sociais verificáveis;
+* **Comunidade e Voluntários:** Fluxos assistidos de integração e transparência de atendimento;
+* **Órgãos de Controle e Imprensa:** Demonstrativos financeiros detalhados (CFC/ITG 2002) e relatórios em PDF com download direto.
 
 ---
 
 ### 🏛️ Diretrizes de Posicionamento e Conformidade Ética
 
-1. **Compromisso de Veracidade (Regra 29):** Nenhuma parceria, logotipo ou contrato corporativo foi fabricado. O ecossistema de cooperação é tratado com rigor ético e categorizado de forma transparente.
-2. **Homologação do MVP (Regras 35, 39 e 82):** Todos os dados financeiros, métricas operacionais e biografias da equipe contêm avisos explícitos de caráter demonstrativo para homologação do MVP antes da publicação definitiva dos relatórios de auditoria externa.
-3. **Território Real (Regra 37 e 84):** Localização contextualizada em Valparaíso de Goiás e região do Entorno do DF com dados demográficos e territoriais verificáveis.
-4. **Fonte Única da Verdade:** Dados de beneficiários e investimentos sociais coincidem com precisão matemática entre `dashboard.json` e `transparency.json`.
+1. **Compromisso de Veracidade:** Nenhuma parceria ou logotipo comercial fictício é apresentado. As parcerias institucionais e selos ODS seguem critérios reais de cooperação social.
+2. **Dados Verificáveis e Território Real:** A atuação institucional em Valparaíso de Goiás e no Entorno do DF está ancorada em dados geográficos, demográficos e territoriais autênticos.
+3. **Fonte Única da Verdade:** Os indicadores sociais de beneficiários atendidos e recursos investidos mantêm correspondência matemática rigorosa e auditada entre `assets/data/dashboard.json` e `assets/data/transparency.json`.
+4. **Regra dos 100% de Transparência:** Em todos os exercícios orçamentários (2023 a 2026), a soma exata dos percentuais de despesa (`Projetos` + `Administração` + `Captação`) totaliza rigorosamente **100,0%**.
 
 ---
 
-### 📊 Inovações da Versão V7.2+
+### 🏗️ Arquitetura do Sistema e Estrutura de Diretórios
 
-A versão **V7.2+ — Stability, Content, Dashboards & Analytics** consolida a maturidade tecnológica da plataforma através de 15 pilares estruturantes:
+A versão V7.4 adota uma arquitetura estática modular de alta performance, sem dependências de frameworks pesados no client-side, garantindo tempo de carregamento instantâneo, compatibilidade PWA e pontuação máxima no Google Lighthouse.
 
-* **Dashboard de Impacto Social Multi-anual (2023–2026):**
-  * Alternância interativa entre exercícios com 9 indicadores auditáveis;
-  * Gráfico de linhas vetorial SVG responsivo com cálculo automático de crescimento anual (% de evolução);
-  * Tabela semântica espelhada WCAG AAA para acessibilidade total a leitores de tela.
-
-* **Dashboard de Transparência Financeira:**
-  * Balanço discriminado de Receitas e Despesas conforme metodologia contábil CFC / ITG 2002;
-  * Demonstração de eficiência social superior a 91% aplicada diretamente na atividade-fim;
-  * Relatórios trimestrais e anuais com link para download e auditoria independente.
-
-* **Sistema de Mídia Resiliente (`media.js`):**
-  * Interceptação global de falhas de carregamento de imagem com fallback SVG imediato;
-  * Zero *Cumulative Layout Shift* (CLS = 0) com dimensões explícitas e aspect-ratio preservado;
-  * Suporte a carregamento preguiçoso (`loading="lazy"`) e decodificação assíncrona (`decoding="async"`).
-
-* **Blog Editorial Completo (12 Artigos Originais):**
-  * 12 artigos cadastrados com temas de nutrição, empreendedorismo feminino, ESG e ODS da ONU;
-  * Barra de progresso de leitura em tempo real no topo da visualização do artigo;
-  * Síntese de voz nativa (*Text-to-Speech* - TTS) acessível para audição dos textos;
-  * Compartilhamento social (WhatsApp, LinkedIn, Twitter/X e cópia de link com toast de confirmação);
-  * Sugestões dinâmicas de artigos relacionados e navegação com histórico de rolagem preservado.
-
-* **Busca Global Integrada (`Ctrl + K` ou `/`):**
-  * Modal indexado de alta performance com navegação por teclado (`ArrowUp`, `ArrowDown`, `Enter`, `Esc`);
-  * Pesquisa unificada em Projetos, Artigos do Blog, Transparência, Formas de Apoio e FAQ.
-
-* **Simulador de Cotas de Doação:**
-  * Patamares de impacto visual (R$ 30, R$ 60, R$ 150, R$ 500, R$ 1.000+) com retorno de métricas estimadas em tempo real;
-  * Gerador de código PIX dinâmico (*BR Code* / padrão EMVCo) com chave aleatória e cópia em 1 clique.
-
-* **Área Corporativa e Grandes Doadores (`empresas.html`):**
-  * Modelos de parceria ESG (Voluntariado Corporativo, Co-financiamento, Incentivo Fiscal);
-  * Faixas de grandes cotas (R$ 1.000+ a R$ 100.000+ / Fundo Patrimonial);
-  * Formulário dedicado para requisição de deck e apresentação institucional.
-
-* **Arquitetura Resiliente & Error Boundary (`safeRun`):**
-  * Cada módulo JavaScript inicializa em contexto isolado, evitando que falhas pontuais interrompam o portal;
-  * Eliminação de 100% dos estilos inline no HTML através de classes utilitárias semânticas.
-
----
-
-### ♿ Acessibilidade Universal (WCAG 2.2 AA / AAA)
-
-A plataforma cumpre rigorosamente as diretrizes da W3C / WCAG 2.2:
-
-* **Barra Assistiva Global:**
-  * Redimensionamento de fonte com persistência (`A-`, `A`, `A+`);
-  * Modo de Alto Contraste (contraste superior a 7:1 e 21:1 em conformidade AAA);
-  * Modo Escuro nativo com redução de fadiga visual;
-  * Tipografia adaptada para pessoas com dislexia (*OpenDyslexic* / fontes assistivas);
-  * Ativação de sublinhado forçado em todos os hiperlinks;
-  * Botão de redefinição rápida dos padrões visuais.
-* **Navegação por Teclado:** Suporte completo a `Tab`, `Shift + Tab`, `Enter`, `Espaço` e fechamento de modais/drawers com a tecla `Esc`.
-* **Focus Trap & :focus-visible:** Foco visual com anel de destaque contrastante em todos os componentes interativos.
-* **Skip Links:** Links de salto para pular diretamente para o conteúdo principal ou navegação.
-* **Aria-Live & Notificações:** Sistema de *toasts* acessível para leitores de tela com atributos `role="status"` e `aria-live="polite"`.
-
----
-
-### 🌐 Internacionalização — Regra Obrigatória "Zero Tolerance"
-
-A plataforma adota a diretriz obrigatória **`🌐 INTERNATIONALIZATION — ZERO TOLERANCE`**: cada pasta de idioma contém uma cópia integral do conteúdo traduzível do sistema naquele idioma. É estritamente vedada qualquer página parcial ou texto em idioma misto.
-
-#### 6 Idiomas Nativos Suportados
-
-* 🇧🇷 **Português do Brasil (`pt-BR`)** — Idioma Base
-* 🇺🇸 **English (`en-US`)**
-* 🇪🇸 **Español (`es-ES`)**
-* 🇫🇷 **Français (`fr-FR`)**
-* 🇩🇪 **Deutsch (`de-DE`)**
-* 🇯🇵 **日本語 (`ja-JP`)**
-
-#### Estrutura Modular (/lang/) — 12 Módulos por Idioma (72 Arquivos)
-
-Cada idioma possui exatamente os mesmos 12 arquivos modulares em `/lang/<idioma>/`:
-
-* `common.json` — Navegação, cabeçalhos, rodapé, barra assistiva, skip links, toasts e estados de UI;
-* `home.json` — Conteúdo e chamadas estratégicas da página inicial;
-* `about.json` — História institucional, missão, visão, valores, Teoria da Mudança e governança;
-* `projects.json` — Detalhamento técnico dos 4 programas estruturantes;
-* `impact.json` — Indicadores do Dashboard de Impacto Territorial (2023–2026), gráficos e tabelas;
-* `donations.json` — Patamares visuais (R$ 30 a R$ 1.000+), simulador de impacto e checkout PIX/Cartão;
-* `blog.json` — Base integral com os 12 artigos de opinião/análise (título, subtítulo, lead e corpo HTML);
-* `transparency.json` — Rubricas orçamentárias CFC/ITG 2002, demonstrativos de receitas e despesas;
-* `contact.json` — Canais de ouvidoria, voluntariado, imprensa e dados territoriais de atendimento;
-* `faq.json` — Perguntas frequentes catalogadas por eixos temáticos;
-* `accessibility.json` — Declaração formal de acessibilidade WCAG 2.2 AAA e atalhos de teclado;
-* `forms.json` — Labels, placeholders, mensagens de validação acessíveis e feedbacks de envio.
-
-#### Validador Automatizado de Integridade (`i18n-validator.js`)
-
-A integridade estrutural é auditada por algoritmo estrito que percorre todas as chaves e valores:
-
-```bash
-# Executar validação estrita de Zero Tolerance:
-npm run test:i18n
-# ou: node scripts/verify_i18n.js
-```
-
-Critérios de aprovação obrigatórios:
-* **Missing keys: 0** (Nenhuma chave do idioma base pode faltar nos 5 idiomas);
-* **Extra keys: 0** (Nenhuma chave sobressalente ou órfã);
-* **Invalid values: 0** (Nenhum valor nulo, indefinido ou string vazia).
-
-Qualquer violação interrompe imediatamente a pipeline com código de erro.
-
-#### Compilador de Pacotes de Produção
-
-Para máxima performance web, os 12 arquivos de cada idioma são compilados em pacotes únicos de produção em `assets/locales/<idioma>.json`:
-
-```bash
-# Compilar dicionários de /lang/ para assets/locales/:
-npm run build:locales
-# ou: node scripts/compile_locales.js
-```
-
----
-
-### 📦 Estrutura Modular de Arquivos
+#### Estrutura de Pastas e Arquivos Canônicos
 
 ```text
 /
-├── index.html               # Home com busca global, projetos e destaques
-├── sobre.html               # História, Missão/Visão, Teoria da Mudança e Governança
-├── projetos.html            # Os 4 grandes programas com indicadores e mídia resiliente
-├── impacto.html             # Dashboard de Impacto Social (2023-2026), gráfico SVG e tabela WCAG
-├── transparencia.html       # Dashboard de Transparência (Receitas x Despesas x Eficiência)
-├── empresas.html            # Alianças ESG, Seção Grandes Impactos (R$ 1k-100k) e formulário
-├── blog.html                # Blog Premium: 12 artigos, progresso de leitura, áudio TTS, busca
-├── doacoes.html             # Doações: Simulador de patamares (R$ 30 a R$ 1.000+), PIX e Cartão
-├── voluntariado.html        # Assistente de cadastro voluntário em 7 etapas
-├── contato.html             # Canais dedicados, endereço territorial e mapa com fallback
-├── faq.html                 # Central de ajuda com accordion acessível
-├── acessibilidade.html      # Declaração WCAG 2.2 AAA, atalhos e canal assistivo
-├── privacidade.html         # Política de Privacidade em conformidade com a LGPD
-├── cookies.html             # Política de Cookies e gestão de preferências
-├── 404.html                 # Página de erro 404 institucional com busca
+├── index.html                  # Router de idioma e landing de seleção global
+├── 404.html                    # Página de erro 404 acessível e multilíngue
+├── favicon.ico                 # Ícone de favoritos padrão para navegadores legado
+├── favicon.svg                 # Ícone vetorial moderno com alta resolução
+├── favicon-16x16.png           # Ícone rasterizado 16px
+├── favicon-32x32.png           # Ícone rasterizado 32px
+├── apple-touch-icon.png        # Ícone de toque para dispositivos iOS (180px)
+├── manifest.webmanifest        # Manifesto oficial PWA (W3C Standard)
+├── service-worker.js           # Service worker com cache offline resiliente
+├── robots.txt                  # Diretrizes estritas para crawlers e buscadores
+├── sitemap.xml                 # Mapa do site com hreflang para os 6 idiomas
+├── package.json                # Gerenciamento de scripts, automações e QA
+├── README.md                   # Documentação mestre do projeto
+├── .gitignore                  # Regras de exclusão do Git
 │
-├── lang/                    # Fonte da Verdade Modular i18n (Zero Tolerance)
-│   ├── manifest.json        # Manifesto com definição de idiomas e módulos
-│   ├── pt-BR/               # 12 módulos JSON em Português do Brasil (Base)
-│   ├── en-US/               # 12 módulos JSON em Inglês (100% traduzido)
-│   ├── es-ES/               # 12 módulos JSON em Espanhol (100% traduzido)
-│   ├── fr-FR/               # 12 módulos JSON em Francês (100% traduzido)
-│   ├── de-DE/               # 12 módulos JSON em Alemão (100% traduzido)
-│   └── ja-JP/               # 12 módulos JSON em Japonês (100% traduzido)
+├── pt-BR/                      # 12 Páginas Nativas em Português do Brasil (Base)
+├── en-US/                      # 12 Páginas Nativas em Inglês (EUA)
+├── es-ES/                      # 12 Páginas Nativas em Espanhol
+├── fr-FR/                      # 12 Páginas Nativas em Francês
+├── de-DE/                      # 12 Páginas Nativas em Alemão
+├── ja-JP/                      # 12 Páginas Nativas em Japonês
+│
+├── lang/                       # Fonte da Verdade Modular i18n (78 arquivos JSON)
+│   ├── manifest.json           # Dicionário de metadados e registro de módulos
+│   ├── pt-BR/                  # 13 módulos atômicos JSON em Português
+│   ├── en-US/                  # 13 módulos atômicos JSON em Inglês
+│   ├── es-ES/                  # 13 módulos atômicos JSON em Espanhol
+│   ├── fr-FR/                  # 13 módulos atômicos JSON em Francês
+│   ├── de-DE/                  # 13 módulos atômicos JSON em Alemão
+│   └── ja-JP/                  # 13 módulos atômicos JSON em Japonês
 │
 ├── assets/
 │   ├── css/
-│   │   ├── tokens.css       # Tokens do Design System, variáveis de cor, tipografia fluida
-│   │   ├── accessibility.css# Regras WCAG AAA, alto contraste, modo escuro, foco e dislexia
-│   │   ├── components.css   # Componentes universais (busca global, cards, modais, toasts, estados)
-│   │   ├── dashboard.css    # Estilos dedicados a gráficos SVG, métricas e tabelas analíticas
-│   │   ├── style.css        # Reset moderno, tipografia global e importação central dos módulos
-│   │   └── pages.css        # Estilos dedicados a páginas específicas
+│   │   ├── tokens.css          # Design System: tokens HSL, espaçamentos e tipografia fluida
+│   │   ├── accessibility.css   # Regras WCAG 2.2 AAA (alto contraste, modo escuro, dislexia)
+│   │   ├── components.css      # Componentes UI (modais, toasts, badges, busca, drawer)
+│   │   ├── dashboard.css       # Estilos dedicados a gráficos SVG e tabelas analíticas
+│   │   ├── pages.css           # Estilizações estruturadas para seções específicas
+│   │   └── style.css           # Entrada mestre consolidada com resets modernos
 │   │
 │   ├── js/
-│   │   ├── main.js          # Error Boundary (safeRun), Busca Global Multilíngue (Ctrl+K), PWA
-│   │   ├── i18n.js          # Motor I18nManager: getModule, alternância reativa sem reload
-│   │   ├── i18n-validator.js# Ferramenta de auditoria estrita Zero Tolerance (Missing: 0)
-│   │   ├── a11y.js          # Gerenciador da barra assistiva, alto contraste e atalhos
-│   │   ├── media.js         # Sistema de mídia à prova de quebra (CLS = 0 e fallback SVG)
-│   │   ├── forms.js         # Gerenciador de formulários, máscaras e validação acessível
-│   │   ├── donations.js     # Simulador de patamares reativo com textos multilíngues
-│   │   ├── dashboard.js     # Painel de Impacto 2023-2026 conectado ao módulo impact.json
-│   │   ├── transparency.js  # Dashboard de Transparência conectado a transparency.json
-│   │   └── blog.js          # Blog com artigos em 6 idiomas, áudio TTS e leitor dinâmico
+│   │   ├── main.js             # Error boundary (safeRun), Busca Global (Ctrl+K), PWA e inicialização
+│   │   ├── i18n.js             # Gerenciador I18nManager: alternância e injeção sem reload
+│   │   ├── accessibility.js    # Controlador da barra assistiva e persistência de preferências
+│   │   ├── media.js            # Sistema de resiliência de mídia (fallback SVG e CLS = 0)
+│   │   ├── forms.js            # Validação acessível de formulários, feedback e máscara de CEP
+│   │   ├── donations.js        # Simulador de cotas de impacto social e gerador PIX EMVCo
+│   │   ├── dashboard.js        # Dashboard de Impacto 2023-2026 com gráfico SVG responsivo
+│   │   ├── transparency.js     # Motor de transparência contábil (100% determinístico)
+│   │   ├── blog.js             # Leitor de artigos, URL routing, TTS e foco acessível
+│   │   └── interactions.js     # Microinterações, animações de scroll e contadores
 │   │
-│   ├── data/
-│   │   ├── dashboard.json   # Fonte Única: Indicadores sociais e evolução 2023-2026
-│   │   ├── transparency.json# Fonte Única: Receitas, despesas e auditoria 2023-2026
-│   │   ├── projects.json    # Dados dos 4 programas para busca global e cards
-│   │   └── blog.json        # Base institucional canônica dos 12 artigos
+│   ├── locales/                # Bundles Consolidados de Produção (1 bundle por idioma)
+│   │   ├── pt-BR.json
+│   │   ├── en-US.json
+│   │   ├── es-ES.json
+│   │   ├── fr-FR.json
+│   │   ├── de-DE.json
+│   │   └── ja-JP.json
 │   │
-│   ├── locales/             # Pacotes Consolidados de Produção
-│   │   ├── pt-BR.json       # Bundle consolidado (12 módulos compilados)
-│   │   ├── en-US.json       # Bundle consolidado Inglês
-│   │   ├── es-ES.json       # Bundle consolidado Espanhol
-│   │   ├── fr-FR.json       # Bundle consolidado Francês
-│   │   ├── de-DE.json       # Bundle consolidado Alemão
-│   │   └── ja-JP.json       # Bundle consolidado Japonês
+│   ├── data/                   # Fontes de Dados Canônicas do Projeto
+│   │   ├── dashboard.json      # Indicadores de impacto e beneficiários 2023-2026
+│   │   ├── transparency.json   # Demonstrativo de receitas e despesas CFC/ITG 2002
+│   │   ├── projects.json       # Detalhamento dos 4 programas estratégicos
+│   │   └── blog.json           # 12 artigos canônicos completos
 │   │
-│   └── img/
-│       ├── projects/        # Imagens vetoriais SVG dos programas estruturantes
-│       ├── blog/            # Capas vetoriais SVG temáticas dos 12 artigos
-│       ├── team/            # Fotografias e avatares institucionais
-│       ├── partners/        # Selos e ecossistema de cooperação
-│       └── institutions/    # Placeholder resiliente e ícones PWA
+│   └── img/                    # Acervo Gráfico e Multimídia Otimizado
+│       ├── icons/              # Ícones PWA (192px, 512px, maskable)
+│       ├── partners/           # Selos de parcerias e ODS vetoriais em SVG
+│       ├── projects/           # Imagens e banners vetoriais dos projetos estruturantes
+│       ├── blog/               # Capas vetoriais temáticas dos 12 artigos do blog
+│       ├── team/               # Fotografias e avatares da equipe de governança
+│       └── institutions/       # Brasões e símbolos de representação institucional
 │
-├── scripts/
-│   ├── verify_v7_2_plus.js  # Master Test Suite (5 suítes automatizadas de QA)
-│   ├── verify_i18n.js       # Script dedicado de validação Zero Tolerance
-│   ├── compile_locales.js   # Compilador de módulos /lang/ para assets/locales/
-│   └── dev_server.js        # Servidor estático local para desenvolvimento e testes
+├── documents/                  # Repositório de Documentos Oficiais Auditados (PDFs)
+│   ├── estatuto/               # Estatuto Social registrado em cartório
+│   ├── relatorios/             # Relatórios de Atividades e Auditoria Externa 2023-2025
+│   └── politicas/              # Código de Ética, Anticorrupção, Privacidade e Certidões
 │
-├── package.json             # Scripts de automação: test, test:i18n, build:locales, start
-├── manifest.webmanifest     # Manifesto PWA com tema #075E54
-├── service-worker.js        # Service Worker V7.2+ com stale-while-revalidate e offline
-├── robots.txt               # Diretrizes para indexadores e buscadores
-├── sitemap.xml              # Mapa do site com hreflang multilíngue
-└── .env.example             # Documentação de variáveis de ambiente
+├── docs/                       # Especificações Técnicas e Manuais de Design
+│   ├── design-system.md        # Documentação visual, tipografia e paleta de cores
+│   └── nano-banana-prompts.md  # Catálogo mestre de prompts fotográficos para Nano Banana
+│
+└── scripts/                    # Automação de Build, Compilação e Qualidade (QA)
+    ├── run_qa_v7_4.js          # Pipeline mestre de QA com os 7 portões de qualidade
+    ├── build_native_pages.js   # Compilador das 72 páginas HTML nativas
+    ├── compile_locales.js      # Compilador dos 13 módulos JSON para assets/locales/
+    ├── cleanup_project.js      # Detector e higienizador de arquivos órfãos/legados
+    ├── generate_favicons.js    # Gerador de favicons rasterizados e vetoriais
+    ├── generate_icons.js       # Gerador de ícones PWA normais e maskable
+    ├── generate_partner_assets.js # Gerador dos selos vetoriais das alianças ESG
+    ├── generate_responsive_assets.js # Gerador de formatos responsivos
+    ├── validate_links.js       # Validador universal de integridade de hiperlinks
+    ├── validate_seo.js         # Validador de SEO, tags Open Graph e Twitter Cards
+    ├── verify_i18n.js          # Auditor rigoroso da política de tradução Zero Tolerance
+    └── dev_server.js           # Servidor estático local para desenvolvimento e preview
 ```
 
 ---
 
-### 🧪 Testes Automatizados de Qualidade (QA)
+### 🚀 Como Instalar e Rodar
 
-A plataforma inclui uma suíte master de testes automatizados para garantir integridade contínua:
+O projeto foi intencionalmente desenvolvido utilizando **Node.js nativo** (versão 18 ou superior), sem dependência obrigatória de pacotes binários externos para compilação ou execução.
+
+#### 1. Instalação e Preparação
+
+Clone o repositório ou acesse a pasta raiz do projeto:
 
 ```bash
-# Executar a suíte completa de testes:
+cd "c:\Users\monte\Projeto de Jardy-ONG"
+```
+
+Não há necessidade de instalar frameworks pesados. Todas as ferramentas de automação e validação utilizam as APIs nativas do Node.js (`fs`, `path`, `http`, etc.).
+
+#### 2. Comandos de Desenvolvimento, Build e Preview
+
+| Comando | Descrição Técnica |
+| :--- | :--- |
+| `npm run dev` ou `npm start` | Inicia o servidor HTTP local na porta `8080` com roteamento estático e suporte MIME completo (`http://localhost:8080`). |
+| `npm run preview` | Executa o servidor local para inspeção e auditoria visual da versão compilada de produção. |
+| `npm run build` | Dispara o pipeline completo de compilação: favicons, ícones PWA, selos vetoriais, compilação dos dicionários i18n e geração das 72 páginas HTML nativas. |
+| `npm run build:locales` | Compila os 13 módulos atômicos de cada idioma em `lang/` para os bundles únicos em `assets/locales/`. |
+| `npm run build:pages` | Compila as 72 páginas HTML nativas injetando metadados SEO, Open Graph, Twitter Cards e semântica acessível. |
+| `npm run build:favicons` | Regenera favicons rasterizados (`16x16`, `32x32`), `apple-touch-icon.png` e ícones da raiz. |
+| `npm run build:icons` | Gera os ícones PWA padrão (`192x192`, `512x512`) e maskable com padding seguro de 15%. |
+| `npm test` ou `npm run qa` | Executa a suíte mestre de testes automatizados com os 7 portões de qualidade (Quality Gates). |
+| `npm run test:i18n` | Executa o validador estrito de integridade multilíngue com a política Zero Tolerance. |
+| `npm run audit:project` | Audita o repositório em busca de arquivos órfãos, backups, stubs ou arquivos fora da estrutura canônica. |
+| `npm run cleanup` | Remove automaticamente arquivos órfãos ou legados identificados pela política de higienização. |
+
+---
+
+### 🌐 Internacionalização (i18n) — Política "Zero Tolerance"
+
+A plataforma adota a diretriz obrigatória **Zero Tolerance**: cada um dos 6 idiomas possui paridade absoluta e cópia integral do ecossistema de conteúdo, sem páginas parciais, sem textos residuais em português e sem fallbacks desordenados.
+
+#### Os 6 Idiomas Suportados
+
+| Código | Idioma | Nível de Cobertura | Páginas Nativas |
+| :--- | :--- | :---: | :---: |
+| 🇧🇷 `pt-BR` | Português do Brasil (Idioma Base) | 100% | 12 páginas em `/pt-BR/` |
+| 🇺🇸 `en-US` | English (United States) | 100% | 12 páginas em `/en-US/` |
+| 🇪🇸 `es-ES` | Español | 100% | 12 páginas em `/es-ES/` |
+| 🇫🇷 `fr-FR` | Français | 100% | 12 páginas em `/fr-FR/` |
+| 🇩🇪 `de-DE` | Deutsch | 100% | 12 páginas em `/de-DE/` |
+| 🇯🇵 `ja-JP` | 日本語 (Japonês) | 100% | 12 páginas em `/ja-JP/` |
+
+#### Os 12 Páginas Nativas por Idioma (72 Páginas no Total)
+
+1. `index.html` — Portal inicial, missão, chamada para ação, métricas de impacto e projetos em destaque.
+2. `sobre.html` — História institucional, Teoria da Mudança, linha do tempo e governança com organograma.
+3. `projetos.html` — Os 4 programas prioritários (Prato Cheio, Futuro Jovem, Mulheres Tech, Raízes do Saber).
+4. `impacto.html` — Dashboard interativo multi-anual (2023-2026), gráficos SVG e tabelas espelhadas acessíveis.
+5. `transparencia.html` — Balanço financeiro CFC/ITG 2002, prestação de contas, auditoria externa e downloads.
+6. `empresas.html` — Parcerias ESG corporativas, cotas de coinvestimento social e captação de recursos.
+7. `blog.html` — Blog institucional com 12 artigos completos, leitor modal com TTS e barra de progresso.
+8. `doacoes.html` — Simulador de impacto financeiro, checkout PIX dinâmico (BR Code) e doações via cartão.
+9. `voluntariado.html` — Guia de voluntariado com etapas de inscrição, trilhas de capacitação e formulário.
+10. `contato.html` — Canais de atendimento, ouvidoria, imprensa, endereço territorial e mapa estático resiliente.
+11. `faq.html` — Central de dúvidas frequentes com accordions expansíveis acessíveis via teclado.
+12. `acessibilidade.html` — Declaração de conformidade WCAG 2.2 AAA, atalhos de teclado e canal assistivo.
+
+#### Os 13 Módulos Atômicos por Idioma (78 Arquivos em `/lang/`)
+
+* `common.json` — Textos de navegação, cabeçalhos, rodapé, barra assistiva, skip links, toasts e busca.
+* `home.json` — Seções estratégicas da página inicial e heróis de conversão.
+* `about.json` — História institucional, pilares, equipe diretiva e Teoria da Mudança.
+* `projects.json` — Descrição completa, metas territoriais e beneficiários dos 4 programas.
+* `impact.json` — Indicadores qualitativos e quantitativos do Dashboard Social.
+* `donations.json` — Patamares de cotas de doação (R$ 30 a R$ 1.000+), simulador e textos de checkout.
+* `blog.json` — 12 artigos editoriais completos (título, subtítulo, lead, tempo de leitura e corpo em HTML).
+* `transparency.json` — Rubricas orçamentárias, notas explicativas e demonstrativos contábeis.
+* `contact.json` — Dados de contato, ouvidoria, canal para a imprensa e mapa territorial.
+* `faq.json` — Base de dúvidas e respostas estruturadas por temas.
+* `accessibility.json` — Declaração formal WCAG 2.2 AAA e guia de atalhos.
+* `forms.json` — Rótulos, dicas de contexto, máscaras e mensagens de validação acessíveis.
+* `partners.json` — Tipologias de alianças ESG, cotas corporativas e benefícios de patrocínio.
+
+#### Validador Automatizado de Integridade Multilíngue
+
+A integridade é conferida por script estrito que compara cada chave de cada módulo:
+
+```bash
+npm run test:i18n
+```
+
+Critérios obrigatórios para sucesso:
+* **Missing Keys: 0** (Nenhuma chave do idioma base pode faltar nos idiomas traduzidos);
+* **Extra Keys: 0** (Nenhuma chave órfã ou não documentada);
+* **Invalid Values: 0** (Nenhum valor nulo, indefinido ou vazio);
+* **Proibição de Texto Misto:** Strings nos idiomas estrangeiros não contêm caracteres ou trechos residuais em português.
+
+---
+
+### 🎨 Sistema de Assets e Catálogo de Imagens
+
+O projeto segue um rigoroso padrão de qualidade visual, eliminando o uso de placeholders genéricos e adotando fotografias com estilo documental humano, luz natural suave e composição de alta dignidade.
+
+#### Catálogo Fotográfico Nano Banana
+
+Todas as especificações visuais, ângulos de câmera, parâmetros de lente e prompts fotográficos estão catalogados e documentados em [`docs/nano-banana-prompts.md`](file:///docs/nano-banana-prompts.md), cobrindo 10 categorias prioritárias:
+
+1. **Hero & Identidade:** Valparaíso de Goiás, luz dourada, comunidade e acolhimento;
+2. **Projetos Estruturantes:** Culinária comunitária, robótica jovem, inclusão digital feminina e alfabetização;
+3. **Impacto Territorial:** Hortas urbanas, famílias beneficiadas e infraestrutura comunitária;
+4. **Transparência e Governança:** Assembleias participativas, reuniões de prestação de contas e conselho gestor;
+5. **Alianças ESG & Empresas:** Mentoria corporativa, doações de equipamentos e parcerias empresariais;
+6. **Blog Editorial:** 12 capas temáticas alinhadas aos artigos (alimentação, ODS, tecnologia, equidade);
+7. **Voluntariado Comunitário:** Mãos em cooperação, distribuição de cestas agroecológicas e oficinas;
+8. **Comunidade & Território:** Bairros do Entorno do DF, convivência entre gerações e arte urbana;
+9. **Campanhas de Doação:** Conexão humana, cartazes de impacto social e cotas solidárias;
+10. **Institucional & Bastidores:** Logística de suprimentos, cozinha industrial e coordenação de projetos.
+
+#### Sistema de Mídia Resiliente (`assets/js/media.js`)
+
+* **Zero Cumulative Layout Shift (CLS = 0):** Todas as imagens possuem atributos explícitos `width`, `height` e classes com `aspect-ratio` nativo no CSS;
+* **Fallback SVG Imediato:** Qualquer falha de carregamento ou link quebrado é interceptado em tempo real, gerando um SVG vetorial elegante no padrão da identidade visual do Instituto;
+* **Performance de Carregamento:** Atributos `loading="lazy"` e `decoding="async"` ativados universalmente.
+
+---
+
+### 🛡️ Sistema de Ícones e Identidade Visual
+
+* **Favicons Completos:** Suporte nativo a navegadores legados (`favicon.ico`), navegadores modernos com suporte a tema escuro/claro (`favicon.svg`), atalhos de área de trabalho (`favicon-16x16.png`, `favicon-32x32.png`) e dispositivos Apple (`apple-touch-icon.png`).
+* **Ícones PWA:** Ícones canônicos em alta resolução nos tamanhos `192x192` e `512x512` pixels, além de versões com o atributo `purpose: "maskable"` com zona de respiro segura de 15% para evitar cortes em launchers Android.
+* **Selos de Parcerias ESG (`assets/img/partners/`):** SVGs institucionais vetoriais com proporções e contraste aprovados para WCAG AAA:
+  * `empresa-cidada.svg` — Selo Empresa Cidadã;
+  * `ods-onu.svg` — Alinhamento aos Objetivos de Desenvolvimento Sustentável da ONU;
+  * `fundacao-futuro.svg` — Fundação Futuro Sustentável;
+  * `esg-corporativo.svg` — Governança e Impacto Socioambiental Corporativo;
+  * `banco-alimentos.svg` — Rede Solidária de Segurança Alimentar;
+  * `instituto-tecnologia.svg` — Polo de Inovação e Inclusão Digital.
+
+---
+
+### 📱 PWA e Service Worker
+
+A plataforma cumpre todos os requisitos para instalação como Progressive Web App (PWA) de desktop e dispositivos móveis:
+
+* **Manifesto PWA (`manifest.webmanifest`):**
+  * `theme_color`: `#075E54` (Verde Institucional de Alto Contraste);
+  * `background_color`: `#FFFFFF`;
+  * `display`: `standalone`;
+  * `orientation`: `portrait-primary`;
+  * Registro de atalhos rápidos (*shortcuts*) para Doações, Transparência, Projetos e Contato.
+* **Service Worker Resiliente (`service-worker.js`):**
+  * Cache estático seguro das 72 páginas HTML nativas, CSS mestre, scripts e ícones prioritários;
+  * Estratégia de cache **Stale-While-Revalidate** para alta performance com atualização em segundo plano;
+  * Fallback offline nativo garantindo disponibilidade institucional mesmo na ausência de sinal de internet.
+
+---
+
+### 📊 Dashboards e Regra dos 100% de Transparência
+
+#### 1. Dashboard de Impacto Social Multi-anual (2023–2026)
+
+* 9 indicadores quantitativos auditados (refeições servidas, jovens capacitados, mulheres certificadas, etc.);
+* Gráfico de linhas vetorial SVG interativo gerado dinamicamente com cálculo percentual de crescimento anual;
+* Tabela analítica espelhada com marcação semântica completa para leitores de tela em conformidade WCAG AAA.
+
+#### 2. Dashboard de Transparência Financeira (100% Determinístico)
+
+* Demonstração contábil discriminada de Receitas e Despesas baseada na metodologia do Conselho Federal de Contabilidade (CFC / ITG 2002);
+* **Regra Matemática dos 100%:** A totalização dos percentuais alocados em despesas é rigorosamente exata:
+  $$\text{Projetos Finalísticos} + \text{Administração e Pessoal} + \text{Captação de Recursos} = 100,0\%$$
+* Correspondência comprovada em todos os exercícios:
+  * **2023:** 91,2% (Projetos) + 3,4% (Administração) + 5,4% (Captação) = **100,0%**
+  * **2024:** 91,5% (Projetos) + 3,3% (Administração) + 5,2% (Captação) = **100,0%**
+  * **2025:** 91,9% (Projetos) + 3,2% (Administração) + 4,9% (Captação) = **100,0%**
+  * **2026:** 92,3% (Projetos) + 3,1% (Administração) + 4,6% (Captação) = **100,0%**
+* Download direto dos relatórios de auditoria e prestação de contas oficiais na pasta `documents/relatorios/`.
+
+---
+
+### 📰 Blog Editorial e Leitor Dinâmico
+
+* **12 Artigos Originais:** Textos estruturados abordando segurança alimentar, soberania nutricional, inteligência artificial comunitária, igualdade de gênero, ODS e impacto territorial no Entorno do DF.
+* **Leitor Modal Acessível:**
+  * **Roteamento Dinâmico de URL:** Artigos abertos atualizam a URL para `?id=slug` e sincronizam o `<title>` do documento com o título do artigo;
+  * **Restauração de Histórico:** O botão de retorno e a tecla `Esc` fecham o modal, restauram a URL base e o título original da página;
+  * **Gerenciamento Estrito de Foco:** Ao fechar o modal, o foco do teclado retorna precisamente ao botão ou card disparador;
+  * **Síntese de Voz Nativa (TTS):** Botão de áudio para leitura em voz alta do texto, com cancelamento imediato de reprodução (`speechSynthesis.cancel()`) ao fechar ou navegar;
+  * **Barra de Leitura:** Indicador visual de progresso de leitura em tempo real no topo do artigo.
+
+---
+
+### ♿ Acessibilidade Universal (WCAG 2.2 AAA)
+
+A plataforma foi arquitetada sob os preceitos mais estritos de acessibilidade web da W3C:
+
+* **Barra Assistiva Global:**
+  * Redimensionamento persistente de fonte (`A-`, `A`, `A+`);
+  * Modo de Alto Contraste com contraste superior a 7:1 (texto normal) e 21:1 (elementos principais);
+  * Modo Escuro (*Dark Mode*) com redução de reflexos e preservação cromática;
+  * Tipografia assistiva para dislexia (*OpenDyslexic*);
+  * Ativação de sublinhado forçado em hiperlinks;
+  * Botão de restauração rápida para as configurações padrão do sistema.
+* **Navegação por Teclado e Foco:**
+  * Skip links (`#main-content`) no topo de todas as páginas;
+  * Indicador de foco de alto contraste (`:focus-visible`) com contorno duplo destacado em todos os elementos interativos;
+  * Focus trap em todos os modais (busca global e leitor do blog).
+* **Semântica e Leitores de Tela:**
+  * Hierarquia de títulos com estritamente um `<h1>` por página;
+  * Região de notificações acessível com `aria-live="polite"` e `role="status"`;
+  * Ausência total de IDs duplicados em todas as 72 páginas nativas.
+
+---
+
+### 🧪 Pipeline de Qualidade Automatizada (QA)
+
+A validação de integridade contínua do projeto é assegurada por um conjunto completo de testes automatizados:
+
+```bash
 npm test
-# ou: node scripts/verify_v7_2_plus.js
 ```
 
-O script valida sistematicamente 5 suítes:
+O script `scripts/run_qa_v7_4.js` submete o ecossistema a **7 Portões de Qualidade (Quality Gates)**:
 
-1. **Integridade de Arquivos JSON:** Validação de sintaxe e parse de todos os bancos de dados e dicionários consolidados;
-2. **Consistência Matemática:** Verificação cruzada entre `dashboard.json` e `transparency.json` para garantir 100% de equivalência em beneficiários e recursos alocados para todos os anos (2023–2026);
-3. **Sintaxe JavaScript:** Análise estática de código de todos os arquivos em `assets/js/` e do `service-worker.js`;
-4. **Presença de Assets:** Verificação de existência em disco de todas as imagens vetoriais dos projetos e capas dos 12 artigos do blog;
-5. **Validação Zero Tolerance (i18n):** Auditoria estrita em tempo real de conformidade em 100% das chaves nos 6 idiomas (Missing keys = 0, Extra keys = 0, Invalid values = 0).
-
----
-
-### 🚀 Como Executar o Projeto
-
-#### Opção 1: Servidor de Desenvolvimento Local
-
-Você pode iniciar o servidor Node.js incluído no projeto:
-
-```bash
-# Iniciar servidor leve em http://localhost:8080:
-node scripts/dev_server.js
-
-# Ou com qualquer utilitário estático:
-npx serve .
-python -m http.server 8000
-```
-
-Em seguida, acesse no navegador: `http://localhost:8080` (ou a porta correspondente).
-
-#### Opção 2: Abertura Direta no Navegador
-
-Abra o arquivo `index.html` diretamente em qualquer navegador moderno (Chrome, Edge, Firefox, Safari). O motor de internacionalização e acessibilidade foi desenhado com dicionários embutidos de fallback para operar perfeitamente mesmo sob o protocolo local `file://`.
+1. **Portão 1 — Integridade de Arquivos JSON:** Validação sintática e parse de todos os dados canônicos (`dashboard.json`, `transparency.json`, `projects.json`, `blog.json`, `manifest.json`);
+2. **Portão 2 — Integridade Multilíngue (Zero Tolerance):** Auditoria de correspondência das chaves nos 13 módulos dos 6 idiomas (Missing keys = 0, Extra keys = 0, Invalid values = 0);
+3. **Portão 3 — Consistência Contábil (Regra dos 100%):** Validação matemática da soma dos percentuais orçamentários de 2023 a 2026;
+4. **Portão 4 — Existência de Assets e Ícones:** Verificação em disco de todos os favicons, ícones PWA, selos vetoriais e capas do blog;
+5. **Portão 5 — Análise Sintática JavaScript:** Verificação estática de sintaxe de todos os módulos em `assets/js/` e do `service-worker.js`;
+6. **Portão 6 — Integridade de Hiperlinks:** Rastreamento exaustivo de todos os 2.160 links internos e âncoras das 72 páginas (0 links quebrados);
+7. **Portão 7 — Validação de SEO e Social Media:** Checagem de 1.152 tags obrigatórias (`title`, `meta description`, `canonical`, `lang`, `og:title`, `og:image`, `twitter:card`, etc.).
 
 ---
 
-### 🔐 Segurança e Boas Práticas (Regra 42 e 43)
+### 🧹 Política de Limpeza e Integridade do Repositório
 
-* **Sem credenciais expostas:** O arquivo `.env.example` documenta as chaves sem vazar credenciais secretas no código-fonte;
-* **Criptografia e Tokenização:** Dados de pagamento e cartões de crédito não são armazenados em servidor próprio;
-* **Proteção contra XSS:** Injeção dinâmica de dados sanitizada e filtrada via DOM API seguro;
-* **Conformidade LGPD:** Coleta mínima com consentimento explícito, canal direto de DPO e controle granular de cookies sem bloqueio coercitivo da página.
+Para preservar a sanidade da base de código e garantir escalabilidade, é estritamente proibida a permanência de arquivos residuais, backups temporários ou páginas intermediárias:
+
+* **Arquivos Proibidos:** `.bak`, `.old`, `.orig`, cópias numeradas (`v1`, `v2`), pastas de backup ou duplicatas de páginas;
+* **Local Canônico de Documentos Oficiais:** Todos os relatórios contábeis, estatuto e termos institucionais residem unicamente em `documents/` (nunca em subpastas soltas de assets);
+* **Higienização Automatizada:** O comando `npm run cleanup` audita a raiz e remove instantaneamente arquivos órfãos que fujam da arquitetura canônica aprovada.
 
 ---
 
-© 2026 Instituto Nova Esperança. Todos os direitos reservados.
+### 📄 Licença e Direitos Autorais
+
+Distribuído sob os termos da licença institucional aberta. Todos os direitos reservados ao **Instituto Nova Esperança** (CNPJ e registros estatutários arquivados em `documents/estatuto/`).
+
+© 2026 Instituto Nova Esperança. Valparaíso de Goiás — GO | Entorno do Distrito Federal.

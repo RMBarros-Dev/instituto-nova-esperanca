@@ -3,122 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>404 — Página Não Encontrada | Instituto Nova Esperança</title>
-  <meta name="description" content="A página solicitada não foi encontrada ou foi movida. Retorne à página inicial do Instituto Nova Esperança.">
+  <title>404 — Página Não Encontrada / Page Not Found | Instituto Nova Esperança</title>
+  <meta name="description" content="A página solicitada não foi encontrada. Selecione seu idioma para acessar o portal oficial do Instituto Nova Esperança.">
   <link rel="canonical" href="https://instituto-novaesperanca.org.br/404.html">
 
+  <!-- Hreflang SEO -->
+  <link rel="alternate" hreflang="pt-BR" href="https://instituto-novaesperanca.org.br/pt-BR/index.html">
+  <link rel="alternate" hreflang="en-US" href="https://instituto-novaesperanca.org.br/en-US/index.html">
+  <link rel="alternate" hreflang="es-ES" href="https://instituto-novaesperanca.org.br/es-ES/index.html">
+  <link rel="alternate" hreflang="fr-FR" href="https://instituto-novaesperanca.org.br/fr-FR/index.html">
+  <link rel="alternate" hreflang="de-DE" href="https://instituto-novaesperanca.org.br/de-DE/index.html">
+  <link rel="alternate" hreflang="ja-JP" href="https://instituto-novaesperanca.org.br/ja-JP/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://instituto-novaesperanca.org.br/pt-BR/index.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="404 — Página Não Encontrada | Instituto Nova Esperança">
+  <meta property="og:description" content="A página solicitada não foi encontrada. Acesse o portal oficial do Instituto Nova Esperança.">
+  <meta property="og:url" content="https://instituto-novaesperanca.org.br/404.html">
+  <meta property="og:image" content="https://instituto-novaesperanca.org.br/assets/img/hero/hero-home-1200.svg">
+
+  <!-- Tipografia Oficial -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/tokens.css">
-  <link rel="stylesheet" href="assets/css/accessibility.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
   <link rel="stylesheet" href="assets/css/components.css">
-  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <link rel="stylesheet" href="assets/css/utilities.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/accessibility.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/pages.css">
+
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: var(--color-background, #F8FAFC);
+      color: var(--color-text, #1E293B);
+      margin: 0;
+      font-family: var(--font-body, 'Inter', sans-serif);
+    }
+    .error-hero {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-4xl, 4rem) var(--space-md, 1rem);
+      text-align: center;
+    }
+    .error-card {
+      background: var(--color-surface, #FFFFFF);
+      border: 1px solid var(--border, #CBD5E1);
+      border-radius: var(--radius-xl, 24px);
+      padding: clamp(2rem, 5vw, 3.5rem);
+      max-width: 680px;
+      width: 100%;
+      box-shadow: var(--shadow-lg);
+    }
+    .error-badge {
+      display: inline-block;
+      font-family: var(--font-metrics, 'IBM Plex Sans', monospace);
+      font-size: clamp(3.5rem, 8vw, 6rem);
+      font-weight: 800;
+      line-height: 1;
+      color: var(--color-primary, #075E54);
+      margin-bottom: var(--space-sm, 0.5rem);
+    }
+    .error-title {
+      font-family: var(--font-display, 'Manrope', sans-serif);
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 800;
+      color: var(--color-secondary, #0F2439);
+      margin-bottom: var(--space-sm, 0.5rem);
+    }
+    .error-desc {
+      color: var(--color-muted, #64748B);
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: var(--space-xl, 2rem);
+    }
+    .lang-nav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 0.75rem;
+      margin-top: var(--space-lg, 1.5rem);
+    }
+    .lang-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border, #CBD5E1);
+      border-radius: var(--radius-md, 10px);
+      background: var(--color-surface-alt, #F1F5F9);
+      color: var(--color-secondary, #0F2439);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.875rem;
+      transition: all 0.2s ease;
+    }
+    .lang-btn:hover {
+      background: var(--color-primary, #075E54);
+      color: #FFFFFF;
+      border-color: var(--color-primary, #075E54);
+      transform: translateY(-2px);
+    }
+  </style>
 </head>
 <body>
 
-  <a href="#main-content" class="skip-link" data-i18n="skip_content">Pular para o conteúdo principal</a>
-  <a href="#main-navigation" class="skip-link" data-i18n="skip_nav">Pular para a navegação</a>
-
-  <aside class="a11y-toolbar" aria-label="Ferramentas de Acessibilidade">
-    <div class="container a11y-toolbar-inner">
-      <div class="a11y-group">
-        <span class="a11y-label">Acessibilidade:</span>
-        <button type="button" class="a11y-btn" data-a11y-action="font-dec">A-</button>
-        <button type="button" class="a11y-btn" data-a11y-action="font-reset">A</button>
-        <button type="button" class="a11y-btn" data-a11y-action="font-inc">A+</button>
-        <button type="button" class="a11y-btn" data-a11y-action="contrast">◐ Alto Contraste</button>
-        <button type="button" class="a11y-btn" data-a11y-action="dark">🌙 Modo Escuro</button>
-        <button type="button" class="a11y-btn" data-a11y-action="dyslexia">📖 Fonte Legível</button>
-      </div>
-      <div class="a11y-group">
-        <div class="lang-pills-group">
-          <button type="button" class="lang-pill-btn is-active" data-lang-code="PT">PT</button>
-          <button type="button" class="lang-pill-btn" data-lang-code="EN">EN</button>
-          <button type="button" class="lang-pill-btn" data-lang-code="ES">ES</button>
-          <button type="button" class="lang-pill-btn" data-lang-code="FR">FR</button>
-          <button type="button" class="lang-pill-btn" data-lang-code="DE">DE</button>
-          <button type="button" class="lang-pill-btn" data-lang-code="JP">JP</button>
-        </div>
-      </div>
-    </div>
-  </aside>
-
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <a href="index.html" class="brand-logo">
-        <div class="brand-symbol">NE</div>
-        <div class="brand-info">
-          <span class="brand-name">Instituto Nova Esperança</span>
-          <span class="brand-tagline">Impacto Social & Cidadania</span>
-        </div>
-      </a>
-
-      <nav id="main-navigation" class="main-nav" role="navigation" aria-label="Navegação Principal">
-        <a href="index.html" class="nav-link" data-i18n="nav_home">Início</a>
-        <a href="sobre.html" class="nav-link" data-i18n="nav_about">Quem Somos</a>
-        <a href="projetos.html" class="nav-link" data-i18n="nav_projects">Projetos</a>
-        <a href="impacto.html" class="nav-link" data-i18n="nav_impact">Nosso Impacto</a>
-        <a href="empresas.html" class="nav-link" data-i18n="nav_companies">Empresas</a>
-        <a href="voluntariado.html" class="nav-link" data-i18n="nav_volunteer">Voluntariado</a>
-        <a href="transparencia.html" class="nav-link" data-i18n="nav_transparency">Transparência</a>
-        <a href="blog.html" class="nav-link" data-i18n="nav_blog">Blog</a>
-        <a href="contato.html" class="nav-link" data-i18n="nav_contact">Contato</a>
-      </nav>
-
-      <div class="header-actions">
-        <a href="doacoes.html" class="btn btn-donate btn-sm" data-i18n="nav_donate">Doar Agora</a>
-        <button type="button" class="mobile-nav-toggle" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu">
-          ☰
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <main id="main-content" role="main" class="u-style-5ee28d">
-    <div class="container text-center max-w-620">
-      <div class="u-style-47ada0">
-        404
-      </div>
-      <h1 class="section-title mb-sm">Página Não Encontrada</h1>
-      <p class="lead u-style-efbe75">
-        O endereço que você tentou acessar não existe, foi renomeado ou está temporariamente indisponível.
+  <main id="main-content" role="main" class="error-hero">
+    <div class="error-card">
+      <div class="error-badge">404</div>
+      <h1 class="error-title">Página Não Encontrada / Not Found</h1>
+      <p class="error-desc">
+        O conteúdo solicitado não existe ou foi transferido para a nova estrutura multilíngue V7.4.<br>
+        Selecione seu idioma para continuar:
       </p>
 
-      <div class="u-style-2b1feb">
-        <a href="index.html" class="btn btn-primary">Voltar para a Página Inicial</a>
-        <a href="projetos.html" class="btn btn-outline">Explorar Nossos Projetos</a>
-        <a href="contato.html" class="btn btn-ghost">Falar Conosco</a>
+      <a href="index.html" class="btn btn-primary btn-lg" style="margin-bottom: 1.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+        <span>🏠</span> <span>Acessar Portal Principal</span>
+      </a>
+
+      <div class="lang-nav-grid" role="navigation" aria-label="Portais Nativos">
+        <a href="pt-BR/index.html" class="lang-btn">
+          <span aria-hidden="true">🇧🇷</span> <span>Português</span>
+        </a>
+        <a href="en-US/index.html" class="lang-btn">
+          <span aria-hidden="true">🇺🇸</span> <span>English</span>
+        </a>
+        <a href="es-ES/index.html" class="lang-btn">
+          <span aria-hidden="true">🇪🇸</span> <span>Español</span>
+        </a>
+        <a href="fr-FR/index.html" class="lang-btn">
+          <span aria-hidden="true">🇫🇷</span> <span>Français</span>
+        </a>
+        <a href="de-DE/index.html" class="lang-btn">
+          <span aria-hidden="true">🇩🇪</span> <span>Deutsch</span>
+        </a>
+        <a href="ja-JP/index.html" class="lang-btn">
+          <span aria-hidden="true">🇯🇵</span> <span>日本語</span>
+        </a>
       </div>
     </div>
   </main>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <div class="footer-bottom">
-        <div>© 2026 Instituto Nova Esperança. Todos os direitos reservados.</div>
-        <ul class="footer-legal-links">
-          <li><a href="privacidade.html">Privacidade</a></li>
-          <li><a href="cookies.html">Cookies</a></li>
-          <li><a href="acessibilidade.html">Acessibilidade</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
-  <script src="assets/js/toast.js"></script>
-  <script src="assets/js/a11y.js"></script>
-  <script src="assets/js/i18n.js"></script>
-  <script src="assets/js/media.js"></script>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>

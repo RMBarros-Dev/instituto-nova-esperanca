@@ -224,9 +224,9 @@ function generateFooter(lang) {
       <div class="footer-bottom" style="padding: 1.5rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.8125rem; color: #6b7280;">
         <div>${escapeHtml(f.rights)}</div>
         <div style="display: flex; gap: 1.25rem;">
-          <a href="../privacidade.html" style="color: inherit; text-decoration: none;">${escapeHtml(f.privacy)}</a>
-          <a href="../cookies.html" style="color: inherit; text-decoration: none;">${escapeHtml(f.cookies)}</a>
-          <a href="../acessibilidade.html" style="color: inherit; text-decoration: none;">${escapeHtml(f.accessibility)}</a>
+          <a href="#privacy-policy" style="color: inherit; text-decoration: none;">${escapeHtml(f.privacy)}</a>
+          <a href="#cookies-policy" style="color: inherit; text-decoration: none;">${escapeHtml(f.cookies)}</a>
+          <a href="#main-content" style="color: inherit; text-decoration: none;">${escapeHtml(f.accessibility)}</a>
         </div>
       </div>
     </div>
@@ -240,9 +240,7 @@ function generateScripts(extraScripts = []) {
     '../assets/js/accessibility.js',
     '../assets/js/interactions.js',
     '../assets/js/navigation.js',
-    '../assets/js/app.js',
     '../assets/js/toast.js',
-    '../assets/js/a11y.js',
     '../assets/js/i18n.js',
     '../assets/js/forms.js',
     '../assets/js/certificate.js',
@@ -271,6 +269,23 @@ function generateHead(pageKey, lang, title, description) {
   <link rel="canonical" href="${currentCanonical}">
   ${hreflangs}
   <link rel="alternate" hreflang="x-default" href="https://instituto-novaesperanca.org.br/pt-BR/index.html">
+
+  <!-- Open Graph & Metadados Sociais (V7.4 SEO) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="${lang.replace('-', '_')}">
+  <meta property="og:title" content="${escapeHtml(title)} | Instituto Nova Esperança">
+  <meta property="og:description" content="${escapeHtml(description)}">
+  <meta property="og:url" content="${currentCanonical}">
+  <meta property="og:site_name" content="Instituto Nova Esperança">
+  <meta property="og:image" content="https://instituto-novaesperanca.org.br/assets/img/hero/hero-home-1200.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeHtml(title)} | Instituto Nova Esperança">
+  <meta name="twitter:description" content="${escapeHtml(description)}">
+  <meta name="twitter:image" content="https://instituto-novaesperanca.org.br/assets/img/hero/hero-home-1200.svg">
 
   <!-- V7.4 Hardening de Segurança -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https: blob:; connect-src 'self' https:;">
@@ -1162,7 +1177,7 @@ function renderTransparencyPage(lang) {
                   <small style="color: var(--color-muted);">PDF • 4.2 MB • Auditoria Independente • Atualizado 2026</small>
                 </div>
               </div>
-              <a href="../assets/docs/relatorio-anual-2026.pdf" download class="btn btn-outline btn-sm">Baixar</a>
+              <a href="../documents/relatorios/relatorio-anual-2026.pdf" download class="btn btn-outline btn-sm">Baixar</a>
             </div>
 
             <div class="doc-card">
@@ -1173,7 +1188,7 @@ function renderTransparencyPage(lang) {
                   <small style="color: var(--color-muted);">PDF • 2.8 MB • Parecer Sem Ressalvas • Registrado em Cartório</small>
                 </div>
               </div>
-              <a href="../assets/docs/balanco-patrimonial-2025.pdf" download class="btn btn-outline btn-sm">Baixar</a>
+              <a href="../documents/relatorios/balanco-patrimonial-2025.pdf" download class="btn btn-outline btn-sm">Baixar</a>
             </div>
 
             <div class="doc-card">
@@ -1184,7 +1199,7 @@ function renderTransparencyPage(lang) {
                   <small style="color: var(--color-muted);">PDF • 1.5 MB • CNPJ Registrado • Governança Ativa</small>
                 </div>
               </div>
-              <a href="../assets/docs/estatuto-social-ine.pdf" download class="btn btn-outline btn-sm">Baixar</a>
+              <a href="../documents/estatuto/estatuto-social-ine.pdf" download class="btn btn-outline btn-sm">Baixar</a>
             </div>
 
             <div class="doc-card">
@@ -1195,7 +1210,7 @@ function renderTransparencyPage(lang) {
                   <small style="color: var(--color-muted);">PDF • 3.7 MB • Alinhamento ODS/ONU e Entorno do DF</small>
                 </div>
               </div>
-              <a href="../assets/docs/relatorio-esg-impacto-2025.pdf" download class="btn btn-outline btn-sm">Baixar</a>
+              <a href="../documents/relatorios/relatorio-esg-impacto-2025.pdf" download class="btn btn-outline btn-sm">Baixar</a>
             </div>
           </div>
         </div>

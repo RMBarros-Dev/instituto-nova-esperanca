@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" width="320" height="140" fill="none" role="img" aria-label="Parceiro Institucional: Inova Social Tech — Letramento Digital">
+  <defs>
+    <linearGradient id="pgrad_LetramentoDigital" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <filter id="pshadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08" flood-color="#0F2439" />
+    </filter>
+  </defs>
+  
+  <rect width="320" height="140" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#pshadow)" />
+  
+  <!-- Ícone e Identificador -->
+  <g transform="translate(36, 42)">
+    <rect width="56" height="56" rx="12" fill="url(#pgrad_LetramentoDigital)" />
+    <text x="28" y="38" font-size="28" text-anchor="middle" font-family="-apple-system, sans-serif">💻</text>
+  </g>
+  
+  <!-- Textos do Parceiro -->
+  <g transform="translate(108, 56)">
+    <text x="0" y="0" font-family="'Manrope', sans-serif" font-size="16" font-weight="800" fill="#0F2439" letter-spacing="-0.3">Inova Social Tech</text>
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#2A9D8F" letter-spacing="0.5">LETRAMENTO DIGITAL</text>
+    <text x="0" y="38" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#64748B">Parceria Homologada • ESG</text>
+  </g>
+</svg>

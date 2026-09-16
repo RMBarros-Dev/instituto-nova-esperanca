@@ -14,6 +14,8 @@
   let currentArticle = null;
   let speechUtterance = null;
   let isSpeaking = false;
+  let lastTriggerElement = null;
+  let originalDocumentTitle = '';
 
   function getBlogModule() {
     if (window.i18n && typeof window.i18n.getModule === 'function') {
@@ -184,6 +186,20 @@
     const art = articles.find(a => a.slug === slugOrId || String(a.id) === String(slugOrId));
     if (!art) return;
 
+    if (isSpeaking && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      isSpeaking = false;
+    }
+
+    if (!originalDocumentTitle) {
+      originalDocumentTitle = document.title;
+    }
+    document.title = `${art.title} | Instituto Nova Esperança`;
+
+    if (document.activeElement && document.activeElement !== document.body) {
+      lastTriggerElement = document.activeElement;
+    }
+
     currentArticle = art;
     const hero = document.getElementById('blog-hero');
     const listSec = document.getElementById('blog-list-section');
@@ -323,6 +339,16 @@
 
     window.scrollTo(0, 0);
     initReadingProgress();
+
+    setTimeout(() => {
+      const backBtn = document.getElementById('btn-back-to-blog');
+      if (backBtn) {
+        backBtn.focus();
+      } else if (contentBox) {
+        contentBox.setAttribute('tabindex', '-1');
+        contentBox.focus();
+      }
+    }, 50);
   }
 
   function bindArticleEvents(art, reader = {}) {
@@ -422,6 +448,10 @@
       isSpeaking = false;
     }
 
+    if (originalDocumentTitle) {
+      document.title = originalDocumentTitle;
+    }
+
     const hero = document.getElementById('blog-hero');
     const listSec = document.getElementById('blog-list-section');
     const articleContainer = document.getElementById('article-view-container');
@@ -437,6 +467,10 @@
     }
 
     window.scrollTo(0, savedScrollPosition);
+
+    if (lastTriggerElement && typeof lastTriggerElement.focus === 'function') {
+      setTimeout(() => lastTriggerElement.focus(), 50);
+    }
   }
 
   function initReadingProgress() {

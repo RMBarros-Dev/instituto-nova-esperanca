@@ -127,9 +127,7 @@
       const expenseKeys = [
         { key: 'projects', color: '#075E54' },
         { key: 'administrative', color: '#2A9D8F' },
-        { key: 'fundraising', color: '#D4AF37' },
-        { key: 'communication', color: '#0F2439' },
-        { key: 'operations', color: '#64748B' }
+        { key: 'fundraising', color: '#B8860B' }
       ];
 
       let svgHtml = `<div class="chart-bars-list">`;
@@ -142,9 +140,9 @@
           <div class="chart-bar-item">
             <div class="chart-bar-header">
               <span class="chart-bar-label">${label}</span>
-              <span class="chart-bar-value" style="color: ${item.color};">${formatBRL(val)} (${pct.toFixed(1)}%)</span>
+              <span class="chart-bar-value" style="color: ${item.color}; font-weight: 700;">${formatBRL(val)} (${pct.toFixed(1)}%)</span>
             </div>
-            <div class="chart-bar-track">
+            <div class="chart-bar-track" role="progressbar" aria-valuenow="${pct.toFixed(1)}" aria-valuemin="0" aria-valuemax="100" aria-label="${label}: ${pct.toFixed(1)}%">
               <div class="chart-bar-fill" style="width: ${pct}%; background-color: ${item.color};"></div>
             </div>
           </div>
@@ -157,16 +155,17 @@
     // 3. Atualizar Tabela Acessível (WCAG AAA)
     const tableBody = document.querySelector('#transparency-data-table tbody');
     const tableTotal = document.getElementById('table-total-value');
+    const tableTotalPct = document.getElementById('table-total-percent');
     if (tableBody && data.expenses) {
       const totalExp = Object.values(data.expenses).reduce((a, b) => a + b, 0);
       const rows = Object.entries(data.expenses).map(([k, val]) => {
         const label = getExpenseLabel(k);
-        const pct = (val / totalExp) * 100;
+        const pct = totalExp > 0 ? (val / totalExp) * 100 : 0;
         return `
           <tr>
-            <td>${label}</td>
-            <td>${formatBRL(val)}</td>
-            <td>${pct.toFixed(1)}%</td>
+            <th scope="row" style="text-align: left; font-weight: 600;">${label}</th>
+            <td style="text-align: right; font-variant-numeric: tabular-nums;">${formatBRL(val)}</td>
+            <td style="text-align: right; font-variant-numeric: tabular-nums; font-weight: 700;">${pct.toFixed(1)}%</td>
           </tr>
         `;
       }).join('');
@@ -174,6 +173,9 @@
     }
     if (tableTotal) {
       tableTotal.textContent = formatBRL(data.applied);
+    }
+    if (tableTotalPct) {
+      tableTotalPct.textContent = '100.0%';
     }
 
     // 4. Origem de Receitas (Breakdown)

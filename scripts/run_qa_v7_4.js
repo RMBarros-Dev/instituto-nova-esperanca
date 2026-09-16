@@ -41,14 +41,12 @@ steps.forEach((step, idx) => {
 // Validação sintática adicional de todos os arquivos JS
 process.stdout.write('[+ / +] Verificação de sintaxe JS (node -c)... ');
 const jsFiles = [
-  'assets/js/app.js',
   'assets/js/navigation.js',
   'assets/js/interactions.js',
   'assets/js/accessibility.js',
   'assets/js/main.js',
   'assets/js/media.js',
   'assets/js/i18n.js',
-  'assets/js/a11y.js',
   'assets/js/forms.js',
   'assets/js/dashboard.js',
   'assets/js/transparency.js',
