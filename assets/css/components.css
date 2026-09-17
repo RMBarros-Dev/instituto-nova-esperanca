@@ -69,9 +69,9 @@
 }
 
 .brand-logo-img {
-  height: 42px;
+  height: 44px;
   width: auto;
-  max-width: 240px;
+  max-width: 270px;
   object-fit: contain;
   display: block;
 }
@@ -269,14 +269,18 @@
 }
 
 .btn-donate {
-  background: linear-gradient(135deg, var(--secondary, #E76F51) 0%, var(--secondary-dark, #C8553C) 100%);
-  color: #FFFFFF;
-  box-shadow: 0 4px 12px rgba(231, 111, 81, 0.3);
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%) !important;
+  color: #FFFFFF !important;
+  font-weight: 800;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: var(--transition-normal);
 }
 
 .btn-donate:hover {
-  background: linear-gradient(135deg, var(--secondary-hover, #d35f42) 0%, var(--secondary, #E76F51) 100%);
-  box-shadow: 0 6px 16px rgba(231, 111, 81, 0.4);
+  background: linear-gradient(135deg, #D97706 0%, #B45309 100%) !important;
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.5);
+  transform: translateY(-2px);
 }
 
 .btn-sm {

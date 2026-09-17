@@ -6,9 +6,10 @@
 /* Hero Section */
 .hero-section {
   position: relative;
-  background: linear-gradient(135deg, #043F39 0%, #075E54 50%, #064E46 100%);
+  background: linear-gradient(135deg, rgba(6, 61, 46, 0.90) 0%, rgba(10, 92, 70, 0.82) 45%, rgba(13, 27, 42, 0.90) 100%),
+              url('../img/hero/hero-home-1200.jpg') center/cover no-repeat;
   color: #FFFFFF;
-  padding-block: clamp(4rem, 8vw, 7rem);
+  padding-block: clamp(4.5rem, 8vw, 7.5rem);
   overflow: hidden;
 }
 
@@ -16,7 +17,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 80% 20%, rgba(42, 157, 143, 0.25) 0%, transparent 60%);
+  background: radial-gradient(circle at 80% 20%, rgba(217, 119, 6, 0.16) 0%, transparent 60%);
   pointer-events: none;
 }
 

@@ -4,7 +4,7 @@
  * Stale-While-Revalidate para JSON, Fallback Offline Elegante e Resiliência Total de Mídias.
  */
 
-const CACHE_VERSION = 'ine-v7.4-cache';
+const CACHE_VERSION = 'ine-v7.4.1-cache';
 const STATIC_ASSETS = [
   './',
   'index.html',

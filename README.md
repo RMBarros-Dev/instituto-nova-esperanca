@@ -18,6 +18,41 @@ A plataforma digital V7.4 foi concebida e refinada como um ecossistema web de al
 
 ---
 
+### 📸 Demonstração Visual & Prints da Plataforma
+
+A plataforma master V7.4 combina direção de arte editorial contemporânea, estética nobre e fotografia documental humanizada criada com o **Nano Banana** (Google Imagen 3), retratando o território real de Valparaíso de Goiás e do Entorno do DF com calor, dignidade e protagonismo social.
+
+#### 1. Emblema Institucional Oficial (Nano Banana 3D)
+O novo símbolo do Instituto une a folha da esperança, um coração acolhedor e arcos em ouro escovado sobre verde esmeralda nobre (`#0A5C46`). Serve como matriz para a suíte de favicons, ícones de toque e aplicativos instaláveis PWA.
+
+<div align="center">
+  <img src="docs/screenshots/emblema-oficial.jpg" alt="Novo Emblema Oficial Instituto Nova Esperança (Nano Banana 3D)" width="280" style="border-radius: 20px; box-shadow: 0 16px 36px rgba(13, 27, 42, 0.25);" />
+  <p><em>Emblema Oficial 3D — Folha da Esperança, Coração Solidário e Arcos em Ouro Escovado</em></p>
+</div>
+
+#### 2. Portal Principal — Hero Section com Fotografia Comunitária ao Entardecer
+Fotografia documental capturada com iluminação solar cinematográfica dourada em praça comunitária com biblioteca ao ar livre, combinada a um gradiente escuro de máxima legibilidade e chamada para ação com botão de doação em gradiente âmbar/dourado (`#F59E0B` a `#D97706`).
+
+<p align="center">
+  <img src="docs/screenshots/hero-home.png" alt="Portal Principal — Hero Section e Navegação Oficial" width="100%" />
+</p>
+
+#### 3. Vitrine dos Programas Estruturantes de Impacto Social
+Cartões analíticos ilustrados com fotografias documentais autênticas para os 4 programas canônicos: *Educação Integral*, *Segurança Nutricional & Hortas Urbanas*, *Inclusão Produtiva (Renda & Trabalho)* e *Infraestrutura & Coesão Comunitária*.
+
+<p align="center">
+  <img src="docs/screenshots/projetos-showcase.png" alt="Vitrine de Programas Estruturantes — Cartões com Fotografia Real" width="100%" />
+</p>
+
+#### 4. Dashboard Interativo de Impacto Social (2023–2026)
+Painel analítico com 9 indicadores auditados, gráfico vetorial dinâmico em SVG responsivo e tabelas acessíveis espelhadas em conformidade estrita com o padrão WCAG 2.2 AAA.
+
+<p align="center">
+  <img src="docs/screenshots/impacto-dashboard.png" alt="Dashboard Interativo de Impacto Social Multi-anual" width="100%" />
+</p>
+
+---
+
 ### 🏛️ Diretrizes de Posicionamento e Conformidade Ética
 
 1. **Compromisso de Veracidade:** Nenhuma parceria ou logotipo comercial fictício é apresentado. As parcerias institucionais e selos ODS seguem critérios reais de cooperação social.
@@ -115,6 +150,11 @@ A versão V7.4 adota uma arquitetura estática modular de alta performance, sem 
 │   └── politicas/              # Código de Ética, Anticorrupção, Privacidade e Certidões
 │
 ├── docs/                       # Especificações Técnicas e Manuais de Design
+│   ├── screenshots/            # Demonstrações visuais e capturas de tela oficiais
+│   │   ├── emblema-oficial.jpg # Emblema institucional 3D em alta resolução
+│   │   ├── hero-home.png       # Print da Hero Section e navegação
+│   │   ├── projetos-showcase.png # Print da vitrine de projetos estruturantes
+│   │   └── impacto-dashboard.png # Print do dashboard de impacto social
 │   ├── design-system.md        # Documentação visual, tipografia e paleta de cores
 │   └── nano-banana-prompts.md  # Catálogo mestre de prompts fotográficos para Nano Banana
 │
@@ -256,10 +296,16 @@ Todas as especificações visuais, ângulos de câmera, parâmetros de lente e p
 
 ---
 
-### 🛡️ Sistema de Ícones e Identidade Visual
+### 🛡️ Sistema de Ícones e Identidade Visual (Nano Banana & V7.4 Master)
 
-* **Favicons Completos:** Suporte nativo a navegadores legados (`favicon.ico`), navegadores modernos com suporte a tema escuro/claro (`favicon.svg`), atalhos de área de trabalho (`favicon-16x16.png`, `favicon-32x32.png`) e dispositivos Apple (`apple-touch-icon.png`).
-* **Ícones PWA:** Ícones canônicos em alta resolução nos tamanhos `192x192` e `512x512` pixels, além de versões com o atributo `purpose: "maskable"` com zona de respiro segura de 15% para evitar cortes em launchers Android.
+* **Emblema 3D Nano Banana:** Ativo identitário mestre gerado via IA generativa fotográfica com acabamento em folha de esperança, coração acolhedor e detalhes em ouro escovado.
+* **Paleta de Cores Recalibrada:**
+  * **Verde Esmeralda Nobre (`#0A5C46`):** Identidade primária de estabilidade, sustentabilidade e integridade;
+  * **Dourado / Âmbar Radiante (`#D97706` / `#F59E0B`):** Destaque aos botões prioritários de captação e doação (`.btn-donate`), garantindo alta atratividade visual e calor humano;
+  * **Azul Noturno Profundo (`#0D1B2A`):** Rigor de tipografia com contraste máximo (WCAG 2.2 AAA).
+* **Favicons Completos:** Suporte nativo a navegadores legados (`favicon.ico` multi-resolução 16x16, 32x32, 48x48), navegadores modernos com suporte a tema escuro/claro (`favicon.svg`), atalhos de desktop (`favicon-16x16.png`, `favicon-32x32.png`, `favicon-48x48.png`) e dispositivos Apple (`apple-touch-icon.png` 180x180).
+* **Ícones PWA:** Ícones canônicos em alta resolução nos tamanhos `192x192` e `512x512` pixels, além de versões adaptativas `maskable-192.png` e `maskable-512.png` com zona de respiro segura de 12% para launchers Android.
+* **Fotografia Documental Real:** Substituição integral de placeholders vetoriais sintéticos por fotografias documentais de alta resolução nos 4 programas estruturantes, hero, voluntariado e impacto social.
 * **Selos de Parcerias ESG (`assets/img/partners/`):** SVGs institucionais vetoriais com proporções e contraste aprovados para WCAG AAA:
   * `empresa-cidada.svg` — Selo Empresa Cidadã;
   * `ods-onu.svg` — Alinhamento aos Objetivos de Desenvolvimento Sustentável da ONU;

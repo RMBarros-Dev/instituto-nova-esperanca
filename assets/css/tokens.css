@@ -7,16 +7,17 @@
   /* ------------------------------------------------------------------------
      1. V7.4 Core Design Tokens (Especificação Oficial)
      ------------------------------------------------------------------------ */
-  --color-primary: #075E54;
-  --color-secondary: #0F2439;
+  --color-primary: #0A5C46;
+  --color-secondary: #0D1B2A;
   --color-accent: #2A9D8F;
-  --color-gold: #D4AF37;
-  --color-gold-dark: #B8860B;
-  --color-navy: #0F2439;
+  --color-gold: #D97706;
+  --color-gold-dark: #B45309;
+  --color-gold-light: #FEF3C7;
+  --color-navy: #0D1B2A;
   --color-surface: #FFFFFF;
-  --color-surface-alt: #F1F5F9;
-  --color-background: #F8FAFC;
-  --color-text: #1E293B;
+  --color-surface-alt: #F8FAFC;
+  --color-background: #F1F5F9;
+  --color-text: #0F172A;
   --color-muted: #64748B;
   --color-success: #10B981;
   --color-warning: #F59E0B;
@@ -46,25 +47,25 @@
   --radius-full: 9999px;
 
   /* Sombras Sofisticadas */
-  --shadow-sm: 0 1px 3px rgba(15, 36, 57, 0.06), 0 1px 2px rgba(15, 36, 57, 0.04);
-  --shadow-md: 0 4px 14px rgba(15, 36, 57, 0.08), 0 2px 6px rgba(15, 36, 57, 0.04);
-  --shadow-lg: 0 12px 32px rgba(15, 36, 57, 0.12), 0 4px 12px rgba(15, 36, 57, 0.06);
+  --shadow-sm: 0 1px 3px rgba(13, 27, 42, 0.06), 0 1px 2px rgba(13, 27, 42, 0.04);
+  --shadow-md: 0 4px 14px rgba(13, 27, 42, 0.08), 0 2px 6px rgba(13, 27, 42, 0.04);
+  --shadow-lg: 0 12px 32px rgba(13, 27, 42, 0.12), 0 4px 12px rgba(13, 27, 42, 0.06);
 
   /* ------------------------------------------------------------------------
      2. Aliases de Retrocompatibilidade
      ------------------------------------------------------------------------ */
   --primary: var(--color-primary);
-  --primary-dark: #043F39;
-  --primary-light: #E8F5F2;
-  --primary-hover: #0a7367;
+  --primary-dark: #063D2E;
+  --primary-light: #EBF7F2;
+  --primary-hover: #0E7456;
 
   --secondary: var(--color-secondary);
-  --secondary-dark: #0A192F;
+  --secondary-dark: #060D15;
   --secondary-light: #E2E8F0;
-  --secondary-hover: #1E293B;
+  --secondary-hover: #1B2A4A;
 
   --accent: var(--color-accent);
-  --accent-dark: #20756B;
+  --accent-dark: #1E7268;
   --accent-light: #E6F5F3;
 
   --background: var(--color-background);

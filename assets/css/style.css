@@ -413,15 +413,19 @@ img {
 }
 
 .btn-donate {
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%) !important;
   color: #fff !important;
   font-weight: 800;
-  box-shadow: 0 4px 16px rgba(231, 111, 81, 0.3);
+  box-shadow: 0 4px 16px rgba(217, 119, 6, 0.4);
   letter-spacing: 0.01em;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: var(--transition-normal);
 }
 
 .btn-donate:hover {
-  box-shadow: 0 8px 24px rgba(231, 111, 81, 0.45);
+  background: linear-gradient(135deg, #D97706 0%, #B45309 100%) !important;
+  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.55);
+  transform: translateY(-2px);
 }
 
 .btn-sm {
@@ -445,32 +449,20 @@ img {
    ========================================================================== */
 
 .hero-section {
-  padding-block: var(--space-4xl) var(--space-3xl);
-  background: linear-gradient(135deg, var(--primary-light) 0%, #FFFFFF 100%);
   position: relative;
+  background: linear-gradient(135deg, rgba(6, 61, 46, 0.92) 0%, rgba(10, 92, 70, 0.84) 45%, rgba(13, 27, 42, 0.90) 100%),
+              url('../img/hero/hero-home-1200.jpg') center/cover no-repeat !important;
+  color: #FFFFFF !important;
+  padding-block: clamp(4.5rem, 8vw, 7.5rem);
   overflow: hidden;
 }
 
-/* Efeito Glow Background */
 .hero-section::before {
   content: '';
   position: absolute;
-  top: -20%;
-  right: -10%;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(42, 157, 143, 0.15) 0%, transparent 70%);
-  border-radius: 50%;
-  z-index: 0;
+  inset: 0;
+  background: radial-gradient(circle at 80% 20%, rgba(217, 119, 6, 0.16) 0%, transparent 60%);
   pointer-events: none;
-}
-
-[data-theme="dark"] .hero-section {
-  background: linear-gradient(135deg, var(--background) 0%, var(--surface-alt) 100%);
-}
-
-[data-theme="dark"] .hero-section::before {
-  background: radial-gradient(circle, rgba(42, 157, 143, 0.1) 0%, transparent 70%);
 }
 
 .hero-section > .container {
