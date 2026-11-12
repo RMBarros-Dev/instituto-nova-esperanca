@@ -54,10 +54,23 @@
     });
   }
 
-  function handleSmartSubmit(form, successMsg, customHandler) {
+  const MESSAGES = {
+    'pt-BR': 'Este formulário ainda não está conectado a um canal de atendimento. Nenhuma informação foi enviada. Entre em contato pelos canais oficiais antes de compartilhar dados pessoais.',
+    'en-US': 'This form is not connected to a contact channel yet. No information was sent. Please use an official contact channel before sharing personal data.',
+    'es-ES': 'Este formulario aún no está conectado a un canal de atención. No se envió ninguna información. Use un canal oficial antes de compartir datos personales.',
+    'fr-FR': 'Ce formulaire n’est pas encore relié à un canal de contact. Aucune information n’a été envoyée. Utilisez un canal officiel avant de partager des données personnelles.',
+    'de-DE': 'Dieses Formular ist noch nicht mit einem Kontaktkanal verbunden. Es wurden keine Informationen gesendet. Nutzen Sie einen offiziellen Kontaktkanal, bevor Sie persönliche Daten teilen.',
+    'ja-JP': 'このフォームはまだ連絡窓口に接続されていません。情報は送信されていません。個人情報を共有する前に、公式の連絡窓口をご利用ください。'
+  };
+
+  function getMessage() {
+    return MESSAGES[document.documentElement.lang] || MESSAGES['pt-BR'];
+  }
+
+  function handleSmartSubmit(form) {
     if (!form) return;
 
-    form.addEventListener('submit', async (e) => {
+    form.addEventListener('submit', (e) => {
       e.preventDefault();
 
       // Validação nativa HTML5 com foco acessível
@@ -70,8 +83,6 @@
         return;
       }
 
-      const submitBtn = form.querySelector('button[type="submit"]');
-      const originalBtnText = submitBtn ? submitBtn.innerHTML : '';
       let statusContainer = form.querySelector('.form-status-msg');
 
       if (!statusContainer) {
@@ -82,55 +93,9 @@
         form.insertBefore(statusContainer, form.firstChild);
       }
 
-      // Estado 1: Loading
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.innerHTML = `
-          <span class="spinner" style="display:inline-block; width:14px; height:14px; border:2px solid currentColor; border-right-color:transparent; border-radius:50%; animation:spin 0.6s linear infinite; margin-right:8px;" aria-hidden="true"></span>
-          <span>Enviando...</span>
-        `;
-      }
-
       statusContainer.style.display = 'block';
-      statusContainer.className = 'alert alert-info form-status-msg mb-md';
-      statusContainer.textContent = 'Processando e registrando informações de forma segura...';
-
-      // Simulação assíncrona de requisição segura
-      await new Promise(resolve => setTimeout(resolve, 700));
-
-      if (typeof customHandler === 'function') {
-        try {
-          await customHandler();
-        } catch (err) {
-          statusContainer.className = 'alert alert-danger form-status-msg mb-md';
-          statusContainer.textContent = 'Ocorreu um erro ao processar sua solicitação. Por favor, tente novamente.';
-          if (submitBtn) {
-            submitBtn.disabled = false;
-            submitBtn.innerHTML = originalBtnText;
-          }
-          return;
-        }
-      }
-
-      // Estado 2: Sucesso Acessível
-      statusContainer.className = 'alert alert-success form-status-msg mb-md';
-      statusContainer.innerHTML = `<strong>✓ Sucesso!</strong> ${successMsg || 'Formulário enviado com sucesso.'}`;
-
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = 'Enviado com sucesso ✓';
-        submitBtn.classList.add('btn-success');
-        setTimeout(() => {
-          submitBtn.innerHTML = originalBtnText;
-          submitBtn.classList.remove('btn-success');
-        }, 3000);
-      }
-
-      if (window.showToast) {
-        window.showToast(successMsg || 'Formulário enviado com sucesso!', 'success');
-      }
-
-      form.reset();
+      statusContainer.className = 'alert alert-warning form-status-msg mb-md';
+      statusContainer.textContent = getMessage();
     });
   }
 
@@ -140,19 +105,19 @@
     // 1. Formulário de Parcerias Corporativas / Empresas
     const corpForm = document.getElementById('corporate-partnership-form') || document.getElementById('form-corporate-partnership');
     if (corpForm) {
-      handleSmartSubmit(corpForm, 'Solicitação institucional recebida! Nossa Diretoria de Parcerias entrará em contato em até 24 horas úteis.');
+      handleSmartSubmit(corpForm);
     }
 
     // 2. Formulário Geral de Contato
     const contactForm = document.getElementById('general-contact-form') || document.getElementById('contact-main-form');
     if (contactForm) {
-      handleSmartSubmit(contactForm, 'Sua mensagem foi enviada com sucesso ao Instituto Nova Esperança. Responderemos em breve!');
+      handleSmartSubmit(contactForm);
     }
 
     // 3. Formulário de Voluntariado
     const volForm = document.getElementById('volunteer-full-form') || document.getElementById('form-volunteer-wizard');
     if (volForm) {
-      handleSmartSubmit(volForm, 'Cadastro de voluntariado finalizado com sucesso! Seja muito bem-vindo(a) à nossa rede de transformação.');
+      handleSmartSubmit(volForm);
     }
   }
 

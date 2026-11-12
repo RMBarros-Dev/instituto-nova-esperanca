@@ -1,14 +1,10 @@
 /**
  * INSTITUTO NOVA ESPERANÇA — PLATAFORMA DE DOAÇÕES E SIMULADOR DE IMPACTO V7.2+
  * Patamares visuais: R$ 30, R$ 60, R$ 150, R$ 500, R$ 1.000+
- * Estimativa demonstrativa, simulador dinâmico, PIX BR Code e recibos
+ * Estimativa demonstrativa. Nenhum meio de pagamento é processado pelo site.
  */
 
 (function () {
-  const PIX_KEY = 'pix@instituto-novaesperanca.org.br';
-  const PIX_NAME = 'INSTITUTO NOVA ESPERANCA';
-  const PIX_CITY = 'VALPARAISO DE GOIAS';
-
   let currentFrequency = 'monthly';
   let currentAmount = 100;
   let currentMethod = 'pix';
@@ -95,21 +91,17 @@
     });
   }
 
-  function generatePixPayload(amount) {
-    const formattedAmount = amount.toFixed(2);
-    return `00020126580014BR.GOV.BCB.PIX0136${PIX_KEY}52040000530398654${String(formattedAmount.length).padStart(2,'0')}${formattedAmount}5802BR59${String(PIX_NAME.length).padStart(2,'0')}${PIX_NAME}60${String(PIX_CITY.length).padStart(2,'0')}${PIX_CITY}62070503***6304DEMO`;
-  }
+  const PAYMENT_UNAVAILABLE = {
+    'pt-BR': 'As doações online ainda não estão disponíveis. Nenhum pagamento foi iniciado e nenhum dado foi enviado.',
+    'en-US': 'Online donations are not available yet. No payment was started and no data was sent.',
+    'es-ES': 'Las donaciones en línea aún no están disponibles. No se inició ningún pago ni se envió ningún dato.',
+    'fr-FR': 'Les dons en ligne ne sont pas encore disponibles. Aucun paiement n’a été initié et aucune donnée n’a été envoyée.',
+    'de-DE': 'Online-Spenden sind noch nicht verfügbar. Es wurde keine Zahlung gestartet und keine Daten wurden gesendet.',
+    'ja-JP': 'オンライン寄付はまだ利用できません。決済は開始されておらず、データも送信されていません。'
+  };
 
-  function renderPixQR(code) {
-    const container = document.getElementById('pix-qr-container');
-    const codeBox = document.getElementById('pix-code-text');
-    if (!container) return;
-
-    const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(code)}&margin=10`;
-    container.innerHTML = `
-      <img src="${qrUrl}" alt="QR Code PIX Gerado Dinamicamente" class="qr-code-img" width="200" height="200">
-    `;
-    if (codeBox) codeBox.textContent = code;
+  function paymentUnavailableMessage() {
+    return PAYMENT_UNAVAILABLE[document.documentElement.lang] || PAYMENT_UNAVAILABLE['pt-BR'];
   }
 
   function initDonations() {
@@ -182,31 +174,20 @@
     const submitBtn = document.getElementById('btn-submit-donation');
     if (submitBtn) {
       submitBtn.addEventListener('click', () => {
-        if (currentMethod === 'pix') {
-          const pixModal = document.getElementById('pix-modal');
-          const payload = generatePixPayload(currentAmount);
-          renderPixQR(payload);
-          if (pixModal) pixModal.classList.add('is-open');
+        const message = paymentUnavailableMessage();
+        if (window.showToast) {
+          window.showToast(message, 'warning');
         } else {
-          if (window.showToast) {
-            window.showToast(`Doação de ${formatCurrency(currentAmount)} simulada com sucesso! Muito obrigado pelo apoio.`, 'success');
-          }
+          window.alert(message);
         }
       });
     }
 
-    // Copiar PIX
+    // PIX remains unavailable until a verified payment integration is configured.
     const copyPixBtn = document.getElementById('btn-copy-pix');
     if (copyPixBtn) {
       copyPixBtn.addEventListener('click', () => {
-        const codeText = document.getElementById('pix-code-text');
-        const mod = getDonationsModule();
-        const copiedMsg = (mod.pix && mod.pix.copied) || 'Código PIX copiado com sucesso!';
-        if (codeText) {
-          navigator.clipboard.writeText(codeText.textContent).then(() => {
-            if (window.showToast) window.showToast(copiedMsg, 'success');
-          });
-        }
+        if (window.showToast) window.showToast(paymentUnavailableMessage(), 'warning');
       });
     }
 

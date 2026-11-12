@@ -18,6 +18,12 @@ const MIME_TYPES = {
   '.webmanifest': 'application/manifest+json; charset=utf-8'
 };
 
+const SECURITY_HEADERS = {
+  'X-Content-Type-Options': 'nosniff',
+  'Referrer-Policy': 'strict-origin-when-cross-origin',
+  'Permissions-Policy': 'camera=(), microphone=(), geolocation=()'
+};
+
 const server = http.createServer((req, res) => {
   let reqPath = decodeURI(req.url.split('?')[0]);
   if (reqPath === '/' || reqPath === '') reqPath = '/index.html';
@@ -32,7 +38,7 @@ const server = http.createServer((req, res) => {
 
   fs.stat(fullPath, (err, stats) => {
     if (err || !stats.isFile()) {
-      res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.writeHead(404, { ...SECURITY_HEADERS, 'Content-Type': 'text/html; charset=utf-8' });
       const notFoundPath = path.join(ROOT, '404.html');
       if (fs.existsSync(notFoundPath)) {
         return res.end(fs.readFileSync(notFoundPath));
@@ -43,8 +49,9 @@ const server = http.createServer((req, res) => {
     const ext = path.extname(fullPath).toLowerCase();
     const mime = MIME_TYPES[ext] || 'application/octet-stream';
     res.writeHead(200, {
+      ...SECURITY_HEADERS,
       'Content-Type': mime,
-      'Access-Control-Allow-Origin': '*'
+      'Cache-Control': ext === '.html' ? 'no-cache' : 'public, max-age=3600'
     });
     fs.createReadStream(fullPath).pipe(res);
   });
