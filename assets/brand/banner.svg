@@ -1,22 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
-<title id="title">Instituto Nova Esperança — Multilingual institutional platform</title><desc id="desc">Plataforma institucional multilíngue com páginas localizadas, PWA, acessibilidade e documentação visual.</desc>
+<title id="title">Instituto Nova Esperança — Plataforma institucional multilíngue</title>
+<desc id="desc">Banner com identidade visual institucional em verde, azul noturno e dourado, representando comunidade, educação, transparência e impacto social.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101F46"/><stop offset="1" stop-color="#080D18"/></linearGradient>
- <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#2563EB" stop-opacity=".3"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0F2439"/><stop offset=".58" stop-color="#123C3A"/><stop offset="1" stop-color="#075E54"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D4AF37"/><stop offset="1" stop-color="#F4D779"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#2A9D8F" stop-opacity=".35"/><stop offset="1" stop-color="#2A9D8F" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#FFFFFF" stroke-opacity=".05"/></pattern>
 </defs>
 <rect width="1500" height="500" rx="30" fill="url(#bg)"/><rect width="1500" height="500" rx="30" fill="url(#grid)"/>
-<circle cx="1170" cy="230" r="370" fill="url(#glow)"/>
-<g fill="none" stroke="url(#a)" opacity=".4"><circle cx="1190" cy="250" r="195" stroke-width="2"/><circle cx="1190" cy="250" r="250" stroke-width="1.5" stroke-dasharray="5 12"/><circle cx="1190" cy="250" r="315" stroke-width="1"/></g>
-<path d="M0 405C250 340 370 495 620 422S1010 300 1500 390" fill="none" stroke="url(#a)" stroke-opacity=".4" stroke-width="3"/>
-<rect x="92" y="86" width="7" height="325" rx="3" fill="url(#a)"/>
+<circle cx="1200" cy="245" r="370" fill="url(#glow)"/>
+<g fill="none" stroke="url(#gold)" opacity=".42"><circle cx="1190" cy="250" r="195" stroke-width="2"/><circle cx="1190" cy="250" r="250" stroke-width="1.5" stroke-dasharray="5 12"/><circle cx="1190" cy="250" r="315" stroke-width="1"/></g>
+<path d="M0 408C240 348 360 475 640 425S1050 322 1500 382" fill="none" stroke="#2A9D8F" stroke-opacity=".6" stroke-width="3"/>
+<rect x="92" y="86" width="7" height="325" rx="3" fill="url(#gold)"/>
 <g font-family="Inter,Segoe UI,Arial,sans-serif">
- <text x="132" y="132" fill="#F59E0B" font-size="19" font-weight="700" letter-spacing="5">PROJECT IDENTITY / RM BARROS DEV</text>
- <text x="126" y="230" fill="#F8FAFC" font-size="57" font-weight="800" letter-spacing="-2">Instituto Nova Esperança</text>
- <text x="132" y="284" fill="#F59E0B" font-size="22" font-weight="700" letter-spacing="3">MULTILINGUAL INSTITUTIONAL PLATFORM</text>
- <text x="132" y="338" fill="#CBD5E1" font-size="20">Plataforma institucional multilíngue com páginas localizadas, PWA, acessibilidade e documentação visual.</text>
- <text x="132" y="412" fill="#94A3B8" font-size="16" letter-spacing="3">GITHUB.COM/RMBARROS-DEV</text>
+ <text x="132" y="132" fill="#D4AF37" font-size="19" font-weight="700" letter-spacing="5">PLATAFORMA INSTITUCIONAL • WEB &amp; PWA</text>
+ <text x="126" y="222" fill="#FFFFFF" font-size="66" font-weight="800" letter-spacing="-2">Instituto Nova Esperança</text>
+ <text x="132" y="278" fill="#BFE8D9" font-size="22" font-weight="700" letter-spacing="3">INFORMAÇÃO • COMUNIDADE • TRANSPARÊNCIA</text>
+ <text x="132" y="334" fill="#E2E8F0" font-size="20">Experiência multilíngue, acessibilidade e conteúdo organizado.</text>
+ <text x="132" y="412" fill="#D4AF37" font-size="16" letter-spacing="3">IDENTIDADE VISUAL DO PROJETO</text>
 </g>
-<g transform="translate(1070 130)"><rect width="240" height="240" rx="54" fill="#101F46" fill-opacity=".8" stroke="url(#a)" stroke-width="5"/><text x="120" y="148" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Arial,sans-serif" font-size="65" font-weight="800">INE</text><path d="M72 180h96" stroke="#F59E0B" stroke-width="7" stroke-linecap="round"/></g>
+<g transform="translate(1070 130)"><rect width="240" height="240" rx="54" fill="#0F2439" stroke="url(#gold)" stroke-width="4"/><path d="M120 35 190 68v50c0 43-30 68-70 87-40-19-70-44-70-87V68z" fill="#075E54" stroke="#D4AF37" stroke-width="3"/><path d="M82 116h76M120 77v78" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/><path d="m94 137 20 17 36-42" fill="none" stroke="#D4AF37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
 </svg>
