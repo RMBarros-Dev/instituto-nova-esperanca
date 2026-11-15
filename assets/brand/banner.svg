@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+<title id="title">Instituto Nova Esperança — Multilingual institutional platform</title><desc id="desc">Plataforma institucional multilíngue com páginas localizadas, PWA, acessibilidade e documentação visual.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101F46"/><stop offset="1" stop-color="#080D18"/></linearGradient>
+ <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#2563EB" stop-opacity=".3"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1500" height="500" rx="30" fill="url(#bg)"/><rect width="1500" height="500" rx="30" fill="url(#grid)"/>
+<circle cx="1170" cy="230" r="370" fill="url(#glow)"/>
+<g fill="none" stroke="url(#a)" opacity=".4"><circle cx="1190" cy="250" r="195" stroke-width="2"/><circle cx="1190" cy="250" r="250" stroke-width="1.5" stroke-dasharray="5 12"/><circle cx="1190" cy="250" r="315" stroke-width="1"/></g>
+<path d="M0 405C250 340 370 495 620 422S1010 300 1500 390" fill="none" stroke="url(#a)" stroke-opacity=".4" stroke-width="3"/>
+<rect x="92" y="86" width="7" height="325" rx="3" fill="url(#a)"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="132" y="132" fill="#F59E0B" font-size="19" font-weight="700" letter-spacing="5">PROJECT IDENTITY / RM BARROS DEV</text>
+ <text x="126" y="230" fill="#F8FAFC" font-size="57" font-weight="800" letter-spacing="-2">Instituto Nova Esperança</text>
+ <text x="132" y="284" fill="#F59E0B" font-size="22" font-weight="700" letter-spacing="3">MULTILINGUAL INSTITUTIONAL PLATFORM</text>
+ <text x="132" y="338" fill="#CBD5E1" font-size="20">Plataforma institucional multilíngue com páginas localizadas, PWA, acessibilidade e documentação visual.</text>
+ <text x="132" y="412" fill="#94A3B8" font-size="16" letter-spacing="3">GITHUB.COM/RMBARROS-DEV</text>
+</g>
+<g transform="translate(1070 130)"><rect width="240" height="240" rx="54" fill="#101F46" fill-opacity=".8" stroke="url(#a)" stroke-width="5"/><text x="120" y="148" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Arial,sans-serif" font-size="65" font-weight="800">INE</text><path d="M72 180h96" stroke="#F59E0B" stroke-width="7" stroke-linecap="round"/></g>
+</svg>
