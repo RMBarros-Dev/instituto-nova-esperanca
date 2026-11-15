@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="t d">
+<title id="t">Instituto Nova Esperança — símbolo</title><desc id="d">Símbolo geométrico da identidade visual Instituto Nova Esperança.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#F59E0B"/></linearGradient></defs>
+<rect x="6" y="6" width="148" height="148" rx="36" fill="#101F46" stroke="url(#g)" stroke-width="5"/>
+<path d="M25 104 80 29l55 75-55 27z" fill="url(#g)" opacity=".22"/>
+<text x="80" y="95" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="37" font-weight="800" text-anchor="middle" letter-spacing="-2">INE</text>
+<path d="M48 119h64" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+</svg>
