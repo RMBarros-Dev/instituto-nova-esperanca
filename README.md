@@ -1,11 +1,13 @@
 <div align="center">
 
 <p align="center">
-  <img src="assets/brand/project-mark.svg" alt="INSTITUTO — identidade visual do projeto" width="100%" />
+  <img src="assets/brand/banner.svg" alt="Identidade visual do projeto" width="100%" />
 </p>
 
 
 <img src="docs/screenshots/emblema-oficial.jpg" alt="Emblema do Instituto Nova Esperança" width="120" />
+
+<p align="center"><img src="assets/brand/logo.svg" alt="Instituto Nova Esperança logo" width="76" /></p>
 
 # Instituto Nova Esperança
 
