@@ -199,6 +199,7 @@ O servidor é iniciado por `scripts/dev_server.js`. Consulte a saída do termina
 
 - [Design System](docs/design-system.md) — tokens, princípios, tipografia e organização visual.
 - [Identidade visual](docs/brand/README.md) — logotipo, banner e paleta do repositório.
+- [Organização dos arquivos](docs/project-structure.md) — responsabilidades dos diretórios e convenções.
 - [Capturas de tela](docs/screenshots/) — referências visuais disponíveis.
 - [Prompts de produção visual](docs/nano-banana-prompts.md) — material de referência do projeto.
 - [Manifesto PWA](manifest.webmanifest) — metadados de instalação da aplicação.
