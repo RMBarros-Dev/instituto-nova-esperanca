@@ -1,29 +1,25 @@
-# Identidade visual — Instituto Nova Esperança
+# Diretrizes de identidade visual — Instituto Nova Esperança
 
-## Direção visual
+## Conceito
 
-A identidade do projeto foi alinhada ao design system existente no repositório, que define uma linguagem institucional baseada em verde, azul noturno e dourado discreto. Este guia organiza os ativos usados no README e nas apresentações do projeto; não substitui o design system completo da aplicação.
+Identidade humanitária, inclusiva e acolhedora, construída em torno de pessoas, comunidade e apoio mútuo. O símbolo representa a união de diferentes pessoas em uma mesma iniciativa.
 
-## Paleta de referência
+## Paleta da identidade de apresentação
 
-| Token | HEX | Função |
+| Token | HEX | Aplicação |
 | --- | --- | --- |
-| Verde institucional | `#075E54` | Cor primária e identificação |
-| Azul noturno | `#0F2439` | Fundo, contraste e governança |
-| Verde água | `#2A9D8F` | Destaques e elementos secundários |
-| Dourado | `#D4AF37` | Acentos e detalhes |
-| Fundo claro | `#F8FAFC` | Superfícies claras |
-| Texto | `#1E293B` | Texto principal |
+| Azul institucional | `#1765A6` | Estrutura e confiança |
+| Verde comunitário | `#53B94C` | Crescimento, apoio e esperança |
+| Branco frio | `#F4F8FC` | Fundo e clareza |
+| Azul profundo | `#123A62` | Texto e contraste |
+| Azul claro | `#E4EFF8` | Superfícies secundárias |
 
-## Ativos
+## Ativos oficiais
 
-- `assets/brand/logo.svg`: símbolo vetorial da identidade.
-- `assets/brand/banner.svg`: banner horizontal para o README.
-- `assets/brand/project-mark.svg`: marca anterior mantida para compatibilidade.
+- `assets/brand/logo.svg`: emblema vetorial de comunidade e acolhimento.
+- `assets/brand/banner.svg`: banner horizontal institucional para README e apresentações.
+- `assets/brand/project-mark.svg`: marca anterior preservada para compatibilidade.
 
-## Regras de aplicação
+## Aplicação
 
-1. Preservar as proporções e a área de respiro do símbolo.
-2. Manter contraste entre texto e fundo.
-3. Não substituir os tokens da aplicação por esta paleta de banner; consulte `docs/design-system.md` para os tokens completos e suas aplicações.
-4. Não utilizar nomes, certificações ou sinais de aprovação institucional sem autorização documentada.
+Preservar proporções, contraste e área de respiro. Esta paleta orienta a identidade visual externa do repositório; não substitui os tokens de interface definidos em `docs/design-system.md`.
