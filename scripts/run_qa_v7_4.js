@@ -41,7 +41,8 @@ for (const step of steps) {
     const output = execFileSync(process.execPath, [step.script], {
       cwd: ROOT_DIR,
       encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'pipe']
+      stdio: ['ignore', 'pipe', 'pipe'],
+      maxBuffer: 10 * 1024 * 1024
     });
     passedSuites++;
     console.log('PASS');
