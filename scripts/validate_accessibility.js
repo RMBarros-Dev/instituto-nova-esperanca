@@ -14,7 +14,7 @@ function check(msg, condition, detail = '') {
 }
 
 console.log('\n========================================');
-console.log('   QA: VALIDAÇÃO DE ACESSIBILIDADE WCAG');
+console.log('   QA: VERIFICAÇÕES HEURÍSTICAS DE ACESSIBILIDADE');
 console.log('========================================');
 
 const langs = ['pt-BR', 'en-US', 'es-ES', 'fr-FR', 'de-DE', 'ja-JP'];
@@ -59,11 +59,11 @@ langs.forEach(lang => {
   });
 });
 
-console.log(`\nTotal de checagens de acessibilidade WCAG: ${totalChecked}`);
+console.log(`\nTotal de verificações heurísticas: ${totalChecked}`);
 console.log(`Erros de acessibilidade encontrados: ${errors}`);
 
 if (errors === 0) {
-  console.log('✓ 100% DAS PÁGINAS EM CONFORMIDADE COM ACESSIBILIDADE WCAG (PASS)\n');
+  console.log('✓ Verificações heurísticas aprovadas; isto não certifica conformidade WCAG (PASS)\n');
   process.exit(0);
 } else {
   console.error('❌ FALHA: Problemas de acessibilidade detectados.\n');
