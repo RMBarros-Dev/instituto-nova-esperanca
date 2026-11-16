@@ -224,4 +224,4 @@ Review generated files before committing. Keep locale content aligned, test navi
 
 ## 18 · License and Attribution
 
-See [LICENSE.txt](LICENSE.txt) for the repository license. Third-party trademarks, names, documents, photographs and materials remain subject to their respective rights and permissions.
+No license file was found in the current repository tree. Do not assume that the code or materials are distributed under MIT or another open-source license; reuse requires permission from the rights holder. Third-party trademarks, names, documents, photographs and materials remain subject to their respective rights and permissions.
