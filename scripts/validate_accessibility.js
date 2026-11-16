@@ -21,9 +21,11 @@ const langs = ['pt-BR', 'en-US', 'es-ES', 'fr-FR', 'de-DE', 'ja-JP'];
 
 langs.forEach(lang => {
   const langDir = path.join(ROOT_DIR, lang);
+  check(`Diretório de idioma presente [${lang}]`, fs.existsSync(langDir));
   if (!fs.existsSync(langDir)) return;
 
   const files = fs.readdirSync(langDir).filter(f => f.endsWith('.html'));
+  check(`Páginas HTML encontradas [${lang}]`, files.length > 0);
   files.forEach(f => {
     const filePath = path.join(langDir, f);
     const content = fs.readFileSync(filePath, 'utf8');
