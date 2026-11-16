@@ -1,101 +1,80 @@
 /**
- * INSTITUTO NOVA ESPERANÇA — QA GATE ORCHESTRATOR V7.4
- * Executa todas as 8 suítes de validação automatizada e emite o relatório oficial V7.4 QUALITY GATE
+ * INSTITUTO NOVA ESPERANÇA — QA GATE
+ * Executa validadores reais e informa somente resultados observados nesta execução.
+ * Os checks heurísticos não substituem uma auditoria completa de conformidade WCAG.
  */
-
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
 const ROOT_DIR = path.resolve(__dirname, '..');
-
-console.log('================================================================');
-console.log('    INSTITUTO NOVA ESPERANÇA — V7.4 QUALITY GATE PIPELINE');
-console.log('================================================================\n');
-
-let allPassed = true;
-
 const steps = [
   { name: 'Rotas & Páginas', script: 'scripts/validate_routes.js' },
   { name: 'Imagens & Mídias Resilientes', script: 'scripts/validate_images.js' },
   { name: 'Links Internos', script: 'scripts/validate_links.js' },
   { name: 'Semântica HTML & IDs', script: 'scripts/validate_html.js' },
-  { name: 'Internacionalização & Zero Resíduo', script: 'scripts/validate_content.js' },
+  { name: 'Internacionalização & Conteúdo', script: 'scripts/validate_content.js' },
   { name: 'Metadados & SEO', script: 'scripts/validate_seo.js' },
-  { name: 'Acessibilidade WCAG 2.2 AAA', script: 'scripts/validate_accessibility.js' }
+  { name: 'Verificações heurísticas de acessibilidade', script: 'scripts/validate_accessibility.js' }
 ];
 
-steps.forEach((step, idx) => {
-  process.stdout.write(`[${idx + 1}/${steps.length}] Validando ${step.name}... `);
-  try {
-    execSync(`node ${step.script}`, { cwd: ROOT_DIR, stdio: 'pipe' });
-    console.log('✓ PASS');
-  } catch (err) {
-    allPassed = false;
-    console.log('❌ FAIL');
-    if (err.stdout) console.log(err.stdout.toString());
-    if (err.stderr) console.error(err.stderr.toString());
+function collectJavaScriptFiles(directory, files = []) {
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (entry.name === 'node_modules' || entry.name === '.git') continue;
+    const fullPath = path.join(directory, entry.name);
+    if (entry.isDirectory()) collectJavaScriptFiles(fullPath, files);
+    else if (entry.isFile() && entry.name.endsWith('.js')) files.push(fullPath);
   }
-});
-
-// Validação sintática adicional de todos os arquivos JS
-process.stdout.write('[+ / +] Verificação de sintaxe JS (node -c)... ');
-const jsFiles = [
-  'assets/js/navigation.js',
-  'assets/js/interactions.js',
-  'assets/js/accessibility.js',
-  'assets/js/main.js',
-  'assets/js/media.js',
-  'assets/js/i18n.js',
-  'assets/js/forms.js',
-  'assets/js/dashboard.js',
-  'assets/js/transparency.js',
-  'assets/js/blog.js',
-  'assets/js/certificate.js',
-  'assets/js/donations.js',
-  'assets/js/map.js',
-  'assets/js/open-data.js',
-  'service-worker.js'
-];
-
-let jsErrors = 0;
-jsFiles.forEach(f => {
-  try {
-    execSync(`node -c "${path.join(ROOT_DIR, f)}"`, { cwd: ROOT_DIR, stdio: 'pipe' });
-  } catch (e) {
-    jsErrors++;
-  }
-});
-
-if (jsErrors === 0) {
-  console.log('✓ PASS');
-} else {
-  allPassed = false;
-  console.log(`❌ FAIL (${jsErrors} erros de sintaxe)`);
+  return files;
 }
 
-console.log('\n----------------------------------------------------------------');
-console.log('V7.4 QUALITY GATE\n');
-console.log('Pages                  72/72 ✓');
-console.log('Languages               6/6 ✓');
-console.log('Translations           100% ✓');
-console.log('Broken links              0 ✓');
-console.log('Broken images             0 ✓');
-console.log('Duplicate IDs             0 ✓');
-console.log('Missing ALT               0 ✓');
-console.log('Missing ARIA              0 ✓');
-console.log('SEO errors                0 ✓');
-console.log('JS critical errors        0 ✓');
-console.log('PWA errors                0 ✓');
-console.log('Portuguese residue        0 ✓');
-console.log('Content gaps              0 ✓\n');
+console.log('==============================================================');
+console.log('INSTITUTO NOVA ESPERANÇA — QA GATE');
+console.log('==============================================================');
 
-if (allPassed && jsErrors === 0) {
-  console.log('BUILD STATUS: PASS');
-  console.log('----------------------------------------------------------------\n');
-  process.exit(0);
-} else {
-  console.log('BUILD STATUS: FAIL');
-  console.log('----------------------------------------------------------------\n');
-  process.exit(1);
+let passedSuites = 0;
+let failedSuites = 0;
+
+for (const step of steps) {
+  process.stdout.write(`[QA] ${step.name}: `);
+  try {
+    const output = execFileSync(process.execPath, [step.script], {
+      cwd: ROOT_DIR,
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'pipe'],
+      maxBuffer: 10 * 1024 * 1024
+    });
+    passedSuites++;
+    console.log('PASS');
+    if (output.trim()) console.log(output.trim());
+  } catch (error) {
+    failedSuites++;
+    console.error('FAIL');
+    if (error.stdout) console.error(error.stdout.toString());
+    if (error.stderr) console.error(error.stderr.toString());
+  }
 }
+
+const jsFiles = collectJavaScriptFiles(ROOT_DIR);
+let syntaxErrors = 0;
+for (const file of jsFiles) {
+  try {
+    execFileSync(process.execPath, ['--check', file], { cwd: ROOT_DIR, stdio: 'pipe' });
+  } catch (error) {
+    syntaxErrors++;
+    console.error(`[JS SYNTAX] ${path.relative(ROOT_DIR, file)}`);
+    if (error.stderr) console.error(error.stderr.toString());
+  }
+}
+
+console.log('');
+console.log('-------------------- EXECUTION SUMMARY --------------------');
+console.log(`Validator suites passed: ${passedSuites}/${steps.length}`);
+console.log(`Validator suites failed: ${failedSuites}`);
+console.log(`JavaScript files checked: ${jsFiles.length}`);
+console.log(`JavaScript syntax errors: ${syntaxErrors}`);
+console.log('Accessibility checks are heuristic and do not certify WCAG conformance.');
+
+const success = failedSuites === 0 && syntaxErrors === 0 && jsFiles.length > 0;
+console.log(`BUILD STATUS: ${success ? 'PASS' : 'FAIL'}`);
+process.exit(success ? 0 : 1);
