@@ -1,0 +1,34 @@
+name: "Relato de problema"
+description: "Registro um comportamento inesperado para investigação."
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Não incluo segredos, dados pessoais ou informações institucionais privadas."
+  - type: textarea
+    id: observed
+    attributes:
+      label: "O que observei?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "O que eu esperava?"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Como reproduzo o problema?"
+    validations:
+      required: true
+  - type: input
+    id: locale
+    attributes:
+      label: "Idioma ou localidade afetada"
+  - type: input
+    id: environment
+    attributes:
+      label: "Navegador, dispositivo e versão"
