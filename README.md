@@ -256,4 +256,4 @@ O conteúdo institucional, relatórios, documentos, indicadores e referências d
 
 ## 16. Licença e autoria
 
-Consulte [LICENSE.txt](LICENSE.txt) para os termos de licença deste repositório. Marcas, nomes, documentos, fotografias e materiais de terceiros permanecem sujeitos aos respectivos direitos e autorizações.
+Não foi identificado um arquivo de licença na árvore atual do repositório. Portanto, não presuma que o código ou os materiais estejam sob MIT ou outra licença aberta; a reutilização depende de autorização do titular dos direitos. Marcas, nomes, documentos, fotografias e materiais de terceiros permanecem sujeitos aos respectivos direitos e autorizações.
