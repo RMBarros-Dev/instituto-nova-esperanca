@@ -1,3 +1,5 @@
+<p align="right"><strong>Idioma:</strong> <a href="README.md">Português (Brasil)</a> · <a href="README.en.md">English</a></p>
+
 <div align="center">
   <img src="assets/brand/banner.svg" alt="Instituto Nova Esperança — Plataforma institucional multilíngue" width="100%" />
   <br/>
