@@ -18,6 +18,27 @@
   </p>
 </div>
 
+## Contents
+
+- [01 · Overview](#01--overview)
+- [02 · Purpose and Application Context](#02--prposeandapplicationcontext)
+- [03 · Objectives](#03--objectives)
+- [04 · Functional Areas](#04--nctionalareas)
+- [05 · Technology Stack](#05--technologystack)
+- [06 · Architecture](#06--architectre)
+- [07 · Localization and Languages](#07--localizationandlangages)
+- [08 · Accessibility](#08--accessibility)
+- [09 · Progressive Web App](#09--progressivewebapp)
+- [10 · Requirements](#10--reqirements)
+- [11 · Installation and Local Execution](#11--installationandlocalexection)
+- [12 · Development Methodology](#12--developmentmethodology)
+- [13 · Build and Quality Validation](#13--bildandqalityvalidation)
+- [14 · Repository Structure](#14--repositorystrctre)
+- [15 · Accessibility, Internationalization and Limitations](#15--accessibilityinternationalizationandlimitations)
+- [16 · Documentation and Engineering Principles](#16--docmentationandengineeringprinciples)
+- [17 · Maintenance and Contribution](#17--maintenanceandcontribtion)
+- [18 · License and Attribution](#18--licenseandattribtion)
+
 ## 01 · Overview
 
 This repository contains a multilingual institutional website with localized page directories, JSON content, Progressive Web App resources and custom scripts for development, build and validation. The declared package version is 7.4.0.
