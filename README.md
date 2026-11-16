@@ -16,7 +16,8 @@
 
 
 <p align="center">
-  [![CI](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml) [![CodeQL](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml)
+  <a href="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml"><img src="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status" /></a>
+  <a href="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml"><img src="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml/badge.svg?branch=main" alt="CodeQL status" /></a>
 </p>
 
 ---
