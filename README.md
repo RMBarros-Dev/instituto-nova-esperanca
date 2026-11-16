@@ -14,6 +14,11 @@
   </p>
 </div>
 
+
+<p align="center">
+  [![CI](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml) [![CodeQL](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml)
+</p>
+
 ---
 
 ## 01. Identificação e resumo
