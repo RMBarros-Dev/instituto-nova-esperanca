@@ -1,4 +1,4 @@
-<p align="right"><strong>Idioma:</strong> <a href="README.md">Português (Brasil)</a> · <a href="README.en.md">English</a></p>
+<p align="right"><strong>Language:</strong> <a href="README.md">Português (Brasil)</a> · <a href="README.en.md">English</a></p>
 
 <div align="center">
   <img src="assets/brand/banner.svg" alt="Instituto Nova Esperança multilingual platform" width="100%" />
@@ -20,36 +20,35 @@
 
 ## Contents
 
-- [01 · Overview](#01--overview)
-- [02 · Purpose and Application Context](#02--purpose-and-application-context)
-- [03 · Objectives](#03--objectives)
-- [04 · Functional Areas](#04--functional-areas)
-- [05 · Technology Stack](#05--technology-stack)
-- [06 · Architecture](#06--architecture)
-- [07 · Localization and Languages](#07--localization-and-languages)
-- [08 · Accessibility](#08--accessibility)
-- [09 · Progressive Web App](#09--progressive-web-app)
-- [10 · Requirements](#10--requirements)
-- [11 · Installation and Local Execution](#11--installation-and-local-execution)
-- [12 · Development Methodology](#12--development-methodology)
-- [13 · Build and Quality Validation](#13--build-and-quality-validation)
-- [14 · Repository Structure](#14--repository-structure)
-- [15 · Accessibility, Internationalization and Limitations](#15--accessibility-internationalization-and-limitations)
-- [16 · Documentation and Engineering Principles](#16--documentation-and-engineering-principles)
-- [17 · Maintenance and Contribution](#17--maintenance-and-contribution)
-- [18 · License and Attribution](#18--license-and-attribution)
+- [01 · Context and project positioning](#01--context-and-project-positioning)
+- [02 · Live demonstration and visual references](#02--live-demonstration-and-visual-references)
+- [03 · Features and implementation status](#03--features-and-implementation-status)
+- [04 · System architecture](#04--system-architecture)
+- [05 · Technology stack](#05--technology-stack)
+- [06 · Directory structure](#06--directory-structure)
+- [07 · Prerequisites and installation](#07--prerequisites-and-installation)
+- [08 · Environment and data configuration](#08--environment-and-data-configuration)
+- [09 · User guide](#09--user-guide)
+- [10 · Testing and quality](#10--testing-and-quality)
+- [11 · Internationalization and localization](#11--internationalization-and-localization)
+- [12 · Deployment and infrastructure](#12--deployment-and-infrastructure)
+- [13 · Security and limitations](#13--security-and-limitations)
+- [14 · Additional documentation](#14--additional-documentation)
+- [15 · Contribution, license and credits](#15--contribution-license-and-credits)
 
-## 01 · Overview
+## 01 · Context and project positioning
+
+### Overview
 
 This repository contains a multilingual institutional website with localized page directories, JSON content, Progressive Web App resources and custom scripts for development, build and validation. The declared package version is 7.4.0.
 
-## 02 · Purpose and Application Context
+### Purpose and Application Context
 
 The project is designed to organize and present institutional content on the Web. Its structure includes information about the institution, projects, impact, transparency, communication, volunteering and contact, with navigation across locales.
 
 The repository structure documents the technical implementation. It does not independently validate institutional claims, partnerships, impact metrics or third-party content.
 
-## 03 · Objectives
+### Objectives
 
 - Organize pages and content by locale.
 - Keep structured content in JSON files.
@@ -57,7 +56,15 @@ The repository structure documents the technical implementation. It does not ind
 - Maintain a consistent visual identity and interface components.
 - Provide build, compilation and automated validation scripts.
 
-## 04 · Functional Areas
+## 02 · Live demonstration and visual references
+
+The repository documents visual references in [`docs/screenshots/`](docs/screenshots/). Local execution can be reproduced using the instructions; this documentation does not identify a public demo URL.
+
+## 03 · Features and implementation status
+
+The status presented here reflects the scope described in the README and the material referenced by the repository. It is not, by itself, operational sign-off or independent validation.
+
+### Functional Areas
 
 | Area | Evidence in repository |
 |---|---|
@@ -72,22 +79,17 @@ The repository structure documents the technical implementation. It does not ind
 
 Directory presence demonstrates code organization, not independent validation of the content.
 
-## 05 · Technology Stack
+### Accessibility
 
-| Layer | Technologies |
-|---|---|
-| Markup | HTML5 |
-| Styling | Modular CSS3 |
-| Behavior | JavaScript |
-| Structured content | JSON |
-| Development tools | Node.js |
-| Web capabilities | PWA, Web App Manifest and Service Worker |
-| Internationalization | Locale-specific JSON and localized pages |
-| Quality | Custom route, image, link, HTML, content, SEO, accessibility and i18n checks |
+The project includes dedicated styles and scripts for interface preferences such as contrast, font size and reading support. Automated checks are useful indicators but do not establish WCAG conformance or replace assistive-technology testing and manual review.
 
-Dependencies and scripts are defined in `package.json` and `package-lock.json`.
+### Progressive Web App
 
-## 06 · Architecture
+The repository includes a Web App Manifest, installation icons and a Service Worker. These files provide the basis for PWA behavior; installation, caching and update behavior should be verified in supported browsers and devices.
+
+## 04 · System architecture
+
+### Architecture
 
 The application is a static multi-page website with localized content and shared assets.
 
@@ -107,75 +109,26 @@ flowchart TD
 
 The reviewed structure does not indicate a business backend or connected relational database. Any external integrations shown by pages must be assessed individually.
 
-## 07 · Localization and Languages
+## 05 · Technology stack
 
-The repository includes locale-specific pages and content resources. Identified page directories include Brazilian Portuguese, US English, Spanish, French, German and Japanese. Review the actual locale files before treating translations as complete.
+### Technology Stack
 
-## 08 · Accessibility
-
-The project includes dedicated styles and scripts for interface preferences such as contrast, font size and reading support. Automated checks are useful indicators but do not establish WCAG conformance or replace assistive-technology testing and manual review.
-
-## 09 · Progressive Web App
-
-The repository includes a Web App Manifest, installation icons and a Service Worker. These files provide the basis for PWA behavior; installation, caching and update behavior should be verified in supported browsers and devices.
-
-## 10 · Requirements
-
-- Node.js installed.
-- npm available on PATH.
-- Git for cloning and version control.
-- A modern browser for local validation.
-
-The exact Node.js version is not declared in `package.json`; inspect dependencies and scripts if compatibility issues occur.
-
-## 11 · Installation and Local Execution
-
-```bash
-git clone https://github.com/RMBarros-Dev/instituto-nova-esperanca.git
-cd instituto-nova-esperanca
-npm ci
-npm run dev
-```
-
-The local server is started by `scripts/dev_server.js`. Check the terminal output for the local address.
-
-## 12 · Development Methodology
-
-The workflow is organized around localized content and custom scripts:
-
-1. Structure pages and content by locale.
-2. Separate data, styles, scripts and visual assets.
-3. Generate or compile required pages and assets.
-4. Run automated validations.
-5. Review pages visually and fix identified issues.
-6. Inspect generated changes with Git before committing.
-
-The build command may modify repository files. Always review generated output before versioning it.
-
-## 13 · Build and Quality Validation
-
-Commands defined in `package.json` include:
-
-| Command | Purpose |
+| Layer | Technologies |
 |---|---|
-| `npm run qa` | Run the project's validation orchestrator. |
-| `npm test` | Run the same QA orchestrator. |
-| `npm run test:i18n` | Validate internationalization resources. |
-| `npm run audit:project` | Audit project organization. |
-| `npm run build` | Generate assets, compile locales and build pages. |
-| `npm run build:pages` | Build localized pages. |
+| Markup | HTML5 |
+| Styling | Modular CSS3 |
+| Behavior | JavaScript |
+| Structured content | JSON |
+| Development tools | Node.js |
+| Web capabilities | PWA, Web App Manifest and Service Worker |
+| Internationalization | Locale-specific JSON and localized pages |
+| Quality | Custom route, image, link, HTML, content, SEO, accessibility and i18n checks |
 
-Run locally:
+Dependencies and scripts are defined in `package.json` and `package-lock.json`.
 
-```bash
-npm run qa
-npm run test:i18n
-npm run audit:project
-```
+## 06 · Directory structure
 
-Current results must be obtained by running the commands. Documentation does not claim QA approval without actual execution and review.
-
-## 14 · Repository Structure
+### Repository Structure
 
 ```text
 assets/
@@ -200,13 +153,82 @@ README.md
 
 This is a high-level view; the repository contains additional files and specialized resources.
 
-## 15 · Accessibility, Internationalization and Limitations
+## 07 · Prerequisites and installation
+
+### Requirements
+
+- Node.js installed.
+- npm available on PATH.
+- Git for cloning and version control.
+- A modern browser for local validation.
+
+The exact Node.js version is not declared in `package.json`; inspect dependencies and scripts if compatibility issues occur.
+
+### Installation and Local Execution
+
+```bash
+git clone https://github.com/RMBarros-Dev/instituto-nova-esperanca.git
+cd instituto-nova-esperanca
+npm ci
+npm run dev
+```
+
+The local server is started by `scripts/dev_server.js`. Check the terminal output for the local address.
+
+## 08 · Environment and data configuration
+
+The current README does not describe an `.env` file or application-specific environment variables. Do not store secrets in version control.
+
+## 09 · User guide
+
+Refer to the installation and execution commands. This guide does not assume workflows beyond those described in the repository.
+
+## 10 · Testing and quality
+
+### Build and Quality Validation
+
+Commands defined in `package.json` include:
+
+| Command | Purpose |
+|---|---|
+| `npm run qa` | Run the project's validation orchestrator. |
+| `npm test` | Run the same QA orchestrator. |
+| `npm run test:i18n` | Validate internationalization resources. |
+| `npm run audit:project` | Audit project organization. |
+| `npm run build` | Generate assets, compile locales and build pages. |
+| `npm run build:pages` | Build localized pages. |
+
+Run locally:
+
+```bash
+npm run qa
+npm run test:i18n
+npm run audit:project
+```
+
+Current results must be obtained by running the commands. Documentation does not claim QA approval without actual execution and review.
+
+## 11 · Internationalization and localization
+
+### Localization and Languages
+
+The repository includes locale-specific pages and content resources. Identified page directories include Brazilian Portuguese, US English, Spanish, French, German and Japanese. Review the actual locale files before treating translations as complete.
+
+## 12 · Deployment and infrastructure
+
+The current documentation does not identify a production provider or published environment. Deployment must be defined and validated before availability is claimed.
+
+## 13 · Security and limitations
+
+### Accessibility, Internationalization and Limitations
 
 The project contains locale resources and accessibility-oriented functionality. Automated scripts do not equal WCAG certification, and the existence of translation files does not prove that every translation has been linguistically reviewed.
 
 Institutional content, reports, documents, indicators and third-party references require source verification, authorization and freshness checks before being treated as official information.
 
-## 16 · Documentation and Engineering Principles
+## 14 · Additional documentation
+
+### Documentation and Engineering Principles
 
 - [Design System](docs/design-system.md) — tokens, principles, typography and visual organization.
 - [Brand guide](docs/brand/README.md) — logo, banner and project palette.
@@ -218,10 +240,27 @@ Institutional content, reports, documents, indicators and third-party references
 
 The project emphasizes modular organization, separation of content and presentation, accessibility, responsive design, consistent locale codes, reproducible checks and documentation aligned with the code.
 
-## 17 · Maintenance and Contribution
+## 15 · Contribution, license and credits
+
+When proposing changes, describe the goal, affected files and validation performed. Prefer small, reviewable changes; include tests when behavior changes and never submit credentials, tokens or personal data.
+
+### Development Methodology
+
+The workflow is organized around localized content and custom scripts:
+
+1. Structure pages and content by locale.
+2. Separate data, styles, scripts and visual assets.
+3. Generate or compile required pages and assets.
+4. Run automated validations.
+5. Review pages visually and fix identified issues.
+6. Inspect generated changes with Git before committing.
+
+The build command may modify repository files. Always review generated output before versioning it.
+
+### Maintenance and Contribution
 
 Review generated files before committing. Keep locale content aligned, test navigation in supported browsers, and verify accessibility manually in addition to automated checks. Do not publish unverified institutional claims or third-party materials without permission.
 
-## 18 · License and Attribution
+### License and Attribution
 
 No license file was found in the current repository tree. Do not assume that the code or materials are distributed under MIT or another open-source license; reuse requires permission from the rights holder. Third-party trademarks, names, documents, photographs and materials remain subject to their respective rights and permissions.
