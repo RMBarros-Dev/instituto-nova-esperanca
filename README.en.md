@@ -4,7 +4,8 @@
   <img src="assets/brand/banner.svg" alt="Instituto Nova Esperança multilingual platform" width="100%" />
   <br/><img src="assets/brand/logo.svg" alt="Instituto Nova Esperança symbol" width="78" />
   <h1>Instituto Nova Esperança</h1>
-  <p><strong>Multilingual institutional platform · Web · PWA</strong></p>
+  <p><strong>Information that brings people together. Actions that make a difference.</strong></p>
+  <p>Multilingual institutional platform · Web · PWA</p>
   <p>
     <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5" />
     <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3" />
