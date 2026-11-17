@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
-<title id="title">INSTITUTO — NOVA ESPERANÇA</title><desc id="desc">Identidade visual do projeto instituto-nova-esperanca, com símbolo vetorial e paleta própria.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#0B1220"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#fff" stroke-opacity=".06"/></pattern></defs>
-<rect width="720" height="220" rx="22" fill="url(#bg)"/><rect width="720" height="220" rx="22" fill="url(#g)"/>
-<circle cx="112" cy="110" r="72" fill="#fff" fill-opacity=".045" stroke="#F59E0B" stroke-opacity=".3" stroke-width="2"/>
-<path d='M40 15 65 27v19c0 16-11 26-25 32C26 72 15 62 15 46V27z' fill='none' stroke='url(#a)' stroke-width='4'/><path d='M28 43h24M40 31v24' stroke='#fff' stroke-width='4' stroke-linecap='round'/><path d='m32 56 8 7 12-14' fill='none' stroke='#F59E0B' stroke-width='3' stroke-linecap='round'/>
-<path d="M220 42v136" stroke="#F59E0B" stroke-opacity=".55" stroke-width="3"/>
-<text x="258" y="105" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="750" letter-spacing="2">INSTITUTO</text>
-<text x="260" y="139" fill="#F59E0B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4">NOVA ESPERANÇA</text>
-<text x="260" y="171" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">PROJECT IDENTITY • RM BARROS DEV</text>
+<title id="title">Instituto Nova Esperança — assinatura</title><desc id="desc">Assinatura horizontal institucional com símbolo de acolhimento e comunidade.</desc>
+<rect width="720" height="220" rx="24" fill="#0D1B2A"/>
+<rect x="28" y="28" width="164" height="164" rx="36" fill="#123B3A" stroke="#2A9D8F" stroke-width="2"/>
+<path d="M55 157V102Q55 85 72 85H88Q105 85 105 102V157M115 157V102Q115 85 132 85H148Q165 85 165 102V157" fill="none" stroke="#2A9D8F" stroke-width="9" stroke-linecap="round"/>
+<circle cx="80" cy="66" r="13" fill="#D97706"/><circle cx="140" cy="66" r="13" fill="#D97706"/><path d="M80 157Q110 125 140 157" fill="none" stroke="#F8FAFC" stroke-width="9" stroke-linecap="round"/>
+<path d="M220 42V178" stroke="#2A9D8F" stroke-width="3"/>
+<text x="258" y="99" fill="#F8FAFC" font-family="Manrope,Segoe UI,Arial,sans-serif" font-size="34" font-weight="800">Instituto Nova</text>
+<text x="260" y="137" fill="#2A9D8F" font-family="Manrope,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">Esperança</text>
+<text x="260" y="171" fill="#D97706" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">PLATAFORMA INSTITUCIONAL · WEB · PWA</text>
 </svg>
