@@ -243,7 +243,19 @@ Não foi identificado um arquivo de licença na árvore atual do repositório. P
 </div>
 
 <!-- REPOSITORY_METRICS_START -->
-_As métricas de linguagens serão geradas pelo GitHub Actions após a primeira execução bem-sucedida._
+### Distribuição de linguagens (GitHub Linguist)
+
+![Distribuição de linguagens do repositório](assets/metrics/repository-languages.svg)
+
+| Linguagem | Bytes de código | Participação |
+|---|---:|---:|
+| HTML | 1,517,129 | 68.39% |
+| JavaScript | 592,742 | 26.72% |
+| CSS | 98,244 | 4.43% |
+| PowerShell | 10,111 | 0.46% |
+
+_Total de bytes de código contabilizados: 2,218,226. Atualizado em: 2026-11-18 21:13 UTC._
+
 <!-- REPOSITORY_METRICS_END -->
 
 ### Verificação técnica
