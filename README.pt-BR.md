@@ -231,3 +231,30 @@ Revise arquivos gerados antes de criar commits. Mantenha conteúdo localizado al
 ## 18 · Licença e atribuição
 
 Não foi identificado um arquivo de licença na árvore atual do repositório. Portanto, não presuma que o código ou os materiais estejam sob MIT ou outra licença aberta; a reutilização depende de autorização do titular dos direitos. Marcas, nomes, documentos, fotografias e materiais de terceiros permanecem sujeitos aos respectivos direitos e autorizações.
+
+
+## Métricas de Engenharia
+
+<div align="center">
+  <img src="https://img.shields.io/github/stars/RMBarros-Dev/instituto-nova-esperanca?style=flat-square&label=stars" alt="Estrelas no GitHub" />
+  <img src="https://img.shields.io/github/forks/RMBarros-Dev/instituto-nova-esperanca?style=flat-square&label=forks" alt="Forks no GitHub" />
+  <img src="https://img.shields.io/github/issues/RMBarros-Dev/instituto-nova-esperanca?style=flat-square&label=issues%20abertas" alt="Issues abertas" />
+  <img src="https://img.shields.io/badge/Plataforma-PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="Progressive Web App" />
+</div>
+
+<!-- REPOSITORY_METRICS_START -->
+_As métricas de linguagens serão geradas pelo GitHub Actions após a primeira execução bem-sucedida._
+<!-- REPOSITORY_METRICS_END -->
+
+### Verificação técnica
+
+| Dimensão | Evidência implementada | Limite da medição |
+|---|---|---|
+| Frontend | HTML5, CSS3 modular, JavaScript e conteúdo JSON | Website multipágina estático com diretórios de páginas localizadas. |
+| Ferramentas | Scripts Node.js, pacote npm e lockfile | Node.js é utilizado nas ferramentas de desenvolvimento/build; não se declara backend de aplicação. |
+| PWA | Web App Manifest, ícones e Service Worker | Instalação, cache e atualização em runtime exigem testes em navegadores. |
+| Localização | Páginas e recursos JSON específicos por locale | Presença de locales não comprova cobertura completa das traduções. |
+| Verificações de qualidade | Checagens próprias de rotas, imagens, links, HTML, conteúdo, SEO, acessibilidade e i18n | Heurísticas automatizadas não certificam conformidade WCAG. |
+| CI | [Workflow de CI](.github/workflows/ci.yml) | Resultado atual indicado pelo badge acima. |
+| Análise estática de segurança | [Workflow CodeQL](.github/workflows/codeql.yml) | Execução do workflow não equivale a certificação de segurança. |
+| Camada de dados | A arquitetura analisada não indica banco relacional ou backend de negócio | Integrações externas precisam ser verificadas individualmente. |
