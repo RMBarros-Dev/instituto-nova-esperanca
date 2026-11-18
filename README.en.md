@@ -1,4 +1,4 @@
-<p align="right"><strong>Idioma:</strong> <a href="README.md">Português (Brasil)</a> · <a href="README.en.md">English</a></p>
+<p align="right"><strong>Idioma:</strong> <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.md">English</a></p>
 
 <div align="center">
   <img src="assets/brand/banner.svg" alt="Instituto Nova Esperança multilingual platform" width="100%" />
