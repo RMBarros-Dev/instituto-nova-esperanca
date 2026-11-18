@@ -1,142 +1,135 @@
-<p align="right"><strong>Idioma:</strong> <a href="README.md">Português (Brasil)</a> · <a href="README.en.md">English</a></p>
+<p align="right"><strong>Idioma:</strong> <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.md">English</a></p>
 
 <div align="center">
-  <img src="assets/brand/banner.svg" alt="Instituto Nova Esperança — plataforma institucional multilíngue" width="100%" />
-  <br/><img src="assets/brand/logo.svg" alt="Símbolo do Instituto Nova Esperança" width="78" />
+  <img src="assets/brand/banner.svg" alt="Instituto Nova Esperança multilingual platform" width="100%" />
+  <br/><img src="assets/brand/logo.svg" alt="Instituto Nova Esperança symbol" width="78" />
   <h1>Instituto Nova Esperança</h1>
-  <p><strong>Informação que aproxima. Ações que transformam.</strong></p>
-  <p>Plataforma institucional multilíngue · Web · PWA</p>
+  <p><strong>Information that brings people together. Actions that make a difference.</strong></p>
+  <p>Multilingual institutional platform · Web · PWA</p>
   <p>
     <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5" />
     <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3" />
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
     <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
     <img src="https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white" alt="PWA" />
-    <img src="https://img.shields.io/badge/Vers%C3%A3o-7.4.0-075E54" alt="Versão 7.4.0" />
   </p>
   <p>
-    <a href="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml"><img src="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml/badge.svg?branch=main" alt="Status da CI" /></a>
-    <a href="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml"><img src="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml/badge.svg?branch=main" alt="Status do CodeQL" /></a>
+    <a href="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml"><img src="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI status" /></a>
+    <a href="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml"><img src="https://github.com/RMBarros-Dev/instituto-nova-esperanca/actions/workflows/codeql.yml/badge.svg?branch=main" alt="CodeQL status" /></a>
   </p>
 </div>
 
-## Índice
+## Contents
 
-- [01 · Identificação e resumo](#01--identificação-e-resumo)
-- [02 · Contexto e objetivos](#02--contexto-e-objetivos)
-- [03 · Áreas funcionais](#03--áreas-funcionais)
-- [04 · Funcionalidades e conteúdo](#04--funcionalidades-e-conteúdo)
-- [05 · Linguagens e tecnologias](#05--linguagens-e-tecnologias)
-- [06 · Arquitetura](#06--arquitetura)
-- [07 · Internacionalização e localização](#07--internacionalização-e-localização)
-- [08 · Acessibilidade](#08--acessibilidade)
+- [01 · Overview](#01--overview)
+- [02 · Purpose and Application Context](#02--purpose-and-application-context)
+- [03 · Objectives](#03--objectives)
+- [04 · Functional Areas](#04--functional-areas)
+- [05 · Technology Stack](#05--technology-stack)
+- [06 · Architecture](#06--architecture)
+- [07 · Localization and Languages](#07--localization-and-languages)
+- [08 · Accessibility](#08--accessibility)
 - [09 · Progressive Web App](#09--progressive-web-app)
-- [10 · Requisitos](#10--requisitos)
-- [11 · Instalação e execução](#11--instalação-e-execução)
-- [12 · Metodologia de desenvolvimento](#12--metodologia-de-desenvolvimento)
-- [13 · Build e validação de qualidade](#13--build-e-validação-de-qualidade)
-- [14 · Estrutura de arquivos](#14--estrutura-de-arquivos)
-- [15 · Limitações e validação institucional](#15--limitações-e-validação-institucional)
-- [16 · Documentação e princípios](#16--documentação-e-princípios)
-- [17 · Manutenção e contribuição](#17--manutenção-e-contribuição)
-- [18 · Licença e atribuição](#18--licença-e-atribuição)
+- [10 · Requirements](#10--requirements)
+- [11 · Installation and Local Execution](#11--installation-and-local-execution)
+- [12 · Development Methodology](#12--development-methodology)
+- [13 · Build and Quality Validation](#13--build-and-quality-validation)
+- [14 · Repository Structure](#14--repository-structure)
+- [15 · Accessibility, Internationalization and Limitations](#15--accessibility-internationalization-and-limitations)
+- [16 · Documentation and Engineering Principles](#16--documentation-and-engineering-principles)
+- [17 · Maintenance and Contribution](#17--maintenance-and-contribution)
+- [18 · License and Attribution](#18--license-and-attribution)
 
-## 01 · Identificação e resumo
+## 01 · Overview
 
-Este repositório contém uma plataforma Web institucional com páginas organizadas por idioma, conteúdo em JSON, recursos de Progressive Web App (PWA) e scripts próprios para desenvolvimento, compilação e validação. A versão declarada no pacote é 7.4.0.
+This repository contains a multilingual institutional website with localized page directories, JSON content, Progressive Web App resources and custom scripts for development, build and validation. The declared package version is 7.4.0.
 
-A aplicação utiliza arquitetura de site estático multipágina. O conteúdo e os recursos de interface são distribuídos em arquivos do projeto; a estrutura documentada não indica uma aplicação backend de negócio ou banco de dados relacional associado.
+## 02 · Purpose and Application Context
 
-## 02 · Contexto e objetivos
+The project is designed to organize and present institutional content on the Web. Its structure includes information about the institution, projects, impact, transparency, communication, volunteering and contact, with navigation across locales.
 
-O projeto está direcionado à apresentação e organização de conteúdo institucional em ambiente Web. Seus objetivos técnicos incluem organizar páginas por localidade, separar conteúdo estruturado, oferecer recursos PWA, manter identidade visual consistente e automatizar verificações.
+The repository structure documents the technical implementation. It does not independently validate institutional claims, partnerships, impact metrics or third-party content.
 
-A existência de páginas e módulos não comprova, por si só, a veracidade de afirmações institucionais, parcerias, indicadores ou resultados de impacto.
+## 03 · Objectives
 
-## 03 · Áreas funcionais
+- Organize pages and content by locale.
+- Keep structured content in JSON files.
+- Provide PWA installation and runtime resources.
+- Maintain a consistent visual identity and interface components.
+- Provide build, compilation and automated validation scripts.
 
-A estrutura do repositório contempla áreas relacionadas a:
-- apresentação institucional;
-- projetos e impacto;
-- transparência;
-- comunicação, blog e imprensa;
-- doações e voluntariado;
-- acessibilidade;
-- localização e navegação por idioma;
-- instalação e funcionamento PWA.
+## 04 · Functional Areas
 
-## 04 · Funcionalidades e conteúdo
-
-| Área | Evidência na estrutura |
+| Area | Evidence in repository |
 |---|---|
-| Páginas institucionais | `index.html`, `sobre.html` e equivalentes localizados. |
-| Projetos e impacto | Páginas localizadas, dados JSON e recursos visuais. |
-| Transparência | Páginas específicas, dados JSON e scripts relacionados a dados abertos. |
-| Comunicação | Páginas de blog e imprensa, dados e imagens. |
-| Doações e voluntariado | Páginas e scripts dedicados. |
-| Acessibilidade | Estilos, ícones e script de acessibilidade. |
-| Localização | Páginas e dados organizados por idioma. |
-| PWA | Manifesto, ícones e Service Worker. |
+| Institutional pages | `index.html`, `sobre.html` and localized equivalents. |
+| Projects and impact | Localized pages, JSON data and visual assets. |
+| Transparency | Dedicated pages, JSON data and open-data scripts. |
+| Communication | Blog and press pages, data and media assets. |
+| Donations and volunteering | Dedicated pages and scripts. |
+| Accessibility | Styles, icons and accessibility scripts. |
+| Localization | Locale-specific pages and JSON resources. |
+| PWA | Web manifest, icons and Service Worker. |
 
-A presença de diretórios e módulos comprova a organização desses recursos no código; não representa validação independente de conteúdo institucional.
+Directory presence demonstrates code organization, not independent validation of the content.
 
-## 05 · Linguagens e tecnologias
+## 05 · Technology Stack
 
-| Camada | Tecnologias identificadas |
+| Layer | Technologies |
 |---|---|
-| Marcação | HTML5 |
-| Estilos | CSS3 modular |
-| Comportamento | JavaScript |
-| Conteúdo estruturado | JSON |
-| Ferramentas de desenvolvimento | Node.js |
-| Aplicação Web | PWA, Web App Manifest e Service Worker |
-| Internacionalização | Arquivos JSON por localidade e páginas localizadas |
-| Qualidade | Scripts próprios para rotas, imagens, links, HTML, conteúdo, SEO, acessibilidade e i18n |
+| Markup | HTML5 |
+| Styling | Modular CSS3 |
+| Behavior | JavaScript |
+| Structured content | JSON |
+| Development tools | Node.js |
+| Web capabilities | PWA, Web App Manifest and Service Worker |
+| Internationalization | Locale-specific JSON and localized pages |
+| Quality | Custom route, image, link, HTML, content, SEO, accessibility and i18n checks |
 
-Dependências e comandos estão definidos em `package.json` e `package-lock.json`.
+Dependencies and scripts are defined in `package.json` and `package-lock.json`.
 
-## 06 · Arquitetura
+## 06 · Architecture
 
-A aplicação é um site estático multipágina com conteúdo localizado e recursos compartilhados.
+The application is a static multi-page website with localized content and shared assets.
 
 ```mermaid
 flowchart TD
-  Browser[Navegador] --> Page[HTML da localidade]
-  Page --> CSS[CSS modular]
-  Page --> JS[Módulos JavaScript]
-  Page --> Data[JSON de conteúdo e idioma]
-  Page --> Assets[Imagens, ícones e fontes]
+  Browser[Browser] --> Page[Localized HTML]
+  Page --> CSS[Modular CSS]
+  Page --> JS[JavaScript modules]
+  Page --> Data[JSON content and locale]
+  Page --> Assets[Images, icons and fonts]
   Browser --> SW[Service Worker / PWA]
-  Scripts[Scripts Node.js] --> Build[Build e compilação]
-  Scripts --> QA[Validações automatizadas]
+  Scripts[Node.js scripts] --> Build[Build and compilation]
+  Scripts --> QA[Automated validation]
   Build --> Page
   Build --> Assets
 ```
 
-A estrutura revisada não indica backend de negócio ou banco de dados conectado. Integrações externas apresentadas nas páginas devem ser verificadas individualmente.
+The reviewed structure does not indicate a business backend or connected relational database. Any external integrations shown by pages must be assessed individually.
 
-## 07 · Internacionalização e localização
+## 07 · Localization and Languages
 
-O repositório inclui páginas e recursos por localidade. Os diretórios identificados incluem português do Brasil, inglês dos Estados Unidos, espanhol, francês, alemão e japonês. Consulte os arquivos efetivos antes de considerar uma tradução completa.
+The repository includes locale-specific pages and content resources. Identified page directories include Brazilian Portuguese, US English, Spanish, French, German and Japanese. Review the actual locale files before treating translations as complete.
 
-## 08 · Acessibilidade
+## 08 · Accessibility
 
-O projeto inclui estilos e scripts dedicados a preferências de interface, como contraste, tamanho de fonte e suporte à leitura. Verificações automatizadas são indicadores úteis, mas não constituem certificação WCAG nem substituem testes com tecnologias assistivas e revisão manual.
+The project includes dedicated styles and scripts for interface preferences such as contrast, font size and reading support. Automated checks are useful indicators but do not establish WCAG conformance or replace assistive-technology testing and manual review.
 
 ## 09 · Progressive Web App
 
-O repositório contém Web App Manifest, ícones de instalação e Service Worker. Esses recursos formam a base da experiência PWA; instalação, cache e atualização devem ser verificados nos navegadores e dispositivos suportados.
+The repository includes a Web App Manifest, installation icons and a Service Worker. These files provide the basis for PWA behavior; installation, caching and update behavior should be verified in supported browsers and devices.
 
-## 10 · Requisitos
+## 10 · Requirements
 
-- Node.js instalado.
-- npm disponível no PATH.
-- Git para clonar e versionar o repositório.
-- Navegador moderno para validação local.
+- Node.js installed.
+- npm available on PATH.
+- Git for cloning and version control.
+- A modern browser for local validation.
 
-A versão exata do Node.js não está declarada em `package.json`; consulte as dependências e scripts se ocorrer incompatibilidade.
+The exact Node.js version is not declared in `package.json`; inspect dependencies and scripts if compatibility issues occur.
 
-## 11 · Instalação e execução
+## 11 · Installation and Local Execution
 
 ```bash
 git clone https://github.com/RMBarros-Dev/instituto-nova-esperanca.git
@@ -145,35 +138,35 @@ npm ci
 npm run dev
 ```
 
-O servidor local é iniciado por `scripts/dev_server.js`. Consulte a saída do terminal para identificar o endereço local.
+The local server is started by `scripts/dev_server.js`. Check the terminal output for the local address.
 
-## 12 · Metodologia de desenvolvimento
+## 12 · Development Methodology
 
-O fluxo é organizado em torno de conteúdo localizado e scripts próprios:
+The workflow is organized around localized content and custom scripts:
 
-1. Estruturar páginas e conteúdo por localidade.
-2. Separar dados, estilos, scripts e recursos visuais.
-3. Gerar ou compilar páginas e ativos necessários.
-4. Executar validações automatizadas.
-5. Revisar visualmente as páginas e corrigir problemas.
-6. Inspecionar alterações geradas com Git antes de criar commits.
+1. Structure pages and content by locale.
+2. Separate data, styles, scripts and visual assets.
+3. Generate or compile required pages and assets.
+4. Run automated validations.
+5. Review pages visually and fix identified issues.
+6. Inspect generated changes with Git before committing.
 
-O build pode modificar arquivos no repositório. Revise sempre o resultado antes de versioná-lo.
+The build command may modify repository files. Always review generated output before versioning it.
 
-## 13 · Build e validação de qualidade
+## 13 · Build and Quality Validation
 
-Comandos definidos em `package.json`:
+Commands defined in `package.json` include:
 
-| Comando | Finalidade |
+| Command | Purpose |
 |---|---|
-| `npm run qa` | Executa o orquestrador de validações. |
-| `npm test` | Executa o mesmo orquestrador de QA. |
-| `npm run test:i18n` | Verifica recursos de internacionalização. |
-| `npm run audit:project` | Audita a organização do projeto. |
-| `npm run build` | Gera ativos, compila localidades e constrói páginas. |
-| `npm run build:pages` | Constrói páginas localizadas. |
+| `npm run qa` | Run the project's validation orchestrator. |
+| `npm test` | Run the same QA orchestrator. |
+| `npm run test:i18n` | Validate internationalization resources. |
+| `npm run audit:project` | Audit project organization. |
+| `npm run build` | Generate assets, compile locales and build pages. |
+| `npm run build:pages` | Build localized pages. |
 
-Execute localmente:
+Run locally:
 
 ```bash
 npm run qa
@@ -181,22 +174,22 @@ npm run test:i18n
 npm run audit:project
 ```
 
-Os resultados atuais dependem da execução real dos comandos. A documentação não declara aprovação de QA sem execução e análise do resultado.
+Current results must be obtained by running the commands. Documentation does not claim QA approval without actual execution and review.
 
-## 14 · Estrutura de arquivos
+## 14 · Repository Structure
 
 ```text
 assets/
-  brand/       # identidade visual do repositório
-  css/         # tokens, base, layout e componentes
-  data/        # conteúdo JSON estruturado
-  icons/       # ícones por categoria
-  img/         # imagens, banners e ilustrações
-  js/          # módulos de interação e validação
-  locales/     # recursos localizados
-docs/          # design system, marca e orientações
-scripts/       # build, geração e validação
-lang/          # conteúdo JSON por idioma
+  brand/       # repository visual identity
+  css/         # tokens, base, layout and components
+  data/        # structured JSON content
+  icons/       # categorized icons
+  img/         # images, banners and illustrations
+  js/          # interaction and validation modules
+  locales/     # localized resources
+docs/          # design system, brand and project guidance
+scripts/       # build, generation and validation
+lang/          # JSON content by language
 pt-BR/ en-US/ es-ES/ fr-FR/ de-DE/ ja-JP/
 documents/
 index.html
@@ -206,28 +199,30 @@ package.json
 README.md
 ```
 
-A estrutura é uma visão geral; o repositório contém outros arquivos e recursos especializados.
+This is a high-level view; the repository contains additional files and specialized resources.
 
-## 15 · Limitações e validação institucional
+## 15 · Accessibility, Internationalization and Limitations
 
-A existência de scripts de validação não equivale a certificação WCAG, e a presença de arquivos de idioma não comprova revisão linguística integral. Conteúdo institucional, relatórios, documentos, indicadores e referências de terceiros exigem verificação de origem, autorização e atualização antes de serem tratados como informação oficial.
+The project contains locale resources and accessibility-oriented functionality. Automated scripts do not equal WCAG certification, and the existence of translation files does not prove that every translation has been linguistically reviewed.
 
-## 16 · Documentação e princípios
+Institutional content, reports, documents, indicators and third-party references require source verification, authorization and freshness checks before being treated as official information.
 
-- [Design System](docs/design-system.md) — tokens, princípios, tipografia e organização visual.
-- [Identidade visual](docs/brand/README.md) — logotipo, banner e paleta.
-- [Estrutura do projeto](docs/project-structure.md) — responsabilidades dos diretórios.
-- [Capturas de tela](docs/screenshots/) — referências visuais disponíveis.
-- [Prompts de produção visual](docs/nano-banana-prompts.md).
-- [Manifesto PWA](manifest.webmanifest).
-- [Scripts](scripts/) — build, geração de ativos e validação.
+## 16 · Documentation and Engineering Principles
 
-O projeto prioriza organização modular, separação de conteúdo e apresentação, acessibilidade, responsividade, códigos de localidade consistentes e verificações reproduzíveis.
+- [Design System](docs/design-system.md) — tokens, principles, typography and visual organization.
+- [Brand guide](docs/brand/README.md) — logo, banner and project palette.
+- [Project structure](docs/project-structure.md) — directory responsibilities and conventions.
+- [Screenshots](docs/screenshots/) — available visual references.
+- [Visual production prompts](docs/nano-banana-prompts.md) — project reference material.
+- [PWA manifest](manifest.webmanifest).
+- [Scripts](scripts/) — build, asset generation and validation.
 
-## 17 · Manutenção e contribuição
+The project emphasizes modular organization, separation of content and presentation, accessibility, responsive design, consistent locale codes, reproducible checks and documentation aligned with the code.
 
-Revise arquivos gerados antes de criar commits. Mantenha conteúdo localizado alinhado, teste navegação nos navegadores suportados e valide acessibilidade manualmente além das verificações automatizadas. Não publique afirmações institucionais não verificadas ou materiais de terceiros sem autorização.
+## 17 · Maintenance and Contribution
 
-## 18 · Licença e atribuição
+Review generated files before committing. Keep locale content aligned, test navigation in supported browsers, and verify accessibility manually in addition to automated checks. Do not publish unverified institutional claims or third-party materials without permission.
 
-Não foi identificado um arquivo de licença na árvore atual do repositório. Portanto, não presuma que o código ou os materiais estejam sob MIT ou outra licença aberta; a reutilização depende de autorização do titular dos direitos. Marcas, nomes, documentos, fotografias e materiais de terceiros permanecem sujeitos aos respectivos direitos e autorizações.
+## 18 · License and Attribution
+
+No license file was found in the current repository tree. Do not assume that the code or materials are distributed under MIT or another open-source license; reuse requires permission from the rights holder. Third-party trademarks, names, documents, photographs and materials remain subject to their respective rights and permissions.
